@@ -19,6 +19,6 @@ This project uses Skript Addons, in order to work:
 - Skript Reflect: https://github.com/TPGamesNL/skript-reflect
 - Skitch: https://github.com/TrasonCo/Skitch
 - SkJson: https://github.com/cooffeeRequired/skJson/
-- Skent: [https://github.com/btk5h/reqn](https://github.com/Olyno/skent)
+- Skent: https://github.com/Olyno/skent
 - Reqn: https://github.com/btk5h/reqn
 
