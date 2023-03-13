@@ -20,7 +20,7 @@ effect save official free songs in %~object%: # "~" stands for non-literal
 skitch command free:
 	prefixes: -
 	trigger:
-		set cooldown 8 for channel event-livechannel
+		stop if cmd cooldown for channel event-livechannel waits 5 is true
 		
 		if rounded unix timestamp of now >= element "_dev:free" from cached json "game_obj":
 			set {_time} to element "_dev:free" from cached json "game_obj"
