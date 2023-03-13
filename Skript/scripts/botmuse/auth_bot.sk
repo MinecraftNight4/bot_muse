@@ -19,25 +19,26 @@ function auth_bot_twitch():
 		add {_res::data::%loop-value%::user_login} to {_watch::*}
 		{twitch::hello::%{_res::data::%loop-value%::user_login}%} is not set
 		add {_res::data::%loop-value%::user_login} to {_hello::*}
+	stop if {twitch::auth::watch} = join {_watch::*} with ", "
+	set {twitch::auth::watch} to join {_watch::*} with ", "
 	
 	#SEND HELLO
 	loop {twitch::hello::*}:
 		{_watch::%loop-value%} is not set
 		delete {twitch::hello::%loop-value%::*}
 		delete {twitch::hello::%loop-value%}
-		
 	loop {_watch::*}:
 		set {twitch::hello::%loop-value%} to loop-value
-	set {_watch} to join {_watch::*} with ", "
 	
 	#EJECUTAR
 	if size of {_watch::*} = 0:
 		twitch login to client "000000000000000000000000000000" with token "000000000000000000000000000000" with secret "000000000000000000000000000000" to overview "mnight4"
 		stop
 	else:
-		twitch login to client "000000000000000000000000000000" with token "000000000000000000000000000000" with secret "000000000000000000000000000000" to overview "%{_watch}%"
+		twitch login to client "000000000000000000000000000000" with token "000000000000000000000000000000" with secret "000000000000000000000000000000" to overview "%{twitch::auth::watch}%"
 		set {_hichat::*} to elements "bot:hello[]" from cached json "twitch"
 		loop {_hello::*}:
 			wait a second
 			send "%random element of {_hichat::*}%" to livechat "%loop-value%"
+			write in {twitch::hello::%loop-value%::mods} twitch mods of loop-value
 		stop
