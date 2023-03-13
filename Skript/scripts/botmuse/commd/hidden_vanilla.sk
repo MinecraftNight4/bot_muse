@@ -1,7 +1,7 @@
 skitch command hidden <text>:
 	prefixes: -
 	trigger:
-		set cooldown 5 for channel event-livechannel
+		stop if cmd cooldown for channel event-livechannel waits 5 is true
 		
 		if json_keyexist("out:%arg-1%", "hidden_off") is true:
 			set {_song} to json_keyget("out:%arg-1%", "hidden_off")
