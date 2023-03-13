@@ -24,6 +24,21 @@ expression channel %string% granted mod %string%:
 		else:
 			return false
 
+expression cmd cooldown for channel %string% waits %number%:
+	get:		
+		if {twitch::hello::%expr-1%::cd} >= rounded unix timestamp of now:
+			return true
+			stop
+		else if json_keyexist("streamer:%expr-1%:cooldown", "twitch") is false:
+			set {twitch::hello::%expr-1%::cd} to rounded unix timestamp of now
+			add expr-2 to {twitch::hello::%expr-1%::cd}
+			return false
+		else:
+			set {twitch::hello::%expr-1%::cd} to rounded unix timestamp of now
+			add (element "streamer:%expr-1%:cooldown" from cached json "twitch") to {twitch::hello::%expr-2%::cd}
+			add expr-2 to {twitch::hello::%expr-2%::cd}
+			return false
+
 effect write in %~object% twitch mods of %string%:
 	parse:
 		expr-1 is an instance of Variable
@@ -57,14 +72,3 @@ effect write in %~object% for unix time %~object%:
 				set {_timer} to 0
 		set raw expr-1 to "%{_d} ? 0%d %{_h} ? 0%h %{_m} ? 0%m"
 		set raw expr-1 to "%{_h} ? 0%h %{_m} ? 0%m %{_s} ? 0%s" if {_d} is not set
-
-effect set cooldown %number% for channel %string%:
-	trigger:
-		if ({twitch::hello::%expr-2%::cd} ? 0) >= rounded unix timestamp of now:
-			stop
-		if json_keyexist("streamer:%expr-2%:cooldown", "twitch") is false:
-			set {twitch::hello::%expr-2%::cd} to rounded unix timestamp of now
-			add expr-1 to {twitch::hello::%expr-2%::cd}
-		if json_keyexist("streamer:%expr-2%:cooldown", "twitch") is true:
-			set {twitch::hello::%expr-2%::cd} to rounded unix timestamp of now
-			add (element "streamer:%expr-2%:cooldown" from cached json "twitch") to {twitch::hello::%expr-2%::cd}
