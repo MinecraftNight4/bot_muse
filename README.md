@@ -12,6 +12,7 @@ Bot_muse only collects the following data:
 
 Additional Information:
 - Current creator: https://twitch.tv/mnight4
+- Hosted by: https://nitra.do/doniux
 
 This project uses Skript Addons, in order to work:
 - PurpurMC(Minecraft Version): https://github.com/PurpurMC/Purpur
