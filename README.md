@@ -4,9 +4,9 @@ The bot was created using a Minecraft server, using the plugin Skript.
 
 Bot_muse only collects the following data:
 - Check user level (Mod/Streamer)
-- Remember command cooldown
-- Remember to disable bot in chat
 - Remember deactivated commands
+- Remember command cooldown
+
 
 
 
