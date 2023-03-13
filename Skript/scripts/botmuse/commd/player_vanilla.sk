@@ -56,29 +56,21 @@ effect store in %~object% an official profile with uid %~string%: # "~" stands f
 skitch command player <text>:
 	prefixes: -
 	trigger:
-		set cooldown 10 for channel event-livechannel
 		
 		if 32 = length of arg-1:
 			store in {_profile} an official profile with uid uncolored arg-1
+			stop if cmd cooldown for channel event-livechannel waits 5 is true
 
 		if 10 >= length of arg-1:
 			twitch reply with "This will take a few seconds..."
 			write {_data} with official search for uncolored arg-1
 			store in {_profile} an official profile with uid {_data}
+			stop if cmd cooldown for channel event-livechannel waits 12 is true
 
 		if {_profile} is set:
 			twitch reply with {_profile}
 			stop
+		
 		twitch reply with "Oops! No results found for '%first 10 characters of arg-1%'"
 		stop
-		
-		
-		
-		
-		
-
-
-
-
-
 
