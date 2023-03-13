@@ -1,0 +1,48 @@
+{
+  "muse": {
+    "0": "Bassist",
+    "1": "Bad Girl",
+    "2": "Sleep",
+    "3": "Bunny",
+    "4": "Pilot",
+    "5": "Idol",
+    "6": "Zombie",
+    "7": "Joker",
+    "8": "Violinist",
+    "9": "Maid",
+    "10": "Witch",
+    "11": "Devil",
+    "12": "Boss",
+    "13": "Gift",
+    "14": "Sailor",
+    "15": "Yume",
+    "16": "Neko",
+    "17": "Warrior",
+    "18": "Reimu",
+    "19": "Clear",
+    "20": "Sister",
+    "21": "Marisa",
+    "22": "Amiya"
+  },
+  "elfin": {
+    "0": "+Cat",
+    "1": "+Angel",
+    "2": "+Thanatos",
+    "3": "+Rabbot",
+    "4": "+Nurse",
+    "5": "+Witch",
+    "6": "+Dragon",
+    "7": "+Lilith",
+    "8": "+Doctor",
+    "9": "+Silencer"
+  },
+  "diff": {
+    "0": " ⭐E]",
+    "1": " ⭐H]",
+    "2": " ⭐M]",
+    "3": " ⭐?]"
+  },
+  "_dev": {
+    "free": 1679043600
+  }
+}

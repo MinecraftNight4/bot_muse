@@ -1,0 +1,50 @@
+import:
+	ch.njol.skript.lang.Variable
+
+function json_keyexist(key: string, json: string) :: boolean:
+	set {_data} to element "%{_key}%" from cached json "%{_json}%"
+	return false if {_data} is not set
+	return true
+
+function json_keyget(key: string, json: string) :: string:
+	set {_data} to element "%{_key}%" from cached json "%{_json}%"
+	return "%{_data}%"
+
+expression round %number% to %integer%:
+	get:
+		set {_dec} to expression-1
+		set {_rem} to expression-2 + 2
+		set {_dec} to (first {_rem} characters of "%{_dec} - rounded down expression-1%") parsed as number
+		return {_dec} + rounded down expression-1
+
+effect write in %~object% for unix time %~object%:
+	parse:
+		expr-1 is an instance of Variable
+		continue
+	trigger:
+		set {_wrte} to expr-2 parsed as number
+		set {_timer} to ({_wrte} - rounded unix timestamp of now)
+		while {_timer} > 1:
+			if {_timer} >= 86400:
+				subtract 86400 from {_timer}
+				add 1 to {_d}
+			else if {_timer} >= 3600:
+				subtract 3600 from {_timer}
+				add 1 to {_h}
+			else if {_timer} >= 60:
+				subtract 60 from {_timer}
+				add 1 to {_m}
+			else:
+				add {_timer} to {_s}
+				set {_timer} to 0
+		set raw expr-1 to "%{_d} ? 0%d %{_h} ? 0%h %{_m} ? 0%m"
+		set raw expr-1 to "%{_h} ? 0%h %{_m} ? 0%m %{_s} ? 0%s" if {_d} is not set
+
+effect set cooldown %number% for channel %string%:
+	trigger:
+		set {twitch::hello::%expr-2%} to rounded unix timestamp of now if {twitch::hello::%expr-2%} is not set
+		if {twitch::hello::%expr-2%} >= rounded unix timestamp of now:
+			stop
+		else:
+			set {twitch::hello::%expr-2%} to rounded unix timestamp of now
+			add expr-1 to {twitch::hello::%expr-2%}

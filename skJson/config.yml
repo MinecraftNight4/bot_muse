@@ -1,0 +1,13 @@
+debug: false
+handle-request: true
+create-examples: false
+length-stacktrace: 9
+handlers:
+- SkriptWebApi
+- Reqn
+- reflect
+nbt-enabled: false
+version: 2.0
+
+# do not change the 'version'
+# nbt-enabled -> enabling or disabling support for serialize NBT

@@ -1,0 +1,43 @@
+on load:
+	send a "post" request to "https://id.twitch.tv/oauth2/token?client_id=000000000000000000000000000000&client_secret=000000000000000000000000000000&grant_type=client_credentials"
+	set {_token} to last response's body
+	map {_token} to {_res::*}
+	set {twitch::auth::token} to {_res::access_token}
+	auth_bot_twitch()
+
+every 5 minutes:
+	auth_bot_twitch()
+
+
+function auth_bot_twitch():
+	#GET STREAMERS
+	send a "get" request to "https://api.twitch.tv/helix/streams?game_id=374711699" with the headers "Authorization: Bearer %{twitch::auth::token}%", and "Client-Id: 000000000000000000000000000000"
+	set {_stream} to last response's body
+	map {_stream} to {_res::*}
+	loop indices of {_res::data::*}:
+		loop-value != "*"
+		add {_res::data::%loop-value%::user_login} to {_watch::*}
+		{twitch::hello::%{_res::data::%loop-value%::user_login}%} is not set
+		add {_res::data::%loop-value%::user_login} to {_hello::*}
+	
+	#SEND HELLO
+	loop {twitch::hello::*}:
+		{_watch::%loop-value%} is not set
+		delete {twitch::hello::%loop-value%::*}
+		delete {twitch::hello::%loop-value%}
+		
+	loop {_watch::*}:
+		set {twitch::hello::%loop-value%} to loop-value
+	set {_watch} to join {_watch::*} with ", "
+	
+	#EJECUTAR
+	if size of {_watch::*} = 0:
+		twitch login to client "000000000000000000000000000000" with token "000000000000000000000000000000" with secret "000000000000000000000000000000" to overview "mnight4"
+		stop
+	else:
+		twitch login to client "000000000000000000000000000000" with token "000000000000000000000000000000" with secret "000000000000000000000000000000" to overview "%{_watch}%"
+		set {_hichat::*} to elements "bot:hello[]" from cached json "twitch"
+		loop {_hello::*}:
+			wait a second
+			send "%random element of {_hichat::*}%" to livechat "%loop-value%"
+		stop

@@ -1,0 +1,9 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.6.4
+
+twitch::auth::token, string, 96E6A74673575317898SAFDFD87WEER82NKJ23R386667697731801EB343133237717869646662776A31636
+twitch::hello::bot_muse, long, 00000000640E55F6
+twitch::hello::mnight4, long, 00000000640E42BC
+

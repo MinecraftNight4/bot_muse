@@ -1,0 +1,4 @@
+skitch command rule cooldown [<number>]:
+	prefixes: -
+	trigger:
+		broadcast "%event-liveuser%"

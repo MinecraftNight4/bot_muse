@@ -1,0 +1,17 @@
+skitch command search <text>:
+	prefixes: -
+	trigger:
+		set cooldown 5 for channel event-livechannel
+		
+		if json_keyexist("out:%arg-1%", "album_off") is true:
+			set {_song} to json_keyget("out:%arg-1%", "album_off")
+			twitch reply with "──────────────────────────────── %{_song}%"
+			stop
+		
+		set {_ind::*} to elements "ind[]" from cached json "album_off"
+		loop {_ind::*}:
+			json_keyget("see:%loop-value%", "album_off") contains arg-1
+			set {_song} to json_keyget("out:%loop-value%", "album_off")
+			add "──────────────────────────────── 🎫%loop-value% %{_song}% " to {_search::*}
+
+		twitch reply with "Search result (x%size of {_search::*}%/%size of {_ind::*}%) %{_search::1} ? ""% %{_search::2} ? ""% %{_search::3} ? ""% "

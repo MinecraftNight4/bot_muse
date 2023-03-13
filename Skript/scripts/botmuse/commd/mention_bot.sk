@@ -1,0 +1,10 @@
+skitch command bot_muse [<string>]:
+	prefixes: @
+	trigger:
+		if arg-1 is "help":
+			set cooldown 10 for channel event-livechannel
+			twitch reply with "Command list: ──────────────────────────────── -search [music],️ ️ ️ ️ -hidden [music],️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ -player [name],️ ️ ️ ️ ️ -free"
+			stop
+		else:
+			set cooldown 3 for channel event-livechannel
+			twitch reply with "Command list: @bot_muse help"
