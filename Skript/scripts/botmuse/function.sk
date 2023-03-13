@@ -17,6 +17,24 @@ expression round %number% to %integer%:
 		set {_dec} to (first {_rem} characters of "%{_dec} - rounded down expression-1%") parsed as number
 		return {_dec} + rounded down expression-1
 
+expression channel %string% granted mod %string%:
+	get:
+		if "%{twitch::hello::%expr-1%::mods}%" contains "|%expr-2%":
+			return true
+		else:
+			return false
+
+effect write in %~object% twitch mods of %string%:
+	parse:
+		expr-1 is an instance of Variable
+		continue
+	trigger:
+		send a "get" request to "http://tmi.twitch.tv/group/user/%expr-2%/chatters"
+		set {_stream} to json from string last response's body
+		set {_mods::*} to elements "moderators[]" from {_stream}
+		add expr-2 to {_mods::*}
+		set raw expr-1 to "|%join {_mods::*} with ", "%"
+
 effect write in %~object% for unix time %~object%:
 	parse:
 		expr-1 is an instance of Variable
@@ -42,9 +60,11 @@ effect write in %~object% for unix time %~object%:
 
 effect set cooldown %number% for channel %string%:
 	trigger:
-		set {twitch::hello::%expr-2%} to rounded unix timestamp of now if {twitch::hello::%expr-2%} is not set
-		if {twitch::hello::%expr-2%} >= rounded unix timestamp of now:
+		if ({twitch::hello::%expr-2%::cd} ? 0) >= rounded unix timestamp of now:
 			stop
-		else:
-			set {twitch::hello::%expr-2%} to rounded unix timestamp of now
-			add expr-1 to {twitch::hello::%expr-2%}
+		if json_keyexist("streamer:%expr-2%:cooldown", "twitch") is false:
+			set {twitch::hello::%expr-2%::cd} to rounded unix timestamp of now
+			add expr-1 to {twitch::hello::%expr-2%::cd}
+		if json_keyexist("streamer:%expr-2%:cooldown", "twitch") is true:
+			set {twitch::hello::%expr-2%::cd} to rounded unix timestamp of now
+			add (element "streamer:%expr-2%:cooldown" from cached json "twitch") to {twitch::hello::%expr-2%::cd}
