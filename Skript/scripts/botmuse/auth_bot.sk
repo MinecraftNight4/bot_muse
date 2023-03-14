@@ -71,5 +71,4 @@ function auth_bot_twitch():
 			wait a second
 			send "%random element of {_hichat::*}%" to livechat "%loop-value%"
 			write in {twitch::hello::%loop-value%::mods} twitch mods of loop-value
-		broadcast "%{_hello::*} ? ""%"
 		stop
