@@ -13,7 +13,7 @@ effect get streamers of muse dash and save it as %~objects% with hello for %~obj
 		map {_stream} to {_res::*}
 		loop indices of {_res::data::*}:
 			loop-value != "*"
-			json_keyexist("%{_res::data::%loop-value%::user_id}%", "tw_bans") is false
+			json_keyexist("%{_res::data::%loop-value%::user_id}%_", "tw_bans") is false
 			set {_watch::%{_res::data::%loop-value%::user_login}%} to {_res::data::%loop-value%::user_login}
 			{twitch::hello::%{_res::data::%loop-value%::user_login}%} is not set
 			add {_res::data::%loop-value%::user_login} to {_hello::*}
