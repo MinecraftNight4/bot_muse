@@ -1,5 +1,5 @@
-skitch command ule cooldown [<number = 5>]:
-	prefixes: r
+skitch command cooldown [<number = 5>]:
+	prefixes: rule-
 	trigger:
 		#BOT MUSE
 		if event-livechannel = "bot_muse":
