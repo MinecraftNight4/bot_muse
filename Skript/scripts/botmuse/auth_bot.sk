@@ -1,3 +1,30 @@
+import:
+	ch.njol.skript.lang.Variable
+
+effect get streamers of muse dash and save it as %~objects% with hello for %~objects%:
+	parse:
+		expr-1 is an instance of Variable
+		expr-2 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		send a "get" request to "https://api.twitch.tv/helix/streams?game_id=374711699" with the headers "Authorization: Bearer %{twitch::auth::token}%", and "Client-Id: 000000000000000000000000000000"
+		set {_stream} to last response's body
+		map {_stream} to {_res::*}
+		loop indices of {_res::data::*}:
+			loop-value != "*"
+			json_keyexist("%{_res::data::%loop-value%::user_id}%", "tw_bans") is false
+			set {_watch::%{_res::data::%loop-value%::user_login}%} to {_res::data::%loop-value%::user_login}
+			{twitch::hello::%{_res::data::%loop-value%::user_login}%} is not set
+			add {_res::data::%loop-value%::user_login} to {_hello::*}
+		set raw expr-1 to {_watch::*}
+		set raw expr-2 to {_hello::*}
+		continue
+
+
+
+
+
 on load:
 	send a "post" request to "https://id.twitch.tv/oauth2/token?client_id=000000000000000000000000000000&client_secret=000000000000000000000000000000&grant_type=client_credentials"
 	set {_token} to last response's body
@@ -9,28 +36,31 @@ every 5 minutes:
 	auth_bot_twitch()
 
 
+
+
+
+
+
+
+
 function auth_bot_twitch():
-	#GET STREAMERS
-	send a "get" request to "https://api.twitch.tv/helix/streams?game_id=374711699" with the headers "Authorization: Bearer %{twitch::auth::token}%", and "Client-Id: 000000000000000000000000000000"
-	set {_stream} to last response's body
-	map {_stream} to {_res::*}
-	loop indices of {_res::data::*}:
-		loop-value != "*"
-		add {_res::data::%loop-value%::user_login} to {_watch::*}
-		{twitch::hello::%{_res::data::%loop-value%::user_login}%} is not set
-		add {_res::data::%loop-value%::user_login} to {_hello::*}
+	get streamers of muse dash and save it as {_watch::*} with hello for {_hello::*}
+	#--------------------------------
+	#      GET NEW > CLEAR OFFLINE
+	#--------------------------------
 	stop if {twitch::auth::watch} = join {_watch::*} with ", "
 	set {twitch::auth::watch} to join {_watch::*} with ", "
-	
-	#SEND HELLO
 	loop {twitch::hello::*}:
-		{_watch::%loop-value%} is not set
+		continue if loop-value contains {_watch::*}
 		delete {twitch::hello::%loop-value%::*}
 		delete {twitch::hello::%loop-value%}
 	loop {_watch::*}:
+		{twitch::hello::%loop-value%} is not set
 		set {twitch::hello::%loop-value%} to loop-value
 	
-	#EJECUTAR
+	#--------------------------------
+	#      CONNECT TWITCH BOT
+	#--------------------------------
 	if size of {_watch::*} = 0:
 		twitch login to client "000000000000000000000000000000" with token "000000000000000000000000000000" with secret "000000000000000000000000000000" to overview "mnight4"
 		stop
@@ -41,4 +71,5 @@ function auth_bot_twitch():
 			wait a second
 			send "%random element of {_hichat::*}%" to livechat "%loop-value%"
 			write in {twitch::hello::%loop-value%::mods} twitch mods of loop-value
+		broadcast "%{_hello::*} ? ""%"
 		stop
