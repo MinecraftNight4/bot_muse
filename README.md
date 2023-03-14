@@ -1,6 +1,6 @@
 # BOT_MUSE (v1.0.0)
 Bot_muse is a Twitch bot that will only be present on channels in the "Muse Dash" category.
-The bot was created using a Minecraft server, using the plugin Skript.
+The bot was created using a Minecraft server, with plugin Skript.
 
 Bot_muse only collects the following data:
 - Check user level (Mod/Streamer)
