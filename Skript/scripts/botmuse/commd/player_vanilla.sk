@@ -30,10 +30,10 @@ effect store in %~object% an official profile with uid %~string%: # "~" stands f
 		
 		#ORGANIZADOR
 		loop indices of {_json::plays::*}:
+			loop-value != "*"
 			add 100 to {_globalacc}
-			add (rounded {_json::plays::%loop-value%::acc}) to {_collectacc}
+			add {_json::plays::%loop-value%::acc} to {_collectacc}
 			add 1 to {_user::gold} if {_json::plays::%loop-value%::acc} = 100
-			broadcast {_json::plays::%loop-value%::i}'s type
 			({_i} ? 4000) >= {_json::plays::%loop-value%::i}
 			if ({_i} ? 4000) > {_json::plays::%loop-value%::i}:
 				set {_i} to {_json::plays::%loop-value%::i}
@@ -42,14 +42,15 @@ effect store in %~object% an official profile with uid %~string%: # "~" stands f
 			({_s} ? 0) < {_json::plays::%loop-value%::score}
 			set {_s} to {_json::plays::%loop-value%::score}
 			set {_user::score} to {_json::plays::%loop-value%::score}
-			set {_user::leads} to ({_json::plays::%loop-value%::sum} + 1)
+			set {_user::leads} to ({_json::plays::%loop-value%::i} + 1)
 			set {_user::acurr} to rounded {_json::plays::%loop-value%::acc}
 			set {_user::songs} to json_keyget("nam:%{_json::plays::%loop-value%::uid}%", "album_off")
 			set {_user::elfin} to json_keyget("elfin:%{_json::plays::%loop-value%::elfin_uid}%", "game_obj")
 			set {_user::hards} to json_keyget("diff:%{_json::plays::%loop-value%::difficulty}%", "game_obj")
+			set {_user::platf} to json_keyget("platform:%{_json::plays::%loop-value%::platform}%", "game_obj")
 			set {_user::muses} to json_keyget("muse:%{_json::plays::%loop-value%::character_uid}%", "game_obj")
-		#PROFILE
-		set raw expr-1 to "──────────────────────────────── 📜%{_json::user::nickname}% ️🏆%{_user::gold} ? 0% ️🎯%round (100+(({_collectacc}-{_globalacc})/{_globalacc}*100)) to 2%%% ️🎂%first (index of "T" in {_json::user::created_at} - 1) characters of {_json::user::created_at}% ──────────────────────────────── ️ 🌐##%{_user::leads}%️ ️ 🎯%{_user::acurr}%%%️ ️ 🎮%{_user::score}%️ ️ 💠%{_user::muses}%%{_user::elfin}%️ ️ ️ ️ ️ ️ ️ ️ [%{_user::songs}% %{_user::hards}%"
+		#PROFILE		
+		set raw expr-1 to "──────────────────────────────── 📜%{_json::user::nickname}% ️🏆%{_user::gold} ? 0% ️🎯%round (({_collectacc}/{_globalacc})*100) to 2%%% ️🎂%first (index of "T" in {_json::user::created_at} - 1) characters of {_json::user::created_at}% ──────────────────────────────── ️ %{_user::platf}%##%{_user::leads}%️ ️ 🎯%{_user::acurr}%%%️ ️ 🎮%{_user::score}%️ ️ 💠%{_user::muses}%%{_user::elfin}%️ ️ ️ ️ ️ ️ ️ ️ [%{_user::songs}% %{_user::hards}%"
 		continue
 
 
