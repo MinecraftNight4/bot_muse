@@ -1,4 +1,28 @@
-skitch command rule cooldown [<number>]:
-	prefixes: -
+skitch command ule cooldown [<number = 5>]:
+	prefixes: r
 	trigger:
-		broadcast "%event-liveuser%"
+		#BOT MUSE
+		if event-livechannel = "bot_muse":
+			if arg-1 <= 5:
+				remove json value "stream:%event-liveuser%:cooldown" from cached json "twitch"
+				twitch reply with "☑️ Cooldown unset: All commands will have use default cooldown."
+				save cached json "twitch"
+				stop
+			else:
+				append "%rounded arg-1%" with key "cooldown" as nested object "stream:%event-liveuser%" to cached json "twitch"
+				twitch reply with "☑️ Cooldown set: '%rounded arg-1%s' added to all commands."
+				save cached json "twitch"
+				stop
+		
+		#OTHER TWITCH CHANNEL
+		else:
+			channel event-livechannel granted mod event-liveuser is true
+			if arg-1 <= 5:
+				remove json value "stream:%event-livechannel%:cooldown" from cached json "twitch"
+				save cached json "twitch"
+				stop
+			else:
+				append "%rounded arg-1%" with key "cooldown" as nested object "stream:%event-livechannel%" to cached json "twitch"
+				twitch reply with "☑️ Saved!"
+				save cached json "twitch"
+				stop
