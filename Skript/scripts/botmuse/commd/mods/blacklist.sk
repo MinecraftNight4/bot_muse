@@ -1,5 +1,5 @@
 skitch command leave:
-	prefixes: rule-
+	prefixes: _
 	trigger:
 		#MUSE BOT ACCOUNT
 		if event-livechannel = "bot_muse":
