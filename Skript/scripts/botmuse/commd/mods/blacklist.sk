@@ -17,9 +17,6 @@ skitch command leave:
 			if json_keyexist("%twitch id of event-liveuser%_", "tw_bans") is false:
 				append "%rounded unix timestamp of now%" with key "%twitch id of event-liveuser%_" to cached json "tw_bans"
 				twitch reply with "❌ Saved!"
-				auth_bot_twitch()
-			else:
-				remove json value "%twitch id of event-liveuser%_" from cached json "tw_bans"
-				twitch reply with "☑️ Saved!"
 			save cached json "tw_bans"
+			auth_bot_twitch()
 			stop
