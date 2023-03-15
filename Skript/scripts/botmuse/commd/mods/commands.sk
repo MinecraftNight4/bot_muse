@@ -1,0 +1,11 @@
+skitch command help:
+	prefixes: _
+	trigger:
+		if event-livechannel = "bot_muse":
+			twitch reply with "──────────────────────────────── _link️ ️ ️ ️ ️ ️ ️ ️ _leave️ ️ ️ ️ ️ ️ ️ ️ _cooldown [sec.]"
+			stop
+		else:
+			channel event-livechannel granted mod event-liveuser is true
+			stop if cmd cooldown for channel event-livechannel waits 5 is true
+			twitch reply with "──────────────────────────────── _link️ ️ ️ ️ ️ ️ ️ ️ _leave️ ️ ️ ️ ️ ️ ️ ️ _cooldown [sec.]"
+		
