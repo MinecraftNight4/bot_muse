@@ -50,13 +50,13 @@ skitch command layer <text>:
 	trigger:
 		
 		if arg-1 partially matches "^[0-9]*$":
+			stop if cmd cooldown for channel event-livechannel waits 5 is true
 			set {_data} to arg-1
 			store in {_profile} an modded profile with uid uncolored arg-1
-			stop if cmd cooldown for channel event-livechannel waits 5 is true
 		
 		if 16 >= length of arg-1:
-			twitch reply with "This will take a few seconds..."
 			stop if cmd cooldown for channel event-livechannel waits 6 is true
+			twitch reply with "This will take a few seconds..."
 			write {_data} with modded search for uncolored arg-1
 			store in {_profile} an modded profile with uid {_data}
 		
