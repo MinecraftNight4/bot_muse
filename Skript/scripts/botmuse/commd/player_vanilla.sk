@@ -59,14 +59,14 @@ skitch command player <text>:
 	trigger:
 		
 		if 32 = length of arg-1:
+			stop if cmd cooldown for channel event-livechannel waits 5 is true
 			set {_data} to arg-1
 			store in {_profile} an official profile with uid uncolored arg-1
-			stop if cmd cooldown for channel event-livechannel waits 5 is true
 
 		if 10 >= length of arg-1:
+			stop if cmd cooldown for channel event-livechannel waits 8 is true
 			twitch reply with "This will take a few seconds..."
 			write {_data} with official search for uncolored arg-1
-			stop if cmd cooldown for channel event-livechannel waits 12 is true
 			store in {_profile} an official profile with uid {_data}
 
 		set {_data} to "https://musedash.moe/player/%{_data}%"
