@@ -50,7 +50,7 @@ effect store in %~object% an official profile with uid %~string%: # "~" stands f
 			set {_user::platf} to json_keyget("platform:%{_json::plays::%loop-value%::platform}%", "game_obj")
 			set {_user::muses} to json_keyget("muse:%{_json::plays::%loop-value%::character_uid}%", "game_obj")
 		#PROFILE		
-		set raw expr-1 to "──────────────────────────────── 📜%{_json::user::nickname}% ️🏆%{_user::gold} ? 0% ️🎯%round (({_collectacc}/{_globalacc})*100) to 2%%% ️🎂%first (index of "T" in {_json::user::created_at} - 1) characters of {_json::user::created_at}% ──────────────────────────────── ️ %{_user::platf}%##%{_user::leads}%️ ️ 🎯%{_user::acurr}%%%️ ️ 🎮%{_user::score}%️ ️ 💠%{_user::muses}%%{_user::elfin}%️ ️ ️ ️ ️ ️ ️ ️ [%{_user::songs}% %{_user::hards}%"
+		set raw expr-1 to "──────────────────────────────── 📜%{_json::user::nickname}% ️🏆%{_user::gold} ? 0% ️🎯%round (({_collectacc}/{_globalacc})*100) to 2%%% ️🎂%first (index of "T" in {_json::user::created_at} - 1) characters of {_json::user::created_at}% ──────────────────────────────── ️ %{_user::platf}%##%{_user::leads}%️ ️ 🎯%{_user::acurr}%%%️ ️ 🎮%{_user::score}%️ ️ 💠%{_user::muses}%%{_user::elfin}%️ ️ ️ ️ ️ ️ ️ ️ [%{_user::songs}% %{_user::hards}%" if {_json::user::nickname} is set
 		continue
 
 
@@ -59,17 +59,20 @@ skitch command player <text>:
 	trigger:
 		
 		if 32 = length of arg-1:
+			set {_data} to arg-1
 			store in {_profile} an official profile with uid uncolored arg-1
 			stop if cmd cooldown for channel event-livechannel waits 5 is true
 
 		if 10 >= length of arg-1:
 			twitch reply with "This will take a few seconds..."
 			write {_data} with official search for uncolored arg-1
-			store in {_profile} an official profile with uid {_data}
 			stop if cmd cooldown for channel event-livechannel waits 12 is true
+			store in {_profile} an official profile with uid {_data}
 
+		set {_data} to "https://musedash.moe/player/%{_data}%"
 		if {_profile} is set:
-			twitch reply with {_profile}
+			delete {_data} if json_keyexist("stream:%event-livechannel%:links", "twitch") is false
+			twitch reply with "%{_data} ? ""% %{_profile}%"
 			stop
 		
 		twitch reply with "Oops! No results found for '%first 10 characters of arg-1%'"
