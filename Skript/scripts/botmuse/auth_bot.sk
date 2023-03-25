@@ -13,9 +13,12 @@ effect get streamers of muse dash and save it as %~objects% with hello for %~obj
 		map {_stream} to {_res::*}
 		loop indices of {_res::data::*}:
 			loop-value != "*"
-			json_keyexist("%{_res::data::%loop-value%::user_id}%_", "tw_bans") is false
+			see-json "twitch" have key "banned:%{_res::data::%loop-value%::user_id}%_" is false						#CHECK BANNED ACCOUNT
 			set {_watch::%{_res::data::%loop-value%::user_login}%} to {_res::data::%loop-value%::user_login}
-			{twitch::hello::%{_res::data::%loop-value%::user_login}%} is not set
+			set {twitch::watchs::%{_res::data::%loop-value%::user_login}%::id} to {_res::data::%loop-value%::user_id}
+			{twitch::watchs::%{_res::data::%loop-value%::user_login}%} is not set										#CHECK IF NOW IS WATCHED
+			rounded unix timestamp of now > {twitch::greets::%{_res::data::%loop-value%::user_login}%} ? 0				#AVOID HELLO SPAM
+			set {twitch::greets::%{_res::data::%loop-value%::user_login}%} to rounded unix timestamp of now + 7200
 			add {_res::data::%loop-value%::user_login} to {_hello::*}
 		set raw expr-1 to {_watch::*}
 		set raw expr-2 to {_hello::*}
