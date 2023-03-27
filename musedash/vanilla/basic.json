@@ -1,0 +1,3469 @@
+{
+  "uids": [
+    "0-48",
+    "0-0",
+    "0-2",
+    "0-3",
+    "0-4",
+    "0-1",
+    "0-5",
+    "0-29",
+    "0-6",
+    "0-37",
+    "0-7",
+    "0-8",
+    "0-43",
+    "0-31",
+    "0-38",
+    "0-46",
+    "0-9",
+    "0-30",
+    "0-49",
+    "0-10",
+    "0-11",
+    "0-12",
+    "0-40",
+    "0-13",
+    "0-32",
+    "0-14",
+    "0-15",
+    "0-16",
+    "0-17",
+    "0-18",
+    "0-19",
+    "0-20",
+    "0-47",
+    "0-21",
+    "0-22",
+    "0-42",
+    "0-33",
+    "0-44",
+    "0-34",
+    "0-23",
+    "0-24",
+    "0-50",
+    "0-51",
+    "0-25",
+    "0-39",
+    "0-26",
+    "0-27",
+    "0-52",
+    "0-35",
+    "0-28",
+    "0-36",
+    "0-41",
+    "0-45",
+    "1-0",
+    "1-1",
+    "1-2",
+    "1-3",
+    "1-4",
+    "1-5",
+    "2-0",
+    "2-1",
+    "2-2",
+    "2-3",
+    "2-4",
+    "2-5",
+    "3-0",
+    "3-1",
+    "3-2",
+    "3-3",
+    "3-4",
+    "3-5",
+    "4-0",
+    "4-1",
+    "4-2",
+    "4-3",
+    "4-4",
+    "4-5",
+    "5-0",
+    "5-1",
+    "5-2",
+    "5-3",
+    "5-4",
+    "5-5",
+    "6-0",
+    "6-1",
+    "6-2",
+    "6-3",
+    "6-4",
+    "6-5",
+    "7-0",
+    "7-1",
+    "7-2",
+    "7-3",
+    "7-4",
+    "7-5",
+    "8-0",
+    "8-1",
+    "8-2",
+    "8-3",
+    "8-4",
+    "8-5",
+    "9-0",
+    "9-1",
+    "9-2",
+    "9-3",
+    "9-4",
+    "9-5",
+    "10-0",
+    "10-1",
+    "10-2",
+    "10-3",
+    "10-4",
+    "10-5",
+    "11-0",
+    "11-1",
+    "11-2",
+    "11-3",
+    "11-4",
+    "11-5",
+    "12-0",
+    "12-1",
+    "12-2",
+    "12-3",
+    "12-4",
+    "12-5",
+    "13-0",
+    "13-1",
+    "13-2",
+    "13-3",
+    "13-4",
+    "13-5",
+    "14-0",
+    "14-1",
+    "14-2",
+    "14-3",
+    "14-4",
+    "14-5",
+    "15-0",
+    "15-1",
+    "15-2",
+    "15-3",
+    "15-4",
+    "15-5",
+    "16-0",
+    "16-1",
+    "16-2",
+    "16-3",
+    "16-4",
+    "16-5",
+    "17-0",
+    "17-1",
+    "17-2",
+    "17-3",
+    "17-4",
+    "17-5",
+    "18-0",
+    "18-1",
+    "18-2",
+    "18-3",
+    "18-4",
+    "18-5",
+    "19-0",
+    "19-1",
+    "19-2",
+    "19-3",
+    "19-4",
+    "19-5",
+    "20-0",
+    "20-1",
+    "20-2",
+    "20-3",
+    "20-4",
+    "20-5",
+    "21-0",
+    "21-1",
+    "21-2",
+    "22-0",
+    "22-1",
+    "22-2",
+    "22-3",
+    "22-4",
+    "22-5",
+    "23-0",
+    "23-1",
+    "23-2",
+    "23-3",
+    "23-4",
+    "23-5",
+    "24-0",
+    "24-1",
+    "24-2",
+    "24-3",
+    "24-4",
+    "24-5",
+    "25-0",
+    "25-1",
+    "25-2",
+    "25-3",
+    "25-4",
+    "25-5",
+    "26-0",
+    "26-1",
+    "26-2",
+    "26-3",
+    "26-4",
+    "26-5",
+    "27-0",
+    "27-1",
+    "27-2",
+    "27-3",
+    "27-4",
+    "27-5",
+    "28-0",
+    "28-1",
+    "28-2",
+    "28-3",
+    "28-4",
+    "28-5",
+    "29-0",
+    "29-1",
+    "29-2",
+    "29-3",
+    "29-4",
+    "29-5",
+    "30-0",
+    "30-1",
+    "30-2",
+    "30-3",
+    "30-4",
+    "30-5",
+    "31-0",
+    "31-1",
+    "31-2",
+    "31-3",
+    "31-4",
+    "31-5",
+    "32-0",
+    "32-1",
+    "32-2",
+    "32-3",
+    "32-4",
+    "32-5",
+    "33-0",
+    "33-1",
+    "33-2",
+    "33-3",
+    "33-4",
+    "33-5",
+    "33-6",
+    "33-7",
+    "33-8",
+    "33-9",
+    "33-10",
+    "33-11",
+    "33-12",
+    "34-0",
+    "34-1",
+    "34-2",
+    "34-3",
+    "34-4",
+    "34-5",
+    "35-0",
+    "35-1",
+    "35-2",
+    "35-3",
+    "35-4",
+    "35-5",
+    "36-0",
+    "36-1",
+    "36-2",
+    "36-3",
+    "36-4",
+    "36-5",
+    "37-0",
+    "37-1",
+    "37-2",
+    "37-3",
+    "37-4",
+    "37-5",
+    "38-0",
+    "38-1",
+    "38-2",
+    "39-0",
+    "39-1",
+    "39-2",
+    "39-3",
+    "39-4",
+    "39-5",
+    "39-6",
+    "39-7",
+    "39-8",
+    "40-0",
+    "40-1",
+    "40-2",
+    "40-3",
+    "40-4",
+    "40-5",
+    "41-0",
+    "41-1",
+    "41-2",
+    "41-3",
+    "41-4",
+    "41-5",
+    "42-0",
+    "42-1",
+    "42-2",
+    "42-3",
+    "42-4",
+    "42-5",
+    "43-0",
+    "43-1",
+    "43-2",
+    "43-3",
+    "43-4",
+    "43-5",
+    "43-6",
+    "43-7",
+    "43-8",
+    "43-9",
+    "43-10",
+    "43-11",
+    "43-12",
+    "43-13",
+    "43-14",
+    "43-15",
+    "43-16",
+    "43-17",
+    "43-18",
+    "43-19",
+    "43-20",
+    "43-21",
+    "44-0",
+    "44-1",
+    "44-2",
+    "45-0",
+    "45-1",
+    "45-2",
+    "45-3",
+    "45-4",
+    "45-5",
+    "46-0",
+    "46-1",
+    "46-2",
+    "46-3",
+    "46-4",
+    "46-5",
+    "47-0",
+    "47-1",
+    "47-2",
+    "47-3",
+    "48-0",
+    "48-1",
+    "48-2",
+    "48-3",
+    "48-4",
+    "48-5",
+    "48-6",
+    "48-7",
+    "48-8",
+    "48-9",
+    "48-10",
+    "48-11",
+    "48-12",
+    "48-13",
+    "48-14",
+    "49-0",
+    "49-1",
+    "49-2",
+    "50-0",
+    "50-1",
+    "50-2",
+    "50-3",
+    "50-4",
+    "51-0",
+    "51-1",
+    "51-2",
+    "51-3",
+    "51-4",
+    "51-5",
+    "52-0",
+    "52-1",
+    "52-2",
+    "52-3",
+    "52-4",
+    "53-0",
+    "53-1",
+    "53-2",
+    "53-3",
+    "53-4",
+    "53-5",
+    "54-0",
+    "54-1",
+    "54-2",
+    "54-3",
+    "54-4",
+    "54-5",
+    "55-0",
+    "55-1",
+    "55-2",
+    "55-3",
+    "55-4",
+    "55-5",
+    "56-0",
+    "56-1",
+    "56-2",
+    "56-3",
+    "56-4",
+    "56-5",
+    "57-0",
+    "57-1",
+    "57-2",
+    "57-3",
+    "57-4",
+    "57-5",
+    "58-0",
+    "58-1",
+    "58-2",
+    "58-3",
+    "59-0",
+    "59-1",
+    "59-2",
+    "59-3",
+    "59-4",
+    "59-5",
+    "59-6",
+    "59-7",
+    "60-0",
+    "60-1",
+    "60-2",
+    "60-3",
+    "60-4",
+    "60-5"
+  ],
+  "name": {
+    "0-a": {
+      "en": "🎶Tutorial",
+      "kr": "🎶지도 시간",
+      "jp": "🎶チュートリアル",
+      "zh": "🎶教程",
+      "zhs": "🎶教程"
+    },
+    "0-48": {
+      "en": "🎶Magical Wonderland (More colorful mix)",
+      "kr": "🎶Magical Wonderland (More colorful mix)",
+      "jp": "🎶Magical Wonderland (More colorful mix)",
+      "zh": "🎶Magical Wonderland (More colorful mix)",
+      "zhs": "🎶Magical Wonderland (More colorful mix)"
+    },
+    "0-0": {
+      "en": "🎶Iyaiya",
+      "kr": "🎶Iyaiya",
+      "jp": "🎶Iyaiya",
+      "zh": "🎶Iyaiya",
+      "zhs": "🎶Iyaiya"
+    },
+    "0-2": {
+      "en": "🎶Wonderful Pain",
+      "kr": "🎶Wonderful Pain",
+      "jp": "🎶Wonderful Pain",
+      "zh": "🎶Wonderful Pain",
+      "zhs": "🎶Wonderful Pain"
+    },
+    "0-3": {
+      "en": "🎶Breaking Dawn",
+      "kr": "🎶Breaking Dawn",
+      "jp": "🎶Breaking Dawn",
+      "zh": "🎶Breaking Dawn",
+      "zhs": "🎶Breaking Dawn"
+    },
+    "0-4": {
+      "en": "🎶单向地铁 Feat.karin",
+      "kr": "🎶单向地铁 Feat.karin",
+      "jp": "🎶单向地铁 Feat.karin",
+      "zh": "🎶單向地鐵 Feat.karin",
+      "zhs": "🎶单向地铁 Feat.karin"
+    },
+    "0-1": {
+      "en": "🎶Frost Land",
+      "kr": "🎶Frost Land",
+      "jp": "🎶Frost Land",
+      "zh": "🎶Frost Land",
+      "zhs": "🎶Frost Land"
+    },
+    "0-5": {
+      "en": "🎶Heart-Pounding Flight",
+      "kr": "🎶Heart-Pounding Flight",
+      "jp": "🎶Heart-Pounding Flight",
+      "zh": "🎶Heart-Pounding Flight",
+      "zhs": "🎶Heart-Pounding Flight"
+    },
+    "0-29": {
+      "en": "🎶Pancake is Love",
+      "kr": "🎶Pancake is Love",
+      "jp": "🎶Pancake is Love",
+      "zh": "🎶Pancake is Love",
+      "zhs": "🎶Pancake is Love"
+    },
+    "0-6": {
+      "en": "🎶时光涂鸦",
+      "kr": "🎶时光涂鸦",
+      "jp": "🎶时光涂鸦",
+      "zh": "🎶時光塗鴉",
+      "zhs": "🎶时光涂鸦"
+    },
+    "0-37": {
+      "en": "🎶Evolution",
+      "kr": "🎶Evolution",
+      "jp": "🎶Evolution",
+      "zh": "🎶Evolution",
+      "zhs": "🎶Evolution"
+    },
+    "0-7": {
+      "en": "🎶海豚与广播 feat.Uranyan",
+      "kr": "🎶海豚与广播 feat.Uranyan",
+      "jp": "🎶海豚与广播 feat.Uranyan",
+      "zh": "🎶海豚與廣播 feat.烏拉喵",
+      "zhs": "🎶海豚与广播 feat.乌拉喵"
+    },
+    "0-8": {
+      "en": "🎶Yuki no Shizuku Ame no Oto",
+      "kr": "🎶Yuki no Shizuku Ame no Oto",
+      "jp": "🎶雪の雫・雨の音",
+      "zh": "🎶雪の雫・雨の音",
+      "zhs": "🎶雪の雫・雨の音"
+    },
+    "0-43": {
+      "en": "🎶Best One feat.tooko",
+      "kr": "🎶Best One feat.tooko",
+      "jp": "🎶Best One feat.tooko",
+      "zh": "🎶Best One feat.墨橙",
+      "zhs": "🎶Best One feat.墨橙"
+    },
+    "0-31": {
+      "en": "🎶糖果色恋爱学",
+      "kr": "🎶糖果色恋爱学",
+      "jp": "🎶糖果色恋爱学",
+      "zh": "🎶糖果色戀愛學",
+      "zhs": "🎶糖果色恋爱学"
+    },
+    "0-38": {
+      "en": "🎶Night Wander (cnsouka Remix)",
+      "kr": "🎶Night Wander (cnsouka Remix)",
+      "jp": "🎶Night Wander (cnsouka Remix)",
+      "zh": "🎶Night Wander (cnsouka Remix)",
+      "zhs": "🎶Night Wander (cnsouka Remix)"
+    },
+    "0-46": {
+      "en": "🎶Dohna Dohna no Uta",
+      "kr": "🎶Dohna Dohna no Uta",
+      "jp": "🎶ドーナドーナのうた",
+      "zh": "🎶ドーナドーナのうた",
+      "zhs": "🎶ドーナドーナのうた"
+    },
+    "0-9": {
+      "en": "🎶Spring Carnival",
+      "kr": "🎶Spring Carnival",
+      "jp": "🎶Spring Carnival",
+      "zh": "🎶Spring Carnival",
+      "zhs": "🎶Spring Carnival"
+    },
+    "0-30": {
+      "en": "🎶DISCO NIGHT",
+      "kr": "🎶DISCO NIGHT",
+      "jp": "🎶DISCO NIGHT",
+      "zh": "🎶DISCO NIGHT",
+      "zhs": "🎶DISCO NIGHT"
+    },
+    "0-49": {
+      "en": "🎶Koi no Moonlight",
+      "kr": "🎶Koi no Moonlight",
+      "jp": "🎶恋のMoonlight",
+      "zh": "🎶恋のMoonlight",
+      "zhs": "🎶恋のMoonlight"
+    },
+    "0-10": {
+      "en": "🎶恋爱语音导航 feat.yousa",
+      "kr": "🎶恋爱语音导航 feat.yousa",
+      "jp": "🎶恋爱语音导航 feat.yousa",
+      "zh": "🎶戀愛語音導航 feat.yousa",
+      "zhs": "🎶恋爱语音导航 feat.yousa"
+    },
+    "0-11": {
+      "en": "🎶Lights of Muse",
+      "kr": "🎶Lights of Muse",
+      "jp": "🎶Lights of Muse",
+      "zh": "🎶Lights of Muse",
+      "zhs": "🎶Lights of Muse"
+    },
+    "0-12": {
+      "en": "🎶midstream jam",
+      "kr": "🎶midstream jam",
+      "jp": "🎶midstream jam",
+      "zh": "🎶midstream jam",
+      "zhs": "🎶midstream jam"
+    },
+    "0-40": {
+      "en": "🎶Nihao",
+      "kr": "🎶Nihao",
+      "jp": "🎶ニーハオ",
+      "zh": "🎶你好",
+      "zhs": "🎶你好"
+    },
+    "0-13": {
+      "en": "🎶Confession",
+      "kr": "🎶Confession",
+      "jp": "🎶Confession",
+      "zh": "🎶Confession",
+      "zhs": "🎶Confession"
+    },
+    "0-32": {
+      "en": "🎶Galaxy Striker",
+      "kr": "🎶Galaxy Striker",
+      "jp": "🎶Galaxy Striker",
+      "zh": "🎶Galaxy Striker",
+      "zhs": "🎶Galaxy Striker"
+    },
+    "0-14": {
+      "en": "🎶Departure Road",
+      "kr": "🎶Departure Road",
+      "jp": "🎶Departure Road",
+      "zh": "🎶Departure Road",
+      "zhs": "🎶Departure Road"
+    },
+    "0-15": {
+      "en": "🎶Bass Telekinesis",
+      "kr": "🎶Bass Telekinesis",
+      "jp": "🎶Bass Telekinesis",
+      "zh": "🎶Bass Telekinesis",
+      "zhs": "🎶Bass Telekinesis"
+    },
+    "0-16": {
+      "en": "🎶Cage of Almeria",
+      "kr": "🎶Cage of Almeria",
+      "jp": "🎶アルメリアの鳥籠",
+      "zh": "🎶Cage of Almeria",
+      "zhs": "🎶Cage of Almeria"
+    },
+    "0-17": {
+      "en": "🎶Ira",
+      "kr": "🎶Ira",
+      "jp": "🎶Ira",
+      "zh": "🎶Ira",
+      "zhs": "🎶Ira"
+    },
+    "0-18": {
+      "en": "🎶Blackest Luxury Car",
+      "kr": "🎶Blackest Luxury Car",
+      "jp": "🎶Blackest Luxury Car",
+      "zh": "🎶Blackest Luxury Car",
+      "zhs": "🎶Blackest Luxury Car"
+    },
+    "0-19": {
+      "en": "🎶Medicine of Sing",
+      "kr": "🎶Medicine of Sing",
+      "jp": "🎶Medicine of Sing",
+      "zh": "🎶Medicine of Sing",
+      "zhs": "🎶Medicine of Sing"
+    },
+    "0-20": {
+      "en": "🎶irregulyze",
+      "kr": "🎶irregulyze",
+      "jp": "🎶irregulyze",
+      "zh": "🎶irregulyze",
+      "zhs": "🎶irregulyze"
+    },
+    "0-47": {
+      "en": "🎶I don't care about Christmas though",
+      "kr": "🎶I don't care about Christmas though",
+      "jp": "🎶クリスマスなんて興味ないけど",
+      "zh": "🎶クリスマスなんて興味ないけど",
+      "zhs": "🎶クリスマスなんて興味ないけど"
+    },
+    "0-21": {
+      "en": "🎶Imaginary World",
+      "kr": "🎶Imaginary World",
+      "jp": "🎶Imaginary World",
+      "zh": "🎶Imaginary World",
+      "zhs": "🎶Imaginary World"
+    },
+    "0-22": {
+      "en": "🎶Dysthymia",
+      "kr": "🎶Dysthymia",
+      "jp": "🎶Dysthymia",
+      "zh": "🎶Dysthymia",
+      "zhs": "🎶Dysthymia"
+    },
+    "0-42": {
+      "en": "🎶新世界より",
+      "kr": "🎶新世界より",
+      "jp": "🎶新世界より",
+      "zh": "🎶新世界より",
+      "zhs": "🎶新世界より"
+    },
+    "0-33": {
+      "en": "🎶NISEGAO",
+      "kr": "🎶NISEGAO",
+      "jp": "🎶僞顏",
+      "zh": "🎶僞顏",
+      "zhs": "🎶僞顏"
+    },
+    "0-44": {
+      "en": "🎶Say! Fanfare!",
+      "kr": "🎶Say! Fanfare!",
+      "jp": "🎶Say!ファンファーレ!",
+      "zh": "🎶Say!ファンファーレ!",
+      "zhs": "🎶Say!ファンファーレ!"
+    },
+    "0-34": {
+      "en": "🎶Star Driver",
+      "kr": "🎶Star Driver",
+      "jp": "🎶Star Driver",
+      "zh": "🎶流星车手",
+      "zhs": "🎶流星车手"
+    },
+    "0-23": {
+      "en": "🎶Formation",
+      "kr": "🎶Formation",
+      "jp": "🎶Formation",
+      "zh": "🎶Formation",
+      "zhs": "🎶Formation"
+    },
+    "0-24": {
+      "en": "🎶Shinsou Masui",
+      "kr": "🎶Shinsou Masui",
+      "jp": "🎶心層麻酔",
+      "zh": "🎶心層麻酔",
+      "zhs": "🎶心层麻醉"
+    },
+    "0-50": {
+      "en": "🎶Mezame Eurythmics",
+      "kr": "🎶Mezame Eurythmics",
+      "jp": "🎶Mezame Eurythmics",
+      "zh": "🎶Mezame Eurythmics",
+      "zhs": "🎶Mezame Eurythmics"
+    },
+    "0-51": {
+      "en": "🎶Shenri Kuaira -repeat-",
+      "kr": "🎶Shenri Kuaira -repeat-",
+      "jp": "🎶Shenri Kuaira -repeat-",
+      "zh": "🎶Shenri Kuaira -repeat-",
+      "zhs": "🎶Shenri Kuaira -repeat-"
+    },
+    "0-25": {
+      "en": "🎶Latitude",
+      "kr": "🎶Latitude",
+      "jp": "🎶Latitude",
+      "zh": "🎶Latitude",
+      "zhs": "🎶Latitude"
+    },
+    "0-39": {
+      "en": "🎶Aqua Stars",
+      "kr": "🎶Aqua Stars",
+      "jp": "🎶Aqua Stars",
+      "zh": "🎶Aqua Stars",
+      "zhs": "🎶Aqua Stars"
+    },
+    "0-26": {
+      "en": "🎶Funkotsu Saishin Casino",
+      "kr": "🎶Funkotsu Saishin Casino",
+      "jp": "🎶粉骨砕身カジノゥ",
+      "zh": "🎶粉骨砕身カジノゥ",
+      "zhs": "🎶粉骨砕身カジノゥ"
+    },
+    "0-27": {
+      "en": "🎶Clock Room & Spiritual World",
+      "kr": "🎶Clock Room & Spiritual World",
+      "jp": "🎶時計の部屋と精神世界",
+      "zh": "🎶Clock Room & Spiritual World",
+      "zhs": "🎶Clock Room & Spiritual World"
+    },
+    "0-52": {
+      "en": "🎶INTERNET OVERDOSE（Aiobahn feat.KOTOKO）",
+      "kr": "🎶INTERNET OVERDOSE（Aiobahn feat.KOTOKO）",
+      "jp": "🎶INTERNET OVERDOSE（Aiobahn feat.KOTOKO）",
+      "zh": "🎶INTERNET OVERDOSE（Aiobahn feat.KOTOKO）",
+      "zhs": "🎶INTERNET OVERDOSE（Aiobahn feat.KOTOKO）"
+    },
+    "0-35": {
+      "en": "🎶徒 花",
+      "kr": "🎶徒 花",
+      "jp": "🎶徒 花",
+      "zh": "🎶徒 花",
+      "zhs": "🎶徒 花"
+    },
+    "0-28": {
+      "en": "🎶Mujinku-Vacuum Track#ADD8E6-",
+      "kr": "🎶Mujinku-Vacuum Track#ADD8E6-",
+      "jp": "🎶無人区-Vacuum Track#ADD8E6-",
+      "zh": "🎶無人区-Vacuum Track#ADD8E6-",
+      "zhs": "🎶無人区-Vacuum Track#ADD8E6-"
+    },
+    "0-36": {
+      "en": "🎶MilK",
+      "kr": "🎶MilK",
+      "jp": "🎶MilK",
+      "zh": "🎶MilK",
+      "zhs": "🎶MilK"
+    },
+    "0-41": {
+      "en": "🎶umpopoff",
+      "kr": "🎶umpopoff",
+      "jp": "🎶umpopoff",
+      "zh": "🎶umpopoff",
+      "zhs": "🎶umpopoff"
+    },
+    "0-45": {
+      "en": "🎶Mopemope",
+      "kr": "🎶Mopemope",
+      "jp": "🎶もぺもぺ",
+      "zh": "🎶もぺもぺ",
+      "zhs": "🎶もぺもぺ"
+    },
+    "1-0": {
+      "en": "🎶Sunshine and Rainbow after August Rain",
+      "kr": "🎶Sunshine and Rainbow after August Rain",
+      "jp": "🎶八月の雨上がり、晴れ後レインボー",
+      "zh": "🎶八月雨後，初晴與彩虹",
+      "zhs": "🎶八月雨后，初晴与彩虹"
+    },
+    "1-1": {
+      "en": "🎶Magical Number",
+      "kr": "🎶Magical Number",
+      "jp": "🎶マジカルナンバー",
+      "zh": "🎶魔法數字",
+      "zhs": "🎶魔法数字"
+    },
+    "1-2": {
+      "en": "🎶Dreaming Girl",
+      "kr": "🎶Dreaming Girl",
+      "jp": "🎶Dreaming Girl",
+      "zh": "🎶Dreaming Girl",
+      "zhs": "🎶Dreaming Girl"
+    },
+    "1-3": {
+      "en": "🎶Daruma-san Fell Over",
+      "kr": "🎶Daruma-san Fell Over",
+      "jp": "🎶Daruma-san Fell Over",
+      "zh": "🎶Daruma-san Fell Over",
+      "zhs": "🎶Daruma-san Fell Over"
+    },
+    "1-4": {
+      "en": "🎶Different",
+      "kr": "🎶Different",
+      "jp": "🎶Different",
+      "zh": "🎶Different",
+      "zhs": "🎶Different"
+    },
+    "1-5": {
+      "en": "🎶The Future of the Phantom",
+      "kr": "🎶The Future of the Phantom",
+      "jp": "🎶The Future of the Phantom",
+      "zh": "🎶The Future of the Phantom",
+      "zhs": "🎶The Future of the Phantom"
+    },
+    "2-0": {
+      "en": "🎶Oriens",
+      "kr": "🎶Oriens",
+      "jp": "🎶Oriens",
+      "zh": "🎶Oriens",
+      "zhs": "🎶Oriens"
+    },
+    "2-1": {
+      "en": "🎶PUPA",
+      "kr": "🎶PUPA",
+      "jp": "🎶PUPA",
+      "zh": "🎶PUPA",
+      "zhs": "🎶PUPA"
+    },
+    "2-2": {
+      "en": "🎶Luna Express 2032",
+      "kr": "🎶Luna Express 2032",
+      "jp": "🎶Luna Express 2032",
+      "zh": "🎶Luna Express 2032",
+      "zhs": "🎶Luna Express 2032"
+    },
+    "2-3": {
+      "en": "🎶Ukiyoe Yokochou",
+      "kr": "🎶Ukiyoe Yokochou",
+      "jp": "🎶浮世絵横丁",
+      "zh": "🎶浮世絵横丁",
+      "zhs": "🎶浮世絵横丁"
+    },
+    "2-4": {
+      "en": "🎶Alice in Misanthrope",
+      "kr": "🎶Alice in Misanthrope",
+      "jp": "🎶Alice in Misanthrope -厭世アリス-",
+      "zh": "🎶Alice in Misanthrope -厭世アリス-",
+      "zhs": "🎶Alice in Misanthrope -厭世アリス-"
+    },
+    "2-5": {
+      "en": "🎶GOODMEN",
+      "kr": "🎶GOODMEN",
+      "jp": "🎶GOODMEN",
+      "zh": "🎶GOODMEN",
+      "zhs": "🎶GOODMEN"
+    },
+    "3-0": {
+      "en": "🎶Maharajah",
+      "kr": "🎶Maharajah",
+      "jp": "🎶Maharajah",
+      "zh": "🎶Maharajah",
+      "zhs": "🎶Maharajah"
+    },
+    "3-1": {
+      "en": "🎶keep on running",
+      "kr": "🎶keep on running",
+      "jp": "🎶keep on running",
+      "zh": "🎶keep on running",
+      "zhs": "🎶keep on running"
+    },
+    "3-2": {
+      "en": "🎶Käfig",
+      "kr": "🎶Käfig",
+      "jp": "🎶Käfig",
+      "zh": "🎶Käfig",
+      "zhs": "🎶Käfig"
+    },
+    "3-3": {
+      "en": "🎶-+",
+      "kr": "🎶-+",
+      "jp": "🎶-+",
+      "zh": "🎶-+",
+      "zhs": "🎶-+"
+    },
+    "3-4": {
+      "en": "🎶Tenri Kaku Jou",
+      "kr": "🎶Tenri Kaku Jou",
+      "jp": "🎶天理鶴情",
+      "zh": "🎶天理鶴情",
+      "zhs": "🎶天理鶴情"
+    },
+    "3-5": {
+      "en": "🎶Adjudicatorz-DanZai-",
+      "kr": "🎶Adjudicatorz-DanZai-",
+      "jp": "🎶Adjudicatorz-断罪-",
+      "zh": "🎶Adjudicatorz-断罪-",
+      "zhs": "🎶Adjudicatorz-断罪-"
+    },
+    "4-0": {
+      "en": "🎶MUSEDASH!!!!",
+      "kr": "🎶MUSEDASH!!!!",
+      "jp": "🎶MUSEDASH!!!!",
+      "zh": "🎶MUSEDASH!!!!",
+      "zhs": "🎶MUSEDASH!!!!"
+    },
+    "4-1": {
+      "en": "🎶Imprinting",
+      "kr": "🎶Imprinting",
+      "jp": "🎶Imprinting",
+      "zh": "🎶Imprinting",
+      "zhs": "🎶Imprinting"
+    },
+    "4-2": {
+      "en": "🎶Skyward",
+      "kr": "🎶Skyward",
+      "jp": "🎶Skyward",
+      "zh": "🎶Skyward",
+      "zhs": "🎶Skyward"
+    },
+    "4-3": {
+      "en": "🎶La nuit de vif",
+      "kr": "🎶La nuit de vif",
+      "jp": "🎶La nuit de vif",
+      "zh": "🎶La nuit de vif",
+      "zhs": "🎶La nuit de vif"
+    },
+    "4-4": {
+      "en": "🎶Bit-alize",
+      "kr": "🎶Bit-alize",
+      "jp": "🎶Bit-alize",
+      "zh": "🎶Bit-alize",
+      "zhs": "🎶Bit-alize"
+    },
+    "4-5": {
+      "en": "🎶GOODTEK(Hyper Edit)",
+      "kr": "🎶GOODTEK(Hyper Edit)",
+      "jp": "🎶GOODTEK(Hyper Edit)",
+      "zh": "🎶GOODTEK(Hyper Edit)",
+      "zhs": "🎶GOODTEK(Hyper Edit)"
+    },
+    "5-0": {
+      "en": "🎶Thirty Million Persona",
+      "kr": "🎶Thirty Million Persona",
+      "jp": "🎶Thirty Million Persona",
+      "zh": "🎶Thirty Million Persona",
+      "zhs": "🎶Thirty Million Persona"
+    },
+    "5-1": {
+      "en": "🎶conflict",
+      "kr": "🎶conflict",
+      "jp": "🎶conflict",
+      "zh": "🎶conflict",
+      "zhs": "🎶conflict"
+    },
+    "5-2": {
+      "en": "🎶Enka Dance Music",
+      "kr": "🎶Enka Dance Music",
+      "jp": "🎶演華舞踊 ~Enka Dance Music~",
+      "zh": "🎶演華舞踊 ~Enka Dance Music~",
+      "zhs": "🎶演華舞踊 ~Enka Dance Music~"
+    },
+    "5-3": {
+      "en": "🎶XING",
+      "kr": "🎶XING",
+      "jp": "🎶XING",
+      "zh": "🎶XING",
+      "zhs": "🎶XING"
+    },
+    "5-4": {
+      "en": "🎶Amakakeru Soukyuu no Serenade",
+      "kr": "🎶Amakakeru Soukyuu no Serenade",
+      "jp": "🎶天翔ける蒼穹のセレナーデ",
+      "zh": "🎶天翔ける蒼穹のセレナーデ",
+      "zhs": "🎶天翔ける蒼穹のセレナーデ"
+    },
+    "5-5": {
+      "en": "🎶Gift box",
+      "kr": "🎶Gift box",
+      "jp": "🎶Gift box",
+      "zh": "🎶Gift box",
+      "zhs": "🎶Gift box"
+    },
+    "6-0": {
+      "en": "🎶Out of Sense",
+      "kr": "🎶Out of Sense",
+      "jp": "🎶Out of Sense",
+      "zh": "🎶Out of Sense",
+      "zhs": "🎶Out of Sense"
+    },
+    "6-1": {
+      "en": "🎶My Life Is For You",
+      "kr": "🎶My Life Is For You",
+      "jp": "🎶My Life Is For You",
+      "zh": "🎶My Life Is For You",
+      "zhs": "🎶My Life Is For You"
+    },
+    "6-2": {
+      "en": "🎶Etude -Sunset-",
+      "kr": "🎶Etude -Sunset-",
+      "jp": "🎶Etude -Sunset-",
+      "zh": "🎶Etude -Sunset-",
+      "zhs": "🎶Etude -Sunset-"
+    },
+    "6-3": {
+      "en": "🎶Goodbye Boss",
+      "kr": "🎶Goodbye Boss",
+      "jp": "🎶Goodbye Boss",
+      "zh": "🎶翹班",
+      "zhs": "🎶翘班"
+    },
+    "6-4": {
+      "en": "🎶Stargazer",
+      "kr": "🎶Stargazer",
+      "jp": "🎶Stargazer",
+      "zh": "🎶Stargazer",
+      "zhs": "🎶Stargazer"
+    },
+    "6-5": {
+      "en": "🎶Lys Tourbillon",
+      "kr": "🎶Lys Tourbillon",
+      "jp": "🎶Lys Tourbillon",
+      "zh": "🎶Lys Tourbillon",
+      "zhs": "🎶Lys Tourbillon"
+    },
+    "7-0": {
+      "en": "🎶Brave My Soul",
+      "kr": "🎶Brave My Soul",
+      "jp": "🎶Brave My Soul",
+      "zh": "🎶Brave My Soul",
+      "zhs": "🎶Brave My Soul"
+    },
+    "7-1": {
+      "en": "🎶Halcyon",
+      "kr": "🎶Halcyon",
+      "jp": "🎶Halcyon",
+      "zh": "🎶Halcyon",
+      "zhs": "🎶Halcyon"
+    },
+    "7-2": {
+      "en": "🎶Crimson Nightingle",
+      "kr": "🎶Crimson Nightingle",
+      "jp": "🎶Crimson Nightingle",
+      "zh": "🎶Crimson Nightingle",
+      "zhs": "🎶Crimson Nightingle"
+    },
+    "7-3": {
+      "en": "🎶Invader",
+      "kr": "🎶Invader",
+      "jp": "🎶Invader",
+      "zh": "🎶Invader",
+      "zhs": "🎶Invader"
+    },
+    "7-4": {
+      "en": "🎶Lyrith",
+      "kr": "🎶Lyrith",
+      "jp": "🎶Lyrith -迷宮リリス-",
+      "zh": "🎶Lyrith -迷宮リリス-",
+      "zhs": "🎶Lyrith -迷宮リリス-"
+    },
+    "7-5": {
+      "en": "🎶GOODBOUNCE (Groove Edit)",
+      "kr": "🎶GOODBOUNCE (Groove Edit)",
+      "jp": "🎶GOODBOUNCE (Groove Edit)",
+      "zh": "🎶GOODBOUNCE (Groove Edit)",
+      "zhs": "🎶GOODBOUNCE (Groove Edit)"
+    },
+    "8-0": {
+      "en": "🎶Altale",
+      "kr": "🎶Altale",
+      "jp": "🎶Altale",
+      "zh": "🎶Altale",
+      "zhs": "🎶Altale"
+    },
+    "8-1": {
+      "en": "🎶Brain Power",
+      "kr": "🎶Brain Power",
+      "jp": "🎶Brain Power",
+      "zh": "🎶Brain Power",
+      "zhs": "🎶Brain Power"
+    },
+    "8-2": {
+      "en": "🎶Berry Go!!",
+      "kr": "🎶Berry Go!!",
+      "jp": "🎶Berry Go!!",
+      "zh": "🎶Berry Go!!",
+      "zhs": "🎶Berry Go!!"
+    },
+    "8-3": {
+      "en": "🎶Sweet* Witch* Girl*",
+      "kr": "🎶Sweet* Witch* Girl*",
+      "jp": "🎶Sweet* Witch* Girl*",
+      "zh": "🎶Sweet* Witch* Girl*",
+      "zhs": "🎶Sweet* Witch* Girl*"
+    },
+    "8-4": {
+      "en": "🎶trippers feeling!",
+      "kr": "🎶trippers feeling!",
+      "jp": "🎶trippers feeling!",
+      "zh": "🎶trippers feeling!",
+      "zhs": "🎶trippers feeling!"
+    },
+    "8-5": {
+      "en": "🎶Lilith ambivalence lovers",
+      "kr": "🎶Lilith ambivalence lovers",
+      "jp": "🎶Lilith ambivalence lovers",
+      "zh": "🎶Lilith ambivalence lovers",
+      "zhs": "🎶Lilith ambivalence lovers"
+    },
+    "9-0": {
+      "en": "🎶Leave It Alone",
+      "kr": "🎶Leave It Alone",
+      "jp": "🎶Leave It Alone",
+      "zh": "🎶Leave It Alone",
+      "zhs": "🎶Leave It Alone"
+    },
+    "9-1": {
+      "en": "🎶Tsubasa no Oreta Tenshitachi no Requiem",
+      "kr": "🎶Tsubasa no Oreta Tenshitachi no Requiem",
+      "jp": "🎶翼の折れた天使たちのレクイエム",
+      "zh": "🎶翼の折れた天使たちのレクイエム",
+      "zhs": "🎶翼の折れた天使たちのレクイエム"
+    },
+    "9-2": {
+      "en": "🎶Chronomia",
+      "kr": "🎶Chronomia",
+      "jp": "🎶Chronomia",
+      "zh": "🎶Chronomia",
+      "zhs": "🎶Chronomia"
+    },
+    "9-3": {
+      "en": "🎶Dandelion's Daydream",
+      "kr": "🎶Dandelion's Daydream",
+      "jp": "🎶Dandelion's Daydream",
+      "zh": "🎶Dandelion's Daydream",
+      "zhs": "🎶Dandelion's Daydream"
+    },
+    "9-4": {
+      "en": "🎶Lorikeet ~Flat design~",
+      "kr": "🎶Lorikeet ~Flat design~",
+      "jp": "🎶ロリキート ~Flat design~",
+      "zh": "🎶ロリキート ~Flat design~",
+      "zhs": "🎶ロリキート ~Flat design~"
+    },
+    "9-5": {
+      "en": "🎶GOODRAGE",
+      "kr": "🎶GOODRAGE",
+      "jp": "🎶GOODRAGE",
+      "zh": "🎶GOODRAGE",
+      "zhs": "🎶GOODRAGE"
+    },
+    "10-0": {
+      "en": "🎶Destr0yer",
+      "kr": "🎶Destr0yer",
+      "jp": "🎶Destr0yer",
+      "zh": "🎶Destr0yer",
+      "zhs": "🎶Destr0yer"
+    },
+    "10-1": {
+      "en": "🎶Noël",
+      "kr": "🎶Noël",
+      "jp": "🎶Noël",
+      "zh": "🎶Noël",
+      "zhs": "🎶Noël"
+    },
+    "10-2": {
+      "en": "🎶Kyoukiranbu",
+      "kr": "🎶Kyoukiranbu",
+      "jp": "🎶狂喜蘭舞",
+      "zh": "🎶狂喜蘭舞",
+      "zhs": "🎶狂喜蘭舞"
+    },
+    "10-3": {
+      "en": "🎶Two Phace",
+      "kr": "🎶Two Phace",
+      "jp": "🎶Two Phace",
+      "zh": "🎶Two Phace",
+      "zhs": "🎶Two Phace"
+    },
+    "10-4": {
+      "en": "🎶Fly Again",
+      "kr": "🎶Fly Again",
+      "jp": "🎶Fly Again",
+      "zh": "🎶Fly Again",
+      "zhs": "🎶Fly Again"
+    },
+    "10-5": {
+      "en": "🎶ouroVoros",
+      "kr": "🎶ouroVoros",
+      "jp": "🎶ouroVoros",
+      "zh": "🎶ouroVoros",
+      "zhs": "🎶ouroVoros"
+    },
+    "11-0": {
+      "en": "🎶Brave My Heart",
+      "kr": "🎶Brave My Heart",
+      "jp": "🎶Brave My Heart",
+      "zh": "🎶Brave My Heart",
+      "zhs": "🎶Brave My Heart"
+    },
+    "11-1": {
+      "en": "🎶Sakura Fubuki",
+      "kr": "🎶Sakura Fubuki",
+      "jp": "🎶Sakura Fubuki",
+      "zh": "🎶Sakura Fubuki",
+      "zhs": "🎶Sakura Fubuki"
+    },
+    "11-2": {
+      "en": "🎶8bit Adventurer",
+      "kr": "🎶8bit Adventurer",
+      "jp": "🎶8bit Adventurer",
+      "zh": "🎶8bit Adventurer",
+      "zhs": "🎶8bit Adventurer"
+    },
+    "11-3": {
+      "en": "🎶Suffering of screw",
+      "kr": "🎶Suffering of screw",
+      "jp": "🎶Suffering of screw",
+      "zh": "🎶Suffering of screw",
+      "zhs": "🎶Suffering of screw"
+    },
+    "11-4": {
+      "en": "🎶tiny lady",
+      "kr": "🎶tiny lady",
+      "jp": "🎶tiny lady",
+      "zh": "🎶tiny lady",
+      "zhs": "🎶tiny lady"
+    },
+    "11-5": {
+      "en": "🎶Power Attack",
+      "kr": "🎶Power Attack",
+      "jp": "🎶Power Attack",
+      "zh": "🎶Power Attack",
+      "zhs": "🎶Power Attack"
+    },
+    "12-0": {
+      "en": "🎶Gaikan Chrysalis",
+      "kr": "🎶Gaikan Chrysalis",
+      "jp": "🎶蓋棺クリサリス",
+      "zh": "🎶蓋棺クリサリス",
+      "zhs": "🎶蓋棺クリサリス"
+    },
+    "12-1": {
+      "en": "🎶Sterelogue",
+      "kr": "🎶Sterelogue",
+      "jp": "🎶Sterelogue",
+      "zh": "🎶Sterelogue",
+      "zhs": "🎶Sterelogue"
+    },
+    "12-2": {
+      "en": "🎶Cheshire's Dance",
+      "kr": "🎶Cheshire's Dance",
+      "jp": "🎶Cheshire's Dance",
+      "zh": "🎶Cheshire's Dance",
+      "zhs": "🎶Cheshire's Dance"
+    },
+    "12-3": {
+      "en": "🎶Skrik",
+      "kr": "🎶Skrik",
+      "jp": "🎶Skrik",
+      "zh": "🎶Skrik",
+      "zhs": "🎶Skrik"
+    },
+    "12-4": {
+      "en": "🎶Soda Pop Canva5!",
+      "kr": "🎶Soda Pop Canva5!",
+      "jp": "🎶Soda Pop Canva5!",
+      "zh": "🎶Soda Pop Canva5!",
+      "zhs": "🎶Soda Pop Canva5!"
+    },
+    "12-5": {
+      "en": "🎶ЯUBY:LINTe",
+      "kr": "🎶ЯUBY:LINTe",
+      "jp": "🎶ЯUBY:LINTe",
+      "zh": "🎶ЯUBY:LINTe",
+      "zhs": "🎶ЯUBY:LINTe"
+    },
+    "13-0": {
+      "en": "🎶速溶霓虹 feat.kumako",
+      "kr": "🎶速溶霓虹 feat.kumako",
+      "jp": "🎶速溶霓虹 feat.kumako",
+      "zh": "🎶速溶霓虹 feat.熊子",
+      "zhs": "🎶速溶霓虹 feat.熊子"
+    },
+    "13-1": {
+      "en": "🎶星球上的追溯诗",
+      "kr": "🎶星球上的追溯诗",
+      "jp": "🎶星球上的追溯诗",
+      "zh": "🎶星球上的追溯詩",
+      "zhs": "🎶星球上的追溯诗"
+    },
+    "13-2": {
+      "en": "🎶我要买买买",
+      "kr": "🎶我要买买买",
+      "jp": "🎶我要买买买",
+      "zh": "🎶我要買買買",
+      "zhs": "🎶我要买买买"
+    },
+    "13-3": {
+      "en": "🎶约会宣言",
+      "kr": "🎶约会宣言",
+      "jp": "🎶约会宣言",
+      "zh": "🎶約會宣言",
+      "zhs": "🎶约会宣言"
+    },
+    "13-4": {
+      "en": "🎶初雪",
+      "kr": "🎶初雪",
+      "jp": "🎶初雪",
+      "zh": "🎶初雪",
+      "zhs": "🎶初雪"
+    },
+    "13-5": {
+      "en": "🎶心上华海",
+      "kr": "🎶心上华海",
+      "jp": "🎶心上华海",
+      "zh": "🎶心上華海",
+      "zhs": "🎶心上华海"
+    },
+    "14-0": {
+      "en": "🎶Elysion's Old Mans",
+      "kr": "🎶Elysion's Old Mans",
+      "jp": "🎶Elysion's Old Mans",
+      "zh": "🎶Elysion's Old Mans",
+      "zhs": "🎶Elysion's Old Mans"
+    },
+    "14-1": {
+      "en": "🎶AXION",
+      "kr": "🎶AXION",
+      "jp": "🎶AXION",
+      "zh": "🎶AXION",
+      "zhs": "🎶AXION"
+    },
+    "14-2": {
+      "en": "🎶Amnesia",
+      "kr": "🎶Amnesia",
+      "jp": "🎶Amnesia",
+      "zh": "🎶Amnesia",
+      "zhs": "🎶Amnesia"
+    },
+    "14-3": {
+      "en": "🎶Onsen Dai Sakusen",
+      "kr": "🎶Onsen Dai Sakusen",
+      "jp": "🎶温泉大作戦",
+      "zh": "🎶温泉大作戦",
+      "zhs": "🎶温泉大作戦"
+    },
+    "14-4": {
+      "en": "🎶Gleam stone",
+      "kr": "🎶Gleam stone",
+      "jp": "🎶Gleam stone",
+      "zh": "🎶Gleam stone",
+      "zhs": "🎶Gleam stone"
+    },
+    "14-5": {
+      "en": "🎶GOODWORLD",
+      "kr": "🎶GOODWORLD",
+      "jp": "🎶GOODWORLD",
+      "zh": "🎶GOODWORLD",
+      "zhs": "🎶GOODWORLD"
+    },
+    "15-0": {
+      "en": "🎶魔咒 feat.早木旋子",
+      "kr": "🎶魔咒 feat.早木旋子",
+      "jp": "🎶魔咒 feat.早木旋子",
+      "zh": "🎶魔咒 feat.早木旋子",
+      "zhs": "🎶魔咒 feat.早木旋子"
+    },
+    "15-1": {
+      "en": "🎶斑斓星，彩绘，旅行诗",
+      "kr": "🎶斑斓星，彩绘，旅行诗",
+      "jp": "🎶斑斓星，彩绘，旅行诗",
+      "zh": "🎶斑斕星，彩繪，旅行詩",
+      "zhs": "🎶斑斓星，彩绘，旅行诗"
+    },
+    "15-2": {
+      "en": "🎶Satell Knight",
+      "kr": "🎶Satell Knight",
+      "jp": "🎶Satell Knight",
+      "zh": "🎶Satell Knight",
+      "zhs": "🎶Satell Knight"
+    },
+    "15-3": {
+      "en": "🎶Black River Feat.Mes",
+      "kr": "🎶Black River Feat.Mes",
+      "jp": "🎶Black River Feat.Mes",
+      "zh": "🎶Black River Feat.Mes",
+      "zhs": "🎶Black River Feat.Mes"
+    },
+    "15-4": {
+      "en": "🎶生而为人，我很抱歉",
+      "kr": "🎶生而为人，我很抱歉",
+      "jp": "🎶生而为人，我很抱歉",
+      "zh": "🎶生而為人，我很抱歉",
+      "zhs": "🎶生而为人，我很抱歉"
+    },
+    "15-5": {
+      "en": "🎶Ueta Tori Tachi",
+      "kr": "🎶Ueta Tori Tachi",
+      "jp": "🎶飢えた鳥たち",
+      "zh": "🎶飢えた鳥たち",
+      "zhs": "🎶飢えた鳥たち"
+    },
+    "16-0": {
+      "en": "🎶Future Dive",
+      "kr": "🎶Future Dive",
+      "jp": "🎶Future Dive",
+      "zh": "🎶Future Dive",
+      "zhs": "🎶Future Dive"
+    },
+    "16-1": {
+      "en": "🎶Re：End of a Dream",
+      "kr": "🎶Re：End of a Dream",
+      "jp": "🎶Re：End of a Dream",
+      "zh": "🎶Re：End of a Dream",
+      "zhs": "🎶Re：End of a Dream"
+    },
+    "16-2": {
+      "en": "🎶Etude -Storm-",
+      "kr": "🎶Etude -Storm-",
+      "jp": "🎶Etude -Storm-",
+      "zh": "🎶Etude -Storm-",
+      "zhs": "🎶Etude -Storm-"
+    },
+    "16-3": {
+      "en": "🎶Unlimited Katharsis",
+      "kr": "🎶Unlimited Katharsis",
+      "jp": "🎶Unlimited Katharsis",
+      "zh": "🎶Unlimited Katharsis",
+      "zhs": "🎶Unlimited Katharsis"
+    },
+    "16-4": {
+      "en": "🎶Magic Knight Girl",
+      "kr": "🎶Magic Knight Girl",
+      "jp": "🎶Magic Knight Girl",
+      "zh": "🎶Magic Knight Girl",
+      "zhs": "🎶Magic Knight Girl"
+    },
+    "16-5": {
+      "en": "🎶Eeliaas",
+      "kr": "🎶Eeliaas",
+      "jp": "🎶Eeliaas",
+      "zh": "🎶Eeliaas",
+      "zhs": "🎶Eeliaas"
+    },
+    "17-0": {
+      "en": "🎶Cotton Candy Wonderland",
+      "kr": "🎶Cotton Candy Wonderland",
+      "jp": "🎶Cotton Candy Wonderland",
+      "zh": "🎶Cotton Candy Wonderland",
+      "zhs": "🎶Cotton Candy Wonderland"
+    },
+    "17-1": {
+      "en": "🎶Punai Punai Taiso",
+      "kr": "🎶Punai Punai Taiso",
+      "jp": "🎶プナイプナイたいそう",
+      "zh": "🎶プナイプナイたいそう",
+      "zhs": "🎶プナイプナイたいそう"
+    },
+    "17-2": {
+      "en": "🎶Fly↑High",
+      "kr": "🎶Fly↑High",
+      "jp": "🎶Fly↑High",
+      "zh": "🎶Fly↑High",
+      "zhs": "🎶Fly↑High"
+    },
+    "17-3": {
+      "en": "🎶prejudice",
+      "kr": "🎶prejudice",
+      "jp": "🎶prejudice",
+      "zh": "🎶prejudice",
+      "zhs": "🎶prejudice"
+    },
+    "17-4": {
+      "en": "🎶The 89's Momentum",
+      "kr": "🎶The 89's Momentum",
+      "jp": "🎶The 89's Momentum",
+      "zh": "🎶The 89's Momentum",
+      "zhs": "🎶The 89's Momentum"
+    },
+    "17-5": {
+      "en": "🎶energy night(DASH mix)",
+      "kr": "🎶energy night(DASH mix)",
+      "jp": "🎶energy night(DASH mix)",
+      "zh": "🎶energy night(DASH mix)",
+      "zhs": "🎶energy night(DASH mix)"
+    },
+    "18-0": {
+      "en": "🎶SWEETSWEETSWEET",
+      "kr": "🎶SWEETSWEETSWEET",
+      "jp": "🎶SWEETSWEETSWEET",
+      "zh": "🎶SWEETSWEETSWEET",
+      "zhs": "🎶SWEETSWEETSWEET"
+    },
+    "18-1": {
+      "en": "🎶深蓝与夜的呼吸",
+      "kr": "🎶深蓝与夜的呼吸",
+      "jp": "🎶深蓝与夜的呼吸",
+      "zh": "🎶深藍与夜的呼吸",
+      "zhs": "🎶深蓝与夜的呼吸"
+    },
+    "18-2": {
+      "en": "🎶Joy Connection",
+      "kr": "🎶Joy Connection",
+      "jp": "🎶Joy Connection",
+      "zh": "🎶Joy Connection",
+      "zhs": "🎶Joy Connection"
+    },
+    "18-3": {
+      "en": "🎶Self Willed Girl Ver.B",
+      "kr": "🎶Self Willed Girl Ver.B",
+      "jp": "🎶わがまま Ver.B",
+      "zh": "🎶任性 Ver.B",
+      "zhs": "🎶任性 Ver.B"
+    },
+    "18-4": {
+      "en": "🎶就是不听话",
+      "kr": "🎶就是不听话",
+      "jp": "🎶就是不听话",
+      "zh": "🎶就是不聽話",
+      "zhs": "🎶就是不听话"
+    },
+    "18-5": {
+      "en": "🎶Holy Shit Grass Snake",
+      "kr": "🎶Holy Shit Grass Snake",
+      "jp": "🎶怖い草蛇",
+      "zh": "🎶草蛇驚一",
+      "zhs": "🎶草蛇惊一"
+    },
+    "19-0": {
+      "en": "🎶INFINITY",
+      "kr": "🎶INFINITY",
+      "jp": "🎶INFINITY",
+      "zh": "🎶INFINITY",
+      "zhs": "🎶INFINITY"
+    },
+    "19-1": {
+      "en": "🎶Punai Punai Senso",
+      "kr": "🎶Punai Punai Senso",
+      "jp": "🎶プナイプナイせんそう",
+      "zh": "🎶プナイプナイせんそう",
+      "zhs": "🎶プナイプナイせんそう"
+    },
+    "19-2": {
+      "en": "🎶Maxi",
+      "kr": "🎶Maxi",
+      "jp": "🎶Maxi",
+      "zh": "🎶Maxi",
+      "zhs": "🎶Maxi"
+    },
+    "19-3": {
+      "en": "🎶YInMn Blue",
+      "kr": "🎶YInMn Blue",
+      "jp": "🎶YInMn Blue",
+      "zh": "🎶YInMn Blue",
+      "zhs": "🎶YInMn Blue"
+    },
+    "19-4": {
+      "en": "🎶Plumage",
+      "kr": "🎶Plumage",
+      "jp": "🎶Plumage",
+      "zh": "🎶Plumage",
+      "zhs": "🎶Plumage"
+    },
+    "19-5": {
+      "en": "🎶Dr.Techro",
+      "kr": "🎶Dr.Techro",
+      "jp": "🎶Dr.Techro",
+      "zh": "🎶Dr.Techro",
+      "zhs": "🎶Dr.Techro"
+    },
+    "20-0": {
+      "en": "🎶Moonlight Banquet",
+      "kr": "🎶Moonlight Banquet",
+      "jp": "🎶Moonlight Banquet",
+      "zh": "🎶Moonlight Banquet",
+      "zhs": "🎶Moonlight Banquet"
+    },
+    "20-1": {
+      "en": "🎶Flashdance",
+      "kr": "🎶Flashdance",
+      "jp": "🎶Flashdance",
+      "zh": "🎶Flashdance",
+      "zhs": "🎶Flashdance"
+    },
+    "20-2": {
+      "en": "🎶INFiNiTE ENERZY -Overdoze-",
+      "kr": "🎶INFiNiTE ENERZY -Overdoze-",
+      "jp": "🎶INFiNiTE ENERZY -Overdoze-",
+      "zh": "🎶INFiNiTE ENERZY -Overdoze-",
+      "zhs": "🎶INFiNiTE ENERZY -Overdoze-"
+    },
+    "20-3": {
+      "en": "🎶One Way Street",
+      "kr": "🎶One Way Street",
+      "jp": "🎶One Way Street",
+      "zh": "🎶One Way Street",
+      "zhs": "🎶One Way Street"
+    },
+    "20-4": {
+      "en": "🎶This Club is Not 4 U",
+      "kr": "🎶This Club is Not 4 U",
+      "jp": "🎶This Club is Not 4 U",
+      "zh": "🎶This Club is Not 4 U",
+      "zhs": "🎶This Club is Not 4 U"
+    },
+    "20-5": {
+      "en": "🎶ULTRA MEGA HAPPY PARTY!!!",
+      "kr": "🎶ULTRA MEGA HAPPY PARTY!!!",
+      "jp": "🎶ULTRA MEGA HAPPY PARTY!!!",
+      "zh": "🎶ULTRA MEGA HAPPY PARTY!!!",
+      "zhs": "🎶ULTRA MEGA HAPPY PARTY!!!"
+    },
+    "21-0": {
+      "en": "🎶Glimmer feat.祈Inory",
+      "kr": "🎶Glimmer feat.祈Inory",
+      "jp": "🎶Glimmer feat.祈Inory",
+      "zh": "🎶Glimmer feat.祈Inory",
+      "zhs": "🎶Glimmer feat.祈Inory"
+    },
+    "21-1": {
+      "en": "🎶EXIST feat.米雅",
+      "kr": "🎶EXIST feat.米雅",
+      "jp": "🎶EXIST feat.米雅",
+      "zh": "🎶EXIST feat.米雅",
+      "zhs": "🎶EXIST feat.米雅"
+    },
+    "21-2": {
+      "en": "🎶Irreplaceable feat.夏铜子",
+      "kr": "🎶Irreplaceable feat.夏铜子",
+      "jp": "🎶Irreplaceable feat.夏铜子",
+      "zh": "🎶Irreplaceable feat.夏銅子",
+      "zhs": "🎶Irreplaceable feat.夏铜子"
+    },
+    "22-0": {
+      "en": "🎶The NightScape",
+      "kr": "🎶The NightScape",
+      "jp": "🎶The NightScape",
+      "zh": "🎶The NightScape",
+      "zhs": "🎶The NightScape"
+    },
+    "22-1": {
+      "en": "🎶FREEDOM DiVE↓",
+      "kr": "🎶FREEDOM DiVE↓",
+      "jp": "🎶FREEDOM DiVE↓",
+      "zh": "🎶FREEDOM DiVE↓",
+      "zhs": "🎶FREEDOM DiVE↓"
+    },
+    "22-2": {
+      "en": "🎶Φ",
+      "kr": "🎶Φ",
+      "jp": "🎶Φ",
+      "zh": "🎶Φ",
+      "zhs": "🎶Φ"
+    },
+    "22-3": {
+      "en": "🎶Lueur de la nuit",
+      "kr": "🎶Lueur de la nuit",
+      "jp": "🎶Lueur de la nuit",
+      "zh": "🎶Lueur de la nuit",
+      "zhs": "🎶Lueur de la nuit"
+    },
+    "22-4": {
+      "en": "🎶Creamy Sugary OVERDRIVE!!!",
+      "kr": "🎶Creamy Sugary OVERDRIVE!!!",
+      "jp": "🎶Creamy Sugary OVERDRIVE!!!",
+      "zh": "🎶Creamy Sugary OVERDRIVE!!!",
+      "zhs": "🎶Creamy Sugary OVERDRIVE!!!"
+    },
+    "22-5": {
+      "en": "🎶Disorder (feat.YURI)",
+      "kr": "🎶Disorder (feat.YURI)",
+      "jp": "🎶Disorder (feat.YURI)",
+      "zh": "🎶Disorder (feat.YURI)",
+      "zhs": "🎶Disorder (feat.YURI)"
+    },
+    "23-0": {
+      "en": "🎶雨后甜点",
+      "kr": "🎶雨后甜点",
+      "jp": "🎶雨后甜点",
+      "zh": "🎶雨後甜點",
+      "zhs": "🎶雨后甜点"
+    },
+    "23-1": {
+      "en": "🎶告白应援方程式",
+      "kr": "🎶告白应援方程式",
+      "jp": "🎶告白应援方程式",
+      "zh": "🎶告白應援方程式",
+      "zhs": "🎶告白应援方程式"
+    },
+    "23-2": {
+      "en": "🎶Omatsuri feat.兔子ST",
+      "kr": "🎶Omatsuri feat.兔子ST",
+      "jp": "🎶Omatsuri feat.兔子ST",
+      "zh": "🎶Omatsuri feat.兔子ST",
+      "zhs": "🎶Omatsuri feat.兔子ST"
+    },
+    "23-3": {
+      "en": "🎶FUTUREPOP",
+      "kr": "🎶FUTUREPOP",
+      "jp": "🎶FUTUREPOP",
+      "zh": "🎶FUTUREPOP",
+      "zhs": "🎶FUTUREPOP"
+    },
+    "23-4": {
+      "en": "🎶The Breeze",
+      "kr": "🎶The Breeze",
+      "jp": "🎶The Breeze",
+      "zh": "🎶The Breeze",
+      "zhs": "🎶The Breeze"
+    },
+    "23-5": {
+      "en": "🎶I LOVE LETTUCE FRIED RICE!!",
+      "kr": "🎶I LOVE LETTUCE FRIED RICE!!",
+      "jp": "🎶ウォー・アイ・レタス炒飯！！",
+      "zh": "🎶ウォー・アイ・レタス炒飯！！",
+      "zhs": "🎶ウォー・アイ・レタス炒飯！！"
+    },
+    "24-0": {
+      "en": "🎶The Last Page",
+      "kr": "🎶The Last Page",
+      "jp": "🎶The Last Page",
+      "zh": "🎶The Last Page",
+      "zhs": "🎶The Last Page"
+    },
+    "24-1": {
+      "en": "🎶IKAROS",
+      "kr": "🎶IKAROS",
+      "jp": "🎶IKAROS",
+      "zh": "🎶IKAROS",
+      "zhs": "🎶IKAROS"
+    },
+    "24-2": {
+      "en": "🎶Tsukuyomi",
+      "kr": "🎶Tsukuyomi",
+      "jp": "🎶月夜見",
+      "zh": "🎶月夜見",
+      "zhs": "🎶月夜見"
+    },
+    "24-3": {
+      "en": "🎶Future Stream",
+      "kr": "🎶Future Stream",
+      "jp": "🎶Future Stream",
+      "zh": "🎶Future Stream",
+      "zhs": "🎶Future Stream"
+    },
+    "24-4": {
+      "en": "🎶FULi AUTO SHOOTER",
+      "kr": "🎶FULi AUTO SHOOTER",
+      "jp": "🎶FULi AUTO SHOOTER",
+      "zh": "🎶FULi AUTO SHOOTER",
+      "zhs": "🎶FULi AUTO SHOOTER"
+    },
+    "24-5": {
+      "en": "🎶GOODFORTUNE",
+      "kr": "🎶GOODFORTUNE",
+      "jp": "🎶GOODFORTUNE",
+      "zh": "🎶GOODFORTUNE",
+      "zhs": "🎶GOODFORTUNE"
+    },
+    "25-0": {
+      "en": "🎶tape/stop/night",
+      "kr": "🎶tape/stop/night",
+      "jp": "🎶tape/stop/night",
+      "zh": "🎶tape/stop/night",
+      "zhs": "🎶tape/stop/night"
+    },
+    "25-1": {
+      "en": "🎶Pixel Galaxy",
+      "kr": "🎶Pixel Galaxy",
+      "jp": "🎶Pixel Galaxy",
+      "zh": "🎶Pixel Galaxy",
+      "zhs": "🎶Pixel Galaxy"
+    },
+    "25-2": {
+      "en": "🎶Notice",
+      "kr": "🎶Notice",
+      "jp": "🎶Notice",
+      "zh": "🎶Notice",
+      "zhs": "🎶Notice"
+    },
+    "25-3": {
+      "en": "🎶<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+      "kr": "🎶<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+      "jp": "🎶<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+      "zh": "🎶<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+      "zhs": "🎶<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>"
+    },
+    "25-4": {
+      "en": "🎶OKIMOCHI EXPRESSION",
+      "kr": "🎶OKIMOCHI EXPRESSION",
+      "jp": "🎶OKIMOCHI EXPRESSION",
+      "zh": "🎶OKIMOCHI EXPRESSION",
+      "zhs": "🎶OKIMOCHI EXPRESSION"
+    },
+    "25-5": {
+      "en": "🎶君とpool disco",
+      "kr": "🎶君とpool disco",
+      "jp": "🎶君とpool disco",
+      "zh": "🎶君とpool disco",
+      "zhs": "🎶君とpool disco"
+    },
+    "26-0": {
+      "en": "🎶Legend of Eastern Rabbit -SKY DEFENDER-",
+      "kr": "🎶Legend of Eastern Rabbit -SKY DEFENDER-",
+      "jp": "🎶東方兔傳說 -SKY DEFENDER-",
+      "zh": "🎶東方兔傳說 -SKY DEFENDER-",
+      "zhs": "🎶東方兔傳說 -SKY DEFENDER-"
+    },
+    "26-1": {
+      "en": "🎶ENERGY SYNERGY MATRIX",
+      "kr": "🎶ENERGY SYNERGY MATRIX",
+      "jp": "🎶ENERGY SYNERGY MATRIX",
+      "zh": "🎶ENERGY SYNERGY MATRIX",
+      "zhs": "🎶ENERGY SYNERGY MATRIX"
+    },
+    "26-2": {
+      "en": "🎶Punai Punai Genso ~Punai Punai in Wonderland~",
+      "kr": "🎶Punai Punai Genso ~Punai Punai in Wonderland~",
+      "jp": "🎶プナイプナイげんそう ～プナイプナイinワンダーランド～",
+      "zh": "🎶プナイプナイげんそう ～プナイプナイinワンダーランド～",
+      "zhs": "🎶プナイプナイげんそう ～プナイプナイinワンダーランド～"
+    },
+    "26-3": {
+      "en": "🎶Better Graphic Animation",
+      "kr": "🎶Better Graphic Animation",
+      "jp": "🎶Better Graphic Animation",
+      "zh": "🎶Better Graphic Animation",
+      "zhs": "🎶Better Graphic Animation"
+    },
+    "26-4": {
+      "en": "🎶Variant Cross",
+      "kr": "🎶Variant Cross",
+      "jp": "🎶Variant Cross",
+      "zh": "🎶Variant Cross",
+      "zhs": "🎶Variant Cross"
+    },
+    "26-5": {
+      "en": "🎶Ultra Happy Miracle Bazoooooka!!",
+      "kr": "🎶Ultra Happy Miracle Bazoooooka!!",
+      "jp": "🎶Ultra Happy Miracle Bazoooooka!!",
+      "zh": "🎶Ultra Happy Miracle Bazoooooka!!",
+      "zhs": "🎶Ultra Happy Miracle Bazoooooka!!"
+    },
+    "27-0": {
+      "en": "🎶Can I friend you on Bassbook? lol",
+      "kr": "🎶Can I friend you on Bassbook? lol",
+      "jp": "🎶ベースラインやってる?笑",
+      "zh": "🎶ベースラインやってる?笑",
+      "zhs": "🎶ベースラインやってる?笑"
+    },
+    "27-1": {
+      "en": "🎶Gaming☆Everything",
+      "kr": "🎶Gaming☆Everything",
+      "jp": "🎶ゲーミング☆Everything",
+      "zh": "🎶ゲーミング☆Everything",
+      "zhs": "🎶ゲーミング☆Everything"
+    },
+    "27-2": {
+      "en": "🎶Renji de haochi☆Denshi choriki shiyou chuka ryori 4000nen rekishi shunkan chori kanryo butouteki ryoricho☆",
+      "kr": "🎶Renji de haochi☆Denshi choriki shiyou chuka ryori 4000nen rekishi shunkan chori kanryo butouteki ryoricho☆",
+      "jp": "🎶レンジで好吃 ☆電子調理器使用中華料理四千年歴史瞬間調理完了武闘的料理長☆",
+      "zh": "🎶レンジで好吃 ☆電子調理器使用中華料理四千年歴史瞬間調理完了武闘的料理長☆",
+      "zhs": "🎶レンジで好吃 ☆電子調理器使用中華料理四千年歴史瞬間調理完了武闘的料理長☆"
+    },
+    "27-3": {
+      "en": "🎶You Make My Life 1UP",
+      "kr": "🎶You Make My Life 1UP",
+      "jp": "🎶You Make My Life 1UP",
+      "zh": "🎶You Make My Life 1UP",
+      "zhs": "🎶You Make My Life 1UP"
+    },
+    "27-4": {
+      "en": "🎶Newbies take 3 years, geeks 8 years, and internets are forever",
+      "kr": "🎶Newbies take 3 years, geeks 8 years, and internets are forever",
+      "jp": "🎶ニワカ三年オタ八年、インターネッツはforever",
+      "zh": "🎶ニワカ三年オタ八年、インターネッツはforever",
+      "zhs": "🎶ニワカ三年オタ八年、インターネッツはforever"
+    },
+    "27-5": {
+      "en": "🎶Onegai!Kon kon Oinarisama",
+      "kr": "🎶Onegai!Kon kon Oinarisama",
+      "jp": "🎶お願い！コンコンお稲荷さま",
+      "zh": "🎶お願い！コンコンお稲荷さま",
+      "zhs": "🎶お願い！コンコンお稲荷さま"
+    },
+    "28-0": {
+      "en": "🎶Heisha Onsha",
+      "kr": "🎶Heisha Onsha",
+      "jp": "🎶弊社御社",
+      "zh": "🎶弊社御社",
+      "zhs": "🎶弊社御社"
+    },
+    "28-1": {
+      "en": "🎶Ginevra",
+      "kr": "🎶Ginevra",
+      "jp": "🎶Ginevra",
+      "zh": "🎶Ginevra",
+      "zhs": "🎶Ginevra"
+    },
+    "28-2": {
+      "en": "🎶Paracelestia",
+      "kr": "🎶Paracelestia",
+      "jp": "🎶Paracelestia",
+      "zh": "🎶Paracelestia",
+      "zhs": "🎶Paracelestia"
+    },
+    "28-3": {
+      "en": "🎶un secret",
+      "kr": "🎶un secret",
+      "jp": "🎶un secret",
+      "zh": "🎶un secret",
+      "zhs": "🎶un secret"
+    },
+    "28-4": {
+      "en": "🎶Good Life",
+      "kr": "🎶Good Life",
+      "jp": "🎶Good Life",
+      "zh": "🎶Good Life",
+      "zhs": "🎶Good Life"
+    },
+    "28-5": {
+      "en": "🎶ニニ-nini-",
+      "kr": "🎶ニニ-nini-",
+      "jp": "🎶ニニ",
+      "zh": "🎶ニニ-邇々-",
+      "zhs": "🎶ニニ-邇々-"
+    },
+    "29-0": {
+      "en": "🎶Groove Prayer",
+      "kr": "🎶Groove Prayer",
+      "jp": "🎶Groove Prayer",
+      "zh": "🎶Groove Prayer",
+      "zhs": "🎶Groove Prayer"
+    },
+    "29-1": {
+      "en": "🎶FUJIN Rumble",
+      "kr": "🎶FUJIN Rumble",
+      "jp": "🎶FUJIN Rumble",
+      "zh": "🎶FUJIN Rumble",
+      "zhs": "🎶FUJIN Rumble"
+    },
+    "29-2": {
+      "en": "🎶Marry me, Nightmare",
+      "kr": "🎶Marry me, Nightmare",
+      "jp": "🎶Marry me, Nightmare",
+      "zh": "🎶Marry me, Nightmare",
+      "zhs": "🎶Marry me, Nightmare"
+    },
+    "29-3": {
+      "en": "🎶HG魔改造ポリビニル少年",
+      "kr": "🎶HG魔改造ポリビニル少年",
+      "jp": "🎶HG魔改造ポリビニル少年",
+      "zh": "🎶HG魔改造ポリビニル少年",
+      "zhs": "🎶HG魔改造ポリビニル少年"
+    },
+    "29-4": {
+      "en": "🎶聖者の息吹",
+      "kr": "🎶聖者の息吹",
+      "jp": "🎶聖者の息吹",
+      "zh": "🎶聖者の息吹",
+      "zhs": "🎶聖者の息吹"
+    },
+    "29-5": {
+      "en": "🎶ouroboros -twin stroke of the end-",
+      "kr": "🎶ouroboros -twin stroke of the end-",
+      "jp": "🎶ouroboros -twin stroke of the end-",
+      "zh": "🎶ouroboros -twin stroke of the end-",
+      "zhs": "🎶ouroboros -twin stroke of the end-"
+    },
+    "30-0": {
+      "en": "🎶Girly Cupid",
+      "kr": "🎶Girly Cupid",
+      "jp": "🎶Girly Cupid",
+      "zh": "🎶Girly Cupid",
+      "zhs": "🎶Girly Cupid"
+    },
+    "30-1": {
+      "en": "🎶sheep in the light",
+      "kr": "🎶sheep in the light",
+      "jp": "🎶sheep in the light",
+      "zh": "🎶sheep in the light",
+      "zhs": "🎶sheep in the light"
+    },
+    "30-2": {
+      "en": "🎶Breaker city",
+      "kr": "🎶Breaker city",
+      "jp": "🎶ブレーカーシティ",
+      "zh": "🎶ブレーカーシティ",
+      "zhs": "🎶ブレーカーシティ"
+    },
+    "30-3": {
+      "en": "🎶heterodoxy",
+      "kr": "🎶heterodoxy",
+      "jp": "🎶heterodoxy",
+      "zh": "🎶heterodoxy",
+      "zhs": "🎶heterodoxy"
+    },
+    "30-4": {
+      "en": "🎶Computer Music Girl",
+      "kr": "🎶Computer Music Girl",
+      "jp": "🎶コンピューターミュージックガール",
+      "zh": "🎶コンピューターミュージックガール",
+      "zhs": "🎶コンピューターミュージックガール"
+    },
+    "30-5": {
+      "en": "🎶焦点 feat.早木旋子",
+      "kr": "🎶焦点 feat.早木旋子",
+      "jp": "🎶焦点 feat.早木旋子",
+      "zh": "🎶焦點 feat.早木旋子",
+      "zhs": "🎶焦点 feat.早木旋子"
+    },
+    "31-0": {
+      "en": "🎶The 90's Decision",
+      "kr": "🎶The 90's Decision",
+      "jp": "🎶The 90's Decision",
+      "zh": "🎶The 90's Decision",
+      "zhs": "🎶The 90's Decision"
+    },
+    "31-1": {
+      "en": "🎶Medusa",
+      "kr": "🎶Medusa",
+      "jp": "🎶Medusa",
+      "zh": "🎶Medusa",
+      "zhs": "🎶Medusa"
+    },
+    "31-2": {
+      "en": "🎶Final Step!",
+      "kr": "🎶Final Step!",
+      "jp": "🎶Final Step!",
+      "zh": "🎶Final Step!",
+      "zhs": "🎶Final Step!"
+    },
+    "31-3": {
+      "en": "🎶MAGENTA POTION",
+      "kr": "🎶MAGENTA POTION",
+      "jp": "🎶MAGENTA POTION",
+      "zh": "🎶MAGENTA POTION",
+      "zhs": "🎶MAGENTA POTION"
+    },
+    "31-4": {
+      "en": "🎶Cross†Ray (feat. 月下Lia)",
+      "kr": "🎶Cross†Ray (feat. 月下Lia)",
+      "jp": "🎶Cross†Ray (feat. 月下Lia)",
+      "zh": "🎶Cross†Ray (feat. 月下Lia)",
+      "zhs": "🎶Cross†Ray (feat. 月下Lia)"
+    },
+    "31-5": {
+      "en": "🎶Square Lake",
+      "kr": "🎶Square Lake",
+      "jp": "🎶Square Lake",
+      "zh": "🎶Square Lake",
+      "zhs": "🎶Square Lake"
+    },
+    "32-0": {
+      "en": "🎶Preparara",
+      "kr": "🎶Preparara",
+      "jp": "🎶プレパララ",
+      "zh": "🎶プレパララ",
+      "zhs": "🎶プレパララ"
+    },
+    "32-1": {
+      "en": "🎶Whatcha;Whatcha Doin'",
+      "kr": "🎶Whatcha;Whatcha Doin'",
+      "jp": "🎶Whatcha;Whatcha Doin'",
+      "zh": "🎶Whatcha;Whatcha Doin'",
+      "zhs": "🎶Whatcha;Whatcha Doin'"
+    },
+    "32-2": {
+      "en": "🎶Madara",
+      "kr": "🎶Madara",
+      "jp": "🎶斑",
+      "zh": "🎶斑",
+      "zhs": "🎶斑"
+    },
+    "32-3": {
+      "en": "🎶pICARESq",
+      "kr": "🎶pICARESq",
+      "jp": "🎶pICARESq",
+      "zh": "🎶pICARESq",
+      "zhs": "🎶pICARESq"
+    },
+    "32-4": {
+      "en": "🎶Desastre",
+      "kr": "🎶Desastre",
+      "jp": "🎶Desastre",
+      "zh": "🎶Desastre",
+      "zhs": "🎶Desastre"
+    },
+    "32-5": {
+      "en": "🎶Shoot for the Moon",
+      "kr": "🎶Shoot for the Moon",
+      "jp": "🎶Shoot for the Moon",
+      "zh": "🎶Shoot for the Moon",
+      "zhs": "🎶Shoot for the Moon"
+    },
+    "33-0": {
+      "en": "🎶Fireflies (Funk Fiction remix)",
+      "kr": "🎶Fireflies (Funk Fiction remix)",
+      "jp": "🎶Fireflies (Funk Fiction remix)",
+      "zh": "🎶Fireflies (Funk Fiction remix)",
+      "zhs": "🎶Fireflies (Funk Fiction remix)"
+    },
+    "33-1": {
+      "en": "🎶Light up my love!!",
+      "kr": "🎶Light up my love!!",
+      "jp": "🎶Light up my love!!",
+      "zh": "🎶Light up my love!!",
+      "zhs": "🎶Light up my love!!"
+    },
+    "33-2": {
+      "en": "🎶Happiness Breeze",
+      "kr": "🎶Happiness Breeze",
+      "jp": "🎶Happiness Breeze",
+      "zh": "🎶Happiness Breeze",
+      "zhs": "🎶Happiness Breeze"
+    },
+    "33-3": {
+      "en": "🎶Chrome VOX",
+      "kr": "🎶Chrome VOX",
+      "jp": "🎶Chrome VOX",
+      "zh": "🎶Chrome VOX",
+      "zhs": "🎶Chrome VOX"
+    },
+    "33-4": {
+      "en": "🎶CHAOS",
+      "kr": "🎶CHAOS",
+      "jp": "🎶CHAOS",
+      "zh": "🎶CHAOS",
+      "zhs": "🎶CHAOS"
+    },
+    "33-5": {
+      "en": "🎶Saika",
+      "kr": "🎶Saika",
+      "jp": "🎶Saika",
+      "zh": "🎶Saika",
+      "zhs": "🎶Saika"
+    },
+    "33-6": {
+      "en": "🎶Standby for Action",
+      "kr": "🎶Standby for Action",
+      "jp": "🎶Standby for Action",
+      "zh": "🎶Standby for Action",
+      "zhs": "🎶Standby for Action"
+    },
+    "33-7": {
+      "en": "🎶Hydrangea",
+      "kr": "🎶Hydrangea",
+      "jp": "🎶Hydrangea",
+      "zh": "🎶Hydrangea",
+      "zhs": "🎶Hydrangea"
+    },
+    "33-8": {
+      "en": "🎶Amenemhat",
+      "kr": "🎶Amenemhat",
+      "jp": "🎶Amenemhat",
+      "zh": "🎶Amenemhat",
+      "zhs": "🎶Amenemhat"
+    },
+    "33-9": {
+      "en": "🎶Santouka",
+      "kr": "🎶Santouka",
+      "jp": "🎶三灯火",
+      "zh": "🎶三灯火",
+      "zhs": "🎶三灯火"
+    },
+    "33-10": {
+      "en": "🎶HEXENNACHTROCK-katashihaya-",
+      "kr": "🎶HEXENNACHTROCK-katashihaya-",
+      "jp": "🎶「妖怪録、我し来にけり。」",
+      "zh": "🎶「妖怪録、我し来にけり。」",
+      "zhs": "🎶「妖怪録、我し来にけり。」"
+    },
+    "33-11": {
+      "en": "🎶Blah!!",
+      "kr": "🎶Blah!!",
+      "jp": "🎶Blah!!",
+      "zh": "🎶Blah!!",
+      "zhs": "🎶Blah!!"
+    },
+    "33-12": {
+      "en": "🎶CHAOS (Glitch)",
+      "kr": "🎶CHAOS (Glitch)",
+      "jp": "🎶CHAOS (Glitch)",
+      "zh": "🎶CHAOS (Glitch)",
+      "zhs": "🎶CHAOS (Glitch)"
+    },
+    "34-0": {
+      "en": "🎶ALiVE",
+      "kr": "🎶ALiVE",
+      "jp": "🎶ALiVE",
+      "zh": "🎶ALiVE",
+      "zhs": "🎶ALiVE"
+    },
+    "34-1": {
+      "en": "🎶BATTLE NO.1",
+      "kr": "🎶BATTLE NO.1",
+      "jp": "🎶BATTLE NO.1",
+      "zh": "🎶BATTLE NO.1",
+      "zhs": "🎶BATTLE NO.1"
+    },
+    "34-2": {
+      "en": "🎶Cthugha",
+      "kr": "🎶Cthugha",
+      "jp": "🎶Cthugha",
+      "zh": "🎶Cthugha",
+      "zhs": "🎶Cthugha"
+    },
+    "34-3": {
+      "en": "🎶TWINKLE★MAGIC",
+      "kr": "🎶TWINKLE★MAGIC",
+      "jp": "🎶TWINKLE★MAGIC",
+      "zh": "🎶TWINKLE★MAGIC",
+      "zhs": "🎶TWINKLE★MAGIC"
+    },
+    "34-4": {
+      "en": "🎶Comet Coaster",
+      "kr": "🎶Comet Coaster",
+      "jp": "🎶Comet Coaster",
+      "zh": "🎶Comet Coaster",
+      "zhs": "🎶Comet Coaster"
+    },
+    "34-5": {
+      "en": "🎶XODUS",
+      "kr": "🎶XODUS",
+      "jp": "🎶XODUS",
+      "zh": "🎶XODUS",
+      "zhs": "🎶XODUS"
+    },
+    "35-0": {
+      "en": "🎶MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～",
+      "kr": "🎶MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～",
+      "jp": "🎶MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～",
+      "zh": "🎶MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～",
+      "zhs": "🎶MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～"
+    },
+    "35-1": {
+      "en": "🎶MARENOL",
+      "kr": "🎶MARENOL",
+      "jp": "🎶MARENOL",
+      "zh": "🎶MARENOL",
+      "zhs": "🎶MARENOL"
+    },
+    "35-2": {
+      "en": "🎶僕の和風本当上手",
+      "kr": "🎶僕の和風本当上手",
+      "jp": "🎶僕の和風本当上手",
+      "zh": "🎶僕の和風本当上手",
+      "zhs": "🎶僕の和风本当上手"
+    },
+    "35-3": {
+      "en": "🎶Rush B",
+      "kr": "🎶Rush B",
+      "jp": "🎶Rush B",
+      "zh": "🎶Rush B",
+      "zhs": "🎶Rush B"
+    },
+    "35-4": {
+      "en": "🎶DataErr0r",
+      "kr": "🎶DataErr0r",
+      "jp": "🎶DataErr0r",
+      "zh": "🎶DataErr0r",
+      "zhs": "🎶DataErr0r"
+    },
+    "35-5": {
+      "en": "🎶Burn",
+      "kr": "🎶Burn",
+      "jp": "🎶Burn",
+      "zh": "🎶Burn",
+      "zhs": "🎶Burn"
+    },
+    "36-0": {
+      "en": "🎶NightTheater",
+      "kr": "🎶NightTheater",
+      "jp": "🎶NightTheater",
+      "zh": "🎶NightTheater",
+      "zhs": "🎶NightTheater"
+    },
+    "36-1": {
+      "en": "🎶Cutter",
+      "kr": "🎶Cutter",
+      "jp": "🎶Cutter",
+      "zh": "🎶Cutter",
+      "zhs": "🎶Cutter"
+    },
+    "36-2": {
+      "en": "🎶bamboo",
+      "kr": "🎶bamboo",
+      "jp": "🎶竹",
+      "zh": "🎶竹",
+      "zhs": "🎶竹"
+    },
+    "36-3": {
+      "en": "🎶enchanted love",
+      "kr": "🎶enchanted love",
+      "jp": "🎶enchanted love",
+      "zh": "🎶enchanted love",
+      "zhs": "🎶enchanted love"
+    },
+    "36-4": {
+      "en": "🎶c.s.q.n.",
+      "kr": "🎶c.s.q.n.",
+      "jp": "🎶c.s.q.n.",
+      "zh": "🎶c.s.q.n.",
+      "zhs": "🎶c.s.q.n."
+    },
+    "36-5": {
+      "en": "🎶Booouncing!!",
+      "kr": "🎶Booouncing!!",
+      "jp": "🎶Booouncing!!",
+      "zh": "🎶Booouncing!!",
+      "zhs": "🎶Booouncing!!"
+    },
+    "37-0": {
+      "en": "🎶琉璃色前奏曲",
+      "kr": "🎶琉璃色前奏曲",
+      "jp": "🎶琉璃色前奏曲",
+      "zh": "🎶琉璃色前奏曲",
+      "zhs": "🎶琉璃色前奏曲"
+    },
+    "37-1": {
+      "en": "🎶Neonlights",
+      "kr": "🎶Neonlights",
+      "jp": "🎶ネオンライト",
+      "zh": "🎶ネオンライト",
+      "zhs": "🎶ネオンライト"
+    },
+    "37-2": {
+      "en": "🎶Hope for the flowers",
+      "kr": "🎶Hope for the flowers",
+      "jp": "🎶花たちに希望を",
+      "zh": "🎶花たちに希望を",
+      "zhs": "🎶花たちに希望を"
+    },
+    "37-3": {
+      "en": "🎶Seaside Cycling on May 30",
+      "kr": "🎶Seaside Cycling on May 30",
+      "jp": "🎶5月30日、自転車日和",
+      "zh": "🎶5月30日、自転車日和",
+      "zhs": "🎶5月30日、自転車日和"
+    },
+    "37-4": {
+      "en": "🎶SKY↑HIGH",
+      "kr": "🎶SKY↑HIGH",
+      "jp": "🎶SKY↑HIGH",
+      "zh": "🎶SKY↑HIGH",
+      "zhs": "🎶SKY↑HIGH"
+    },
+    "37-5": {
+      "en": "🎶Mousou Chu!!",
+      "kr": "🎶Mousou Chu!!",
+      "jp": "🎶妄想♡ちゅー!!",
+      "zh": "🎶妄想♡ちゅー!!",
+      "zhs": "🎶妄想♡ちゅー!!"
+    },
+    "38-0": {
+      "en": "🎶NO ONE YES MAN",
+      "kr": "🎶NO ONE YES MAN",
+      "jp": "🎶NO ONE YES MAN",
+      "zh": "🎶NO ONE YES MAN",
+      "zhs": "🎶NO ONE YES MAN"
+    },
+    "38-1": {
+      "en": "🎶雪降り、メリクリ （MD edit）",
+      "kr": "🎶雪降り、メリクリ （MD edit）",
+      "jp": "🎶雪降り、メリクリ （MD edit）",
+      "zh": "🎶雪降り、メリクリ （MD edit）",
+      "zhs": "🎶雪降り、メリクリ （MD edit）"
+    },
+    "38-2": {
+      "en": "🎶Igallta",
+      "kr": "🎶Igallta",
+      "jp": "🎶Igallta",
+      "zh": "🎶Igallta",
+      "zhs": "🎶Igallta"
+    },
+    "39-0": {
+      "en": "🎶去剪海的日子",
+      "kr": "🎶去剪海的日子",
+      "jp": "🎶去剪海的日子",
+      "zh": "🎶去剪海的日子",
+      "zhs": "🎶去剪海的日子"
+    },
+    "39-1": {
+      "en": "🎶happy hour",
+      "kr": "🎶happy hour",
+      "jp": "🎶happy hour",
+      "zh": "🎶happy hour",
+      "zhs": "🎶happy hour"
+    },
+    "39-2": {
+      "en": "🎶Seikimatsu no Natsu",
+      "kr": "🎶Seikimatsu no Natsu",
+      "jp": "🎶世紀末の夏",
+      "zh": "🎶世紀末的夏天",
+      "zhs": "🎶世纪末的夏天"
+    },
+    "39-3": {
+      "en": "🎶twinkle night",
+      "kr": "🎶twinkle night",
+      "jp": "🎶twinkle night",
+      "zh": "🎶twinkle night",
+      "zhs": "🎶twinkle night"
+    },
+    "39-4": {
+      "en": "🎶ARUYA HARERUYA",
+      "kr": "🎶ARUYA HARERUYA",
+      "jp": "🎶アルヤハレルヤ",
+      "zh": "🎶アルヤハレルヤ",
+      "zhs": "🎶アルヤハレルヤ"
+    },
+    "39-5": {
+      "en": "🎶Blush (feat. MYLK)",
+      "kr": "🎶Blush (feat. MYLK)",
+      "jp": "🎶Blush (feat. MYLK)",
+      "zh": "🎶Blush (feat. MYLK)",
+      "zhs": "🎶Blush (feat. MYLK)"
+    },
+    "39-6": {
+      "en": "🎶裸のSummer",
+      "kr": "🎶裸のSummer",
+      "jp": "🎶裸のSummer",
+      "zh": "🎶裸のSummer",
+      "zhs": "🎶裸のSummer"
+    },
+    "39-7": {
+      "en": "🎶BLESS ME(Samplingsource)",
+      "kr": "🎶BLESS ME(Samplingsource)",
+      "jp": "🎶BLESS ME(Samplingsource)",
+      "zh": "🎶BLESS ME(Samplingsource)",
+      "zhs": "🎶BLESS ME(Samplingsource)"
+    },
+    "39-8": {
+      "en": "🎶FM 17314 SUGAR RADIO",
+      "kr": "🎶FM 17314 SUGAR RADIO",
+      "jp": "🎶FM 17314 SUGAR RADIO",
+      "zh": "🎶FM 17314 SUGAR RADIO",
+      "zhs": "🎶FM 17314 SUGAR RADIO"
+    },
+    "40-0": {
+      "en": "🎶Rush-More",
+      "kr": "🎶Rush-More",
+      "jp": "🎶Rush-More",
+      "zh": "🎶Rush-More",
+      "zhs": "🎶Rush-More"
+    },
+    "40-1": {
+      "en": "🎶Kill My Fortune",
+      "kr": "🎶Kill My Fortune",
+      "jp": "🎶Kill My Fortune",
+      "zh": "🎶Kill My Fortune",
+      "zhs": "🎶Kill My Fortune"
+    },
+    "40-2": {
+      "en": "🎶Yosari Tsukibotaru Suminoborite",
+      "kr": "🎶Yosari Tsukibotaru Suminoborite",
+      "jp": "🎶よさり 月蛍澄み昇りて",
+      "zh": "🎶よさり 月蛍澄み昇りて",
+      "zhs": "🎶よさり 月蛍澄み昇りて"
+    },
+    "40-3": {
+      "en": "🎶JUMP! HardCandy",
+      "kr": "🎶JUMP! HardCandy",
+      "jp": "🎶JUMP! HardCandy",
+      "zh": "🎶JUMP! HardCandy",
+      "zhs": "🎶JUMP! HardCandy"
+    },
+    "40-4": {
+      "en": "🎶Hibari",
+      "kr": "🎶종다리",
+      "jp": "🎶雲雀",
+      "zh": "🎶雲雀",
+      "zhs": "🎶雲雀"
+    },
+    "40-5": {
+      "en": "🎶OCCHOCO-REST-LESS",
+      "kr": "🎶OCCHOCO-REST-LESS",
+      "jp": "🎶OCCHOCO-REST-LESS",
+      "zh": "🎶OCCHOCO-REST-LESS",
+      "zhs": "🎶OCCHOCO-REST-LESS"
+    },
+    "41-0": {
+      "en": "🎶Super Battleworn Insomniac",
+      "kr": "🎶Super Battleworn Insomniac",
+      "jp": "🎶超・東方不眠症",
+      "zh": "🎶超·東方不眠夜",
+      "zhs": "🎶超·东方不眠夜"
+    },
+    "41-1": {
+      "en": "🎶Bomb-Sniffing Pomeranian",
+      "kr": "🎶Bomb-Sniffing Pomeranian",
+      "jp": "🎶Bomb-Sniffing Pomeranian",
+      "zh": "🎶嗅炸彈的博美犬",
+      "zhs": "🎶嗅炸弹的博美犬"
+    },
+    "41-2": {
+      "en": "🎶Rollerdisco Rumble",
+      "kr": "🎶롤러 디스코 럼블",
+      "jp": "🎶ロールディスコ 鼓動",
+      "zh": "🎶輪滑迪斯科震顫",
+      "zhs": "🎶轮滑迪斯科震颤"
+    },
+    "41-3": {
+      "en": "🎶Rose Garden",
+      "kr": "🎶Rose Garden",
+      "jp": "🎶Rose Garden",
+      "zh": "🎶玫瑰花園",
+      "zhs": "🎶玫瑰花园"
+    },
+    "41-4": {
+      "en": "🎶EMOMOMO",
+      "kr": "🎶EMOMOMO",
+      "jp": "🎶EMOMOMO",
+      "zh": "🎶EMOMOMO",
+      "zhs": "🎶EMOMOMO"
+    },
+    "41-5": {
+      "en": "🎶Heracles",
+      "kr": "🎶Heracles",
+      "jp": "🎶Heracles",
+      "zh": "🎶赫拉克勒斯",
+      "zhs": "🎶赫拉克勒斯"
+    },
+    "42-0": {
+      "en": "🎶Bad Apple!! feat. Nomico",
+      "kr": "🎶Bad Apple!! feat. Nomico",
+      "jp": "🎶Bad Apple!! feat. Nomico",
+      "zh": "🎶Bad Apple!! feat. Nomico",
+      "zhs": "🎶Bad Apple!! feat. Nomico"
+    },
+    "42-1": {
+      "en": "🎶色は匂へど散りぬるを",
+      "kr": "🎶色は匂へど散りぬるを",
+      "jp": "🎶色は匂へど散りぬるを",
+      "zh": "🎶色は匂へど散りぬるを",
+      "zhs": "🎶色は匂へど散りぬるを"
+    },
+    "42-2": {
+      "en": "🎶Cirno's Perfect Math Class",
+      "kr": "🎶Cirno's Perfect Math Class",
+      "jp": "🎶チルノのパーフェクトさんすう教室",
+      "zh": "🎶チルノのパーフェクトさんすう教室",
+      "zhs": "🎶チルノのパーフェクトさんすう教室"
+    },
+    "42-3": {
+      "en": "🎶緋色月下、狂咲ノ絶",
+      "kr": "🎶緋色月下、狂咲ノ絶",
+      "jp": "🎶緋色月下、狂咲ノ絶",
+      "zh": "🎶緋色月下、狂咲ノ絶",
+      "zhs": "🎶緋色月下、狂咲ノ絶"
+    },
+    "42-4": {
+      "en": "🎶Flowery Moonlit Night",
+      "kr": "🎶Flowery Moonlit Night",
+      "jp": "🎶花月夜",
+      "zh": "🎶花月夜",
+      "zhs": "🎶花月夜"
+    },
+    "42-5": {
+      "en": "🎶Unconscious Requiem",
+      "kr": "🎶Unconscious Requiem",
+      "jp": "🎶無意識レクイエム",
+      "zh": "🎶無意識レクイエム",
+      "zhs": "🎶無意識レクイエム"
+    },
+    "43-0": {
+      "en": "🎶The Happycore Idol",
+      "kr": "🎶The Happycore Idol",
+      "jp": "🎶The Happycore Idol",
+      "zh": "🎶The Happycore Idol",
+      "zhs": "🎶The Happycore Idol"
+    },
+    "43-1": {
+      "en": "🎶Amatsumikaboshi",
+      "kr": "🎶天津甕星",
+      "jp": "🎶天津甕星",
+      "zh": "🎶天津甕星",
+      "zhs": "🎶天津甕星"
+    },
+    "43-2": {
+      "en": "🎶ARIGA THESIS",
+      "kr": "🎶ARIGA THESIS",
+      "jp": "🎶ARIGA THESIS",
+      "zh": "🎶ARIGA THESIS",
+      "zhs": "🎶ARIGA THESIS"
+    },
+    "43-3": {
+      "en": "🎶ナイト・オブ・ナイツ",
+      "kr": "🎶ナイト・オブ・ナイツ",
+      "jp": "🎶ナイト・オブ・ナイツ",
+      "zh": "🎶ナイト・オブ・ナイツ",
+      "zhs": "🎶ナイト・オブ・ナイツ"
+    },
+    "43-4": {
+      "en": "🎶#Psychedelic_Meguro_River",
+      "kr": "🎶#Psychedelic_Meguro_River",
+      "jp": "🎶#サイケデリック目黒川",
+      "zh": "🎶#サイケデリック目黒川",
+      "zhs": "🎶#サイケデリック目黒川"
+    },
+    "43-5": {
+      "en": "🎶can you feel it",
+      "kr": "🎶can you feel it",
+      "jp": "🎶can you feel it",
+      "zh": "🎶can you feel it",
+      "zhs": "🎶can you feel it"
+    },
+    "43-6": {
+      "en": "🎶Midnight O'clock",
+      "kr": "🎶Midnight O'clock",
+      "jp": "🎶Midnight O'clock",
+      "zh": "🎶Midnight O'clock",
+      "zhs": "🎶Midnight O'clock"
+    },
+    "43-7": {
+      "en": "🎶Rin",
+      "kr": "🎶Rin",
+      "jp": "🎶燐",
+      "zh": "🎶Rin",
+      "zhs": "🎶Rin"
+    },
+    "43-8": {
+      "en": "🎶Smile-mileS",
+      "kr": "🎶Smile-mileS",
+      "jp": "🎶Smile-mileS",
+      "zh": "🎶Smile-mileS",
+      "zhs": "🎶Smile-mileS"
+    },
+    "43-9": {
+      "en": "🎶Believing and Being",
+      "kr": "🎶신앙과 존재",
+      "jp": "🎶信仰と存在",
+      "zh": "🎶信仰與存在",
+      "zhs": "🎶信仰与存在"
+    },
+    "43-10": {
+      "en": "🎶カタリスト",
+      "kr": "🎶カタリスト",
+      "jp": "🎶カタリスト",
+      "zh": "🎶カタリスト",
+      "zhs": "🎶カタリスト"
+    },
+    "43-11": {
+      "en": "🎶don't！stop！eroero！",
+      "kr": "🎶don't！stop！eroero！",
+      "jp": "🎶don't！stop！eroero！",
+      "zh": "🎶don't！stop！eroero！",
+      "zhs": "🎶don't！stop！eroero！"
+    },
+    "43-12": {
+      "en": "🎶pa pi pu pi pu pi pa",
+      "kr": "🎶pa pi pu pi pu pi pa",
+      "jp": "🎶ぱぴぷぴぷぴぱ",
+      "zh": "🎶pa pi pu pi pu pi pa",
+      "zhs": "🎶pa pi pu pi pu pi pa"
+    },
+    "43-13": {
+      "en": "🎶Sand Maze",
+      "kr": "🎶Sand Maze",
+      "jp": "🎶Sand Maze",
+      "zh": "🎶Sand Maze",
+      "zhs": "🎶Sand Maze"
+    },
+    "43-14": {
+      "en": "🎶Diffraction",
+      "kr": "🎶Diffraction",
+      "jp": "🎶Diffraction",
+      "zh": "🎶Diffraction",
+      "zhs": "🎶Diffraction"
+    },
+    "43-15": {
+      "en": "🎶AKUMU / feat.tug",
+      "kr": "🎶AKUMU / feat.tug",
+      "jp": "🎶悪夢 / feat.つぐ",
+      "zh": "🎶AKUMU / feat.tug",
+      "zhs": "🎶悪夢 / feat.つぐ"
+    },
+    "43-16": {
+      "en": "🎶Queen Aluett",
+      "kr": "🎶Queen Aluett",
+      "jp": "🎶Queen Aluett -女王アルエット-",
+      "zh": "🎶Queen Aluett",
+      "zhs": "🎶Queen Aluett"
+    },
+    "43-17": {
+      "en": "🎶DROPS (feat. Such)",
+      "kr": "🎶DROPS (feat. Such)",
+      "jp": "🎶DROPS (feat. Such)",
+      "zh": "🎶DROPS (feat. Such)",
+      "zhs": "🎶DROPS (feat. Such)"
+    },
+    "43-18": {
+      "en": "🎶物凄い狂っとるフランちゃんが物凄いうた",
+      "kr": "🎶物凄い狂っとるフランちゃんが物凄いうた",
+      "jp": "🎶物凄い狂っとるフランちゃんが物凄いうた",
+      "zh": "🎶物凄い狂っとるフランちゃんが物凄いうた",
+      "zhs": "🎶物凄い狂っとるフランちゃんが物凄いうた"
+    },
+    "43-19": {
+      "en": "🎶snooze",
+      "kr": "🎶snooze",
+      "jp": "🎶snooze",
+      "zh": "🎶snooze",
+      "zhs": "🎶snooze"
+    },
+    "43-20": {
+      "en": "🎶Kuishinbo Hacker feat.Kuishinbo Akachan",
+      "kr": "🎶Kuishinbo Hacker feat.Kuishinbo Akachan",
+      "jp": "🎶くいしんぼハッカー feat.くいしんぼあかちゃん",
+      "zh": "🎶Kuishinbo Hacker feat.Kuishinbo Akachan",
+      "zhs": "🎶Kuishinbo Hacker feat.Kuishinbo Akachan"
+    },
+    "43-21": {
+      "en": "🎶Inu no outa",
+      "kr": "🎶Inu no outa",
+      "jp": "🎶いぬのおうた",
+      "zh": "🎶犬之歌",
+      "zhs": "🎶犬之歌"
+    },
+    "44-0": {
+      "en": "🎶Party in the HOLLOWood feat. ななひら",
+      "kr": "🎶Party in the HOLLOWood feat. ななひら",
+      "jp": "🎶Party in the HOLLOWood feat. ななひら",
+      "zh": "🎶Party in the HOLLOWood feat. ななひら",
+      "zhs": "🎶Party in the HOLLOWood feat. ななひら"
+    },
+    "44-1": {
+      "en": "🎶嘤嘤大作战",
+      "kr": "🎶嘤嘤大作战",
+      "jp": "🎶嘤嘤大作战",
+      "zh": "🎶嚶嚶大作戰",
+      "zhs": "🎶嘤嘤大作战"
+    },
+    "44-2": {
+      "en": "🎶Howlin' Pumpkin",
+      "kr": "🎶Howlin' Pumpkin",
+      "jp": "🎶Howlin' Pumpkin",
+      "zh": "🎶Howlin' Pumpkin",
+      "zhs": "🎶Howlin' Pumpkin"
+    },
+    "45-0": {
+      "en": "🎶ONOMATO Pairing!!!",
+      "kr": "🎶ONOMATO Pairing!!!",
+      "jp": "🎶ONOMATO Pairing!!!",
+      "zh": "🎶ONOMATO Pairing!!!",
+      "zhs": "🎶ONOMATO Pairing!!!"
+    },
+    "45-1": {
+      "en": "🎶with U",
+      "kr": "🎶with U",
+      "jp": "🎶with U",
+      "zh": "🎶with U",
+      "zhs": "🎶with U"
+    },
+    "45-2": {
+      "en": "🎶Chariot",
+      "kr": "🎶Chariot",
+      "jp": "🎶Chariot",
+      "zh": "🎶Chariot",
+      "zhs": "🎶Chariot"
+    },
+    "45-3": {
+      "en": "🎶GASHATT",
+      "kr": "🎶GASHATT",
+      "jp": "🎶GASHATT",
+      "zh": "🎶GASHATT",
+      "zhs": "🎶GASHATT"
+    },
+    "45-4": {
+      "en": "🎶LIN NE KRO NE feat. lasah",
+      "kr": "🎶LIN NE KRO NE feat. lasah",
+      "jp": "🎶LIN NE KRO NE feat. lasah",
+      "zh": "🎶LIN NE KRO NE feat. lasah",
+      "zhs": "🎶LIN NE KRO NE feat. lasah"
+    },
+    "45-5": {
+      "en": "🎶ANGEL HALO",
+      "kr": "🎶ANGEL HALO",
+      "jp": "🎶天使光輪",
+      "zh": "🎶天使光輪",
+      "zhs": "🎶天使光輪"
+    },
+    "46-0": {
+      "en": "🎶Bang!!",
+      "kr": "🎶Bang!!",
+      "jp": "🎶Bang!!",
+      "zh": "🎶Bang!!",
+      "zhs": "🎶Bang!!"
+    },
+    "46-1": {
+      "en": "🎶Paradise Ⅱ",
+      "kr": "🎶Paradise Ⅱ",
+      "jp": "🎶Paradise Ⅱ",
+      "zh": "🎶Paradise Ⅱ",
+      "zhs": "🎶Paradise Ⅱ"
+    },
+    "46-2": {
+      "en": "🎶Symbol",
+      "kr": "🎶Symbol",
+      "jp": "🎶Symbol",
+      "zh": "🎶Symbol",
+      "zhs": "🎶Symbol"
+    },
+    "46-3": {
+      "en": "🎶Nekojarashi",
+      "kr": "🎶Nekojarashi",
+      "jp": "🎶ネコジャラシ",
+      "zh": "🎶ネコジャラシ",
+      "zhs": "🎶ネコジャラシ"
+    },
+    "46-4": {
+      "en": "🎶A Philosophical Wanderer",
+      "kr": "🎶A Philosophical Wanderer",
+      "jp": "🎶A Philosophical Wanderer",
+      "zh": "🎶A Philosophical Wanderer",
+      "zhs": "🎶A Philosophical Wanderer"
+    },
+    "46-5": {
+      "en": "🎶Isouten",
+      "kr": "🎶异想天",
+      "jp": "🎶異想天",
+      "zh": "🎶異想天",
+      "zhs": "🎶异想天"
+    },
+    "47-0": {
+      "en": "🎶Haze of Autumn",
+      "kr": "🎶秋の陽炎",
+      "jp": "🎶秋の陽炎",
+      "zh": "🎶秋の陽炎",
+      "zhs": "🎶秋の陽炎"
+    },
+    "47-1": {
+      "en": "🎶GIMME DA BLOOD",
+      "kr": "🎶GIMME DA BLOOD",
+      "jp": "🎶GIMME DA BLOOD",
+      "zh": "🎶GIMME DA BLOOD",
+      "zhs": "🎶GIMME DA BLOOD"
+    },
+    "47-2": {
+      "en": "🎶Libertas",
+      "kr": "🎶Libertas",
+      "jp": "🎶Libertas",
+      "zh": "🎶Libertas",
+      "zhs": "🎶Libertas"
+    },
+    "47-3": {
+      "en": "🎶Cyaegha",
+      "kr": "🎶Cyaegha",
+      "jp": "🎶Cyaegha",
+      "zh": "🎶Cyaegha",
+      "zhs": "🎶Cyaegha"
+    },
+    "48-0": {
+      "en": "🎶glory day",
+      "kr": "🎶glory day",
+      "jp": "🎶glory day",
+      "zh": "🎶glory day",
+      "zhs": "🎶glory day"
+    },
+    "48-1": {
+      "en": "🎶Bright Dream",
+      "kr": "🎶Bright Dream",
+      "jp": "🎶Bright Dream",
+      "zh": "🎶Bright Dream",
+      "zhs": "🎶Bright Dream"
+    },
+    "48-2": {
+      "en": "🎶Groovin Up",
+      "kr": "🎶Groovin Up",
+      "jp": "🎶Groovin Up",
+      "zh": "🎶Groovin Up",
+      "zhs": "🎶Groovin Up"
+    },
+    "48-3": {
+      "en": "🎶I Want You",
+      "kr": "🎶I Want You",
+      "jp": "🎶I Want You",
+      "zh": "🎶I Want You",
+      "zhs": "🎶I Want You"
+    },
+    "48-4": {
+      "en": "🎶OBLIVION",
+      "kr": "🎶OBLIVION",
+      "jp": "🎶OBLIVION",
+      "zh": "🎶OBLIVION",
+      "zhs": "🎶OBLIVION"
+    },
+    "48-5": {
+      "en": "🎶Elastic STAR",
+      "kr": "🎶Elastic STAR",
+      "jp": "🎶Elastic STAR",
+      "zh": "🎶Elastic STAR",
+      "zhs": "🎶Elastic STAR"
+    },
+    "48-6": {
+      "en": "🎶U.A.D",
+      "kr": "🎶U.A.D",
+      "jp": "🎶U.A.D",
+      "zh": "🎶U.A.D",
+      "zhs": "🎶U.A.D"
+    },
+    "48-7": {
+      "en": "🎶Jealousy",
+      "kr": "🎶Jealousy",
+      "jp": "🎶Jealousy",
+      "zh": "🎶Jealousy",
+      "zhs": "🎶Jealousy"
+    },
+    "48-8": {
+      "en": "🎶Memory of Beach",
+      "kr": "🎶Memory of Beach",
+      "jp": "🎶Memory of Beach",
+      "zh": "🎶Memory of Beach",
+      "zhs": "🎶Memory of Beach"
+    },
+    "48-9": {
+      "en": "🎶Don't Die",
+      "kr": "🎶Don't Die",
+      "jp": "🎶Don't Die",
+      "zh": "🎶Don't Die",
+      "zhs": "🎶Don't Die"
+    },
+    "48-10": {
+      "en": "🎶Y (CE Ver.)",
+      "kr": "🎶Y (CE Ver.)",
+      "jp": "🎶Y (CE Ver.)",
+      "zh": "🎶Y (CE Ver.)",
+      "zhs": "🎶Y (CE Ver.)"
+    },
+    "48-11": {
+      "en": "🎶Fancy Night",
+      "kr": "🎶Fancy Night",
+      "jp": "🎶Fancy Night",
+      "zh": "🎶Fancy Night",
+      "zhs": "🎶Fancy Night"
+    },
+    "48-12": {
+      "en": "🎶Can We Talk",
+      "kr": "🎶Can We Talk",
+      "jp": "🎶Can We Talk",
+      "zh": "🎶Can We Talk",
+      "zhs": "🎶Can We Talk"
+    },
+    "48-13": {
+      "en": "🎶Give Me 5",
+      "kr": "🎶Give Me 5",
+      "jp": "🎶Give Me 5",
+      "zh": "🎶Give Me 5",
+      "zhs": "🎶Give Me 5"
+    },
+    "48-14": {
+      "en": "🎶Nightmare",
+      "kr": "🎶Nightmare",
+      "jp": "🎶Nightmare",
+      "zh": "🎶Nightmare",
+      "zhs": "🎶Nightmare"
+    },
+    "49-0": {
+      "en": "🎶Pray a LOVE",
+      "kr": "🎶Pray a LOVE",
+      "jp": "🎶Pray a LOVE",
+      "zh": "🎶Pray a LOVE",
+      "zhs": "🎶Pray a LOVE"
+    },
+    "49-1": {
+      "en": "🎶恋愛回避依存症",
+      "kr": "🎶恋愛回避依存症",
+      "jp": "🎶恋愛回避依存症",
+      "zh": "🎶恋愛回避依存症",
+      "zhs": "🎶恋愛回避依存症"
+    },
+    "49-2": {
+      "en": "🎶Daisuki Dayo feat.Wotoha",
+      "kr": "🎶Daisuki Dayo feat.Wotoha",
+      "jp": "🎶だーいすきだよ feat. をとは",
+      "zh": "🎶Daisuki Dayo feat.Wotoha",
+      "zhs": "🎶Daisuki Dayo feat.Wotoha"
+    },
+    "50-0": {
+      "en": "🎶Nyan Cat",
+      "kr": "🎶Nyan Cat",
+      "jp": "🎶Nyan Cat",
+      "zh": "🎶Nyan Cat",
+      "zhs": "🎶Nyan Cat"
+    },
+    "50-1": {
+      "en": "🎶PeroPero in the Universe",
+      "kr": "🎶ペロペロ in the Universe",
+      "jp": "🎶ペロペロ in the Universe",
+      "zh": "🎶ペロペロ in the Universe",
+      "zhs": "🎶ペロペロ in the Universe"
+    },
+    "50-2": {
+      "en": "🎶In-kya Yo-kya Onmyoji",
+      "kr": "🎶陰キャ陽キャ陰陽師",
+      "jp": "🎶陰キャ陽キャ陰陽師",
+      "zh": "🎶陰キャ陽キャ陰陽師",
+      "zhs": "🎶陰キャ陽キャ陰陽師"
+    },
+    "50-3": {
+      "en": "🎶KABOOOOOM!!!!",
+      "kr": "🎶KABOOOOOM!!!!",
+      "jp": "🎶KABOOOOOM!!!!",
+      "zh": "🎶KABOOOOOM!!!!",
+      "zhs": "🎶KABOOOOOM!!!!"
+    },
+    "50-4": {
+      "en": "🎶Doppelganger",
+      "kr": "🎶Doppelganger",
+      "jp": "🎶Doppelganger",
+      "zh": "🎶Doppelganger",
+      "zhs": "🎶Doppelganger"
+    },
+    "51-0": {
+      "en": "🎶假面日记",
+      "kr": "🎶假面日记",
+      "jp": "🎶仮面日記",
+      "zh": "🎶假面日記",
+      "zhs": "🎶假面日记"
+    },
+    "51-1": {
+      "en": "🎶Reminiscence",
+      "kr": "🎶Reminiscence",
+      "jp": "🎶Reminiscence",
+      "zh": "🎶Reminiscence",
+      "zhs": "🎶Reminiscence"
+    },
+    "51-2": {
+      "en": "🎶DarakuDatenshi",
+      "kr": "🎶DarakuDatenshi",
+      "jp": "🎶ダラクダテンシ",
+      "zh": "🎶墮墮天使",
+      "zhs": "🎶堕堕天使"
+    },
+    "51-3": {
+      "en": "🎶D.I.Y.",
+      "kr": "🎶D.I.Y.",
+      "jp": "🎶D.I.Y.",
+      "zh": "🎶D.I.Y.",
+      "zhs": "🎶D.I.Y."
+    },
+    "51-4": {
+      "en": "🎶男子in☆バーチャランド",
+      "kr": "🎶男子in☆バーチャランド",
+      "jp": "🎶男子in☆バーチャランド",
+      "zh": "🎶男子in☆バーチャランド",
+      "zhs": "🎶男子in☆バーチャランド"
+    },
+    "51-5": {
+      "en": "🎶kuí",
+      "kr": "🎶虁",
+      "jp": "🎶虁",
+      "zh": "🎶虁",
+      "zhs": "🎶虁"
+    },
+    "52-0": {
+      "en": "🎶marooned night",
+      "kr": "🎶marooned night",
+      "jp": "🎶marooned night",
+      "zh": "🎶夜的擱淺",
+      "zhs": "🎶夜的搁浅"
+    },
+    "52-1": {
+      "en": "🎶daydream girl",
+      "kr": "🎶daydream girl",
+      "jp": "🎶daydream girl",
+      "zh": "🎶daydream girl",
+      "zhs": "🎶daydream girl"
+    },
+    "52-2": {
+      "en": "🎶Ornamentじゃない(Muse Dash Mix)",
+      "kr": "🎶Ornamentじゃない(Muse Dash Mix)",
+      "jp": "🎶Ornamentじゃない(Muse Dash Mix)",
+      "zh": "🎶Ornamentじゃない(Muse Dash Mix)",
+      "zhs": "🎶Ornamentじゃない(Muse Dash Mix)"
+    },
+    "52-3": {
+      "en": "🎶Baby Pink (w/ YUC'e)",
+      "kr": "🎶Baby Pink (w/ YUC'e)",
+      "jp": "🎶Baby Pink (w/ YUC'e)",
+      "zh": "🎶Baby Pink (w/ YUC'e)",
+      "zhs": "🎶Baby Pink (w/ YUC'e)"
+    },
+    "52-4": {
+      "en": "🎶I'm Here",
+      "kr": "🎶ここにいる (I'm Here)",
+      "jp": "🎶ここにいる",
+      "zh": "🎶ここにいる (I'm Here)",
+      "zhs": "🎶ここにいる (I'm Here)"
+    },
+    "53-0": {
+      "en": "🎶On And On!!",
+      "kr": "🎶On And On!!",
+      "jp": "🎶On And On!!",
+      "zh": "🎶On And On!!",
+      "zhs": "🎶On And On!!"
+    },
+    "53-1": {
+      "en": "🎶Trip!",
+      "kr": "🎶Trip!",
+      "jp": "🎶Trip!",
+      "zh": "🎶Trip!",
+      "zhs": "🎶Trip!"
+    },
+    "53-2": {
+      "en": "🎶Hoshi no otoshimono",
+      "kr": "🎶Hoshi no otoshimono",
+      "jp": "🎶ほしのおとしもの",
+      "zh": "🎶ほしのおとしもの",
+      "zhs": "🎶ほしのおとしもの"
+    },
+    "53-3": {
+      "en": "🎶Plucky Race",
+      "kr": "🎶Plucky Race",
+      "jp": "🎶Plucky Race",
+      "zh": "🎶Plucky Race",
+      "zhs": "🎶Plucky Race"
+    },
+    "53-4": {
+      "en": "🎶Fantasia Sonata Destiny",
+      "kr": "🎶Fantasia Sonata Destiny",
+      "jp": "🎶Fantasia Sonata Destiny",
+      "zh": "🎶Fantasia Sonata Destiny",
+      "zhs": "🎶Fantasia Sonata Destiny"
+    },
+    "53-5": {
+      "en": "🎶Run through",
+      "kr": "🎶Run through",
+      "jp": "🎶Run through",
+      "zh": "🎶Run through",
+      "zhs": "🎶Run through"
+    },
+    "54-0": {
+      "en": "🎶White Canvas (feat. 藍月なくる)",
+      "kr": "🎶White Canvas (feat. 藍月なくる)",
+      "jp": "🎶White Canvas (feat. 藍月なくる)",
+      "zh": "🎶White Canvas (feat. 藍月なくる)",
+      "zhs": "🎶White Canvas (feat. 藍月なくる)"
+    },
+    "54-1": {
+      "en": "🎶Gloomy Flash (feat. Mami)",
+      "kr": "🎶Gloomy Flash (feat. Mami)",
+      "jp": "🎶Gloomy Flash (feat. Mami)",
+      "zh": "🎶Gloomy Flash (feat. Mami)",
+      "zhs": "🎶Gloomy Flash (feat. Mami)"
+    },
+    "54-2": {
+      "en": "🎶今月のおすすめプレイリストを検索します",
+      "kr": "🎶今月のおすすめプレイリストを検索します",
+      "jp": "🎶今月のおすすめプレイリストを検索します",
+      "zh": "🎶今月のおすすめプレイリストを検索します",
+      "zhs": "🎶今月のおすすめプレイリストを検索します"
+    },
+    "54-3": {
+      "en": "🎶Sunday Night (feat. Kanata.N)",
+      "kr": "🎶Sunday Night (feat. Kanata.N)",
+      "jp": "🎶Sunday Night (feat. Kanata.N)",
+      "zh": "🎶Sunday Night (feat. Kanata.N)",
+      "zhs": "🎶Sunday Night (feat. Kanata.N)"
+    },
+    "54-4": {
+      "en": "🎶Goodbye Goodnight (feat. Shully)",
+      "kr": "🎶Goodbye Goodnight (feat. Shully)",
+      "jp": "🎶Goodbye Goodnight (feat. Shully)",
+      "zh": "🎶Goodbye Goodnight (feat. Shully)",
+      "zhs": "🎶Goodbye Goodnight (feat. Shully)"
+    },
+    "54-5": {
+      "en": "🎶ENDLESS CIDER (feat. Such)",
+      "kr": "🎶ENDLESS CIDER (feat. Such)",
+      "jp": "🎶ENDLESS CIDER (feat. Such)",
+      "zh": "🎶ENDLESS CIDER (feat. Such)",
+      "zhs": "🎶ENDLESS CIDER (feat. Such)"
+    },
+    "55-0": {
+      "en": "🎶月に叢雲華に風",
+      "kr": "🎶月に叢雲華に風",
+      "jp": "🎶月に叢雲華に風",
+      "zh": "🎶月に叢雲華に風",
+      "zhs": "🎶月に叢雲華に風"
+    },
+    "55-1": {
+      "en": "🎶Patchouli's - Best Hit GSK",
+      "kr": "🎶パチュリーズ・ベストヒットGSK",
+      "jp": "🎶パチュリーズ・ベストヒットGSK",
+      "zh": "🎶パチュリーズ・ベストヒットGSK",
+      "zhs": "🎶パチュリーズ・ベストヒットGSK"
+    },
+    "55-2": {
+      "en": "🎶物凄いスペースシャトルでこいしが物凄いうた",
+      "kr": "🎶物凄いスペースシャトルでこいしが物凄いうた",
+      "jp": "🎶物凄いスペースシャトルでこいしが物凄いうた",
+      "zh": "🎶物凄いスペースシャトルでこいしが物凄いうた",
+      "zhs": "🎶物凄いスペースシャトルでこいしが物凄いうた"
+    },
+    "55-3": {
+      "en": "🎶囲い無き世は一期の月影",
+      "kr": "🎶囲い無き世は一期の月影",
+      "jp": "🎶囲い無き世は一期の月影",
+      "zh": "🎶囲い無き世は一期の月影",
+      "zhs": "🎶囲い無き世は一期の月影"
+    },
+    "55-4": {
+      "en": "🎶Psychedelic Kizakura Doumei",
+      "kr": "🎶サイケデリック鬼桜同盟",
+      "jp": "🎶サイケデリック鬼桜同盟",
+      "zh": "🎶サイケデリック鬼桜同盟",
+      "zhs": "🎶サイケデリック鬼桜同盟"
+    },
+    "55-5": {
+      "en": "🎶Mischievous Sensation",
+      "kr": "🎶悪戯センセーション",
+      "jp": "🎶悪戯センセーション",
+      "zh": "🎶悪戯センセーション",
+      "zhs": "🎶悪戯センセーション"
+    },
+    "56-0": {
+      "en": "🎶Psyched Fevereiro",
+      "kr": "🎶Psyched Fevereiro",
+      "jp": "🎶Psyched Fevereiro",
+      "zh": "🎶Psyched Fevereiro",
+      "zhs": "🎶Psyched Fevereiro"
+    },
+    "56-1": {
+      "en": "🎶Inferno City",
+      "kr": "🎶Inferno City",
+      "jp": "🎶インフェルノシティ",
+      "zh": "🎶インフェルノシティ",
+      "zhs": "🎶インフェルノシティ"
+    },
+    "56-2": {
+      "en": "🎶Paradigm Shift",
+      "kr": "🎶Paradigm Shift",
+      "jp": "🎶Paradigm Shift",
+      "zh": "🎶Paradigm Shift",
+      "zhs": "🎶Paradigm Shift"
+    },
+    "56-3": {
+      "en": "🎶Snapdragon",
+      "kr": "🎶Snapdragon",
+      "jp": "🎶Snapdragon",
+      "zh": "🎶Snapdragon",
+      "zhs": "🎶Snapdragon"
+    },
+    "56-4": {
+      "en": "🎶Prestige and Vestige",
+      "kr": "🎶Prestige and Vestige",
+      "jp": "🎶Prestige and Vestige",
+      "zh": "🎶Prestige and Vestige",
+      "zhs": "🎶Prestige and Vestige"
+    },
+    "56-5": {
+      "en": "🎶Tiny Fate",
+      "kr": "🎶Tiny Fate",
+      "jp": "🎶Tiny Fate",
+      "zh": "🎶Tiny Fate",
+      "zhs": "🎶Tiny Fate"
+    },
+    "57-0": {
+      "en": "🎶Tokimeki★Meteostrike",
+      "kr": "🎶ときめき★メテオストライク",
+      "jp": "🎶ときめき★メテオストライク",
+      "zh": "🎶ときめき★メテオストライク",
+      "zhs": "🎶ときめき★メテオストライク"
+    },
+    "57-1": {
+      "en": "🎶Down Low",
+      "kr": "🎶Down Low",
+      "jp": "🎶Down Low",
+      "zh": "🎶Down Low",
+      "zhs": "🎶Down Low"
+    },
+    "57-2": {
+      "en": "🎶LOUDER MACHINE",
+      "kr": "🎶LOUDER MACHINE",
+      "jp": "🎶LOUDER MACHINE",
+      "zh": "🎶LOUDER MACHINE",
+      "zhs": "🎶LOUDER MACHINE"
+    },
+    "57-3": {
+      "en": "🎶それはもうらぶちゅ",
+      "kr": "🎶それはもうらぶちゅ",
+      "jp": "🎶それはもうらぶちゅ",
+      "zh": "🎶それはもうらぶちゅ",
+      "zhs": "🎶それはもうらぶちゅ"
+    },
+    "57-4": {
+      "en": "🎶Rave_Tech",
+      "kr": "🎶Rave_Tech",
+      "jp": "🎶Rave_Tech",
+      "zh": "🎶Rave_Tech",
+      "zhs": "🎶Rave_Tech"
+    },
+    "57-5": {
+      "en": "🎶Brilliant & Shining! (Game Edit.)",
+      "kr": "🎶Brilliant & Shining! (Game Edit.)",
+      "jp": "🎶Brilliant & Shining! (Game Edit.)",
+      "zh": "🎶Brilliant & Shining! (Game Edit.)",
+      "zhs": "🎶Brilliant & Shining! (Game Edit.)"
+    },
+    "58-0": {
+      "en": "🎶People People",
+      "kr": "🎶People People",
+      "jp": "🎶ピポピポ -People People",
+      "zh": "🎶People People",
+      "zhs": "🎶People People"
+    },
+    "58-1": {
+      "en": "🎶Endless Error Loop",
+      "kr": "🎶Endless Error Loop",
+      "jp": "🎶Endless Error Loop",
+      "zh": "🎶Endless Error Loop",
+      "zhs": "🎶Endless Error Loop"
+    },
+    "58-2": {
+      "en": "🎶Forbidden Pizza!",
+      "kr": "🎶Forbidden Pizza!",
+      "jp": "🎶フォビどぅん・ピザ！",
+      "zh": "🎶Forbidden Pizza!",
+      "zhs": "🎶Forbidden Pizza!"
+    },
+    "58-3": {
+      "en": "🎶ボーカルに無茶させんな",
+      "kr": "🎶ボーカルに無茶させんな",
+      "jp": "🎶ボーカルに無茶させんな",
+      "zh": "🎶ボーカルに無茶させんな",
+      "zhs": "🎶ボーカルに無茶させんな"
+    },
+    "59-0": {
+      "en": "🎶Boiling Blood",
+      "kr": "🎶Boiling Blood",
+      "jp": "🎶Boiling Blood",
+      "zh": "🎶Boiling Blood",
+      "zhs": "🎶Boiling Blood"
+    },
+    "59-1": {
+      "en": "🎶ManiFesto：",
+      "kr": "🎶ManiFesto：",
+      "jp": "🎶ManiFesto：",
+      "zh": "🎶ManiFesto：",
+      "zhs": "🎶ManiFesto："
+    },
+    "59-2": {
+      "en": "🎶Operation Blade",
+      "kr": "🎶Operation Blade",
+      "jp": "🎶Operation Blade",
+      "zh": "🎶Operation Blade",
+      "zhs": "🎶Operation Blade"
+    },
+    "59-3": {
+      "en": "🎶Radiant",
+      "kr": "🎶Radiant",
+      "jp": "🎶Radiant",
+      "zh": "🎶Radiant",
+      "zhs": "🎶Radiant"
+    },
+    "59-4": {
+      "en": "🎶Renegade",
+      "kr": "🎶Renegade",
+      "jp": "🎶Renegade",
+      "zh": "🎶Renegade",
+      "zhs": "🎶Renegade"
+    },
+    "59-5": {
+      "en": "🎶Speed of Light",
+      "kr": "🎶Speed of Light",
+      "jp": "🎶Speed of Light",
+      "zh": "🎶Speed of Light",
+      "zhs": "🎶Speed of Light"
+    },
+    "59-6": {
+      "en": "🎶Dossoles Holiday",
+      "kr": "🎶Dossoles Holiday",
+      "jp": "🎶Dossoles Holiday",
+      "zh": "🎶多索雷斯假日",
+      "zhs": "🎶多索雷斯假日"
+    },
+    "59-7": {
+      "en": "🎶Autumn Moods",
+      "kr": "🎶Autumn Moods",
+      "jp": "🎶Autumn Moods",
+      "zh": "🎶秋绪",
+      "zhs": "🎶秋绪"
+    },
+    "60-0": {
+      "en": "🎶N3V3R G3T OV3R",
+      "kr": "🎶N3V3R G3T OV3R",
+      "jp": "🎶N3V3R G3T OV3R",
+      "zh": "🎶N3V3R G3T OV3R",
+      "zhs": "🎶N3V3R G3T OV3R"
+    },
+    "60-1": {
+      "en": "🎶Oshama Scramble!",
+      "kr": "🎶Oshama Scramble!",
+      "jp": "🎶Oshama Scramble!",
+      "zh": "🎶Oshama Scramble!",
+      "zhs": "🎶Oshama Scramble!"
+    },
+    "60-2": {
+      "en": "🎶Valsqotch",
+      "kr": "🎶Valsqotch",
+      "jp": "🎶Valsqotch",
+      "zh": "🎶Valsqotch",
+      "zhs": "🎶Valsqotch"
+    },
+    "60-3": {
+      "en": "🎶Paranormal My Mind",
+      "kr": "🎶Paranormal My Mind",
+      "jp": "🎶超常マイマイン",
+      "zh": "🎶超常マイマイン",
+      "zhs": "🎶超常マイマイン"
+    },
+    "60-4": {
+      "en": "🎶Flower, snow and Drum'n'bass.",
+      "kr": "🎶Flower, snow and Drum'n'bass.",
+      "jp": "🎶花と、雪と、ドラムンベース。",
+      "zh": "🎶花と、雪と、ドラムンベース。",
+      "zhs": "🎶花と、雪と、ドラムンベース。"
+    },
+    "60-5": {
+      "en": "🎶Amenohoakari",
+      "kr": "🎶Amenohoakari",
+      "jp": "🎶天火明命",
+      "zh": "🎶天火明命",
+      "zhs": "🎶天火明命"
+    }
+  }
+}

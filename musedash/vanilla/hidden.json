@@ -1,0 +1,535 @@
+{
+  "uids": [
+    "0-a",
+    "0-11",
+    "0-45",
+    "4-5",
+    "5-1",
+    "5-3",
+    "6-4",
+    "8-3",
+    "8-4",
+    "20-2",
+    "22-1",
+    "28-1",
+    "29-1",
+    "29-3",
+    "29-5",
+    "31-1",
+    "31-5",
+    "33-2",
+    "33-3",
+    "33-12",
+    "34-1",
+    "34-2",
+    "34-3",
+    "34-4",
+    "34-5",
+    "35-4",
+    "36-2",
+    "38-2",
+    "39-0",
+    "41-0",
+    "41-5",
+    "42-0",
+    "42-1",
+    "42-2",
+    "42-3",
+    "42-4",
+    "42-5",
+    "43-1",
+    "43-13",
+    "43-18",
+    "43-3",
+    "43-5",
+    "45-1",
+    "46-3",
+    "46-5",
+    "47-3",
+    "48-6",
+    "50-4",
+    "51-4",
+    "51-5",
+    "53-0",
+    "53-3",
+    "55-0",
+    "55-1",
+    "55-2",
+    "55-3",
+    "55-4",
+    "55-5",
+    "58-0",
+    "60-4"
+  ],
+  "search": {
+    "0-a": [
+      "|Heart-Pounding Flight",
+      "|Tutorial",
+      "|Skill Issues",
+      null
+    ],
+    "0-11": [
+      "|Lights of Muse",
+      "|Ayatsugu_Otowa"
+    ],
+    "0-45": [
+      "|Mopemope",
+      "|もぺもぺ",
+      "|LeaF"
+    ],
+    "4-5": [
+      "|GOODTEK(Hyper Edit)",
+      "|EBIMAYO"
+    ],
+    "5-1": [
+      "|conflict",
+      "|siromaru + cranky"
+    ],
+    "5-3": [
+      "|XING",
+      "|ginkiha"
+    ],
+    "6-4": [
+      "|Stargazer",
+      "|a_hisa"
+    ],
+    "8-3": [
+      "|Sweet* Witch* Girl*",
+      "|モリモリあつし vs. uma"
+    ],
+    "8-4": [
+      "|trippers feeling!",
+      "|KAH"
+    ],
+    "20-2": [
+      "|INFiNiTE ENERZY -Overdoze-",
+      "|Reku Mochizuki"
+    ],
+    "22-1": [
+      "|FREEDOM DiVE↓",
+      "|xi"
+    ],
+    "28-1": [
+      "|Ginevra",
+      "|MYUKKE."
+    ],
+    "29-1": [
+      "|FUJIN Rumble",
+      "|COSIO(ZUNTATA)"
+    ],
+    "29-3": [
+      "|HG magic modified polyvinyl boy",
+      "|HG魔改造ポリビニル少年",
+      "|IOSYS TRAX (D.watt with さきぴょ)"
+    ],
+    "29-5": [
+      "|ouroboros -twin stroke of the end-",
+      "|Cranky VS MASAKI"
+    ],
+    "31-1": [
+      "|Medusa",
+      "|HiTECH NINJA"
+    ],
+    "31-5": [
+      "|Square Lake",
+      "|ミツキ"
+    ],
+    "33-2": [
+      "|Happiness Breeze",
+      "|3R2 as DJ Mashiro"
+    ],
+    "33-3": [
+      "|Chrome VOX",
+      "|t+pazolite"
+    ],
+    "33-12": [
+      "|CHAOS (Glitch)",
+      "|Æsir"
+    ],
+    "34-1": [
+      "|BATTLE NO.1",
+      "|TANO*C Sound Team"
+    ],
+    "34-2": [
+      "|Cthugha",
+      "|USAO"
+    ],
+    "34-3": [
+      "|TWINKLE★MAGIC",
+      "|P*Light"
+    ],
+    "34-4": [
+      "|Comet Coaster",
+      "|DJ Noriken & aran"
+    ],
+    "34-5": [
+      "|XODUS",
+      "|DJ Myosuke & Gram"
+    ],
+    "35-4": [
+      "|DataErr0r",
+      "|Cosmograph"
+    ],
+    "36-2": [
+      "|bamboo",
+      "|竹",
+      "|立秋 feat.ちょこ"
+    ],
+    "38-2": [
+      "|Igallta",
+      "|Se-U-Ra"
+    ],
+    "39-0": [
+      "|FM 17314 SUGAR RADIO",
+      "|去剪海的日子",
+      "|砂糖协会"
+    ],
+    "41-0": [
+      "|Super Battleworn Insomniac",
+      "|超・東方不眠症",
+      "|超·東方不眠夜",
+      "|超·东方不眠夜",
+      "|fizzd"
+    ],
+    "41-5": [
+      "|Heracles",
+      "|赫拉克勒斯",
+      "|Yooh"
+    ],
+    "42-0": [
+      "|Bad Apple!! feat. Nomico",
+      "|Alstroemeria Records"
+    ],
+    "42-1": [
+      "|The color scatters in the scent",
+      "|色は匂へど散りぬるを",
+      "|幽閉サテライト"
+    ],
+    "42-2": [
+      "|Cirno's Perfect Math Class",
+      "|チルノのパーフェクトさんすう教室",
+      "|ARM＋夕野ヨシミ (IOSYS) feat. miko"
+    ],
+    "42-3": [
+      "|Beneath the scarlet moon, the madness of bloom",
+      "|緋色月下、狂咲ノ絶",
+      "|EastNewSound"
+    ],
+    "42-4": [
+      "|Flowery Moonlit Night",
+      "|花月夜",
+      "|Yonder Voice"
+    ],
+    "42-5": [
+      "|Unconscious Requiem",
+      "|無意識レクイエム",
+      "|森羅万象"
+    ],
+    "43-1": [
+      "|Amatsumikaboshi",
+      "|天津甕星",
+      "|削除"
+    ],
+    "43-13": [
+      "|Sand Maze",
+      "|a_hisa"
+    ],
+    "43-18": [
+      "|The crazy crazy Fran-chan sings a terrible song",
+      "|物凄い狂っとるフランちゃんが物凄いうた",
+      "|Halozy"
+    ],
+    "43-3": [
+      "|Night of Knights",
+      "|ナイト・オブ・ナイツ",
+      "|ビートまりお"
+    ],
+    "43-5": [
+      "|can you feel it",
+      "|MK"
+    ],
+    "45-1": [
+      "|with you",
+      "|with U",
+      "|t+pazolite & Massive New Krew feat. リリィ(CV青木志貴)"
+    ],
+    "46-3": [
+      "|Nekojarashi",
+      "|ネコジャラシ",
+      "|EmoCosine"
+    ],
+    "46-5": [
+      "|Isouten",
+      "|异想天",
+      "|異想天",
+      "|Zris"
+    ],
+    "47-3": [
+      "|Cyaegha",
+      "|USAO"
+    ],
+    "48-6": [
+      "|U.A.D",
+      "|HAYAKO"
+    ],
+    "50-4": [
+      "|Doppelganger",
+      "|LeaF"
+    ],
+    "51-4": [
+      "|Boys in Virtualand",
+      "|男子in☆バーチャランド",
+      "|IOSYS"
+    ],
+    "51-5": [
+      "|kui",
+      "|kuí",
+      "|虁",
+      "|Apo11o program ft.ドーラ（にじさんじ）"
+    ],
+    "53-0": [
+      "|On And On!!",
+      "|ETIA. feat. Jenga"
+    ],
+    "53-3": [
+      "|Plucky Race",
+      "|よみぃ"
+    ],
+    "55-0": [
+      "|Moon, Murakumo Flower, Wind",
+      "|月に叢雲華に風",
+      "|幽閉サテライト"
+    ],
+    "55-1": [
+      "|Patchouli's - Best Hit GSK",
+      "|パチュリーズ・ベストヒットGSK",
+      "|minami＋七条レタス(IOSYS) feat. 岩杉夏"
+    ],
+    "55-2": [
+      "|Koishi sings a terrible song on a terrible space shuttle",
+      "|物凄いスペースシャトルでこいしが物凄いうた",
+      "|Halozy"
+    ],
+    "55-3": [
+      "|A world without enclosures is a shadow of the moon",
+      "|囲い無き世は一期の月影",
+      "|豚乙女"
+    ],
+    "55-4": [
+      "|Psychedelic Kizakura Doumei",
+      "|サイケデリック鬼桜同盟",
+      "|SOUND HOLIC feat. Nana Takahashi"
+    ],
+    "55-5": [
+      "|Mischievous Sensation",
+      "|悪戯センセーション",
+      "|森羅万象"
+    ],
+    "58-0": [
+      "|People People",
+      "|ピポピポ -People People",
+      "|Neko Hacker feat. Nanahira"
+    ],
+    "60-4": [
+      "|Flower, snow and Drum'n'bass.",
+      "|花と、雪と、ドラムンベース。",
+      "|kanone feat. せんざい"
+    ]
+  },
+  "out": {
+    "0-a": [
+      "show_b"
+    ],
+    "0-11": [
+      "show_a"
+    ],
+    "0-45": [
+      "show_a"
+    ],
+    "4-5": [
+      "show_b"
+    ],
+    "5-1": [
+      "show_a"
+    ],
+    "5-3": [
+      "show_a"
+    ],
+    "6-4": [
+      "show_a"
+    ],
+    "8-3": [
+      "show_c"
+    ],
+    "8-4": [
+      "show_a"
+    ],
+    "20-2": [
+      "show_a"
+    ],
+    "22-1": [
+      "show_d"
+    ],
+    "28-1": [
+      "show_a"
+    ],
+    "29-1": [
+      "show_e"
+    ],
+    "29-3": [
+      "show_a"
+    ],
+    "29-5": [
+      "show_a"
+    ],
+    "31-1": [
+      "show_a"
+    ],
+    "31-5": [
+      "show_a"
+    ],
+    "33-2": [
+      "show_a"
+    ],
+    "33-3": [
+      "show_f"
+    ],
+    "33-12": [
+      "show_a"
+    ],
+    "34-1": [
+      "show_a"
+    ],
+    "34-2": [
+      "show_a"
+    ],
+    "34-3": [
+      "show_a"
+    ],
+    "34-4": [
+      "show_a"
+    ],
+    "34-5": [
+      "show_g"
+    ],
+    "35-4": [
+      "show_h"
+    ],
+    "36-2": [
+      "show_a"
+    ],
+    "38-2": [
+      "show_a"
+    ],
+    "39-0": [
+      "show_i"
+    ],
+    "41-0": [
+      "show_i"
+    ],
+    "41-5": [
+      "show_i"
+    ],
+    "42-0": [
+      "show_a",
+      "show_j",
+      null
+    ],
+    "42-1": [
+      "show_j"
+    ],
+    "42-2": [
+      "show_j"
+    ],
+    "42-3": [
+      "show_j"
+    ],
+    "42-4": [
+      "show_j"
+    ],
+    "42-5": [
+      "show_j"
+    ],
+    "43-1": [
+      "show_a"
+    ],
+    "43-13": [
+      "show_a"
+    ],
+    "43-18": [
+      "show_a"
+    ],
+    "43-3": [
+      "show_j"
+    ],
+    "43-5": [
+      "show_a"
+    ],
+    "45-1": [
+      "show_a"
+    ],
+    "46-3": [
+      "show_a"
+    ],
+    "46-5": [
+      "show_a"
+    ],
+    "47-3": [
+      "show_a"
+    ],
+    "48-6": [
+      "show_a"
+    ],
+    "50-4": [
+      "show_a"
+    ],
+    "51-4": [
+      "show_a"
+    ],
+    "51-5": [
+      "show_a"
+    ],
+    "53-0": [
+      "show_a"
+    ],
+    "53-3": [
+      "show_a"
+    ],
+    "55-0": [
+      "show_j"
+    ],
+    "55-1": [
+      "show_j"
+    ],
+    "55-2": [
+      "show_j"
+    ],
+    "55-3": [
+      "show_j"
+    ],
+    "55-4": [
+      "show_j"
+    ],
+    "55-5": [
+      "show_j"
+    ],
+    "58-0": [
+      "show_a"
+    ],
+    "60-4": [
+      "show_i"
+    ]
+  },
+  "reveal": {
+    "show_a": "💡Hint: Select the song and Click/Tap multiple times on the [PINK] difficulty selector.",
+    "show_b": "💡Hint: Change the date, or wait until the day [April 1st].",
+    "show_c": "💡Hint: Change the date, or wait until the day [November 1st].",
+    "show_d": "💡Hint: Select the song on the Master difficulty, hold the click on the menu and [draw 3 circles] without releasing the click.",
+    "show_e": "💡Hint: In the menu, select the difficulties [Hard - Easy - Hard - Master] 3 times.",
+    "show_f": "💡Hint: Open the Trove(inventory) and look at the bottom for an item with the description \"It's NEKO#ΦwΦ stream\". Open the animated screen and answer the call.",
+    "show_g": "💡Hint: Select the song on the Master difficulty and [draw an imaginary X], using two clicks.",
+    "show_h": "💡Hint: Select the song and Click/Tap multiple times on the [BLUE] difficulty selector.",
+    "show_i": "💡Hint: Hold the click/tap for a while on the [Cover Art].",
+    "show_j": "💡Hint: Go to the character menu, select [Reimu or Marisa], double click on any floating object of the character and press the [?] on the left side of [Select]."
+  }
+}

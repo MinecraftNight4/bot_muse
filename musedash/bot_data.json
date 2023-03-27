@@ -1,0 +1,46 @@
+{
+  "display": {
+    "regular": [
+      "BegWan I'm late?",
+      "SingsNote Fever!!",
+      "OhMyDog I'm alive!?",
+      "BegWan BegWan BegWan",
+      "PixelBob Now I'm here!!",
+      "PowerUpL PopCorn PowerUpR",
+      "PogBones PogBones PogBones",
+      "GivePLZ Full Combo!? TakeNRG",
+      "CoolCat *Spawns in chat* Hi~",
+      "GlitchLit Heh... Just as Planned...",
+      "StinkyGlitch I ran out of messages xD"
+    ],
+    "01_04": [
+      "OhMyDog Is that Iyaiya ⭐12?!",
+      "PogBones Cyka Blyat！Rush B！",
+      "BegWan [GOODTEK ⭐?] is unlocked!",
+      "PogBones Somebody ScreE-e-E-e-E!!",
+      "GivePLZ PeroPero~ Hasuhasu! TakeNRG",
+      "#RinWarrior + #Silencer = GlitchLit",
+      "2022 = #NyaNya #CatsParty #CatsFTW!! ",
+      "2021 = #PeroPeroBankrupt #SadNoises :( ",
+      "TPFufun Something is hidden in the Tutorial...",
+      "Awwdible Happy birthday, Rin Part-Time Warrior!"
+    ]
+  },
+  "stream": {
+    "123730493_": {
+      "cooldown": 6,
+      "lang": "zhs",
+      "links": true
+    },
+    "152109174_": {
+      "links": true
+    },
+    "844038556_": {
+      "links": true
+    }
+  },
+  "banned": {
+    "723075467_": 1678925724,
+    "517957942_": 1679368192
+  }
+}

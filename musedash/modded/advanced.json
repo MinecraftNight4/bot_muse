@@ -1,0 +1,2010 @@
+{
+  "uids": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    13,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    31,
+    32,
+    33,
+    34,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    49,
+    51,
+    53,
+    54,
+    55,
+    56,
+    58,
+    59,
+    61,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    74,
+    76,
+    77,
+    80,
+    81,
+    82,
+    83,
+    84,
+    86,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    101,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200
+  ],
+  "name": {
+    "1": [
+      "|かめりあ(EDP)",
+      "|#1f1e33"
+    ],
+    "3": [
+      "|MYUKKE.",
+      "|5733P BOMB"
+    ],
+    "4": [
+      "|Silentroom vs Frums",
+      "|Aegleseeker"
+    ],
+    "5": [
+      "|Ahoy!! Warera Houshou Kaizokudan☆",
+      "|Houshou Marine",
+      "|Ahoy!! 我ら宝鐘海賊団☆"
+    ],
+    "6": [
+      "|ゆよゆっぺ",
+      "|AiAe"
+    ],
+    "7": [
+      "|LeaF",
+      "|Aleph-0"
+    ],
+    "9": [
+      "|かたぎり",
+      "|Angel's Salad"
+    ],
+    "10": [
+      "|xi",
+      "|Aparajita"
+    ],
+    "13": [
+      "|DJ Myosuke",
+      "|Black Territory"
+    ],
+    "15": [
+      "|Project Moon",
+      "|Children of the City"
+    ],
+    "16": [
+      "|猫叉L.E.D.Master+",
+      "|Chrono Diver -PENDULUMs-"
+    ],
+    "17": [
+      "|Ice",
+      "|DJ Mashiro is dead or alive"
+    ],
+    "18": [
+      "|翡乃イスカ",
+      "|Dreamin' Attraction!!"
+    ],
+    "20": [
+      "|Kobaryo",
+      "|FLUFFY FLASH"
+    ],
+    "21": [
+      "|3R2",
+      "|Funky Quest"
+    ],
+    "23": [
+      "|t+pazolite",
+      "|Glorious Crown (tpz over-Over-OVERCUTE REMIX)"
+    ],
+    "24": [
+      "|DJ Ubur Ubur x Paket Phoenix IndiHome",
+      "|Goyang Ubur Ubur"
+    ],
+    "25": [
+      "|Massive New Krew",
+      "|HADES"
+    ],
+    "26": [
+      "|saaa feat. MC iwata Bros.",
+      "|Head BONK ache"
+    ],
+    "27": [
+      "|Est feat. 雪歌ユフ",
+      "|Hello Hello"
+    ],
+    "29": [
+      "|U-Ske",
+      "|High-School QUEEN!!!"
+    ],
+    "31": [
+      "|You feat. nayuta",
+      "|Illumination"
+    ],
+    "32": [
+      "|USAO feat. 光吉猛修",
+      "|IMPACT"
+    ],
+    "33": [
+      "|COSIO (ZUNTATA)",
+      "|Invader Disco"
+    ],
+    "34": [
+      "|Kalis Mind"
+    ],
+    "36": [
+      "|linear ring",
+      "|lalabai call me"
+    ],
+    "37": [
+      "|ガリガリさむし",
+      "|larva"
+    ],
+    "38": [
+      "|Team Grimoire vs MASAKI",
+      "|Lemegeton -little key of solomon-"
+    ],
+    "39": [
+      "|U.T.D & Friends",
+      "|Lesson by DJ"
+    ],
+    "40": [
+      "|Lotus Quest"
+    ],
+    "41": [
+      "|EmoCosine",
+      "|Love Kills U"
+    ],
+    "42": [
+      "|かめりあ / 歌劇派学生",
+      "|Lowermost Revolt (Short ver.)"
+    ],
+    "43": [
+      "|YUC'e",
+      "|Macaron Moon"
+    ],
+    "44": [
+      "|Mechanical Jager"
+    ],
+    "45": [
+      "|HiTECH NINJA",
+      "|Modelista"
+    ],
+    "46": [
+      "|MUDPIE"
+    ],
+    "49": [
+      "|P*Light",
+      "|NINJA IS DEAD IIDX ver."
+    ],
+    "51": [
+      "|OMAKENO Stroke"
+    ],
+    "53": [
+      "|Sobrem × Silentroom",
+      "|Random"
+    ],
+    "54": [
+      "|Tsunku♂, Masami Yone, Shinji Ushiroda, Asuka Ito",
+      "|Remix 10"
+    ],
+    "55": [
+      "|Masami Yone, Shinji Ushiroda, Asuka Ito",
+      "|Remix 4"
+    ],
+    "56": [
+      "|ROAD to 773H"
+    ],
+    "58": [
+      "|Team Grimoire",
+      "|Rrhar'il"
+    ],
+    "59": [
+      "|梅干茶漬け",
+      "|Run*2 Run to you!!!"
+    ],
+    "61": [
+      "|t+pazolite & Getty",
+      "|Twisted Drop Party"
+    ],
+    "63": [
+      "|owl＊tree feat.chi＊tree",
+      "|Valsqotch"
+    ],
+    "64": [
+      "|ViViTAL MONO"
+    ],
+    "65": [
+      "|Shiron",
+      "|Wave of Craze"
+    ],
+    "66": [
+      "|Frums",
+      "|Wavetapper"
+    ],
+    "67": [
+      "|かめりあ",
+      "|We Could Get More Machinegun Psystyle! -And More Genre Switches-"
+    ],
+    "68": [
+      "|WONDER $LOT 777"
+    ],
+    "69": [
+      "|Wonderful Paradise",
+      "|Hino Isuka",
+      "|ワンダフォー・パラダイス"
+    ],
+    "70": [
+      "|ああああ vs. モリモリあつし",
+      "|Xrocus"
+    ],
+    "71": [
+      "|穴山大輔 VS 光吉猛修 VS Kai",
+      "|ω4"
+    ],
+    "72": [
+      "|Ninja Re Bang Bang",
+      "|きゃりーぱみゅぱみゅ",
+      "|にんじゃりばんばん"
+    ],
+    "74": [
+      "|Communication",
+      "|Perfume",
+      "|コミュニケーション"
+    ],
+    "76": [
+      "|LOVE♡SPICE♡LIKE U!!!",
+      "| DJ Genki feat.ななひら,yukacco,藍月なくる",
+      "|ラヴ♡スパイス♡ライクユー!!!"
+    ],
+    "77": [
+      "|ROKI",
+      "|鏡音リン/みきとP",
+      "|ロキ"
+    ],
+    "80": [
+      "|Kaikai Kitan",
+      "|Eve",
+      "|廻廻奇譚"
+    ],
+    "81": [
+      "|Ka",
+      "|彁"
+    ],
+    "82": [
+      "|Koi wa chaos no shimobenari",
+      "|這いよる! ニャルアニ",
+      "|恋は浑沌の隶也"
+    ],
+    "83": [
+      "|Squall of sadness",
+      "|Tsunku♂",
+      "|悲しみのスコール"
+    ],
+    "84": [
+      "|Tanaka",
+      "|立秋 feat.ちょこ",
+      "|田中"
+    ],
+    "86": [
+      "|Zetsubousei: Hero Chiryouyaku",
+      "|スズム feat.そらる",
+      "|絶望性：ヒーロー治療薬"
+    ],
+    "88": [
+      "|ああああ",
+      "|∀"
+    ],
+    "89": [
+      "|Laur",
+      "|DANGEROOOOUS JUNGLE"
+    ],
+    "90": [
+      "|aran",
+      "|EPHMR"
+    ],
+    "91": [
+      "|EVE"
+    ],
+    "92": [
+      "|Lime",
+      "|Luminaria"
+    ],
+    "93": [
+      "|ProjectG",
+      "|Regain"
+    ],
+    "94": [
+      "|Silentroom",
+      "|NULCTRL"
+    ],
+    "95": [
+      "|SLAM & NATO",
+      "|PARADOXX"
+    ],
+    "96": [
+      "|little witch in permafrost garden"
+    ],
+    "97": [
+      "|KAMI",
+      "|DJ Myosuke vs MASAKI",
+      "|神"
+    ],
+    "98": [
+      "|Team Grimoire feat. Sennzai",
+      "|CHAOS MAGNVM"
+    ],
+    "99": [
+      "|kamome sano",
+      "|init()"
+    ],
+    "101": [
+      "|Armageddon"
+    ],
+    "103": [
+      "|xi+ねこみりん",
+      "|After Burner"
+    ],
+    "104": [
+      "|Mitsukiyo",
+      "|Unwelcome School"
+    ],
+    "105": [
+      "|Disposal Target_Ao・Kina",
+      "|sasakure.UK",
+      "|廃棄対象_ｱｦ・ｷﾅ"
+    ],
+    "106": [
+      "|Paramount☆Showtime!!",
+      "|パラマウント☆ショータイム！！"
+    ],
+    "107": [
+      "|Online"
+    ],
+    "108": [
+      "|Aoi",
+      "|Spark!e"
+    ],
+    "109": [
+      "|TAG",
+      "|POTENTIAL"
+    ],
+    "110": [
+      "|SNKS/mimitsu",
+      "|Abatement"
+    ],
+    "111": [
+      "|Maware! Setsugetsuka",
+      "|Hige Driver",
+      "|回レ！雪月花"
+    ],
+    "112": [
+      "|No plan days",
+      "|TORIENA",
+      "|ノープラン・デイズ"
+    ],
+    "113": [
+      "|M-UE",
+      "|Nightmares"
+    ],
+    "114": [
+      "|HIVEMIND"
+    ],
+    "115": [
+      "|Scattered Pancakes"
+    ],
+    "116": [
+      "|silly-willy-nilly"
+    ],
+    "117": [
+      "|Urushi",
+      "|漆"
+    ],
+    "118": [
+      "|REDALiCE",
+      "|Masakari Blade"
+    ],
+    "119": [
+      "|Paa",
+      "|ぱあ"
+    ],
+    "120": [
+      "|\"漆黒\"の堕天使《Gram》†Versus† \"聖刻\"の熾天使《Gram》",
+      "|eden"
+    ],
+    "121": [
+      "|Milk Crown on Sonnetica",
+      "|Yuzy",
+      "|ミルククラウン・オン・ソーネチカ"
+    ],
+    "122": [
+      "|かねこちはる",
+      "|iLLness LiLin"
+    ],
+    "123": [
+      "|I won't be defeated by the normies of the Halloween",
+      "|Nanahira ft. T+Pazolite",
+      "|ハロウィンのパリピに負けたくないうた"
+    ],
+    "124": [
+      "|POISON"
+    ],
+    "125": [
+      "|DEAD or DIE",
+      "|デッド・オア・ダイ"
+    ],
+    "126": [
+      "|Mutation"
+    ],
+    "127": [
+      "|戌神ころね",
+      "|Doggy god's street"
+    ],
+    "128": [
+      "|IRyS",
+      "|HERE COMES HOPE"
+    ],
+    "129": [
+      "|Mori Calliope",
+      "|HUGE W"
+    ],
+    "130": [
+      "|Halloween Night Tonight!",
+      "|hololive IDOL PROJECT",
+      "|今宵はHalloween Night!"
+    ],
+    "131": [
+      "|Hakos Baelz",
+      "|PLAY DICE!"
+    ],
+    "132": [
+      "|尾丸ポルカ",
+      "|Pastel Tea Time"
+    ],
+    "133": [
+      "|PekoMiko Great War!!",
+      "|兎田ぺこら&さくらみこ",
+      "|ぺこみこ大戦争！！"
+    ],
+    "134": [
+      "|Gawr Gura",
+      "|REFLECT"
+    ],
+    "135": [
+      "|m1dy",
+      "|Cold Pizza"
+    ],
+    "136": [
+      "|GENOCIDER"
+    ],
+    "137": [
+      "|Seedy Try"
+    ],
+    "138": [
+      "|《Re:miniscence》"
+    ],
+    "139": [
+      "|Nato",
+      "|Lepton Strike"
+    ],
+    "140": [
+      "|USAO & Camellia",
+      "|Möbius"
+    ],
+    "141": [
+      "|Nayutalien",
+      "|エイリアンエイリアン (Alien Alien)"
+    ],
+    "142": [
+      "|AJURIKA",
+      "|Evidence of evil"
+    ],
+    "143": [
+      "|Masahiro \"Godspeed\" Aoki VS Kai",
+      "|UniTas"
+    ],
+    "144": [
+      "|Morimori Atsushi",
+      "|Alter Ego"
+    ],
+    "145": [
+      "|Hazukashigariya no Toy Soldier",
+      "|ああああ&梅干茶漬け",
+      "|はずかしがりやのトイ・ソルジャー"
+    ],
+    "146": [
+      "|Comeback"
+    ],
+    "147": [
+      "|Don't Stop The Game (USAO Remix)"
+    ],
+    "148": [
+      "|Katame Koime Oome",
+      "|こげみょー家",
+      "|固め・濃いめ・多め"
+    ],
+    "149": [
+      "|Lovely Shit"
+    ],
+    "150": [
+      "|Megaton Killer"
+    ],
+    "151": [
+      "|Agilion"
+    ],
+    "152": [
+      "|GALAXY BURST"
+    ],
+    "153": [
+      "|Kobaryo feat. HiTNEX-X",
+      "|SUPER REACTOR"
+    ],
+    "154": [
+      "|DJ Genki",
+      "|ATARAX1A"
+    ],
+    "155": [
+      "|CANVAS x RoughSketch feat. Quimär",
+      "|Grandeur"
+    ],
+    "156": [
+      "|Cranky",
+      "|Warrior"
+    ],
+    "157": [
+      "|brz1128",
+      "|Prism"
+    ],
+    "158": [
+      "|キノシタ",
+      "|Poppin' Candy☆Fever"
+    ],
+    "159": [
+      "|NANO DEATH!!!!!"
+    ],
+    "160": [
+      "|Nanahoshi Orchestra, Nekomata Okayu",
+      "|Lost Paradise"
+    ],
+    "161": [
+      "|Bemani Sound Team",
+      "|Triple Cross"
+    ],
+    "162": [
+      "|かめりあ as 'menaXe inXonnu'",
+      "|Xroniàl Xéro (Short ver.)"
+    ],
+    "163": [
+      "|Fortuna for Tuna"
+    ],
+    "164": [
+      "|PYKAMIA",
+      "|Fantasia Sonata Mirror"
+    ],
+    "165": [
+      "|ribbon room",
+      "|Mint Tears"
+    ],
+    "166": [
+      "|saaa + kei_iwata + stuv + わかどり",
+      "|New York Back Raise"
+    ],
+    "167": [
+      "|ROZELCIA"
+    ],
+    "168": [
+      "|litmus*",
+      "|Rush-Hour"
+    ],
+    "169": [
+      "|t+pazolite & ななひら",
+      "|Hardcore ASMR"
+    ],
+    "170": [
+      "|Higashi",
+      "|東"
+    ],
+    "171": [
+      "|いるかアイス feat.ちょこ",
+      "|Rainbow Rush Story"
+    ],
+    "172": [
+      "|REKKA RESONANCE",
+      "|REDALiCE vs Kobaryo",
+      "|烈華RESONANCE"
+    ],
+    "173": [
+      "|ああ…翡翠茶漬け…",
+      "|Tricolor⁂circuS"
+    ],
+    "174": [
+      "|Witch's Curse"
+    ],
+    "175": [
+      "|yomoha",
+      "|414 PER SPEED (yomoha remix)"
+    ],
+    "176": [
+      "|Chronos (Walk With You)"
+    ],
+    "177": [
+      "|SHIKI",
+      "|Pure Ruby"
+    ],
+    "178": [
+      "|Camellia feat. Hatsune Miku",
+      "|Future-Respawning Button"
+    ],
+    "179": [
+      "|ルゼ",
+      "|MAGICAL RENDA STADIUM"
+    ],
+    "180": [
+      "|オンゲキエータベータイータ"
+    ],
+    "181": [
+      "|ZEUS † 666"
+    ],
+    "182": [
+      "|breakthrough",
+      "|∦"
+    ],
+    "183": [
+      "|EmoCosine vs. nora2r",
+      "|Initiating League"
+    ],
+    "184": [
+      "|Bookmaker"
+    ],
+    "185": [
+      "|Innocent Floor"
+    ],
+    "186": [
+      "|Srezcat feat. Kobaryo",
+      "|Mandela Sound Effect"
+    ],
+    "187": [
+      "|Parallel★PRISM"
+    ],
+    "188": [
+      "|HyuN",
+      "|Princess of Winter"
+    ],
+    "189": [
+      "|DJ Noriken & MASAKI",
+      "|QiXiN MAdN3ss 2153"
+    ],
+    "190": [
+      "|Juggernaut.",
+      "|Retaliation"
+    ],
+    "191": [
+      "|Tenma Tsukasa, Ootori Emu, Kusanagi Nene & Kamishiro Rui",
+      "|Tondemo Wonders"
+    ],
+    "192": [
+      "|Witch",
+      "|CPSQUQI",
+      "|μάγισσα"
+    ],
+    "193": [
+      "|DJ Noriken",
+      "|MAGiC4LG1RL M3GA S7R1KE!"
+    ],
+    "194": [
+      "|翡乃イスカ vs. s-don",
+      "|Glooorious!!"
+    ],
+    "195": [
+      "|s-don vs. 翡乃イスカ",
+      "|Trrricksters!!"
+    ],
+    "196": [
+      "|翡乃イスカ × otoshi.b",
+      "|Twin☆kle Snowglobe"
+    ],
+    "197": [
+      "|Moonheart"
+    ],
+    "198": [
+      "|Behemoth"
+    ],
+    "199": [
+      "|ETIA.",
+      "|Hainuwele"
+    ],
+    "200": [
+      "|Farhan Sarasin, Pavolia Reine",
+      "|Gate Open: START!"
+    ]
+  },
+  "design": {
+    "1": [
+      "|000"
+    ],
+    "3": [
+      "|D丶R"
+    ],
+    "4": [
+      "|Hole"
+    ],
+    "5": [
+      "|linaxia"
+    ],
+    "10": [
+      "|GRACE vs. ATK"
+    ],
+    "15": [
+      "|Will of the prescripts"
+    ],
+    "16": [
+      "|ATK"
+    ],
+    "17": [
+      "|DJ SugarSu"
+    ],
+    "18": [
+      "|GYY feat.ATK"
+    ],
+    "24": [
+      "|AshtonMemer"
+    ],
+    "27": [
+      "|djwhitebooty"
+    ],
+    "29": [
+      "|ShiroN_L"
+    ],
+    "31": [
+      "|Keithy"
+    ],
+    "32": [
+      "|陈熙"
+    ],
+    "33": [
+      "|RMU"
+    ],
+    "37": [
+      "|GRACE"
+    ],
+    "38": [
+      "|Sugar vs ATK"
+    ],
+    "40": [
+      "|un1"
+    ],
+    "42": [
+      "|反抗者の頌歌"
+    ],
+    "44": [
+      "|SugarSu"
+    ],
+    "58": [
+      "|- Team Chronnection - 《TDA/shezza》",
+      "|- Team Chronnection - 《TDA/shezza/》"
+    ],
+    "68": [
+      "|ATK & SugarSu"
+    ],
+    "70": [
+      "|SkyStar.04"
+    ],
+    "77": [
+      "|白龙"
+    ],
+    "95": [
+      "|Xyro"
+    ],
+    "98": [
+      "|Garyyang"
+    ],
+    "103": [
+      "|SkyStar.04+Exc."
+    ],
+    "105": [
+      "|廃棄対象_Ho・le"
+    ],
+    "106": [
+      "|Hole's Paramount Show"
+    ],
+    "107": [
+      "|SHeZZA"
+    ],
+    "108": [
+      "|shezza"
+    ],
+    "110": [
+      "|?",
+      "|HGR"
+    ],
+    "112": [
+      "|xDewritos"
+    ],
+    "113": [
+      "|mernadi"
+    ],
+    "118": [
+      "|Cactus"
+    ],
+    "120": [
+      "|\"劇毒\"の酸天使《Xyro》†Versus† \"深淵\"の虚天使《Hole》"
+    ],
+    "121": [
+      "|Franailin vs Hole"
+    ],
+    "123": [
+      "|lilbigestjake"
+    ],
+    "124": [
+      "|Miriitode"
+    ],
+    "129": [
+      "|HUGE H"
+    ],
+    "135": [
+      "|leftover un1"
+    ],
+    "136": [
+      "|UN1 vs. CACTUS"
+    ],
+    "137": [
+      "|zdechliiizna"
+    ],
+    "138": [
+      "|《she:zza》"
+    ],
+    "140": [
+      "|Höle & Shezza"
+    ],
+    "142": [
+      "|Evil Cactus"
+    ],
+    "143": [
+      "|Xyro \"The Maestro\""
+    ],
+    "144": [
+      "|Shipn"
+    ],
+    "148": [
+      "|ブラックユニ"
+    ],
+    "153": [
+      "|CaCTUS-X"
+    ],
+    "154": [
+      "|NaRu_"
+    ],
+    "157": [
+      "|Hcs feat.ATK"
+    ],
+    "158": [
+      "|Franailin"
+    ],
+    "160": [
+      "|7OU"
+    ],
+    "162": [
+      "|shezza as 'Ravager of Sanity'"
+    ],
+    "165": [
+      "|Mirii-don & Ka-ctus"
+    ],
+    "167": [
+      "|lxy & Cactus"
+    ],
+    "169": [
+      "|Hole the ASMR enjoyer"
+    ],
+    "177": [
+      "|♡ shezza ♡"
+    ],
+    "178": [
+      "|Future 7OU",
+      "|Future-Respawned 7OU"
+    ],
+    "182": [
+      "|∅"
+    ],
+    "183": [
+      "|Initiating Hole"
+    ],
+    "184": [
+      "|[GNV] feat.shezza"
+    ],
+    "187": [
+      "|Franai★lin"
+    ],
+    "188": [
+      "|ShezzA"
+    ],
+    "189": [
+      "|GNV 7OU"
+    ],
+    "191": [
+      "|ame"
+    ],
+    "193": [
+      "|MAGiC4LG1RL Franailin"
+    ],
+    "198": [
+      "|daemonum un1x"
+    ],
+    "200": [
+      "|Darkhawk02"
+    ]
+  },
+  "beats": {
+    "1": {
+      "min": 181,
+      "max": 181
+    },
+    "3": {
+      "min": 128,
+      "max": 128
+    },
+    "4": {
+      "min": 234,
+      "max": 234
+    },
+    "5": {
+      "min": 170,
+      "max": 170
+    },
+    "6": {
+      "min": 180,
+      "max": 180
+    },
+    "7": {
+      "min": 140,
+      "max": 400
+    },
+    "9": {
+      "min": 177,
+      "max": 177
+    },
+    "10": {
+      "min": 212,
+      "max": 212
+    },
+    "13": {
+      "min": 200,
+      "max": 200
+    },
+    "15": {
+      "min": 119,
+      "max": 119
+    },
+    "16": {
+      "min": 196,
+      "max": 196
+    },
+    "17": {
+      "min": 190,
+      "max": 250
+    },
+    "18": {
+      "min": 205,
+      "max": 205
+    },
+    "20": {
+      "min": 252,
+      "max": 252
+    },
+    "21": {
+      "min": 185,
+      "max": 185
+    },
+    "23": {
+      "min": 235.8,
+      "max": 235.8
+    },
+    "24": {
+      "min": 130,
+      "max": 130
+    },
+    "25": {
+      "min": 155,
+      "max": 155
+    },
+    "26": {
+      "min": 165,
+      "max": 165
+    },
+    "27": {
+      "min": 87,
+      "max": 174
+    },
+    "29": {
+      "min": 200,
+      "max": 200
+    },
+    "31": {
+      "min": 175,
+      "max": 175
+    },
+    "32": {
+      "min": 210,
+      "max": 210
+    },
+    "33": {
+      "min": 135,
+      "max": 135
+    },
+    "34": {
+      "min": 190,
+      "max": 190
+    },
+    "36": {
+      "min": 208.5,
+      "max": 208.5
+    },
+    "37": {
+      "min": 202,
+      "max": 202
+    },
+    "38": {
+      "min": 185,
+      "max": 185
+    },
+    "39": {
+      "min": 120,
+      "max": 120
+    },
+    "40": {
+      "min": 202,
+      "max": 202
+    },
+    "41": {
+      "min": 160,
+      "max": 160
+    },
+    "42": {
+      "min": 219.19,
+      "max": 219.19
+    },
+    "43": {
+      "min": 170,
+      "max": 170
+    },
+    "44": {
+      "min": 150,
+      "max": 150
+    },
+    "45": {
+      "min": 165,
+      "max": 165
+    },
+    "46": {
+      "min": 150,
+      "max": 175
+    },
+    "49": {
+      "min": 222,
+      "max": 222
+    },
+    "51": {
+      "min": 240,
+      "max": 240
+    },
+    "53": {
+      "min": 132,
+      "max": 132
+    },
+    "54": {
+      "min": 166,
+      "max": 166
+    },
+    "55": {
+      "min": 140,
+      "max": 140
+    },
+    "56": {
+      "min": 220,
+      "max": 220
+    },
+    "58": {
+      "min": 190,
+      "max": 190
+    },
+    "59": {
+      "min": 213,
+      "max": 213
+    },
+    "61": {
+      "min": 200,
+      "max": 200
+    },
+    "63": {
+      "min": 125,
+      "max": 125
+    },
+    "64": {
+      "min": 170,
+      "max": 170
+    },
+    "65": {
+      "min": 153,
+      "max": 153
+    },
+    "66": {
+      "min": 112,
+      "max": 112
+    },
+    "67": {
+      "min": 31,
+      "max": 288
+    },
+    "68": {
+      "min": 155,
+      "max": 155
+    },
+    "69": {
+      "min": 222,
+      "max": 222
+    },
+    "70": {
+      "min": 202,
+      "max": 202
+    },
+    "71": {
+      "min": 90,
+      "max": 192
+    },
+    "72": {
+      "min": 130,
+      "max": 130
+    },
+    "74": {
+      "min": 115,
+      "max": 115
+    },
+    "76": {
+      "min": 200,
+      "max": 200
+    },
+    "77": {
+      "min": 150,
+      "max": 150
+    },
+    "80": {
+      "min": 185,
+      "max": 185
+    },
+    "81": {
+      "min": 125,
+      "max": 125
+    },
+    "82": {
+      "min": 158,
+      "max": 158
+    },
+    "83": {
+      "min": 180,
+      "max": 180
+    },
+    "84": {
+      "min": 186,
+      "max": 186
+    },
+    "86": {
+      "min": 205,
+      "max": 205
+    },
+    "88": {
+      "min": 245,
+      "max": 245
+    },
+    "89": {
+      "min": 160,
+      "max": 160
+    },
+    "90": {
+      "min": 202,
+      "max": 202
+    },
+    "91": {
+      "min": 200,
+      "max": 200
+    },
+    "92": {
+      "min": 197,
+      "max": 227
+    },
+    "93": {
+      "min": 140,
+      "max": 140
+    },
+    "94": {
+      "min": 100,
+      "max": 100
+    },
+    "95": {
+      "min": 220,
+      "max": 220
+    },
+    "96": {
+      "min": 170,
+      "max": 350
+    },
+    "97": {
+      "min": 190,
+      "max": 190
+    },
+    "98": {
+      "min": 180,
+      "max": 180
+    },
+    "99": {
+      "min": 180,
+      "max": 180
+    },
+    "101": {
+      "min": 210,
+      "max": 210
+    },
+    "103": {
+      "min": 191,
+      "max": 191
+    },
+    "104": {
+      "min": 180,
+      "max": 180
+    },
+    "105": {
+      "min": 100,
+      "max": 241
+    },
+    "106": {
+      "min": 222,
+      "max": 222
+    },
+    "107": {
+      "min": 172,
+      "max": 172
+    },
+    "108": {
+      "min": 185,
+      "max": 185
+    },
+    "109": {
+      "min": 133,
+      "max": 200
+    },
+    "110": {
+      "min": 180,
+      "max": 180
+    },
+    "111": {
+      "min": 160,
+      "max": 160
+    },
+    "112": {
+      "min": 210,
+      "max": 210
+    },
+    "113": {
+      "min": 194,
+      "max": 194
+    },
+    "114": {
+      "min": 252,
+      "max": 252
+    },
+    "115": {
+      "min": 240,
+      "max": 240
+    },
+    "116": {
+      "min": 209,
+      "max": 209
+    },
+    "117": {
+      "min": 207,
+      "max": 207
+    },
+    "118": {
+      "min": 194,
+      "max": 194
+    },
+    "119": {
+      "min": 128,
+      "max": 128
+    },
+    "120": {
+      "min": 246,
+      "max": 246
+    },
+    "121": {
+      "min": 127.5,
+      "max": 127.5
+    },
+    "122": {
+      "min": 280,
+      "max": 280
+    },
+    "123": {
+      "min": 112,
+      "max": 112
+    },
+    "124": {
+      "min": 150,
+      "max": 150
+    },
+    "125": {
+      "min": 120,
+      "max": 240
+    },
+    "126": {
+      "min": 155,
+      "max": 155
+    },
+    "127": {
+      "min": 128,
+      "max": 128
+    },
+    "128": {
+      "min": 190,
+      "max": 190
+    },
+    "129": {
+      "min": 152,
+      "max": 152
+    },
+    "130": {
+      "min": 128,
+      "max": 128
+    },
+    "131": {
+      "min": 145,
+      "max": 145
+    },
+    "132": {
+      "min": 128,
+      "max": 128
+    },
+    "133": {
+      "min": 180,
+      "max": 180
+    },
+    "134": {
+      "min": 125,
+      "max": 125
+    },
+    "135": {
+      "min": 180,
+      "max": 180
+    },
+    "136": {
+      "min": 250,
+      "max": 250
+    },
+    "137": {
+      "min": 105,
+      "max": 105
+    },
+    "138": {
+      "min": 125,
+      "max": 166
+    },
+    "139": {
+      "min": 183,
+      "max": 183
+    },
+    "140": {
+      "min": 230,
+      "max": 230
+    },
+    "141": {
+      "min": 152,
+      "max": 152
+    },
+    "142": {
+      "min": 180,
+      "max": 180
+    },
+    "143": {
+      "min": 205,
+      "max": 205
+    },
+    "144": {
+      "min": 145,
+      "max": 145
+    },
+    "145": {
+      "min": 163,
+      "max": 163
+    },
+    "146": {
+      "min": 185,
+      "max": 185
+    },
+    "147": {
+      "min": 203,
+      "max": 203
+    },
+    "148": {
+      "min": 210,
+      "max": 210
+    },
+    "149": {
+      "min": 195,
+      "max": 195
+    },
+    "150": {
+      "min": 220,
+      "max": 220
+    },
+    "151": {
+      "min": 200,
+      "max": 200
+    },
+    "152": {
+      "min": 201,
+      "max": 201
+    },
+    "153": {
+      "min": 152,
+      "max": 152
+    },
+    "154": {
+      "min": 170,
+      "max": 170
+    },
+    "155": {
+      "min": 190,
+      "max": 190
+    },
+    "156": {
+      "min": 170,
+      "max": 170
+    },
+    "157": {
+      "min": 190,
+      "max": 190
+    },
+    "158": {
+      "min": 190,
+      "max": 190
+    },
+    "159": {
+      "min": 120,
+      "max": 240
+    },
+    "160": {
+      "min": 144,
+      "max": 144
+    },
+    "161": {
+      "min": 196,
+      "max": 196
+    },
+    "162": {
+      "min": 335,
+      "max": 335
+    },
+    "163": {
+      "min": 110,
+      "max": 220
+    },
+    "164": {
+      "min": 200,
+      "max": 200
+    },
+    "165": {
+      "min": 188,
+      "max": 188
+    },
+    "166": {
+      "min": 160,
+      "max": 160
+    },
+    "167": {
+      "min": 195,
+      "max": 195
+    },
+    "168": {
+      "min": 224,
+      "max": 224
+    },
+    "169": {
+      "min": 102.5,
+      "max": 249.5
+    },
+    "170": {
+      "min": 164,
+      "max": 164
+    },
+    "171": {
+      "min": 200,
+      "max": 200
+    },
+    "172": {
+      "min": 240,
+      "max": 240
+    },
+    "173": {
+      "min": 180,
+      "max": 180
+    },
+    "174": {
+      "min": 195,
+      "max": 195
+    },
+    "175": {
+      "min": 250,
+      "max": 250
+    },
+    "176": {
+      "min": 148,
+      "max": 148
+    },
+    "177": {
+      "min": 178,
+      "max": 178
+    },
+    "178": {
+      "min": 205,
+      "max": 205
+    },
+    "179": {
+      "min": 175,
+      "max": 175
+    },
+    "180": {
+      "min": 186,
+      "max": 186
+    },
+    "181": {
+      "min": 180,
+      "max": 180
+    },
+    "182": {
+      "min": 250,
+      "max": 250
+    },
+    "183": {
+      "min": 200,
+      "max": 200
+    },
+    "184": {
+      "min": 175,
+      "max": 175
+    },
+    "185": {
+      "min": 199,
+      "max": 199
+    },
+    "186": {
+      "min": 190,
+      "max": 190
+    },
+    "187": {
+      "min": 180,
+      "max": 180
+    },
+    "188": {
+      "min": 197,
+      "max": 197
+    },
+    "189": {
+      "min": 200,
+      "max": 200
+    },
+    "190": {
+      "min": 200,
+      "max": 200
+    },
+    "191": {
+      "min": 172,
+      "max": 172
+    },
+    "192": {
+      "min": 180,
+      "max": 180
+    },
+    "193": {
+      "min": 198,
+      "max": 198
+    },
+    "194": {
+      "min": 128,
+      "max": 180
+    },
+    "195": {
+      "min": 155,
+      "max": 155
+    },
+    "196": {
+      "min": 185,
+      "max": 185
+    },
+    "197": {
+      "min": 180,
+      "max": 180
+    },
+    "198": {
+      "min": 190,
+      "max": 190
+    },
+    "199": {
+      "min": 175,
+      "max": 175
+    },
+    "200": {
+      "min": 129,
+      "max": 129
+    }
+  },
+  "level": {
+    "11": [
+      1,
+      4,
+      7,
+      10,
+      16,
+      17,
+      18,
+      20,
+      26,
+      32,
+      34,
+      36,
+      37,
+      40,
+      42,
+      49,
+      51,
+      59,
+      61,
+      63,
+      69,
+      70,
+      71,
+      84,
+      88,
+      89,
+      91,
+      96,
+      97,
+      98,
+      101,
+      103,
+      106,
+      107,
+      108,
+      109,
+      115,
+      117,
+      125,
+      126,
+      129,
+      135,
+      136,
+      138,
+      139,
+      142,
+      143,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      153,
+      154,
+      156,
+      159,
+      161,
+      164,
+      166,
+      168,
+      171,
+      172,
+      174,
+      177,
+      179,
+      180,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      192,
+      195,
+      198,
+      199
+    ],
+    "10": [
+      3,
+      6,
+      13,
+      41,
+      43,
+      44,
+      45,
+      46,
+      53,
+      54,
+      68,
+      72,
+      76,
+      77,
+      82,
+      83,
+      90,
+      92,
+      99,
+      104,
+      106,
+      110,
+      112,
+      113,
+      118,
+      119,
+      121,
+      123,
+      129,
+      131,
+      133,
+      144,
+      155,
+      157,
+      158,
+      160,
+      163,
+      165,
+      167,
+      170,
+      173,
+      175,
+      176,
+      178,
+      181,
+      187,
+      191,
+      193,
+      194,
+      196,
+      197
+    ],
+    "9": [
+      5,
+      21,
+      25,
+      31,
+      33,
+      56,
+      64,
+      65,
+      69,
+      86,
+      93,
+      94,
+      111,
+      124,
+      127,
+      132,
+      134,
+      137,
+      156,
+      159,
+      177,
+      200
+    ],
+    "?": [
+      9,
+      39,
+      54,
+      66,
+      81,
+      105,
+      116,
+      141
+    ],
+    "5": [
+      15,
+      27,
+      72,
+      76,
+      178,
+      200
+    ],
+    "12": [
+      23,
+      38,
+      58,
+      67,
+      95,
+      114,
+      120,
+      122,
+      140,
+      152,
+      182
+    ],
+    "7": [
+      24,
+      74,
+      159,
+      160,
+      177,
+      200
+    ],
+    "8": [
+      29,
+      55,
+      72,
+      76,
+      80,
+      106,
+      128,
+      130,
+      141,
+      183,
+      187,
+      189
+    ],
+    "6": [
+      106,
+      175,
+      183,
+      189
+    ],
+    "13": [
+      162
+    ],
+    "¿": [
+      169
+    ]
+  }
+}
