@@ -44,19 +44,21 @@ effect profilemod-uid %~object% to %~string% %string%:
 		continue
 
 
-skitch command layer <text>:
+skitch command layer [<text>]:
 	prefixes: _p
 	trigger:
+		cooldown of 6 to event-livechannel
+		if arg-1 is not set:
+			twitch reply with "Search for the [name] or [uid] of any Muse Dash account. Use ''-search [name/uid]''"
+			stop
 		
 		if arg-1 partially matches "^[0-9]*$":
-			cooldown of 5 to event-livechannel
 			set {_data} to arg-1
 			profilemod-uid {_profile} to uncolored arg-1 event-livechannel
 			set {_link} to "https://mdmc.moe/user/%arg-1%" if see-json "twitch" have key "stream:%event-livechannelid%_:links" is true
 		
 		if 16 >= length of arg-1:
-			cooldown of 5 to event-livechannel
-			twitch reply with "This will take a few seconds..."
+			twitch reply with "This will take a few seconds... [🕒6s]"
 			profilemod-name {_data} to uncolored arg-1
 			profilemod-uid {_profile} to {_data} event-livechannel
 			set {_link} to "https://mdmc.moe/user/%{_data}%" if see-json "twitch" have key "stream:%event-livechannelid%_:links" is true
