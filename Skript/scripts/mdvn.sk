@@ -1,0 +1,117 @@
+import:
+	ch.njol.skript.lang.Variable
+
+effect web-request to %~string% and save it on %~object%:
+	parse:
+		expr-2 is an instance of Variable # making sure the input is a variable, optional
+		continue
+	trigger:
+		delay effect
+		send a "get" request to "%expr-1%"
+		set {_res} to last response's body
+		replace newline or "	" in {_res} with ""
+		replace ",}" in {_res} with "}"
+		set raw expr-2 to {_res}
+		continue
+
+
+command /mdvn-secret:
+	trigger:
+		set {_import::*} to elements "uids[]" from cached json "van_hidden"
+		loop {_import::*}:
+			
+			#NAMES
+			delete {_lang::*}
+			set {_lang::*} to elements "name:%loop-value%[]" from cached json "van_album_plus"
+			loop {_lang::*}:
+				append "|%loop-value-2%" as nested object "search:%loop-value-1%[]" to cached json "van_hidden"
+			
+			#AUTHOR
+			set {_by} to element "author:%loop-value%" from cached json "van_album_plus"
+			append "|%{_by}%" as nested object "search:%loop-value-1%[]" to cached json "van_hidden"
+			
+			#SECRETS
+			append "show_" as nested object "out:%loop-value-1%[]" to cached json "van_hidden"
+		save cached json "van_hidden"
+		broadcast "HIDDEN IMPORTED"
+
+
+
+
+
+
+command /mdvn-index <number>:
+	trigger:
+		set {_eta} to now
+		broadcast "Running..."
+		loop arg-1 times:
+			delete {_chart::*}
+			delete {_kr::*}
+			delete {_en::*}
+			delete {_jp::*}
+			delete {_zh::*}
+			delete {_zhs::*}
+			web-request to "https://raw.githubusercontent.com/simon300000/musedash.moe/master/api/albums/ALBUM%loop-value%.json" and save it on {_data}
+			loop ("Korean|English|Japanese|ChineseT|ChineseS" split at "|"):
+				wait a ticks
+				web-request to "https://raw.githubusercontent.com/simon300000/musedash.moe/master/api/albums/ALBUM%loop-value-1%_%loop-value-2%.json" and save it on {_tr-%loop-value-2%}	
+			map {_data} to {_chart::*}
+			map {_tr-korean} to {_kr::*}
+			map {_tr-english} to {_en::*}
+			map {_tr-japanese} to {_jp::*}
+			map {_tr-chineset} to {_zh::*}
+			map {_tr-chineses} to {_zhs::*}
+			#
+			
+			
+			loop (indices of {_chart::*}):
+				loop-value-2 != "*"
+				set {_uid} to {_chart::%loop-value-2%::uid}
+				#------------------------------
+				#
+				#       ADVANCED
+				#
+				#------------------------------
+				#UID
+				append "%{_uid}%" as nested object "uids[]" to cached json "van_album_plus"
+				#LEVEL
+				loop 5 times:
+					append "%{_uid}%" as nested object "level:%{_chart::%loop-value-2%::difficulty%loop-value-3%}%[]" to cached json "van_album_plus" if {_chart::%loop-value-2%::difficulty%loop-value-3%} is set
+				#DESING
+				set {_chart::%loop-value-2%::levelDesigner1} to {_chart::%loop-value-2%::levelDesigner} if {_chart::%loop-value-2%::levelDesigner} is set
+				loop 5 times:
+					append "%{_chart::%loop-value-2%::levelDesigner%loop-value-3%}%" as nested object "design:%{_uid}%[]" to cached json "van_album_plus" if {_chart::%loop-value-2%::levelDesigner%loop-value-3%} is set
+				#BY
+				append "%{_chart::%loop-value-2%::author}%" with key "%{_uid}%" as nested object "author" to cached json "van_album_plus"				
+				#NAME
+				append "%{_en::%loop-value-2%::name}%" as nested object "name:%{_uid}%[]" to cached json "van_album_plus" if cached json "van_album_plus" doesn't have value "%{_en::%loop-value-2%::name}%"
+				append "%{_kr::%loop-value-2%::name}%" as nested object "name:%{_uid}%[]" to cached json "van_album_plus" if cached json "van_album_plus" doesn't have value "%{_kr::%loop-value-2%::name}%"
+				append "%{_jp::%loop-value-2%::name}%" as nested object "name:%{_uid}%[]" to cached json "van_album_plus" if cached json "van_album_plus" doesn't have value "%{_jp::%loop-value-2%::name}%"
+				append "%{_zh::%loop-value-2%::name}%" as nested object "name:%{_uid}%[]" to cached json "van_album_plus" if cached json "van_album_plus" doesn't have value "%{_zh::%loop-value-2%::name}%"
+				append "%{_zhs::%loop-value-2%::name}%" as nested object "name:%{_uid}%[]" to cached json "van_album_plus" if cached json "van_album_plus" doesn't have value "%{_zhs::%loop-value-2%::name}%"
+				#BPM
+				if {_chart::%loop-value-2%::bpm} contain "~" or "～":
+					delete {_bpm::*}
+					replace "～" in {_chart::%loop-value-2%::bpm} with "~"
+					set {_bpm::*} to {_chart::%loop-value-2%::bpm} split at "~"
+					append ({_bpm::1} parsed as number) with key "min" as nested object "beats:%{_uid}%" to cached json "van_album_plus"
+					append ({_bpm::2} parsed as number) with key "max" as nested object "beats:%{_uid}%" to cached json "van_album_plus"
+				else:
+					append "%{_chart::%loop-value-2%::bpm}%" with key "min" as nested object "beats:%{_uid}%" to cached json "van_album_plus"
+					append "%{_chart::%loop-value-2%::bpm}%" with key "max" as nested object "beats:%{_uid}%" to cached json "van_album_plus"
+				
+				
+				
+				
+				#------------------------------
+				#
+				#       SIMPLIFIED
+				#
+				#------------------------------
+				append "%{_uid}%" as nested object "uids[]" to cached json "van_album"
+				loop ("en|kr|jp|zh|zhs" split at "|"):
+					append "%{_%loop-value-3%::%loop-value-2%::name}%" with key "%loop-value-3%" as nested object "name:%{_uid}%" to cached json "van_album"
+
+		save cached json "van_album_plus"
+		save cached json "van_album"
+		broadcast "%difference between now and {_eta}%"

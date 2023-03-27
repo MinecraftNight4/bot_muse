@@ -1,0 +1,20 @@
+skitch command leave:
+	prefixes: _
+	trigger:
+		if event-livechannel = "bot_muse":
+			if see-json "twitch" have key "banned:%event-liveuserid%_" is false:
+				append "%rounded unix timestamp of now%" with key "%event-liveuserid%_" as nested object "banned" to cached json "twitch"
+				twitch reply with "Blacklist: ☑️"
+			else:
+				remove json value "banned:%event-liveuserid%_" from cached json "twitch"
+				twitch reply with "Blacklist: ❌"
+			save cached json "twitch"
+			stop
+		
+		if badge event-twitchperms is mod:
+			if see-json "twitch" have key "banned:%event-livechannelid%_" is false:
+				append "%rounded unix timestamp of now%" with key "%event-livechannelid%_" as nested object "banned" to cached json "twitch"
+				twitch reply with "Ignore: ☑️"
+			save cached json "twitch"
+			auth_bot_twitch()
+			stop

@@ -1,0 +1,45 @@
+on load:
+	#VANILLA
+	load json file "plugins/musedash/vanilla/advanced.json" as "van_album_plus"
+	load json file "plugins/musedash/vanilla/hidden.json" as "van_hidden"
+	load json file "plugins/musedash/vanilla/basic.json" as "van_album"
+	#MODDED
+	load json file "plugins/musedash/modded/advanced.json" as "mod_album_plus"
+	load json file "plugins/musedash/modded/board.json" as "mod_board"
+	load json file "plugins/musedash/modded/basic.json" as "mod_album"
+	#EXTRA
+	load json file "plugins/musedash/games_object.json" as "game_obj"
+	load json file "plugins/musedash/bot_data.json" as "twitch"
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+on skript load:
+	wait a second
+	#VANILLA
+	load json file "plugins/musedash/vanilla/advanced.json" as "van_album_plus"
+	load json file "plugins/musedash/vanilla/hidden.json" as "van_hidden"
+	load json file "plugins/musedash/vanilla/basic.json" as "van_album"
+	#MODDED
+	load json file "plugins/musedash/modded/advanced.json" as "mod_album_plus"
+	load json file "plugins/musedash/modded/board.json" as "mod_board"
+	load json file "plugins/musedash/modded/basic.json" as "mod_album"
+	#EXTRA
+	load json file "plugins/musedash/games_object.json" as "game_obj"
+	load json file "plugins/musedash/bot_data.json" as "twitch"
+
+on skript unload:
+	save all cached jsons

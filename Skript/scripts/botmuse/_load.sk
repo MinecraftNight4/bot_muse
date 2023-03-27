@@ -1,0 +1,3 @@
+on load:
+	wait 10 seconds
+	execute console command "/skript reload /botmuse/commd/"

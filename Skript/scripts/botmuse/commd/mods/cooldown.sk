@@ -1,0 +1,30 @@
+skitch command cooldown [<number=5>]:
+	prefixes: @
+	trigger:
+		
+		if event-livechannel = "bot_muse":
+			if (arg-1 ? 0) <= 5:
+				remove json value "stream:%event-liveuserid%_:cooldown" from cached json "twitch"
+				twitch reply with "☑️ Cooldown set: Using default cooldown!"
+			else:
+				append rounded arg-1 with key "cooldown" as nested object "stream:%event-liveuserid%_" to cached json "twitch"
+				twitch reply with "☑️ Cooldown set: Default + '%rounded arg-1%s'"
+			save cached json "twitch"
+			stop
+		
+		if badge event-twitchperms is mod:
+			if (arg-1 ? 0) <= 5:
+				remove json value "stream:%event-livechannelid%_:cooldown" from cached json "twitch"
+				twitch reply with "☑️ Updated to Default!"
+			else:
+				append rounded arg-1 with key "cooldown" as nested object "stream:%event-livechannelid%_" to cached json "twitch"
+				twitch reply with "☑️ Saved!"
+			save cached json "twitch"
+			stop
+
+
+
+
+
+
+

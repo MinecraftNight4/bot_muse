@@ -1,0 +1,105 @@
+import:
+	ch.njol.skript.lang.Variable
+
+#----------------------------------------
+#        CUSTOM EFFECTS 
+#
+#----------------------------------------
+effect oauth2-refresh:
+	trigger:
+		({twitch::oauth2::refresh} ? 0) < rounded unix timestamp of now
+		delay effect
+		send a "post" request to "https://id.twitch.tv/oauth2/token..."
+		set {_token} to last response's body
+		map {_token} to {_res::*}
+		set {twitch::oauth2::actoken} to {_res::access_token}
+		set {twitch::oauth2::refresh} to rounded down unix timestamp of now + {_res::expires_in} - 5
+		continue
+
+effect oauth2-get %~objects% to %~objects%:
+	parse:
+		expr-1 is an instance of Variable
+		expr-2 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		send a "get" request to "https://api.twitch.tv/helix/streams?game_id=374711699&first=100" with the headers "Authorization: Bearer %{twitch::oauth2::actoken}%", and "..."
+		set {_stream} to last response's body
+		map {_stream} to {_res::*}
+		loop indices of {_res::data::*}:
+			loop-value != "*"
+			see-json "twitch" have key "banned:%{_res::data::%loop-value%::user_id}%_" is false						#CHECK BANNED ACCOUNT
+			set {_watch::%{_res::data::%loop-value%::user_login}%} to {_res::data::%loop-value%::user_login}
+			set {twitch::watchs::%{_res::data::%loop-value%::user_login}%::id} to {_res::data::%loop-value%::user_id}
+			mod-lang of {_res::data::%loop-value%::user_login} to {_res::data::%loop-value%::language}
+
+			{twitch::watchs::%{_res::data::%loop-value%::user_login}%} is not set										#CHECK IF NOW IS WATCHED
+			rounded unix timestamp of now > {twitch::greets::%{_res::data::%loop-value%::user_login}%} ? 0				#AVOID HELLO SPAM
+			set {twitch::greets::%{_res::data::%loop-value%::user_login}%} to rounded unix timestamp of now + 7200
+			add {_res::data::%loop-value%::user_login} to {_hello::*}
+		set raw expr-1 to {_watch::*}
+		set raw expr-2 to {_hello::*}
+		continue
+
+
+
+
+#----------------------------------------
+#        TWITCH AUTH SUMMON
+#
+#----------------------------------------
+function auth_bot_twitch_say() :: strings:
+	set {_date} to now formatted as "dd_MM"
+	set {_hello::*} to elements "display:%{_date}%[]" from cached json "twitch"
+	if size of {_hello::*} = 0:
+		set {_hello::*} to elements "display:regular[]" from cached json "twitch"
+		return {_hello::*}
+	else:
+		return {_hello::*}
+
+
+function auth_bot_twitch():
+	oauth2-refresh
+	oauth2-get {_watch::*} to {_hello::*}
+	stop if {twitch::watchs} = join {_watch::*} with ", "
+	set {twitch::watchs} to join {_watch::*} with ", "
+	#--------------------------------
+	#      GET NEW > CLEAR OLD DATA
+	#--------------------------------
+	loop {twitch::greets::*}:
+		(unix timestamp of now - loop-value) > 7200
+		delete {twitch::greets::%loop-index%}
+	loop {twitch::watchs::*}:
+		continue if loop-value contains {_watch::*}
+		delete {twitch::watchs::%loop-value%::*}
+		delete {twitch::watchs::%loop-value%}
+	loop {_watch::*}:
+		{twitch::watchs::%loop-value%} is not set
+		set {twitch::watchs::%loop-value%} to loop-value
+	#--------------------------------
+	#      ROLL AUTH BOT
+	#--------------------------------
+	if size of {_watch::*} = 0:
+		twitch login to client "0000" with token "0000" with secret "0000" to overview "mnight4"
+		stop
+	else:
+		twitch login to client "0000" with token "0000" with secret "0000" to overview "%{twitch::watchs}%"
+		broadcast "%{_hello::*} ? ""% | %{twitch::watchs}%"
+		set {_hichat::*} to auth_bot_twitch_say()
+		loop {_hello::*}:
+			wait 3 second
+			send "%loop-value%: %random element of {_hichat::*}%" to livechat "bot_muse"
+		broadcast "All done!"
+		stop
+
+
+every 5 minutes:
+	broadcast "Updating..."
+	auth_bot_twitch()
+
+command /watchnow:
+	trigger:
+		broadcast "Rolling stream!"
+		auth_bot_twitch()
+
+

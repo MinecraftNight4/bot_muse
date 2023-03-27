@@ -1,0 +1,71 @@
+import:
+	ch.njol.skript.lang.Variable
+
+effect profilemod-name %~object% to %~string%:
+	parse:
+		expr-1 is an instance of Variable # making sure the input is a variable, optional
+		continue
+	trigger:
+		delay effect
+		send a "get" request to "https://api.musedash.moe/mdmc/search/%uncolored expr-2%"
+		set {_res} to last response's body
+		#
+		replace every "],[" and """" and "]]"  in {_res} with ","
+		set {_p::*} to {_res} split at ","
+		set raw expr-1 to {_p::5} if {_p::5} is set
+		continue
+
+effect profilemod-uid %~object% to %~string% %string%:
+	parse:
+		expr-1 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		send a "get" request to "https://mdmc.moe/api/v5/user/%uncolored expr-2%"
+		set {_get} to last response's body
+		map {_get} to {_json::*}
+		#ORGANIZADOR
+		replace "/webp/" in {_json::top_scores::1::chart::cover} with ""
+		set {_user::songs} to get-json "mod_album" have key "name:%{_json::top_scores::1::chart::cover}%:en"
+		set {_user::muses} to get-json "game_obj" have key "muse:%{_json::top_scores::1::character_uid}%"
+		set {_user::hards} to get-json "game_obj" have key "diff:%{_json::top_scores::1::chart::type}%"
+		set {_user::elfin} to get-json "game_obj" have key "elfin:%{_json::top_scores::1::elfin_uid}%"
+		set {_user::score} to {_json::top_scores::1::score}
+		set {_user::leads} to {_json::top_scores::1::rank}
+		set {_user::acurr} to {_json::top_scores::1::acc}
+		set {_user::songs} to short {_user::songs} at 14
+		set {_user::pgold} to {_json::all_perfects}
+		set {_user::paccy} to {_json::accuracy}
+		set {_user::prank} to {_json::rank}
+		set {_user::pname} to {_json::name}
+		
+		#OUTPUT
+		set raw expr-1 to "──────────────────────────────── 📜%{_user::pname}%️ ️ 🏆%{_user::pgold}%️ ️ 🎯%{_user::paccy}%️ ️ 🌐##%{_user::prank}% ──────────────────────────────── ️ 🏅%{_user::leads}%️ ️ 🎯%{_user::acurr}%%%️ ️ 🎮%{_user::score}%️ ️ 💠%{_user::muses}%%{_user::elfin}%️ ️ ️ ️ ️ ️ ️ ️ [%{_user::songs}% %{_user::hards}%" if {_user::pname} is set
+		continue
+
+
+skitch command layer <text>:
+	prefixes: _p
+	trigger:
+		
+		if arg-1 partially matches "^[0-9]*$":
+			cooldown of 5 to event-livechannel
+			set {_data} to arg-1
+			profilemod-uid {_profile} to uncolored arg-1 event-livechannel
+			set {_link} to "https://mdmc.moe/user/%arg-1%" if see-json "twitch" have key "stream:%event-livechannelid%_:links" is true
+		
+		if 16 >= length of arg-1:
+			cooldown of 5 to event-livechannel
+			twitch reply with "This will take a few seconds..."
+			profilemod-name {_data} to uncolored arg-1
+			profilemod-uid {_profile} to {_data} event-livechannel
+			set {_link} to "https://mdmc.moe/user/%{_data}%" if see-json "twitch" have key "stream:%event-livechannelid%_:links" is true
+
+		if {_profile} is set:
+			twitch reply with "%{_link} ? ""% %{_profile}%"
+			stop
+
+		twitch reply with "Oops! No results found for '%first 16 characters of arg-1%'"
+		stop
+
+

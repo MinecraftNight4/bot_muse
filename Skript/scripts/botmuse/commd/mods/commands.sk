@@ -1,0 +1,15 @@
+skitch command bot_muse [<text>]:
+	prefixes: @
+	trigger:		
+		if event-livechannel = "bot_muse":
+			set {_response} to "─────────────Settings───────────── @leave️ ️ ️ ️ @links️ ️ ️ ️ @cooldown [sec.]" if badge event-twitchperms is mod
+			set {_response} to "%{_response} ? ""% ──────────────MDMC───────────── _search [music],️ ️ ️ ️ _player [name],️ ️ ️ ️ _mdmc ─────────────MuseDash──────────── -search [music],️ ️ ️ ️ -hidden [music],️ ️ ️ ️ -free,️ ️ ️ ️ ️ ️ ️ ️ ️ ️ -player [name]"
+			twitch reply with "You can try this commands: %{_response}%"
+			stop
+		
+		else:
+			cooldown of 6 to event-livechannel
+			set {_response} to "─────────────Settings───────────── @leave️ ️ ️ ️ @links️ ️ ️ ️ @cooldown [sec.]" if badge event-twitchperms is mod
+			set {_response} to "%{_response} ? ""% ──────────────MDMC───────────── _search [music],️ ️ ️ ️ _player [name],️ ️ ️ ️ _mdmc ─────────────MuseDash──────────── -search [music],️ ️ ️ ️ -hidden [music],️ ️ ️ ️ -free,️ ️ ️ ️ ️ ️ ️ ️ ️ ️ -player [name]"
+			twitch reply with "You can try this commands: %{_response}%"
+			stop
