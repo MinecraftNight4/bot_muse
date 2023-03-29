@@ -2,7 +2,8 @@
   "hello": {
     "announce": [
       {
-        "expires_at": 1680083109,
+        "en": 1680119520,
+        "ds": 1680119620,
         "msg": [
           "[📢] Test message"
         ]
