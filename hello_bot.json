@@ -5,13 +5,14 @@
         "en": 1680120499,
         "ds": 1680253200,
         "msg": [
-          "[📢] MD Update: This Friday at (09:00 GMT+0)!",
-          "[📢] MD Update: 7 new songs this Friday!",
-          "[📢] MD Update: New character! [🧸 Ola]",
-          "[📢] MD Update: [🎵Aleph-0] Soon!",
-          "[📢] MD Update: [🎵Rush-Hour] Soon!",
-          "[📢] MD Update: [🎵3rd avenue] Soon!",
-          "[📢] MD Update: [🎵Worldinvader] Soon!"
+		  "[📢] New Update this Friday at (09:00 GMT+0)!",
+          "[📢] A new character is coming! [🧸 Ola]",
+		  "[📢] Ready for the April Fools Update?",
+		  "[📢] 7 New songs coming this Friday!",
+		  "[📢] New song coming! [🎵Worldinvader]",
+		  "[📢] New song coming! [🎵3rd avenue]",
+		  "[📢] New song coming! [🎵Rush-Hour]",
+		  "[📢] New song coming! [🎵Aleph-0]"
         ]
       }
     ],
