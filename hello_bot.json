@@ -1,53 +1,6 @@
 {
   "hello": {
-    "announce": [
-      {
-        "expires_at": 1680083109,
-        "msg": [
-          "[📢] Test message"
-        ]
-      }
-    ],
-    "event": [
-      {
-        "time": [
-          "31_03"
-        ],
-        "msg": [
-          "[🤡] Happy Bday, Rin Part-Time Warrior!",
-          "[🤡] Is that Iyaiya ⭐12?!",
-          "[🤡] Cyka Blyat！Rush B！",
-          "[🤡] Somebody ScreE-e-E-e-E!!",
-          "[🤡] 2023 = un3xpected_apr1l.f0ols()_error",
-          "[🤡] 2022 = #NyaNya #CatsParty!!",
-          "[🤡] 2021 = #MD_Bankrupt #SadNoises"
-        ]
-      },
-      {
-        "time": [
-          "01_04"
-        ],
-        "msg": [
-          "[🤡] Happy Bday, Rin Part-Time Warrior!",
-          "[🤡] [🎵GOODTEK ⭐?] is unlocked!",
-          "[🤡] [Settings]->[🎵How to play] Only today...",
-          "[🤡] Song of the day: [🎵Kabooooom!!!!]",
-          "[🤡] Song of the day: [🎵Mopemope]",
-          "[🤡] Song of the day: [🎵Marenol]",
-          "[🤡] Song of the day: [🎵Aleph-0]",
-          "[🤡] Song of the day: [🎵bamboo]"
-        ]
-      }
-    ],
-    "base": [
-      "[⚡] *Beep Boop* Hi chat!",
-      "[⚡] Music! Ready... GO!!",
-      "[⚡] Everyone have Rythm!!",
-      "[⚡] Commands ready to use!!",
-      "[⚡] Ready to find you Rythm?",
-      "[⚡] Huh... Playing Muse Dash?",
-      "[⚡] Hi! *Vibes with the music*",
-      "[⚡] Ready to reveal MD Secrets!"
-    ]
-  }
+    "announce": "N/A",
+    "event": "N/A",
+    "base": "N/A"
 }
