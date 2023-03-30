@@ -47,7 +47,7 @@ expression short %string% at %number%:
 
 expression format unix %~object%:
 	get:
-		set {_wrte} to "%expr-2%" parsed as number
+		set {_wrte} to "%expr-1%" parsed as number
 		set {_timer} to ({_wrte} - rounded unix timestamp of now)
 		while {_timer} > 1:
 			if {_timer} >= 31556926:
@@ -88,7 +88,7 @@ expression music %strings% of album %string% from streamer %string% with length 
 		return {_m::*}
 
 
-effect music-filter %string% to save %~objects% %~objects% %~object% %~object% %~string%:
+effect music-filter %string% to %~objects% %~objects% %~object% %~object% %~string%:
 	parse:
 		expr-2 is an instance of Variable
 		expr-3 is an instance of Variable
@@ -138,7 +138,6 @@ effect music-filter %string% to save %~objects% %~objects% %~object% %~object% %
 		set raw expr-6 to join {_input::*} with " "
 		continue
 
-
 effect mod-lang of %string% to %string%:
 	trigger:
 		set {_id} to {twitch::watchs::%expr-1%::id}
@@ -147,6 +146,39 @@ effect mod-lang of %string% to %string%:
 		#
 		set {_lang} to element "stream:%{_id}%_:lang" from cached json "twitch"
 		set {twitch::watchs::%expr-1%::lang} to {_lang} ? "%{_iso}%"
+
+effect bot-hello %~objects%:
+	parse:
+		expr-1 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		send a "get" request to "https://raw.githubusercontent.com/MinecraftNight4/bot_muse/main/hello_bot.json"
+		map (last response's body) to {_json::*}
+		set {_day} to now formatted as "dd_MM"
+
+		if size of {_o::*} = 0:
+			loop (indices of {_json::hello::announce::*} where [input is not "*"]):
+				rounded unix timestamp of now > {_json::hello::announce::%loop-value%::en}
+				rounded unix timestamp of now < {_json::hello::announce::%loop-value%::ds}
+				size of {_o::*} = 0
+				loop {_json::hello::announce::%loop-value%::msg::*}:
+					add loop-value-2 to {_o::*}
+		if size of {_o::*} = 0:
+			loop (indices of {_json::hello::event::*} where [input is not "*"]):
+				"%join {_json::hello::event::%loop-value%::time::*} with "|"% " contain "%{_day}%"
+				size of {_o::*} = 0
+				loop {_json::hello::event::%loop-value%::msg::*}:
+					add loop-value-2 to {_o::*}
+		if size of {_o::*} = 0:
+			loop {_json::hello::base::*}:
+				add loop-value to {_o::*}
+
+		set raw expr-1 to {_o::*} ? ""
+		continue
+
+
+
 
 
 condition cooldown of %number% to %string%:

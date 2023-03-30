@@ -71,8 +71,8 @@ skitch command earch [<text>]:
 	prefixes: _s
 	trigger:
 		cooldown of 5 to event-livechannel
-		if arg-1 is not set:
-			twitch reply with "You can search for any song name in muse dash with ''-search [song name]''!"
+		if (arg-1 ? " ") = " ":
+			twitch reply with "Tell me a song and I'll look it up in MDMC: _search [song name]"
 			stop
 		
 		#ID
@@ -81,12 +81,10 @@ skitch command earch [<text>]:
 			set {_tra} to music-mod {_uids::*} with length of 13
 			twitch reply with " ──────────────────────────────── %{_tra}%"
 			stop
-
 		#SEARCH SYSTEM
 		if arg-1 is set:
 			music-filter arg-1 to {_bpm::*} {_dif::*} {_des} {_by} {_search} if {_uids::1} is not set
 			index-modded in {_uids::*} for {_bpm::*} {_dif::*} {_des} {_by} {_search}
-
 		#OUTPUT
 		if size of {_uids::*} > 0:
 			add music-mod {_uids::*} with length of 13 to {_tra::*}

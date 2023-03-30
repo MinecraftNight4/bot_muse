@@ -23,7 +23,7 @@ effect oauth2-get %~objects% to %~objects%:
 		continue
 	trigger:
 		delay effect
-		send a "get" request to "https://api.twitch.tv/helix/streams?game_id=374711699&first=100" with the headers "Authorization: Bearer %{twitch::oauth2::actoken}%", and "..."
+		send a "get" request to "https://api.twitch.tv/helix/streams?game_id=374711699&first=100" with the headers "..."
 		set {_stream} to last response's body
 		map {_stream} to {_res::*}
 		loop indices of {_res::data::*}:
@@ -48,16 +48,6 @@ effect oauth2-get %~objects% to %~objects%:
 #        TWITCH AUTH SUMMON
 #
 #----------------------------------------
-function auth_bot_twitch_say() :: strings:
-	set {_date} to now formatted as "dd_MM"
-	set {_hello::*} to elements "display:%{_date}%[]" from cached json "twitch"
-	if size of {_hello::*} = 0:
-		set {_hello::*} to elements "display:regular[]" from cached json "twitch"
-		return {_hello::*}
-	else:
-		return {_hello::*}
-
-
 function auth_bot_twitch():
 	oauth2-refresh
 	oauth2-get {_watch::*} to {_hello::*}
@@ -80,15 +70,14 @@ function auth_bot_twitch():
 	#      ROLL AUTH BOT
 	#--------------------------------
 	if size of {_watch::*} = 0:
-		twitch login to client "0000" with token "0000" with secret "0000" to overview "mnight4"
+		twitch login to client "..." with token "..." with secret "..." to overview "mnight4"
 		stop
 	else:
-		twitch login to client "0000" with token "0000" with secret "0000" to overview "%{twitch::watchs}%"
-		broadcast "%{_hello::*} ? ""% | %{twitch::watchs}%"
-		set {_hichat::*} to auth_bot_twitch_say()
+		twitch login to client "..." with token "..." with secret "..." to overview "%{twitch::watchs}%"
+		bot-hello {_hichat::*}
 		loop {_hello::*}:
 			wait 3 second
-			send "%loop-value%: %random element of {_hichat::*}%" to livechat "bot_muse"
+			send "%random element of {_hichat::*} ? " "%" to livechat "%loop-value%"
 		broadcast "All done!"
 		stop
 
