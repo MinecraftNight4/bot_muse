@@ -2,20 +2,6 @@
   "hello": {
     "announce": [
       {
-        "en": 1680120499,
-        "ds": 1680253199,
-        "msg": [
-          "[📢] New Update this Friday(09:00 GMT+0)!",
-          "[📢] A new character is coming! [🧸 Ola]",
-          "[📢] Ready for the April Fools Update?",
-          "[📢] 7 New songs coming this Friday!",
-          "[📢] New song coming this Friday! [🎵Worldinvader]",
-          "[📢] New song coming this Friday! [🎵3rd avenue]",
-          "[📢] New song coming this Friday! [🎵Rush-Hour]",
-          "[📢] New song coming this Friday! [🎵Aleph-0]"
-        ]
-      },
-      {
         "en": 1680253200,
         "ds": 1680253210,
         "msg": [
@@ -29,14 +15,12 @@
           "31_03"
         ],
         "msg": [
-          "[🤡] Happy Bday, Rin Part-Time Warrior!",
           "[🤡] Is that Iyaiya ⭐12?!",
-          "[🤡] Cyka Blyat！Rush B！",
-          "[🤡] Somebody ScreE-e-E-e-E!!",
-          "[🤡] Music! Ready? GO-Go-GO-Go-go!¡",
-          "[🤡] 2023 = un3xpected_apr1l.f0ols()_error",
-          "[🤡] 2022 = #NyaNya #CatsParty!!",
-          "[🤡] 2021 = #MD_Bankrupt #SadNoises"
+          "[🤡] You're playing [Ola Dash!!]",
+          "[🤡] New Pack is here!1 [Ola Dash]",
+          "[🤡] Music! Ready... GO-go-GO-go-gO!¡",
+          "[🤡] Error of the day: [🎵3rd Avenue]",
+          "[🤡] [Error Sounds] on Sounds settings!1"
         ]
       },
       {
