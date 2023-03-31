@@ -331,6 +331,7 @@
     "43-19",
     "43-20",
     "43-21",
+    "43-22",
     "44-0",
     "44-1",
     "44-2",
@@ -431,16 +432,15 @@
     "60-2",
     "60-3",
     "60-4",
-    "60-5"
+    "60-5",
+    "61-0",
+    "61-1",
+    "61-2",
+    "61-3",
+    "61-4",
+    "61-5"
   ],
   "name": {
-    "0-a": {
-      "en": "🎶Tutorial",
-      "kr": "🎶지도 시간",
-      "jp": "🎶チュートリアル",
-      "zh": "🎶教程",
-      "zhs": "🎶教程"
-    },
     "0-48": {
       "en": "🎶Magical Wonderland (More colorful mix)",
       "kr": "🎶Magical Wonderland (More colorful mix)",
@@ -2758,6 +2758,13 @@
       "zh": "🎶犬之歌",
       "zhs": "🎶犬之歌"
     },
+    "43-22": {
+      "en": "🎶Prism Fountain",
+      "kr": "🎶Prism Fountain",
+      "jp": "🎶Prism Fountain",
+      "zh": "🎶Prism Fountain",
+      "zhs": "🎶Prism Fountain"
+    },
     "44-0": {
       "en": "🎶Party in the HOLLOWood feat. ななひら",
       "kr": "🎶Party in the HOLLOWood feat. ななひら",
@@ -3464,6 +3471,48 @@
       "jp": "🎶天火明命",
       "zh": "🎶天火明命",
       "zhs": "🎶天火明命"
+    },
+    "61-0": {
+      "en": "🎶MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ",
+      "kr": "🎶MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ",
+      "jp": "🎶MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ",
+      "zh": "🎶MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ",
+      "zhs": "🎶MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ"
+    },
+    "61-1": {
+      "en": "🎶Aleph-0",
+      "kr": "🎶Aleph-0",
+      "jp": "🎶Aleph-0",
+      "zh": "🎶Aleph-0",
+      "zhs": "🎶Aleph-0"
+    },
+    "61-2": {
+      "en": "🎶ぶっとばスーパーノヴァ",
+      "kr": "🎶ぶっとばスーパーノヴァ",
+      "jp": "🎶ぶっとばスーパーノヴァ",
+      "zh": "🎶ぶっとばスーパーノヴァ",
+      "zhs": "🎶ぶっとばスーパーノヴァ"
+    },
+    "61-3": {
+      "en": "🎶Rush-Hour",
+      "kr": "🎶Rush-Hour",
+      "jp": "🎶Rush-Hour",
+      "zh": "🎶Rush-Hour",
+      "zhs": "🎶Rush-Hour"
+    },
+    "61-4": {
+      "en": "🎶3rd Avenue",
+      "kr": "🎶3rd Avenue",
+      "jp": "🎶3rd Avenue",
+      "zh": "🎶3rd Avenue",
+      "zhs": "🎶3rd Avenue"
+    },
+    "61-5": {
+      "en": "🎶WORLDINVADER",
+      "kr": "🎶WORLDINVADER",
+      "jp": "🎶WORLDINVADER",
+      "zh": "🎶WORLDINVADER",
+      "zhs": "🎶WORLDINVADER"
     }
   }
 }
