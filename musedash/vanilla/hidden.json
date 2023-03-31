@@ -59,14 +59,15 @@
     "55-4",
     "55-5",
     "58-0",
-    "60-4"
+    "60-4",
+    "61-2",
+    "61-3"
   ],
   "search": {
     "0-a": [
       "|Heart-Pounding Flight",
       "|Tutorial",
-      "|Skill Issues",
-      null
+      "|Skill Issues"
     ],
     "0-11": [
       "|Lights of Muse",
@@ -334,6 +335,15 @@
       "|Flower, snow and Drum'n'bass.",
       "|花と、雪と、ドラムンベース。",
       "|kanone feat. せんざい"
+    ],
+    "61-2": [
+      "|Buttoba Super Nova",
+      "|ぶっとばスーパーノヴァ",
+      "|ななひら&ころねぽち"
+    ],
+    "61-3": [
+      "|Rush-Hour",
+      "|litmus*"
     ]
   },
   "out": {
@@ -374,13 +384,13 @@
       "show_a"
     ],
     "29-1": [
-      "show_e"
+      "show_a"
     ],
     "29-3": [
       "show_a"
     ],
     "29-5": [
-      "show_a"
+      "show_e"
     ],
     "31-1": [
       "show_a"
@@ -392,10 +402,10 @@
       "show_a"
     ],
     "33-3": [
-      "show_f"
+      "show_a"
     ],
     "33-12": [
-      "show_a"
+      "show_f"
     ],
     "34-1": [
       "show_a"
@@ -432,8 +442,7 @@
     ],
     "42-0": [
       "show_a",
-      "show_j",
-      null
+      "show_j"
     ],
     "42-1": [
       "show_j"
@@ -484,7 +493,7 @@
       "show_a"
     ],
     "51-4": [
-      "show_a"
+      "show_i"
     ],
     "51-5": [
       "show_a"
@@ -518,6 +527,12 @@
     ],
     "60-4": [
       "show_i"
+    ],
+    "61-2": [
+      "show_a"
+    ],
+    "61-3": [
+      "show_a"
     ]
   },
   "reveal": {
