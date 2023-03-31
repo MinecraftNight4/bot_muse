@@ -3,7 +3,7 @@
     "announce": [
       {
         "en": 1680120499,
-        "ds": 1680253200,
+        "ds": 1680253199,
         "msg": [
           "[📢] New Update this Friday(09:00 GMT+0)!",
           "[📢] A new character is coming! [🧸 Ola]",
@@ -13,6 +13,13 @@
           "[📢] New song coming this Friday! [🎵3rd avenue]",
           "[📢] New song coming this Friday! [🎵Rush-Hour]",
           "[📢] New song coming this Friday! [🎵Aleph-0]"
+        ]
+      },
+      {
+        "en": 1680253200,
+        "ds": 1680253210,
+        "msg": [
+          "[❗] The update has arrived!! 1 Character and 7 Songs are waiting for you... #GLHF"
         ]
       }
     ],
