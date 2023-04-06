@@ -40,14 +40,10 @@
       }
     ],
     "base": [
-      "[⚡] *Beep Boop* Hi chat!",
-      "[⚡] Music! Ready... GO!!",
-      "[⚡] Everyone has Rythm!!",
-      "[⚡] Ready to find your rhythm?",
-      "[⚡] Commands ready to use!!",
-      "[⚡] Huh... Playing Muse Dash?",
-      "[⚡] Let the music flow with you~",
-      "[⚡] Ready to reveal secrets!"
+      "[⚡] This bot is ready!",
+	  "[⚡] Commands enabled...",
+	  "[⚡] Music! Ready... GO!!",
+	  "[⚡] Follow the rhythm~"
     ]
   }
 }
