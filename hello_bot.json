@@ -1,44 +1,170 @@
 {
-  "hello": {
-    "announce": [
+  "es": {
+    "news": [
       {
-        "en": 1680253200,
-        "ds": 1680253210,
-        "msg": [
-          "[❗] The update has arrived!! 1 Character and 7 Songs are waiting for you... #GLHF"
+        "run": 10,
+        "out": 10,
+        "read": [
+          "[📢] Empty!"
         ]
       }
     ],
-    "event": [
+    "date": [
       {
-        "time": [
-          "31_03"
-        ],
-        "msg": [
-          "[🤡] Is that Iyaiya ⭐12?!",
-          "[🤡] You're playing [Ola Dash!!]",
-          "[🤡] New Pack is here!1 [Ola Dash]",
-          "[🤡] Music! Ready... GO-go-GO-go-gO!¡",
-          "[🤡] [Error Sounds] on Sounds settings!1",
-          "[🤡] A new character, a hit sound, and 7 songs available!"
+        "run": "25_12",
+        "read": [
+          "[🎄] ¡¡Feliz Navidad!!",
+          "[🎄] Hmm... ¿Jugaste [🎵...Christmas though]?",
+          "[🎄] Hmm... ¿Jugaste [🎵Midnight O'clock]?",
+          "[🎄] Hmm... ¿Jugaste [🎵雪降り、メリクリ]?"
         ]
       },
       {
-        "time": [
-          "01_04"
-        ],
-        "msg": [
-          "[🤡] Available during April Fools: [🎵How to Play ⭐?]",
-          "[🤡] Available during April Fools: [🎵GOODTEK ⭐?]",
-          "[🤡] Error: You're playing [Ola Dash]!!",
-          "[🤡] Why are the Bosses using [Birds]!?",
-          "[🤡] Happy Bday, Rin Part-Time Warrior!",
-          "[🤡] Let the music flow with you~",
-          "[🤡] Happy Bday, Ola Boxer!",
-          "[🤡] Happy April Fools!¡!"
+        "run": "24_12",
+        "read": [
+          "[🎄] ¡Tic Tac! Ya casi es Navidad...",
+          "[🎄] Hmm... ¿Jugaste [🎵...Christmas though]?",
+          "[🎄] Hmm... ¿Jugaste [🎵Midnight O'clock]?",
+          "[🎄] Hmm... ¿Jugaste [🎵雪降り、メリクリ]?"
+        ]
+      },
+      {
+        "run": "01_11",
+        "read": [
+          "[🎃] Disponible solo hoy: [🎵Sweet* Witch* Girl* ⭐?]",
+          "[🎃] ¿Viste el Disfraz de Buro Zombi?",
+          "[🎃] ¡Feliz Halloween!",
+          "[🎃] ¡Truco o Dulce!"
+        ]
+      },
+      {
+        "run": "31_10",
+        "read": [
+          "[🎃] Buu~ ¿Te asuste?",
+          "[🎃] ¡¡Truco o Dulce!!",
+          "[🎃] Noviembre 1 = [Nivel Oculto]"
+        ]
+      },
+      {
+        "run": "20_06",
+        "read": [
+          "[🥳] ¡Feliz Aniversario Muse Dash!",
+          "[🥳] ¡Celebremos los 5 años de Muse Dash!",
+          "[🥳] ¡Gracias por ser parte de la comunidad!",
+          "[🥳] ¡Toma! Por el Aniversario de Muse Dash... 🍰"
+        ]
+      },
+      {
+        "run": "01_04",
+        "read": [
+          "[🤡] ¡F3l1z di4 de L0z Inoc3ntez!",
+          "[🤡] ¡Feliz Cumpleaños Rin y Ola!",
+          "[🤡] Disponible solo hoy: [🎵GOODTEK ⭐?]",
+          "[🤡] Disponible solo hoy: [Ajustes]->[🎵How to Play]"
         ]
       }
     ],
+    "base": [
+      "[⚡] Este bot esta listo~",
+      "[⚡] Comandos activados...",
+      "[⚡] ¡Todos tienen ritmo!",
+      "[⚡] ¡A por esos rangos S!"
+    ]
+  },
+  "en": {
+    "news": [
+      {
+        "run": 10,
+        "out": 10,
+        "read": [
+          "[📢] Empty!"
+        ]
+      }
+    ],
+    "date": [
+      {
+        "run": "25_12",
+        "read": [
+          "[🎄] Merry christmas!!",
+          "[🎄] You tried [🎵...Christmas though]?",
+          "[🎄] You tried [🎵Midnight O'clock]?",
+          "[🎄] You tried [🎵雪降り、メリクリ]?"
+        ]
+      },
+      {
+        "run": "24_12",
+        "read": [
+          "[🎄] Holy Night~ Holy Night~",
+          "[🎄] You tried [🎵...Christmas though]?",
+          "[🎄] You tried [🎵Midnight O'clock]?",
+          "[🎄] You tried [🎵雪降り、メリクリ]?"
+        ]
+      },
+      {
+        "run": "01_11",
+        "read": [
+          "[🎃] Only today: [🎵Sweet* Witch* Girl* ⭐?]",
+          "[🎃] It's Spooky Month!!",
+          "[🎃] Trick 'r Treat!"
+        ]
+      },
+      {
+        "run": "31_10",
+        "read": [
+          "[🎃] BOO!!",
+          "[🎃] Trick 'r Treat!"
+        ]
+      },
+      {
+        "run": "20_06",
+        "read": [
+          "[🥳] This cake is for you! 🍰",
+          "[🥳] Happy Anniversary Muse Dash!",
+          "[🥳] Let's celebrate Muse Dash's 5th anniversary!"
+        ]
+      },
+      {
+        "run": "01_04",
+        "read": [
+          "[🤡] H4ppy Apr1L F0ol5¡!",
+          "[🤡] Happy Bday, Rin Warrior and Ola!!",
+          "[🤡] Available during April Fools: [🎵GOODTEK ⭐?]",
+          "[🤡] Available during April Fools: [🎵How to Play ⭐?]"
+        ]
+      }
+    ],
+    "base": [
+      "[⚡] This bot is ready!",
+      "[⚡] Commands enabled...",
+      "[⚡] Music! Ready... GO!!",
+      "[⚡] Follow the rhythm~"
+    ]
+  },
+  "kr": {
+    "base": [
+      "[⚡] This bot is ready!",
+      "[⚡] Commands enabled...",
+      "[⚡] Music! Ready... GO!!",
+      "[⚡] Follow the rhythm~"
+    ]
+  },
+  "jp": {
+    "base": [
+      "[⚡] This bot is ready!",
+      "[⚡] Commands enabled...",
+      "[⚡] Music! Ready... GO!!",
+      "[⚡] Follow the rhythm~"
+    ]
+  },
+  "zh": {
+    "base": [
+      "[⚡] This bot is ready!",
+      "[⚡] Commands enabled...",
+      "[⚡] Music! Ready... GO!!",
+      "[⚡] Follow the rhythm~"
+    ]
+  },
+  "zhs": {
     "base": [
       "[⚡] This bot is ready!",
       "[⚡] Commands enabled...",
