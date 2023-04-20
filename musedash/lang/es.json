@@ -1,0 +1,88 @@
+{
+  "@bot_muse": {
+    "botv": "Soy un bot no asociado a PeroPeroGames o Muse Dash, el cual se conectara durante tus emisiones de Muse Dash. Mis comandos: -help",
+	"mods": "Soy un bot no asociado a PeroPeroGames o Muse Dash, el cual se conectara durante tus emisiones de Muse Dash. Mis comandos: -help",
+    "base": "Si te interesan mis comandos, usa: -help"
+  },
+  "@cooldown": {
+    "default": "❌ Tiempo entre comandos: 5s (Por defecto)",
+    "set": "☑️ Tiempo entre comandos: 5+**arg**s"
+  },
+  "@leave": {
+    "bye": "¡Fue un gusto conocerlos chat!",
+    "toggle_1": "❌ ¿Ignorar tu canal?: Sí",
+    "toggle_2": "☑️ ¿Ignorar tu canal?: No (Esto puede demorar unos minutos)"
+  },
+  "@links": {
+    "toggle_1": "❌ Enlaces: No",
+	"toggle_2": "☑️ Enlaces: Sí 🛑 Aviso: Otros bots pueden vetarme debido a que algunos comandos envíen enlaces."
+  },
+  "@lang": {
+    "default": "❌ Idioma: -Utilizando idioma automático-",
+    "updated": "☑️ Idioma: ¡Asignado al Español!",
+    "langs": "Usa \"@lang [número]\" para asignar: [English: 1] [Español: 2] [日本語️: 3] [繁體中文: 4] [简体中文: 5]"
+  },
+  "-player": {
+    "help": "Crearé un perfil del [Jugador Clasificado] que me digas: \"-player [name/uid]\"",
+    "wait": "Indexando jugadores...",
+    "error": "Al parecer \"**arg**\" no esta en ningún ranking."
+  },
+  "-hidden": {
+    "help": "Envía \"-hidden [song]\" y revelaré secretos del nivel... O prueba suerte con \"-hidden !r!\"",
+    "error": "Llegue al final de mi index, y no encontré nada...",
+    "hint": {
+      "a": "💡Pista: Ve a la canción y [Pulsa Varias Veces] en el selector de nivel [ROSA].",
+      "b": "💡Pista: Cambia la fecha o espera al [1 de Abril].",
+      "c": "💡Pista: Cambia la fecha o espera al [1 de Noviembre].",
+      "d": "💡Pista: Ve a la dificultad [Master], mantén pulsado el click en el centro del menú y [has 3 círculos sin soltar el click].",
+      "e": "💡Pista: Ve a la canción, y mueve las dificultades en este orden [3 veces]: [⭐6→⭐4→⭐6→⭐9].",
+      "f": "💡Pista: Ve al Trove(Inventario), baja y busca un ítem con la descripción \"It's NEKO#ΦwΦ stream\". Abre esa pantalla, espera y responde la llamada.",
+      "g": "💡Pista: Ve a la dificultad [Master], y con el click has 2 líneas imaginarias [formando una X].",
+      "h": "💡Pista: Ve a la canción y [Pulsa Varias Veces] en el selector de nivel [AZUL].",
+      "i": "💡Pista: [Mantén Pulsado el Click] sobre la [Imagen de la Canción].",
+      "j": "💡Pista: En el menú de personajes, selecciona a [Reimu o Marisa], pulsa dos veces sobre [Cualquier Objeto que NO Sostenga] el personaje, y pulsa sobre el botón [?] a la izquierda de [Select]."
+    }
+  },
+  "-song": {
+    "help": "Dime una canción y te diré como se llama en el juego: \"-song [name]\"",
+    "more": "y **arg** más.",
+    "opt_1": "[¡No hay resultados!] Prueba con: -song bpm:100+",
+    "opt_2": "[¡No hay resultados!] Prueba con: -song bpm:100-200",
+    "opt_3": "[¡No hay resultados!] Prueba con: -song des:Howard_Y",
+    "opt_4": "[¡No hay resultados!] Prueba con: -song lvl:9-12",
+    "opt_6": "[¡No hay resultados!] Prueba con: -song by:LeaF",
+    "opt_7": "[¡No hay resultados!] Prueba con: -song by:Camellia lvl:8-11"
+  },
+  "-help": {
+    "base": {
+	  "1": "[ Comandos: 1 of 2 ] ➜ [MuseDash]: -player -hidden -free -song",
+      "2": "[ Comandos: 2 of 2 ] ➜ [MDMC]: _mdmc _song _player",
+	  "3": "[Bot_muse v2.2.0]: Traducción por: #MNight4"
+    },
+    "mods": {
+	  "1": "[ Comandos: 1 of 3 ] ➜ [ Ajustes]: @lang @links @leave @cooldown",
+      "2": "[ Comandos: 2 of 3 ] ➜ [MuseDash]: -player -hidden -free -song",
+      "3": "[ Comandos: 3 of 3 ] ➜ [MDMC]: _mdmc _song _player",
+	  "4": "[Bot_muse v2.2.0]: Traducción por: #MNight4"
+    }
+  },
+  "_song": {
+    "help": "Dime una canción y te diré como se llama en el juego: \"_song [name]\"",
+    "more": "y **arg** más.",
+    "opt_1": "[¡No hay resultados!] Prueba con: _song bpm:100+",
+    "opt_2": "[¡No hay resultados!] Prueba con: _song bpm:100-200",
+    "opt_3": "[¡No hay resultados!] Prueba con: _song des:Hole",
+    "opt_4": "[¡No hay resultados!] Prueba con: _song lvl:9-12",
+    "opt_6": "[¡No hay resultados!] Prueba con: _song by:LeaF",
+    "opt_7": "[¡No hay resultados!] Prueba con: _song by:Camellia lvl:8-11"
+  },
+  "_player": {
+    "help": "Crearé un perfil del [Jugador Clasificado] que me digas: \"_player [name/uid]\"",
+    "wait": "Contactando con los servidores...",
+    "error": "Al parecer \"**arg**\" no esta en ningún ranking."
+  },
+  "_mdmc": {
+    "info": "En MDMC, la comunidad se dedica a la elaboración de [Mods y Niveles Customs] para Muse Dash. [!] Para evitar conflictos con los streamers, [un mod] debe utilizar \"@links\" primero.",
+    "link": "En MDMC, la comunidad se dedica a la elaboración de [Mods y Niveles Customs] para Muse Dash. Mas información aqui: https://discord.gg/mdmc"
+  }
+}
