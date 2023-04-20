@@ -1,0 +1,176 @@
+import:
+	ch.njol.skript.lang.Variable
+	ch.njol.skript.Skript
+
+
+#TWITCH
+effect mod-lang of %string% to %string%:
+	trigger:
+		set {_id} to {twitch::watchs::%expr-1%::id}
+		set {_iso} to expr-2
+		set {_iso} to "en" if {_iso} is not "es", "en", "kr", "jp" or "zh"
+		#
+		set {_lang} to value "stream::tv-%{_id}%::lang" of cached json "twitch"
+		set {twitch::watchs::%expr-1%::lang} to {_lang} ? "%{_iso}%"
+
+effect oauth2-hello %~objects% for %string%:
+	parse:
+		expr-1 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		set {_json} to json from file "plugins/musedash/hello.json"
+		set {_lg} to {twitch::watchs::%expr-2%::lang} ? "en"
+		#
+		loop entries "%{_lg}%::news[]" of {_json}:
+			unix timestamp of now > value "run" of loop-element
+			value "out" of loop-element > unix timestamp of now
+			add values "read[]" of loop-element to {_read::*}
+		if {_read::1} is not set:
+			loop entries "%{_lg}%::date[]" of {_json}:
+				now formatted as "dd_MM" = value "run" of loop-element
+				add values "read[]" of loop-element to {_read::*}
+		if {_read::1} is not set:
+			add values "%{_lg}%::base[]" of {_json} to {_read::*}
+		#
+		set raw expr-1 to {_read::*} ? ""
+		wait 3 seconds
+		continue
+
+condition cooldown of %number% to %string%:
+	check:
+		set {_now} to rounded unix timestamp of now
+		set {_cd} to {twitch::watchs::%expr-2%::cd} ? 0
+		{_now} >= {_cd}
+		#
+		set {_extra} to value "streamer::tv-%{twitch::watchs::%expr-2%::id}%::cooldown" of cached json "twitch"
+		set {_extra} to 0 if {_extra} is not set
+		set {twitch::watchs::%expr-2%::cd} to {_extra}
+		add {_now} to {twitch::watchs::%expr-2%::cd}
+		add expr-1 to {twitch::watchs::%expr-2%::cd}
+		continue
+
+condition badge %string% is mod:
+	check:
+		set {_bd::*} to expr-1
+		loop {_bd::*}:
+			loop-value is "MODERATOR" or "STREAMER"
+			continue
+
+effect mod-translate for %string%[ with args %-strings%] to %string% and save %~object%:
+	parse:
+		expr-4 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		set {_json} to json from file "plugins/musedash/lang/%{twitch::watchs::%expr-1%::lang} ? "en"%.json"
+		set {_lang} to value "%expr-3%" of {_json}
+		set {_arg::*} to expr-2
+		if {_arg::1} is set:
+			loop {_arg::*}:
+				replace first "**arg**" with "%loop-value%" in {_lang}
+		set raw expr-4 to {_lang} ? ""
+		continue
+
+
+
+
+
+
+#JSON
+expression see-json %string% have key %string%:
+	get:
+		set {_data} to value expr-2 of cached json expr-1
+		return true if {_data} is set
+		return false
+
+expression get-json %string% have key %string%:
+	get:
+		set {_data} to value expr-2 of cached json expr-1
+		return {_data} if {_data} is set
+
+effect nest-json %string% at %string% of cached %string%:
+	trigger:
+		if (size of entries "%expr-2%[]" of cached json expr-3) = 0:
+			set json value "%expr-2%[1]" in cached json expr-3 to expr-1
+		else:
+			add expr-1 to json list "%expr-2%" in cached json expr-3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTRAS
+expression round %number% to %integer%:
+	get:
+		set {_dec} to expression-1
+		set {_rem} to expression-2 + 2
+		set {_dec} to (first {_rem} characters of "%{_dec} - rounded down expression-1%") parsed as number
+		return {_dec} + rounded down expression-1
+
+expression short %string% at %number%:
+	get:
+		set {_base} to "%expr-1%"
+		set {_w::*} to {_base} split at ""
+		if expr-2 > 0:
+			if {_w::%expr-2%} is " ":
+				set {_w::%expr-2%} to ""
+				set {_base} to join {_w::*} with ""
+				delete {_w::*}
+				set {_w::*} to {_base} split at ""
+			if size of {_w::*} > expr-2:
+				loop expr-2 times:
+					set {_short} to "%{_short} ? ""%%{_w::%loop-value%}%"
+				set {_short} to "%{_short}%..."
+		return "%{_short} ? {_base}%"
+
+expression format unix %~object%:
+	get:
+		set {_wrte} to "%expr-1%" parsed as number
+		set {_timer} to ({_wrte} - rounded unix timestamp of now)
+		while {_timer} > 1:
+			if {_timer} >= 31556926:
+				subtract 31556926 from {_timer}
+				add 1 to {_y}
+			else if {_timer} >= 2629743:
+				subtract 2629743 from {_timer}
+				add 1 to {_mo}
+			else if {_timer} >= 86400:
+				subtract 86400 from {_timer}
+				add 1 to {_d}
+			else if {_timer} >= 3600:
+				subtract 3600 from {_timer}
+				add 1 to {_h}
+			else if {_timer} >= 60:
+				subtract 60 from {_timer}
+				add 1 to {_m}
+			else:
+				add {_timer} to {_s}
+				set {_timer} to 0
+		set {_write} to "%{_h} ? 0%h %{_m} ? 0%m %{_s} ? 0%s" 
+		set {_write} to "%{_d} ? 0%d %{_h} ? 0%h %{_m} ? 0%m" if {_d} is set
+		set {_write} to "%{_mo} ? 0%M %{_d} ? 0%d %{_h} ? 0%h" if {_mo} is set
+		set {_write} to "%{_y} ? 0%Y %{_mo} ? 0%M %{_d} ? 0%d" if {_y} is set
+		log "%expr-1% | %{_y}%Y %{_mo}%M %{_d}%d %{_h}%h %{_m}%m %{_s}%s" to "unix.log"
+		return {_write}
+
+
+#expression badge %string% have %string%:
+#	get:
+#		set {_check} to "%expr-2%"
+#		set {_in::*} to expr-1
+#		loop {_in::*}:
+#			loop-value is {_check}
+#			return true
+#		return false
+
+

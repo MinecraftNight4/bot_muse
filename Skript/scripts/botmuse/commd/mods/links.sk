@@ -1,22 +1,24 @@
-skitch command links:
-	prefixes: @
+skitch command nks:
+	prefixes: @li
 	trigger:
 		if event-livechannel = "bot_muse":
-			if see-json "twitch" have key "stream:%event-liveuserid%_:links" is true:
-				remove json value "stream:%event-liveuserid%_:links" from cached json "twitch"
-				twitch reply with "Links: ❌"
+			if see-json "twitch" have key "stream::tv-%event-liveuserid%::links" is true:
+				mod-translate for event-livechannel to "@links::toggle_1" and save {_data}
+				remove "links" from keys of json object "stream::tv-%event-liveuserid%" in cached json "twitch"
 			else:
-				append true with key "links" as nested object "stream:%event-liveuserid%_" to cached json "twitch"
-				twitch reply with "Links: ☑️"
+				set json value "stream::tv-%event-liveuserid%::links" in cached json "twitch" to true
+				mod-translate for event-livechannel to "@links::toggle_2" and save {_data}
+			twitch reply with "%{_data}%"
 			save cached json "twitch"
 			stop
 		
 		if badge event-twitchperms is mod:
-			if see-json "twitch" have key "stream:%event-livechannelid%_:links" is true:
-				remove json value "stream:%event-livechannelid%_:links" from cached json "twitch"
-				twitch reply with "Links: ❌"
+			if see-json "twitch" have key "stream::tv-%event-livechannelid%::links" is true:
+				remove "links" from keys of json object "stream::tv-%event-livechannelid%" in cached json "twitch"
+				mod-translate for event-livechannel to "@links::toggle_1" and save {_data}
 			else:
-				append true with key "links" as nested object "stream:%event-livechannelid%_" to cached json "twitch"
-				twitch reply with "Links: ☑️"
+				set json value "stream::tv-%event-livechannelid%::links" in cached json "twitch" to true
+				mod-translate for event-livechannel to "@links::toggle_2" and save {_data}
+			twitch reply with "%{_data}%"
 			save cached json "twitch"
 			stop

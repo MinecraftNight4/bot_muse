@@ -4,82 +4,81 @@ import:
 
 effect profilevan-name %~object% to %~string%:
 	parse:
-		expr-1 is an instance of Variable # making sure the input is a variable, optional
+		expr-1 is an instance of Variable
 		continue
 	trigger:
 		delay effect
-		send a "get" request to "https://api.musedash.moe/search/%uncolored expr-2%"
-		set {_res} to last response's body
+		execute GET request to "https://api.musedash.moe/search/%uncolored expr-2%"
+		set {_json} to request's body
 		#
-		replace every "],[" and """" and "]]"  in {_res} with ","
-		set {_p::*} to {_res} split at ","
-		set {_p::5} to "" if {_p::5} is not set
-		set raw expr-1 to {_p::5}
+		loop entries of {_json}:
+			loop entries of loop-element:
+				"%loop-key-2%" is "1"
+				set raw expr-1 to loop-element-2
+				continue
+				stop
 		continue
 
-effect profilevan-uid %~object% to %~string% %string%:
+effect profilevan-uid %~object% to %~string% for %string% as %string%:
 	parse:
 		expr-1 is an instance of Variable
 		continue
 	trigger:
 		delay effect
-		#ASK MUSEDASH.MOE
-		send a "get" request to "https://api.musedash.moe/player/%uncolored expr-2%"
-		set {_get} to last response's body
-		map {_get} to {_json::*}
-		if {_json::lastUpdate} is 0:
-			continue
-			stop
-		
-		#ORGANIZADOR
-		loop indices of {_json::plays::*}:
-			loop-value != "*"
-			add 100 to {_globalacc}
-			add {_json::plays::%loop-value%::acc} to {_collectacc}
-			add 1 to {_user::gold} if {_json::plays::%loop-value%::acc} = 100
-			({_i} ? 4000) >= {_json::plays::%loop-value%::i}
-			if ({_i} ? 4000) > {_json::plays::%loop-value%::i}:
-				set {_i} to {_json::plays::%loop-value%::i}
-				set {_s} to 0
-			({_i} ? 4000) = {_json::plays::%loop-value%::i}
-			({_s} ? 0) < {_json::plays::%loop-value%::score}
-			set {_s} to {_json::plays::%loop-value%::score}
-			set {_user::score} to {_json::plays::%loop-value%::score}
-			set {_user::leads} to ({_json::plays::%loop-value%::i} + 1)
-			set {_user::acurr} to rounded {_json::plays::%loop-value%::acc}
-			set {_user::elfin} to get-json "game_obj" have key "elfin:%{_json::plays::%loop-value%::elfin_uid}%"
-			set {_user::hards} to get-json "game_obj" have key "diff:%{_json::plays::%loop-value%::difficulty}%"
-			set {_user::platf} to get-json "game_obj" have key "platform:%{_json::plays::%loop-value%::platform}%"
-			set {_user::muses} to get-json "game_obj" have key "muse:%{_json::plays::%loop-value%::character_uid}%"
-			set {_user::songs} to music ({_json::plays::%loop-value%::uid} split at "ñ") of album "van_album" from streamer expr-3 with length of 12
-			
-		#PROFILE		
-		set raw expr-1 to "──────────────────────────────── 📜%{_json::user::nickname}% ️🏆%{_user::gold} ? 0% ️🎯%round (({_collectacc}/{_globalacc})*100) to 2%%% ️🎂%first (index of "T" in {_json::user::created_at} - 1) characters of {_json::user::created_at}% ──────────────────────────────── ️ %{_user::platf}%##%{_user::leads}%️ ️ 🎯%{_user::acurr}%%%️ ️ 🎮%{_user::score}%️ ️ 💠%{_user::muses}%%{_user::elfin}%️ ️ ️ ️ ️ ️ ️ ️ [%{_user::songs}% %{_user::hards}%" if {_json::user::nickname} is set
+		execute GET request to "https://api.musedash.moe/player/%uncolored expr-2%" if expr-2 is set
+		set {_json} to request's body
+		set {_nope} to value "user::user_id" of {_json}
+		if value "user::user_id" of {_json} != "404":
+			expr-2 is set
+			#STATS
+			loop entries "plays[]" of {_json}:
+
+				#ACC                                             ========================================================
+				add 100 to {_maxacc}
+				add 1 to {_user::gold} if "%value "acc" of loop-element%" = "100"
+				add ("%value "acc" of loop-element%" parsed as number) to {_acc::*}
+				({_in::1} ? 4000) > value "i" of loop-element:
+					set {_in::1} to value "i" of loop-element
+					set {_sc::1} to 0
+				({_in::1} ? 4000) = value "i" of loop-element
+				value "score" of loop-element > {_sc::1}
+				set {_sc::1} to value "score" of loop-element   
+				wait a tick
+
+				#BEST PLAY                                       ========================================================
+				set {_user::leads} to {_in::1}
+				set {_user::score} to {_sc::1}
+				set {_user::acurr} to value "acc" of loop-element
+				set {_user::elfin} to get-json "game_obj" have key "elfin::%value "elfin_uid" of loop-element%"
+				set {_user::hards} to get-json "game_obj" have key "diff::%value "difficulty" of loop-element%"
+				set {_user::platf} to get-json "game_obj" have key "platform::%value "platform" of loop-element%"
+				set {_user::muses} to get-json "game_obj" have key "muse::%value "character_uid" of loop-element%"
+				set {_user::songs} to music ("%value "uid" of loop-element%" split at "_") from streamer expr-3 with length of 14
+
+			#BUILD
+			set {_link} to "https://musedash.moe/player/%expr-2% " if see-json "twitch" have key "stream::tv-%expr-4%::links" is true
+			add {_acc::*} to {_minacc}
+			set {_date} to value "user::created_at" of {_json}
+			set raw expr-1 to "%{_link} ? ""%──────────────────────────────── 📜%value "user::nickname" of {_json}% ️🏆%{_user::gold} ? 0% ️🎯%round (({_minacc}/{_maxacc})*100) to 2%%% ️🎂%first (index of "T" in {_date} - 1) characters of {_date}% ──────────────────────────────── ️ %{_user::platf}%##%{_user::leads}+1%️ ️ 🎯%rounded {_user::acurr}%%%️ ️ 🎮%{_user::score}%️ ️ 💠%{_user::muses}%%{_user::elfin}%️ ️ ️ ️ ️ ️ ️ ️ [%{_user::songs}% %{_user::hards}%"
 		continue
 
 
-skitch command player [<text>]:
-	prefixes: -
+skitch command ayer [<text>]:
+	prefixes: -pl
 	trigger:
-		log "[MDVN]: (C:%event-livechannel%|U:%event-liveuser%-> %arg-1%)" to "player_vn.log"
-
+		log "[MDVN]: (C:%event-livechannel%|U:%event-liveuser%-> %arg-1%)%nl%ENABLE: %{twitch::watchs::%event-livechannel%::cd}% %nl%UNIX TM: %rounded unix timestamp of now%" to "player_vn.log"
 		cooldown of 6 to event-livechannel
-		if (arg-1 ? " ") = " ":
-			twitch reply with "Search for Muse Dash ranked players: -player [name/uid]"
-			stop
-
-		if 32 = length of arg-1:
-			set {_data} to arg-1
-			profilevan-uid {_profile} to uncolored arg-1 event-livechannel
-			set {_link} to "https://musedash.moe/player/%arg-1%" if see-json "twitch" have key "stream:%event-livechannelid%_:links" is true
-		if 10 >= length of arg-1:
-			twitch reply with "This will take a few seconds... [🕒6s]"
+		#
+		if arg-1 is not set:
+			mod-translate for event-livechannel to "-player::help" and save {_output}
+		else if length of arg = 32:
+			profilevan-uid {_output} to arg-1 for event-livechannel as event-livechannelid
+		else if 10 >= length of arg-1:
+			mod-translate for event-livechannel to "-player::wait" and save {_look}
+			twitch reply with "%{_look}%"
 			profilevan-name {_data} to uncolored arg-1
-			profilevan-uid {_profile} to {_data} event-livechannel
-			set {_link} to "https://musedash.moe/player/%{_data}%" if see-json "twitch" have key "stream:%event-livechannelid%_:links" is true
-		if {_profile} is set:
-			twitch reply with "%{_link} ? ""% %{_profile}%"
-			stop
-
-		twitch reply with "Oops! No results found for '%first 10 characters of arg-1%'"
+			profilevan-uid {_output} to {_data} for event-livechannel as event-livechannelid
+		#
+		mod-translate for event-livechannel with args first 10 characters of arg-1 to "-player::error" and save {_output} if {_output} is not set
+		twitch reply with "%{_output}%"
 		stop

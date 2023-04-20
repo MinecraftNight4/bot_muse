@@ -7,67 +7,67 @@ effect profilemod-name %~object% to %~string%:
 		continue
 	trigger:
 		delay effect
-		send a "get" request to "https://api.musedash.moe/mdmc/search/%uncolored expr-2%"
-		set {_res} to last response's body
+		execute GET request to "https://api.musedash.moe/mdmc/search/%uncolored expr-2%"
+		set {_json} to request's body
 		#
-		replace every "],[" and """" and "]]"  in {_res} with ","
-		set {_p::*} to {_res} split at ","
-		set raw expr-1 to {_p::5} if {_p::5} is set
+		loop entries of {_json}:
+			loop entries of loop-element:
+				"%loop-key-2%" is "1"
+				set raw expr-1 to loop-element-2
+				continue
+				stop
 		continue
 
-effect profilemod-uid %~object% to %~string% %string%:
+effect profilemod-uid %~object% to %~string% for %string% as %string%:
 	parse:
 		expr-1 is an instance of Variable
 		continue
 	trigger:
 		delay effect
-		send a "get" request to "https://mdmc.moe/api/v5/user/%uncolored expr-2%"
-		set {_get} to last response's body
-		map {_get} to {_json::*}
-		#ORGANIZADOR
-		replace "/webp/" in {_json::top_scores::1::chart::cover} with ""
-		set {_user::songs} to get-json "mod_album" have key "name:%{_json::top_scores::1::chart::cover}%:en"
-		set {_user::muses} to get-json "game_obj" have key "muse:%{_json::top_scores::1::character_uid}%"
-		set {_user::hards} to get-json "game_obj" have key "diff:%{_json::top_scores::1::chart::type}%"
-		set {_user::elfin} to get-json "game_obj" have key "elfin:%{_json::top_scores::1::elfin_uid}%"
-		set {_user::score} to {_json::top_scores::1::score}
-		set {_user::leads} to {_json::top_scores::1::rank}
-		set {_user::acurr} to {_json::top_scores::1::acc}
-		set {_user::songs} to short {_user::songs} at 14
-		set {_user::pgold} to {_json::all_perfects}
-		set {_user::paccy} to {_json::accuracy}
-		set {_user::prank} to {_json::rank}
-		set {_user::pname} to {_json::name}
-		
-		#OUTPUT
-		set raw expr-1 to "──────────────────────────────── 📜%{_user::pname}%️ ️ 🏆%{_user::pgold}%️ ️ 🎯%{_user::paccy}%️ ️ 🌐##%{_user::prank}% ──────────────────────────────── ️ 🏅%{_user::leads}%️ ️ 🎯%{_user::acurr}%%%️ ️ 🎮%{_user::score}%️ ️ 💠%{_user::muses}%%{_user::elfin}%️ ️ ️ ️ ️ ️ ️ ️ [%{_user::songs}% %{_user::hards}%" if {_user::pname} is set
+		execute GET request to "https://mdmc.moe/api/v5/user/%uncolored expr-2%" if expr-2 is set
+		set {_json} to request's body
+		if value "error" of {_json} != "User not found":
+			expr-2 is set
+			set {_link} to "https://mdmc.moe/user/%expr-2% " if see-json "twitch" have key "stream::tv-%expr-4%::links" is true
+			set {_user::songs} to value "top_scores[1]::chart::cover" of {_json}
+			replace "/webp/" in {_user::songs} with ""
+			
+			#
+			set {_user::muses} to get-json "game_obj" have key "muse::%value "top_scores[1]::character_uid" of {_json}%"
+			set {_user::hards} to get-json "game_obj" have key "diff::%value "top_scores[1]::chart::type" of {_json}%"
+			set {_user::elfin} to get-json "game_obj" have key "elfin::%value "top_scores[1]::elfin_uid" of {_json}%"
+			set {_user::songs} to music ({_user::songs} split at "_") from streamer expr-3 with length of 14
+			set {_user::score} to value "top_scores[1]::score" of {_json}
+			set {_user::leads} to value "top_scores[1]::rank" of {_json}
+			set {_user::acurr} to value "top_scores[1]::acc" of {_json}
+			set {_user::pgold} to value "all_perfects" of {_json}
+			set {_user::paccy} to value "accuracy" of {_json}
+			set {_user::prank} to value "rank" of {_json}
+			set {_user::pname} to value "name" of {_json}
+			
+			
+			set raw expr-1 to "──────────────────────────────── 📜%{_user::pname}%️ ️ 🏆%{_user::pgold}%️ ️ 🎯%{_user::paccy}%️ ️ 🌐##%{_user::prank}% ──────────────────────────────── ️ 🏅%{_user::leads}%️ ️ 🎯%{_user::acurr}%%%️ ️ 🎮%{_user::score}%️ ️ 💠%{_user::muses}%%{_user::elfin}%️ ️ ️ ️ ️ ️ ️ ️ [%{_user::songs}% %{_user::hards}%" if {_user::pname} is set
 		continue
 
 
 skitch command layer [<text>]:
 	prefixes: _p
 	trigger:
-		log "[MDMC]: (C:%event-livechannel%|U:%event-liveuser%-> %arg-1%)" to "player_mc.log"
-
+		log "[MDMC]: (C:%event-livechannel%|U:%event-liveuser%-> %arg-1%)%nl%ENABLE: %{twitch::watchs::%event-livechannel%::cd}% %nl%UNIX TM: %rounded unix timestamp of now%" to "player_mc.log"
+		#
 		cooldown of 6 to event-livechannel
-		if (arg-1 ? " ") = " ":
-			twitch reply with "Search for MDMC ranked players: _player [name/uid]"
-			stop
-		
-		if arg-1 partially matches "^[0-9]*$":
-			set {_data} to arg-1
-			profilemod-uid {_profile} to uncolored arg-1 event-livechannel
-			set {_link} to "https://mdmc.moe/user/%arg-1%" if see-json "twitch" have key "stream:%event-livechannelid%_:links" is true
-		if 16 >= length of arg-1:
-			twitch reply with "This will take a few seconds... [🕒6s]"
+		if arg-1 is not set:
+			mod-translate for event-livechannel to "_player::help" and save {_output}
+			
+		else if arg-1 partially matches "\d{17,}":
+			profilemod-uid {_output} to arg-1 for event-livechannel as event-livechannelid
+			
+		else:
+			mod-translate for event-livechannel to "_player::wait" and save {_look}
+			twitch reply with "%{_look}%"
 			profilemod-name {_data} to uncolored arg-1
-			profilemod-uid {_profile} to {_data} event-livechannel
-			set {_link} to "https://mdmc.moe/user/%{_data}%" if see-json "twitch" have key "stream:%event-livechannelid%_:links" is true
-		if {_profile} is set:
-			twitch reply with "%{_link} ? ""% %{_profile}%"
-			stop
-
-		twitch reply with "Oops! No results found for '%first 16 characters of arg-1%'"
+			profilemod-uid {_output} to {_data} for event-livechannel as event-livechannelid
+		#
+		mod-translate for event-livechannel with args first 16 characters of arg-1 to "_player::error" and save {_output} if {_output} is not set
+		twitch reply with "%{_output}%"
 		stop
-
-

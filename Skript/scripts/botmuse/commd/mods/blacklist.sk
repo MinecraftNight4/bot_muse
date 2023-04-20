@@ -1,20 +1,21 @@
-skitch command leave:
-	prefixes: _
+skitch command eave:
+	prefixes: @l
 	trigger:
 		if event-livechannel = "bot_muse":
-			if see-json "twitch" have key "banned:%event-liveuserid%_" is false:
-				append "%rounded unix timestamp of now%" with key "%event-liveuserid%_" as nested object "banned" to cached json "twitch"
-				twitch reply with "Blacklist: ☑️"
+			if see-json "twitch" have key "banned::tv-%event-liveuserid%" is false:
+				set json value "banned::tv-%event-liveuserid%" in cached json "twitch" to rounded unix timestamp of now
+				mod-translate for event-livechannel to "@leave::toggle_1" and save {_data}
 			else:
-				remove json value "banned:%event-liveuserid%_" from cached json "twitch"
-				twitch reply with "Blacklist: ❌"
+				remove "tv-%event-liveuserid%" from keys of json object "banned" in cached json "twitch"
+				mod-translate for event-livechannel to "@leave::toggle_2" and save {_data}
+			twitch reply with "%{_data}%"
 			save cached json "twitch"
 			stop
 		
 		if badge event-twitchperms is mod:
-			if see-json "twitch" have key "banned:%event-livechannelid%_" is false:
-				append "%rounded unix timestamp of now%" with key "%event-livechannelid%_" as nested object "banned" to cached json "twitch"
-				twitch reply with "Ignore: ☑️"
+			set json value "banned::tv-%event-livechannelid%" in cached json "twitch" to rounded unix timestamp of now
+			mod-translate for event-livechannel to "@leave::bye" and save {_data}
+			twitch reply with "%{_data}%"
 			save cached json "twitch"
-			auth_bot_twitch()
+			oauth2 roll watch
 			stop

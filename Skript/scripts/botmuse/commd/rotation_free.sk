@@ -7,33 +7,26 @@ effect save official free songs in %~objects%: # "~" stands for non-literal
 		continue
 	trigger:
 		delay effect
-		send a "get" request to "https://prpr-muse-dash.peropero.net/musedash/v3/weekly"
-		set {_get} to last response's body
-		map {_get} to {_json::*}
-
-		loop indices of {_json::items::*}:
-			loop-value != "*"
-			add {_json::items::%loop-value%::music_uid} to {_out::*}
+		execute GET request to "https://prpr-muse-dash.peropero.net/musedash/v3/weekly"
+		loop entries "items[]" of request's body:
+			add (value "music_uid" of loop-element) to {_out::*}
 		set raw expr-1 to {_out::*}
 		continue
 
-skitch command free:
-	prefixes: -
+skitch command ree:
+	prefixes: -f
 	trigger:
 		cooldown of 6 to event-livechannel
-		if rounded unix timestamp of now >= element "_dev:free" from cached json "game_obj":
-			set {_time} to element "_dev:free" from cached json "game_obj"
+		if rounded unix timestamp of now >= value "_dev::free" of cached json "game_obj":
+			set {_time} to value "_dev::free" of cached json "game_obj"
 			add 604800 to {_time}
-			append {_time} with key "free" as nested object "_dev" to cached json "game_obj"
+			set json value "_dev::free" in cached json "game_obj" to {_time}
 			save cached json "game_obj"
-		
-		set {_time} to format unix (get-json "game_obj" have key "_dev:free")
+		set {_time} to format unix (get-json "game_obj" have key "_dev::free")
 		save official free songs in {_f::*}
-		set {_free::*} to music {_f::*} of album "van_album" from streamer event-livechannel with length of 12
+		set {_free::*} to music {_f::*} from streamer event-livechannel with length of 15
 		loop {_free::*}:
 			set {_free::*} to "[%loop-value%]"
 		
-		twitch reply with "Next rotation: %{_time}% ──────────────────────────────── %{_free::*}%"
+		twitch reply with "[⏰] %{_time}% ──────────────────────────────── %{_free::*}%"
 		stop
-
-

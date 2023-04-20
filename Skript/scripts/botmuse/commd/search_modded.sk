@@ -7,105 +7,68 @@ effect index-modded in %~objects% for %~objects% %~objects% %~object% %~object% 
 		continue
 	trigger:
 		delay effect
-		set {_by} to expr-5
 		set {_des} to expr-4
 		set {_sea} to expr-6
 		set {_bpm::*} to expr-2
 		set {_dif::*} to expr-3
 		set {_sea::*} to {_sea} split at " " if {_sea} is set
-		set {_uid::*} to elements "uids[]" from cached json "mod_album"
+		add expr-5 to {_sea::*}
+		loop entries "name" of cached json "mod_album":
+			add loop-key to {_uid::*}
 		#
-		if size of {_dif::*} = 2:
+		if {_dif::1} is set:
 			loop integers from min({_dif::*}) to max({_dif::*}):
-				set {_get-a::*} to elements "level:%loop-value%[]" from cached json "mod_album_plus"
+				set {_get-a::*} to elements "level::%loop-value%" of cached json "mod_album_plus"
 				add {_get-a::*} to {_get-b::*}
-				delete {_get-a::*}
 			loop {_uid::*}:
-				{_get-b::*} do not contain loop-value
+				"%{_get-b::*}%" do not contain "%loop-value%"
 				delete {_uid::%loop-index%}
+			delete {_get-a::*}
 			delete {_get-b::*}
 		#
-		if size of {_bpm::*} = 2:
+		if {_bpm::1} is set:
 			loop {_uid::*}:
-				if element "beats:%loop-value%:min" from cached json "mod_album_plus" >= min({_bpm::*}):
-					element "beats:%loop-value%:max" from cached json "mod_album_plus" <= max({_bpm::*})
+				if value "beats::%loop-value%::min" of cached json "mod_album_plus" >= min({_bpm::*}):
+					value "beats::%loop-value%::max" of cached json "mod_album_plus" <= max({_bpm::*})
 					continue loop
 				delete {_uid::%loop-index%}
 		#
-		if {_des} != "*":
+		if {_des} is set:
 			loop {_uid::*}:
-				delete {_geta::*}
-				set {_geta::*} to elements "design:%loop-value%[]" from cached json "mod_album_plus"
-				"%join {_geta::*} with " "% " do not contain {_des}
+				set {_design} to value "design::%loop-value%" of cached json "mod_album_plus"
+				"%{_design}%" do not contain "%{_des}%"
 				delete {_uid::%loop-index%}
 		#
-		if {_by} != "*":
-			loop {_uid::*}:
-				delete {_getb::*}
-				set {_getb::*} to elements "name:%loop-value%[]" from cached json "mod_album_plus"
-				"%join {_getb::*} with " "% " do not contain "%{_by}%"
-				delete {_uid::%loop-index%}
-		#
-		if size of {_sea::*} != 0:
-			loop {_uid::*}:
-				delete {_getc::*}
-				set {_getc::*} to elements "name:%loop-value%[]" from cached json "mod_album_plus"
-				"%join {_getc::*} with " "% " do not contain {_sea::*}
-				delete {_uid::%loop-index%}
-		#
+		if {_sea::1} is set:
+			set {_s} to join {_sea::*} with "|"
+			music-nm {_uid::*} filter {_s} save {_all::*}
+			set {_uid::*} to {_all::*}
+		
 		set raw expr-1 to {_uid::*}
 		continue
 
-expression music-mod %objects% with length of %number%:
-	get:
-		set {_uids::*} to expr-1
-		loop {_uids::*}:
-			set {_json} to element "name:%loop-value%" from cached json "mod_album"
-			add short {_json} at expr-2 to {_m::*}
-		return {_m::*}
 
 
-
-
-skitch command earch [<text>]:
-	prefixes: _s
+skitch command ng [<text>]:
+	prefixes: _so
 	trigger:
 		cooldown of 5 to event-livechannel
-		if (arg-1 ? " ") = " ":
-			twitch reply with "Tell me a song and I'll look it up in MDMC: _search [song name]"
-			stop
-		
-		#ID
-		if see-json "mod_album_plus" have key "beats:%arg-1%:max" is true:
-			add arg-1 to {_uids::*}
-			set {_tra} to music-mod {_uids::*} with length of 13
-			twitch reply with " ──────────────────────────────── %{_tra}%"
-			stop
-		#SEARCH SYSTEM
-		if arg-1 is set:
-			music-filter arg-1 to {_bpm::*} {_dif::*} {_des} {_by} {_search} if {_uids::1} is not set
-			index-modded in {_uids::*} for {_bpm::*} {_dif::*} {_des} {_by} {_search}
-		#OUTPUT
-		if size of {_uids::*} > 0:
-			add music-mod {_uids::*} with length of 13 to {_tra::*}
-			add "✏️%first 6 characters of {_des}%" to {_filters::*} if {_des} != "*"
-			add "⭐%{_dif::1}%->%{_dif::2}%" to {_filters::*} if {_dif::1} != "*"
-			set {_all} to "and %size of {_uids::*} - 5% more!" if size of {_uids::*} > 5
-			add "⏳%{_bpm::1}%->%{_bpm::2}%" to {_filters::*} if {_bpm::1} != "*"
-			add "🎼%first 6 characters of {_by}%" to {_filters::*} if {_by} != "*"
-			loop {_tra::*}:
-				set {_tra::%loop-index%} to "[%loop-value%]"
-			twitch reply with "%join ({_filters::*} ? "") with " "% ──────────────────────────────── %{_tra::1} ? ""% %{_tra::2} ? ""% %{_tra::3} ? ""% %{_tra::4} ? ""% %{_tra::5} ? ""% %{_all} ? ""%"			
-		
+		if arg-1 is not set:
+			mod-translate for event-livechannel to "_song::help" and save {_output}
+		else if see-json "mod_album" have key "name::%arg-1%::en" is true:
+			set {_tra} to music arg-1 from streamer event-livechannel with length of 13
+			set {_output} to "──────────────────────────────── [🏷️%arg-1% %{_tra}%]"
 		else:
-			if chance of 20%:
-				twitch reply with "[No results available...] Try other arguments: -search by:LeaF"
-			else if chance of 20%:
-				twitch reply with "[No results available...] Try other arguments: -search bpm:1-1015"
-			else if chance of 20%:
-				twitch reply with "[No results available...] Try other arguments: -search des:Ashton"
-			else if chance of 20%:
-				twitch reply with "[No results available...] Try other arguments: -search lvl:8-15"
-			else:
-				twitch reply with "[No results available...] Try other arguments: -search by:LeaF lvl:8-12"
-
+			music-filter arg-1 to {_bpm::*} {_dif::*} {_des} {_by} {_search}
+			index-modded in {_uids::*} for {_bpm::*} {_dif::*} {_des} {_by} {_search}
+			if size of {_uids::*} > 0:
+				set {_tag} to music-filter bpm {_bpm::*} lvl {_dif::*} des {_des} by {_by}
+				set {_tra::*} to music {_uids::*} from streamer event-livechannel with length of 13
+				mod-translate for event-livechannel with args "%size of {_uids::*}-5%" to "_song::more" and save {_more} if size of {_uids::*} > 5
+				loop {_tra::*}:
+					set {_tra::%loop-index%} to "[%loop-value%]"
+				set {_output} to "%{_tag}% ──────────────────────────────── %{_tra::1} ? ""% %{_tra::2} ? ""% %{_tra::3} ? ""% %{_tra::4} ? ""% %{_tra::5} ? ""% %{_more} ? ""%"
+		
+		mod-translate for event-livechannel to "_song::opt_%random integer between 1 and 7%" and save {_output} if {_output} is not set
+		twitch reply with "%{_output}%"
+		stop

@@ -1,7 +1,7 @@
-skitch command mdmc:
-	prefixes: _
+skitch command dmc:
+	prefixes: _m
 	trigger:
 		cooldown of 5 to event-livechannel
-		set {_mdmc} to "MDMC is a community for modifying and creating custom songs for Muse Dash! If you are interested, use this Discord Invite: https://discord.gg/mdmc"
-		set {_mdmc} to "MDMC is a community for modifying and creating custom songs for Muse Dash! [!] Due to my settings, I can't send links. A Mod must send ""@links"" for this."  if see-json "twitch" have key "stream:%event-livechannelid%_:links" is false
-		twitch reply with "%{_mdmc}%"
+		mod-translate for event-livechannel to "_mdmc::link" and save {_output} if see-json "twitch" have key "stream::tv-%event-livechannelid%::links" is true
+		mod-translate for event-livechannel to "_mdmc::info" and save {_output} if {_output} is not set
+		twitch reply with "%{_output}%"

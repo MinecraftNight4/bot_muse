@@ -1,27 +1,30 @@
 skitch command ot_muse [<text>]:
 	prefixes: @b
 	trigger:		
-		#BOT MUSE
 		if event-livechannel = "bot_muse":
-			twitch reply with "Sure! These are my commands... Muse Dash: -free, -hidden, -search, -player | MDMC: _mdmc, _search, _player | Bot_muse settings: @leave @lang @links @cooldown "
+			mod-translate for event-livechannel to "@bot_muse::botv" and save {_data}
+			twitch reply with {_data}
 			stop
 		
-		#OTHER CHANNELS
 		cooldown of 5 to event-livechannel
+		mod-translate for event-livechannel to "@bot_muse::base" and save {_data}
+		mod-translate for event-livechannel to "@bot_muse::mods" and save {_data} if badge event-twitchperms is mod
+		twitch reply with {_data}
+		stop
+
+
+skitch command elp [<number>]:
+	prefixes: -h
+	trigger:		
 		if event-livechannel = "bot_muse":
-			set {_res} to "Sure! These are my commands... Muse Dash: -free, -hidden, -search, -player | MDMC: _mdmc, _search, _player"
-			set {_res} to "%{_res} ? ""% | Bot_muse settings: @leave @lang @links @cooldown " if badge event-twitchperms is mod
-			twitch reply with "%{_res}%"
+			mod-translate for event-livechannel to "-help::mods::%arg ? 1%" and save {_data}
+			twitch reply with "%{_data}%"
 			stop
-		
-		
-		#PINGED
+		#
+		cooldown of 5 to event-livechannel
+		if badge event-twitchperms is mod:
+			mod-translate for event-livechannel to "-help::mods::%arg ? 1%" and save {_data}
 		else:
-			if badge event-twitchperms is mod:
-				twitch reply with "I'm a community tool not associated with Muse Dash or PeroPeroGames. I'll only be here during Muse Dash streams and mods modify my behavior: @bot_muse help"
-			else if chance of 35%:
-				twitch reply with "Let me help you with Muse Dash: @bot_muse help"
-			else if chance of 35%:
-				twitch reply with "I can offer my Muse Dash's knowledge: @bot_muse help"
-			else:
-				twitch reply with "I wish I could speak, but I only understand commands like: @bot_muse help"
+			mod-translate for event-livechannel to "-help::base::%arg ? 1%" and save {_data}
+		twitch reply with "%{_data}%"
+		stop

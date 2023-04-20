@@ -1,24 +1,29 @@
-skitch command cooldown [<number=5>]:
-	prefixes: @
+skitch command ooldown [<number=5>]:
+	prefixes: @c
 	trigger:
-		
 		if event-livechannel = "bot_muse":
 			if (arg-1 ? 0) <= 5:
-				remove json value "stream:%event-liveuserid%_:cooldown" from cached json "twitch"
-				twitch reply with "☑️ Cooldown set: Using default cooldown!"
+				remove "cooldown" from keys of json object "stream::tv-%event-liveuserid%" in cached json "twitch"
+				mod-translate for event-livechannel to "@cooldown::default" and save {_data}
 			else:
-				append rounded arg-1 with key "cooldown" as nested object "stream:%event-liveuserid%_" to cached json "twitch"
-				twitch reply with "☑️ Cooldown set: Default + '%rounded arg-1%s'"
+				set json value "stream::tv-%event-liveuserid%::cooldown" in cached json "twitch" to (rounded arg-1)
+				mod-translate for event-livechannel with args "%rounded arg-1%", "" to "@cooldown::set" and save {_data}
+			
+			twitch reply with "%{_data}%"
+			delete {twitch::watchs::%event-liveuser%::cd}
 			save cached json "twitch"
 			stop
-		
+
 		if badge event-twitchperms is mod:
 			if (arg-1 ? 0) <= 5:
-				remove json value "stream:%event-livechannelid%_:cooldown" from cached json "twitch"
-				twitch reply with "☑️ Updated to Default!"
+				remove "cooldown" from keys of json object "stream::tv-%event-livechannelid%" in cached json "twitch"
+				mod-translate for event-livechannel to "@cooldown::default" and save {_data}
 			else:
-				append rounded arg-1 with key "cooldown" as nested object "stream:%event-livechannelid%_" to cached json "twitch"
-				twitch reply with "☑️ Saved!"
+				set json value "stream::tv-%event-livechannelid%::cooldown" in cached json "twitch" to (rounded arg-1)
+				mod-translate for event-livechannel with args "%rounded arg-1%", "" to "@cooldown::set" and save {_data}
+			
+			twitch reply with "%{_data}%"
+			delete {twitch::watchs::%event-livechannel%::cd}
 			save cached json "twitch"
 			stop
 
