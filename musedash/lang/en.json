@@ -1,7 +1,7 @@
 {
   "@bot_muse": {
-    "botv": "I'm a bot not associated with Muse Dash or PeroPeroGames. I'll connect to your chat during Muse Dash streams, and you can adjust me with: -help",
-    "mods": "I'm a bot not associated with Muse Dash or PeroPeroGames. I'll only be here during Muse Dash streams and mods modify my behavior. Commands: -help",
+    "botv": "I'm a bot not associated with Muse Dash or PeroPeroGames. I'll connect to your chat during Muse Dash streams, and you can adjust me with: [-help 1]",
+    "mods": "I'm a bot not associated with Muse Dash or PeroPeroGames. I'll only be here during Muse Dash streams and mods can modify my behavior. Commands: [-help 1]",
     "base": "Hey! You can see my command list with: -help"
   },
   "@cooldown": {
@@ -15,12 +15,12 @@
   },
   "@links": {
     "toggle_1": "❌ Links: Disabled!",
-	"toggle_2": "☑️ Links: Enabled! 🛑 Warning: Other bots could give me timeout because in some commands I'll send links."
+    "toggle_2": "☑️ Links: Enabled! 🛑 Warning: Other bots could time me out because in some commands I'll send links."
   },
   "@lang": {
     "default": "❌ Lang: -Using Twitch's data-",
     "updated": "☑️ Lang: Updated!",
-    "langs": "Use \"@lang [number]\" to confirm: [English: 1] [Español: 2] [日本語️: 3] [繁體中文: 4] [简体中文: 5]"
+    "langs": "Use \"@lang [number]\" to change the language: [English: 1] [Español: 2] [한국어: 3] [日本語: 4] [繁體中文: 5] [简体中文: 6]"
   },
   "-player": {
     "help": "I'll search ranked players and their stats: \"-player [name/uid]\"",
@@ -32,49 +32,54 @@
     "error": "Oops! No results for that...",
     "hint": {
       "a": "💡Hint: Select the song and [TAP] multiple times on the [PINK] difficulty selector.",
-      "b": "💡Hint: Change the date, or wait until the day [April 1st].",
-      "c": "💡Hint: Change the date, or wait until the day [November 1st].",
-      "d": "💡Hint: Select Master difficulty, and [draw 3 circles] in the menu, [without releasing the tap].",
+      "b": "💡Hint: Change the date, or wait until the day [April 1st]. (Only do this off-stream!)",
+      "c": "💡Hint: Change the date, or wait until the day [November 1st]. (Only do this off-stream!)",
+      "d": "💡Hint: Select Master difficulty, and [draw 3 circles] in the menu, [without releasing click/tap].",
       "e": "💡Hint: Select the song and change the difficulties in this order 3 times: [⭐6→⭐4→⭐6→⭐9]",
       "f": "💡Hint: Open the Trove(Inventory) and look at the bottom for an item with the description \"It's NEKO#ΦwΦ stream\". Open the animated screen and answer the call.",
       "g": "💡Hint: Select the song on the Master difficulty and [draw an X], with two strokes.",
       "h": "💡Hint: Select the song and [TAP] multiple times on the [BLUE] difficulty selector.",
-      "i": "💡Hint: Hold the click/tap for a while on the [Cover Art].",
+      "i": "💡Hint: Hold click/tap for a while on the [Cover Art].",
       "j": "💡Hint: Go to the character menu, select [Reimu or Marisa], double click on any floating object of the character and press the [?] on the left side of [Select]."
     }
   },
   "-song": {
     "help": "Tell me a song and I'll look for its name in-game: \"-song [name]\"",
     "more": "and **arg** more!",
-    "opt_1": "[No results...] Try other arguments: -song bpm:100+",
-    "opt_2": "[No results...] Try other arguments: -song bpm:100-200",
-    "opt_3": "[No results...] Try other arguments: -song des:Howard_Y",
-    "opt_4": "[No results...] Try other arguments: -song lvl:9-12",
-    "opt_6": "[No results...] Try other arguments: -song by:LeaF",
-    "opt_7": "[No results...] Try other arguments: -song by:Camellia lvl:8-11"
+    "opt": [
+      "[No results...] Try other arguments: -song bpm:100+",
+      "[No results...] Try other arguments: -song bpm:100-200",
+      "[No results...] Try other arguments: -song des:Howard_Y",
+      "[No results...] Try other arguments: -song lvl:9-12",
+      "[No results...] Try other arguments: -song by:LeaF",
+      "[No results...] Try other arguments: -song by:Camellia lvl:8-11"
+    ]
   },
   "-help": {
     "base": {
-	  "1": "[ Commands: 1 of 2 ] ➜ [MuseDash]: -player -hidden -free -song",
+      "1": "[ Commands: 1 of 2 ] ➜ [MuseDash]: -player -hidden -free -song",
       "2": "[ Commands: 2 of 2 ] ➜ [MDMC]: _mdmc _song _player",
-	  "3": "[Bot_muse v2.2.0]: Translation by: #MNight4"
+      "3": "[Bot_muse v2.2.0]: Translation by: #MNight4 & #Balint827"
     },
     "mods": {
-	  "1": "[ Commands: 1 of 3 ] ➜ [Settings]: @lang @links @leave @cooldown",
+      "1": "[ Commands: 1 of 3 ] ➜ [Settings]: @lang @links @leave @cooldown",
       "2": "[ Commands: 2 of 3 ] ➜ [MuseDash]: -player -hidden -free -song",
       "3": "[ Commands: 3 of 3 ] ➜ [MDMC]: _mdmc _song _player",
-	  "4": "[Bot_muse v2.2.0]: Translation by: #MNight4"
+      "4": "[Bot_muse v2.2.0]: Translation by: #MNight4 & #Balint827"
     }
   },
   "_song": {
     "help": "Tell me a song and I'll look for its name in-game: \"_song [name]\"",
     "more": "and **arg** more!",
-    "opt_1": "[No results...] Try other arguments: _song bpm:100+",
-    "opt_2": "[No results...] Try other arguments: _song bpm:100-200",
-    "opt_3": "[No results...] Try other arguments: _song des:Hole",
-    "opt_4": "[No results...] Try other arguments: _song lvl:9-12",
-    "opt_6": "[No results...] Try other arguments: _song by:LeaF",
-    "opt_7": "[No results...] Try other arguments: _song by:Camellia lvl:8-11"
+    "opt": [
+      "[No results...] Try other arguments: _song bpm:100+",
+      "[No results...] Try other arguments: _song bpm:100-",
+      "[No results...] Try other arguments: _song bpm:100-200",
+      "[No results...] Try other arguments: _song des:Hole",
+      "[No results...] Try other arguments: _song lvl:9-12",
+      "[No results...] Try other arguments: _song by:LeaF",
+      "[No results...] Try other arguments: _song by:Camellia lvl:8-11"
+    ]
   },
   "_player": {
     "help": "I'll search ranked players and their stats: \"_player [name/uid]\"",
@@ -82,7 +87,7 @@
     "error": "No results for \"**arg**\""
   },
   "_mdmc": {
-    "info": "MDMC is a community for modifying and creating custom songs for Muse Dash! [!] A mod need to run \"@links\" first, to authorize me to send links [!]",
-    "link": "MDMC is a community for modifying and creating custom songs for Muse Dash! If you are interested, use this Discord Invite: https://discord.gg/mdmc"
+    "info": "MDMC is a community for creating custom songs and mods for Muse Dash! [!] A mod needs to run \"@links\" first, to authorize me to send links [!]",
+    "link": "MDMC is a community for creating custom songs and mods for Muse Dash! If you are interested, use this Discord Invite: https://discord.gg/mdmc"
   }
 }

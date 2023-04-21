@@ -1,7 +1,7 @@
 {
   "@bot_muse": {
     "botv": "Soy un bot no asociado a PeroPeroGames o Muse Dash, el cual se conectara durante tus emisiones de Muse Dash. Mis comandos: -help",
-	"mods": "Soy un bot no asociado a PeroPeroGames o Muse Dash, el cual se conectara durante tus emisiones de Muse Dash. Mis comandos: -help",
+    "mods": "Soy un bot no asociado a PeroPeroGames o Muse Dash, el cual se conectara durante tus emisiones de Muse Dash. Mis comandos: -help",
     "base": "Si te interesan mis comandos, usa: -help"
   },
   "@cooldown": {
@@ -15,12 +15,12 @@
   },
   "@links": {
     "toggle_1": "❌ Enlaces: No",
-	"toggle_2": "☑️ Enlaces: Sí 🛑 Aviso: Otros bots pueden vetarme debido a que algunos comandos envíen enlaces."
+    "toggle_2": "☑️ Enlaces: Sí 🛑 Aviso: Otros bots pueden vetarme debido a que algunos comandos envíen enlaces."
   },
   "@lang": {
     "default": "❌ Idioma: -Utilizando idioma automático-",
     "updated": "☑️ Idioma: ¡Asignado al Español!",
-    "langs": "Usa \"@lang [número]\" para asignar: [English: 1] [Español: 2] [日本語️: 3] [繁體中文: 4] [简体中文: 5]"
+    "langs": "Usa \"@lang [número]\" para asignar: [English: 1] [Español: 2] [한국어: 3] [日本語: 4] [繁體中文: 5] [简体中文: 6]"
   },
   "-player": {
     "help": "Crearé un perfil del [Jugador Clasificado] que me digas: \"-player [name/uid]\"",
@@ -46,35 +46,39 @@
   "-song": {
     "help": "Dime una canción y te diré como se llama en el juego: \"-song [name]\"",
     "more": "y **arg** más.",
-    "opt_1": "[¡No hay resultados!] Prueba con: -song bpm:100+",
-    "opt_2": "[¡No hay resultados!] Prueba con: -song bpm:100-200",
-    "opt_3": "[¡No hay resultados!] Prueba con: -song des:Howard_Y",
-    "opt_4": "[¡No hay resultados!] Prueba con: -song lvl:9-12",
-    "opt_6": "[¡No hay resultados!] Prueba con: -song by:LeaF",
-    "opt_7": "[¡No hay resultados!] Prueba con: -song by:Camellia lvl:8-11"
+    "opt": [
+      "[¡No hay resultados!] Prueba con: -song bpm:100+",
+      "[¡No hay resultados!] Prueba con: -song bpm:100-200",
+      "[¡No hay resultados!] Prueba con: -song des:Howard_Y",
+      "[¡No hay resultados!] Prueba con: -song lvl:9-12",
+      "[¡No hay resultados!] Prueba con: -song by:LeaF",
+      "[¡No hay resultados!] Prueba con: -song by:Camellia lvl:8-11"
+    ]
   },
   "-help": {
     "base": {
-	  "1": "[ Comandos: 1 of 2 ] ➜ [MuseDash]: -player -hidden -free -song",
-      "2": "[ Comandos: 2 of 2 ] ➜ [MDMC]: _mdmc _song _player",
-	  "3": "[Bot_muse v2.2.0]: Traducción por: #MNight4"
+      "1": "[ Comandos: 1 de 2 ] ➜ [MuseDash]: -player -hidden -free -song",
+      "2": "[ Comandos: 2 de 2 ] ➜ [MDMC]: _mdmc _song _player",
+      "3": "[Bot_muse v2.2.0]: Traducción por: #MNight4"
     },
     "mods": {
-	  "1": "[ Comandos: 1 of 3 ] ➜ [ Ajustes]: @lang @links @leave @cooldown",
-      "2": "[ Comandos: 2 of 3 ] ➜ [MuseDash]: -player -hidden -free -song",
-      "3": "[ Comandos: 3 of 3 ] ➜ [MDMC]: _mdmc _song _player",
-	  "4": "[Bot_muse v2.2.0]: Traducción por: #MNight4"
+      "1": "[ Comandos: 1 de 3 ] ➜ [ Ajustes]: @lang @links @leave @cooldown",
+      "2": "[ Comandos: 2 de 3 ] ➜ [MuseDash]: -player -hidden -free -song",
+      "3": "[ Comandos: 3 de 3 ] ➜ [MDMC]: _mdmc _song _player",
+      "4": "[Bot_muse v2.2.0]: Traducción por: #MNight4"
     }
   },
   "_song": {
     "help": "Dime una canción y te diré como se llama en el juego: \"_song [name]\"",
     "more": "y **arg** más.",
-    "opt_1": "[¡No hay resultados!] Prueba con: _song bpm:100+",
-    "opt_2": "[¡No hay resultados!] Prueba con: _song bpm:100-200",
-    "opt_3": "[¡No hay resultados!] Prueba con: _song des:Hole",
-    "opt_4": "[¡No hay resultados!] Prueba con: _song lvl:9-12",
-    "opt_6": "[¡No hay resultados!] Prueba con: _song by:LeaF",
-    "opt_7": "[¡No hay resultados!] Prueba con: _song by:Camellia lvl:8-11"
+    "opt": [
+      "[¡No hay resultados!] Prueba con: _song bpm:100+",
+      "[¡No hay resultados!] Prueba con: _song bpm:100-200",
+      "[¡No hay resultados!] Prueba con: _song des:Hole",
+      "[¡No hay resultados!] Prueba con: _song lvl:9-12",
+      "[¡No hay resultados!] Prueba con: _song by:LeaF",
+      "[¡No hay resultados!] Prueba con: _song by:Camellia lvl:8-11"
+    ]
   },
   "_player": {
     "help": "Crearé un perfil del [Jugador Clasificado] que me digas: \"_player [name/uid]\"",

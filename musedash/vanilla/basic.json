@@ -992,6 +992,14 @@
       "zh": "🎵Soda Pop Canva5!",
       "zhs": "🎵Soda Pop Canva5!"
     },
+	"12-5": {
+      "en": "🎵ЯUBY:LINTe",
+      "es": "🎵ЯUBY:LINTe",
+      "jp": "🎵ЯUBY:LINTe",
+      "kr": "🎵ЯUBY:LINTe",
+      "zh": "🎵ЯUBY:LINTe",
+      "zhs": "🎵ЯUBY:LINTe"
+    },
     "13-0": {
       "en": "🎵速溶霓虹 feat.kumako",
       "es": "🎵速溶霓虹 feat.kumako",
@@ -1544,7 +1552,15 @@
       "zh": "🎵GOODFORTUNE",
       "zhs": "🎵GOODFORTUNE"
     },
-    "25-1": {
+    "25-0": {
+      "en": "🎵tape/stop/night",
+      "es": "🎵tape/stop/night",
+      "jp": "🎵tape/stop/night",
+      "kr": "🎵tape/stop/night",
+      "zh": "🎵tape/stop/night",
+      "zhs": "🎵tape/stop/night"
+    },
+	"25-1": {
       "en": "🎵Pixel Galaxy",
       "es": "🎵Pixel Galaxy",
       "jp": "🎵Pixel Galaxy",
@@ -1561,12 +1577,12 @@
       "zhs": "🎵Notice"
     },
     "25-3": {
-      "en": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
-      "es": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
-      "jp": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
-      "kr": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
-      "zh": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
-      "zhs": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>"
+      "en": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ",
+      "es": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ",
+      "jp": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ",
+      "kr": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ",
+      "zh": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ",
+      "zhs": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ"
     },
     "25-4": {
       "en": "🎵OKIMOCHI EXPRESSION",
@@ -2487,6 +2503,14 @@
       "kr": "🎵ナイト・オブ・ナイツ",
       "zh": "🎵ナイト・オブ・ナイツ",
       "zhs": "🎵ナイト・オブ・ナイツ"
+    },
+	"43-4": {
+      "en": "🎵#Psychedelic_Meguro_River",
+      "es": "🎵#Psychedelic_Meguro_River",
+      "jp": "🎵#サイケデリック目黒川",
+      "kr": "🎵#Psychedelic_Meguro_River",
+      "zh": "🎵#サイケデリック目黒川",
+      "zhs": "🎵#サイケデリック目黒川"
     },
     "43-5": {
       "en": "🎵can you feel it",
