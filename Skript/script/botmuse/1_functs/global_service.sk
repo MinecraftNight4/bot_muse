@@ -1,0 +1,65 @@
+expression round %number% to %integer%:
+	get:
+		set {_dec} to expression-1
+		set {_rem} to expression-2 + 2
+		set {_dec} to (first {_rem} characters of "%{_dec} - rounded down expression-1%") parsed as number
+		return {_dec} + rounded down expression-1
+
+
+expression short %string% at %number%:
+	get:
+		set {_base} to "%expr-1%"
+		set {_w::*} to {_base} split at ""
+		if expr-2 > 0:
+			if {_w::%expr-2%} is " ":
+				set {_w::%expr-2%} to ""
+				set {_base} to join {_w::*} with ""
+				delete {_w::*}
+				set {_w::*} to {_base} split at ""
+			if size of {_w::*} > expr-2:
+				loop expr-2 times:
+					set {_short} to "%{_short} ? ""%%{_w::%loop-value%}%"
+				set {_short} to "%{_short}%..."
+		return "%{_short} ? {_base}%"
+
+
+expression format unix %~object%:
+	get:
+		set {_wrte} to "%expr-1%" parsed as number
+		set {_timer} to ({_wrte} - rounded unix timestamp of now)
+		while {_timer} > 1:
+			if {_timer} >= 31556926:
+				subtract 31556926 from {_timer}
+				add 1 to {_y}
+			else if {_timer} >= 2629743:
+				subtract 2629743 from {_timer}
+				add 1 to {_mo}
+			else if {_timer} >= 86400:
+				subtract 86400 from {_timer}
+				add 1 to {_d}
+			else if {_timer} >= 3600:
+				subtract 3600 from {_timer}
+				add 1 to {_h}
+			else if {_timer} >= 60:
+				subtract 60 from {_timer}
+				add 1 to {_m}
+			else:
+				add {_timer} to {_s}
+				set {_timer} to 0
+		set {_write} to "%{_h} ? 0%h %{_m} ? 0%m %{_s} ? 0%s" 
+		set {_write} to "%{_d} ? 0%d %{_h} ? 0%h %{_m} ? 0%m" if {_d} is set
+		set {_write} to "%{_mo} ? 0%M %{_d} ? 0%d %{_h} ? 0%h" if {_mo} is set
+		set {_write} to "%{_y} ? 0%Y %{_mo} ? 0%M %{_d} ? 0%d" if {_y} is set
+		log "%expr-1% | %{_y}%Y %{_mo}%M %{_d}%d %{_h}%h %{_m}%m %{_s}%s" to "unix.log"
+		return {_write}
+
+
+
+expression text-2-number %strings%:
+	get:
+		set {_text::*} to expr-1
+		loop {_text::*}:
+			set {_n} to "%loop-value%" parsed as number
+			add {_n} to {_n::*}
+		return {_number::*}
+

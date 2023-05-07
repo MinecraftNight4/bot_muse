@@ -1,0 +1,6 @@
+on watching file changes at "plugins/Skript/scripts/botmuse/1_functs":
+	set {_compare} to the file size of event-path
+	wait a second
+	{_compare} = the file size of event-path
+	set {_in} to "%event-path%"
+	watchfilereload("%{_in}%")

@@ -1,0 +1,68 @@
+import:
+	ch.njol.skript.lang.Variable
+	ch.njol.skript.Skript
+
+
+
+#DETECT VALUES
+expression json-look %json% for key %string%:
+	get:
+		if expr-2 end with "[]":
+			set {_data::*} to values expr-2 of expr-1
+			return true if {_data::1} is set
+			return false
+		else:
+			set {_data} to value expr-2 of expr-1
+			return true if {_data} is set
+			return false
+
+#GET VALUES
+expression json-read %json% the key %string%:
+	get:
+		if expr-2 end with "[]":
+			set {_data::*} to values expr-2 of expr-1
+			return {_data::*} if {_data::1} is set
+		else:
+			set {_data} to value expr-2 of expr-1
+			return {_data} if {_data} is set
+
+#NEST VALUES
+effect json-kset %string% at key %string% for %json%:
+	trigger:
+		if expr-2 end with "[]":
+			if (size of entries "%expr-2%" of expr-3) = 0:
+				set json value "%expr-2%[1]" in expr-3 to expr-1
+			else:
+				add expr-1 to json list "%expr-2%" in expr-3
+		else:
+			set json value expr-2 in expr-3 to expr-1
+
+#TEMP JSON
+effect json-form %string% and store %~object%:
+	parse:
+		expr-2 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		set {_tempfile} to rounded unix timestamp of now
+		sync create file path "plugins/musedash/%{_tempfile}%.json" with text "%expr-1%"
+		link json file "plugins/musedash/%{_tempfile}%.json" as "%{_tempfile}%_b"
+		set raw expr-2 to cached json "%{_tempfile}%_b"
+		unlink json "%{_tempfile}%_b"
+		sync delete file path "plugins/musedash/%{_tempfile}%.json"
+		continue
+
+#DOWNLOAD JSON AND FIX IT
+effect json-fixer %string% and store %~objects%:
+	parse:
+		expr-2 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		set {_cache} to expr-1
+		replace newline or "	" in {_cache} with ""
+		replace ",}" in {_cache} with "}"
+		json-form "{""data"": %{_cache}%}" and store {_coffeerequired}
+		set raw expr-2 to {_coffeerequired}
+		continue
+
