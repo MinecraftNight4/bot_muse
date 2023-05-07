@@ -1,9 +1,0 @@
-on skript start:
-	wait 40 seconds
-	execute console command "/skript reload /botmuse/1_functs/"
-	wait 5 seconds
-	execute console command "/skript reload /botmuse/2_comds/"
-	wait 5 seconds
-	execute console command "/skript reload /botmuse/3_boot/"
-	wait 5 seconds
-	execute console command "/auth2_watch mnight4"
