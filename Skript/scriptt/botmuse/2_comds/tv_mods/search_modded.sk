@@ -1,0 +1,74 @@
+import:
+	ch.njol.skript.lang.Variable
+
+effect index-modded in %~objects% for %~objects% %~objects% %~object% %~object% %~string%:
+	parse:
+		expr-1 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		set {_des} to expr-4
+		set {_sea} to expr-6
+		set {_bpm::*} to expr-2
+		set {_dif::*} to expr-3
+		set {_sea::*} to {_sea} split at " " if {_sea} is set
+		add expr-5 to {_sea::*}
+		loop entries "name" of cached json "mod_album":
+			add loop-key to {_uid::*}
+		#
+		if {_dif::1} is set:
+			loop integers from min({_dif::*}) to max({_dif::*}):
+				set {_get-a::*} to elements "level::%loop-value%" of cached json "mod_album_plus"
+				add {_get-a::*} to {_get-b::*}
+			loop {_uid::*}:
+				"%{_get-b::*}%" do not contain "%loop-value%"
+				delete {_uid::%loop-index%}
+			delete {_get-a::*}
+			delete {_get-b::*}
+		#
+		if {_bpm::1} is set:
+			loop {_uid::*}:
+				if value "beats::%loop-value%::min" of cached json "mod_album_plus" >= min({_bpm::*}):
+					value "beats::%loop-value%::max" of cached json "mod_album_plus" <= max({_bpm::*})
+					continue loop
+				delete {_uid::%loop-index%}
+		#
+		if {_des} is set:
+			loop {_uid::*}:
+				set {_design} to value "design::%loop-value%" of cached json "mod_album_plus"
+				"%{_design}%" do not contain "%{_des}%"
+				delete {_uid::%loop-index%}
+		#
+		if {_sea::1} is set:
+			set {_s::*} to music-filter-sort {_sea::*}
+			music-nm {_uid::*} filter {_s::*} save {_all::*}
+			set {_uid::*} to {_all::*}
+		
+		set raw expr-1 to {_uid::*}
+		continue
+
+
+
+skitch command ng [<text>]:
+	prefixes: _so
+	trigger:
+		cooldown of 5 to event-livechannel
+		if arg-1 is not set:
+			mod-translate for event-livechannel to "_song::help" and save {_output}
+		else if json-look cached json "mod_album" for key "name::%arg-1%::en" is true:
+			set {_tra} to music arg-1 from streamer event-livechannel with length of 13
+			set {_output} to "──────────────────────────────── [🏷️%arg-1% %{_tra}%]"
+		else:
+			music-filter arg-1 to {_bpm::*} {_dif::*} {_des} {_by} {_search}
+			index-modded in {_uids::*} for {_bpm::*} {_dif::*} {_des} {_by} {_search}
+			if size of {_uids::*} > 0:
+				set {_tag} to music-filter bpm {_bpm::*} lvl {_dif::*} des {_des} by {_by}
+				set {_tra::*} to music {_uids::*} from streamer event-livechannel with length of 13
+				mod-translate for event-livechannel with args "%size of {_uids::*}-5%" to "_song::more" and save {_more} if size of {_uids::*} > 5
+				loop {_tra::*}:
+					set {_tra::%loop-index%} to "[%loop-value%]"
+				set {_output} to "%{_tag}% ──────────────────────────────── %{_tra::1} ? ""% %{_tra::2} ? ""% %{_tra::3} ? ""% %{_tra::4} ? ""% %{_tra::5} ? ""% %{_more} ? ""%"
+		
+		mod-translate for event-livechannel to "_song::opt[]" and save {_output} if {_output} is not set
+		twitch reply with "%{_output}%"
+		stop

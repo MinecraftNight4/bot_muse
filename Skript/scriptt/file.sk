@@ -1,0 +1,4 @@
+function watchfilereload(path: string):
+	set {_pathsk} to the last (length of {_path} - 23) characters of {_path}
+	reload script "%{_pathsk}%"
+	broadcast "&e[!] &fScript Reloaded: %{_pathsk}%"

@@ -1,0 +1,98 @@
+command /musedash:
+	trigger:
+		send "%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl%%nl% "
+		send "------------------------------"
+		send "APIs TOKEN: %format unix {twitch::oauth2::acexprs}% | %{twitch::oauth2::acexprs}%"
+		send "CHAT TOKEN: %format unix {twitch::oauth2::ircends}% | %{twitch::oauth2::ircends}%"
+		send " "
+		send "CURRENT STREAMERS: %nl%%{twitch::watchs}%"
+		send " "
+		send "/auth2_reroll          | Elimina cualquier roll actual."
+		send "/auth2_rolls           | Ejecutar roll al momento."
+		send "/auth2_wiped           | Limpiar todos los datos actuales."
+		send "/auth2_watch [name]    | Forzar a mirar un canal especifico."
+		send "/auth2_remov [name]    | Borrar datos de ese canal."
+		send "/auth2_debug [name]    | Hace un reporte del canal. "
+		send "/channel_unban [uid]   | DESBANEAR streamer. "
+		send "/channel_ban [uid]     | BANEAR streamer."
+		send "+----------+"
+		send "/mdmc_index"
+		send "/mdvn_reset <id max>"
+		send "------------------------------"
+
+
+
+
+command /auth2_reroll:
+	trigger:
+		send "[!] Ejecutando..."
+		delete {twitch::watchs}
+		oauth2 roll watch
+
+command /auth2_rolls:
+	trigger:
+		send "[!] Ejecutando..."
+		oauth2 roll watch
+		
+command /auth2_watch <string>:
+	trigger:
+		send "[!] Conectando al canal '%arg-1%'"
+		oauth2-chat read arg-1
+
+command /auth2_wiped:
+	trigger:
+		send "[!] Espera... %size of {twitch::watchs::*}/20%s"
+		loop {twitch::watchs::*}:
+			delete {twitch::watchs::%loop-index%::*}
+			delete {twitch::greets::%loop-index%}
+			delete {twitch::watchs::%loop-index%}
+			wait a tick
+		delete {twitch::watchs}
+		send "[!] Se borraron todos los datos."
+
+command /auth2_remov <string>:
+	trigger:
+		send "[?] %arg-1% no existe." if {twitch::greets::%arg-1%} is not set
+		{twitch::greets::%arg-1%} is set
+		delete {twitch::greets::%arg-1%}
+		delete {twitch::watchs::%arg-1%::*}
+		delete {twitch::watchs::%arg-1%}
+		send "[!] '%arg-1%' fue borrado."
+
+command /auth2_debug <string>:
+	trigger:
+		send "------------------------------------------------"
+		send "ID: %{twitch::watchs::%arg-1%::id} ? "NA"%"
+		send "USER: %{twitch::watchs::%arg-1%} ? "NA"%"
+		send "LANG: %{twitch::watchs::%arg-1%::lang} ? "NA"%"
+		send "COOLDOWN: %format unix {twitch::watchs::%arg-1%::cd} ? 0%"
+		send "NEXT HELLO: %format unix {twitch::greets::%arg-1%} ? 0%"
+		send "------------------------------------------------"
+
+command /channel_ban <number>:
+	trigger:
+		if json-look cached json "twitch" for key "banned::tv-%arg%" is true:
+			send "[!?] Jugador actualmente baneado."
+			stop
+		set json value "banned::tv-%arg%" in cached json "twitch" to rounded unix timestamp of now
+		save cached json "twitch"
+		send "[!?] BANNED!"
+		stop
+
+command /channel_unban <number>:
+	trigger:
+		if json-look cached json "twitch" for key "banned::tv-%arg%" is false:
+			send "[!?] Jugador NO baneado."
+			stop
+		remove "tv-%arg%" from keys of json object "banned" in cached json "twitch"
+		save cached json "twitch"
+		send "[!?] UNBANNED"
+		stop
+
+command /broadcast_streams <string>:
+	trigger:
+		loop {twitch::greets::*}:
+			send "[🤖] %arg-1%" to livechat loop-index
+			send "(@%loop-index%): [🤖] %arg-1%"
+			wait 2 seconds
+		stop

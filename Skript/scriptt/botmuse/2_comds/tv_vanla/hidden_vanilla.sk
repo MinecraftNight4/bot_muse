@@ -1,0 +1,111 @@
+import:
+	ch.njol.skript.lang.Variable
+
+effect hidden-search %~string% to %~object%:
+	parse:
+		expr-2 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		if json-look cached json "van_hidden" for key "name::%expr-1%" is true:
+			add expr-1 to {_output::*}
+		else:
+			loop entries "name" of cached json "van_hidden":
+				set {_name} to loop-element
+				loop (expr-1 split at " "):
+					"%{_name}% " contain loop-value-2
+					replace first loop-value-2 in {_name} with ""
+					add 1 to {_chart::%loop-key-1%}
+			set {_output::*} to sorted indices of {_chart::*} in descending order
+		set raw expr-2 to {_output::1} if {_output::1} is set
+		continue
+
+expression hidden-read %string% to %string%:
+	get:
+		set {_song} to music "%expr-1%" from streamer expr-2 with length of 13
+		loop elements "out::%expr-1%" of cached json "van_hidden":
+			mod-translate for expr-2 to "-hidden::hint::%loop-value%" and save {_hint}
+			add {_hint} to {_hint::*}
+		set {_r} to "[%{_song}%] ──────────────────────────────── %join {_hint::*} with " ──────────────────────────────── "%"
+		return {_r} ? ""
+
+
+
+skitch command idden [<text>]:
+	prefixes: -h
+	trigger:
+		cooldown of 5 to event-livechannel
+		if arg-1 is not set:
+			mod-translate for event-livechannel to "-hidden::help" and save {_data}
+
+		else if "%arg-1 in lowercase% " is "!r! ":
+			broadcast "B"
+			loop entries "name" of cached json "van_hidden":
+				add loop-key to {_r::*}
+			set {_r} to random element of {_r::*}
+			set {_data} to hidden-read {_r} to event-livechannel
+			
+		else:
+			hidden-search arg-1 to {_uid}
+			set {_data} to hidden-read {_uid} to event-livechannel if {_uid} is set
+		
+		mod-translate for event-livechannel to "-hidden::error" and save {_data} if {_data} is not set
+		twitch reply with "%{_data}%"
+		stop
+		
+		
+		#if (arg-1 ? " ") = " ":
+		#	twitch reply with "Send ''-hidden [song]'' and I'll reveal some secrets... or try ''-hidden !r!''"
+		#	stop
+		#
+		#if "%arg-1 in lowercase% " = "!r! ":
+		#	loop entries "name" of cached json "van_hidden":
+		#		add loop-key to {_r::*}
+		#	set {_chart} to hidden-read (random element of {_uids::*}) to event-livechannel
+		#	
+		#if {_chart} is not set:
+		#	hidden-search arg-1 to {_uids::*}
+		#	set {_chart} to hidden-read {_uids::1} to event-livechannel if {_uids::1} is set
+		#
+		#
+		#if {_chart} is set:
+		#	twitch reply with "%{_chart}%"
+		#	stop
+		#if {_chart} is not set:
+		#	twitch reply with "Oops! No results for that..."
+		#	stop
+		#
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		#INFO
+		#
+		#	twitch reply with "Send ''-hidden [song]'' and I'll reveal some secrets... or try ''-hidden !r!''"
+		#	stop
+		#RANDOM
+		#if arg-1 is "!r!" or "!R!":
+		#	set {_uids::*} to elements "uids[]" from cached json "van_hidden"
+		#	set {_chart} to hidden-read (random element of {_uids::*}) to event-livechannel
+		#
+		#SEARCH
+		#if arg-1 is not "!r!" or "!R!":
+		#	hidden-search arg-1 to {_uids::*}
+		#	set {_chart} to hidden-read {_uids::1} to event-livechannel
+		#
+		#RESULT
+		#if size of {_uids::*} > 0:
+		#	twitch reply with "%{_chart}%"
+		#	stop
+		#else:
+		#	twitch reply with "Oops! No results for that..."
+		#	stop

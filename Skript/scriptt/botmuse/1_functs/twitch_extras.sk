@@ -1,0 +1,78 @@
+import:
+	ch.njol.skript.lang.Variable
+	ch.njol.skript.Skript
+
+
+#TWITCH
+effect mod-lang of %string% to %string%:
+	trigger:
+		set {_id} to {twitch::watchs::%expr-1%::id}
+		set {_iso} to expr-2
+		set {_iso} to "en" if {_iso} is not "es", "en", "kr", "jp" or "zh"
+		#
+		set {_lang} to value "stream::tv-%{_id}%::lang" of cached json "twitch"
+		set {twitch::watchs::%expr-1%::lang} to {_lang} ? "%{_iso}%"
+
+effect oauth2-hello %~objects% for %string%:
+	parse:
+		expr-1 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		set {_json} to json from file "plugins/musedash/hello.json"
+		set {_lg} to {twitch::watchs::%expr-2%::lang} ? "en"
+		#
+		loop entries "%{_lg}%::news[]" of {_json}:
+			unix timestamp of now > value "run" of loop-element
+			value "out" of loop-element > unix timestamp of now
+			add values "read[]" of loop-element to {_read::*}
+		if {_read::1} is not set:
+			loop entries "%{_lg}%::date[]" of {_json}:
+				now formatted as "dd_MM" = value "run" of loop-element
+				add values "read[]" of loop-element to {_read::*}
+		if {_read::1} is not set:
+			add values "%{_lg}%::base[]" of {_json} to {_read::*}
+		#
+		set raw expr-1 to {_read::*} ? ""
+		wait 3 seconds
+		continue
+
+condition cooldown of %number% to %string%:
+	check:
+		set {_now} to rounded unix timestamp of now
+		set {_cd} to {twitch::watchs::%expr-2%::cd} ? 0
+		{_now} >= {_cd}
+		#
+		set {_extra} to value "streamer::tv-%{twitch::watchs::%expr-2%::id}%::cooldown" of cached json "twitch"
+		set {_extra} to 0 if {_extra} is not set
+		set {twitch::watchs::%expr-2%::cd} to {_extra}
+		add {_now} to {twitch::watchs::%expr-2%::cd}
+		add expr-1 to {twitch::watchs::%expr-2%::cd}
+		continue
+
+condition badge %string% is mod:
+	check:
+		set {_bd::*} to expr-1
+		loop {_bd::*}:
+			loop-value is "MODERATOR" or "STREAMER"
+			continue
+
+effect mod-translate for %string%[ with args %-strings%] to %string% and save %~object%:
+	parse:
+		expr-4 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		set {_json} to json from file "plugins/musedash/lang/%{twitch::watchs::%expr-1%::lang} ? "en"%.json"
+		#
+		if expr-3 ends with "[]":
+			add values "%expr-3%" of {_json} to {_jsons::*}
+			set {_lang} to random element of {_jsons::*}
+		else:
+			set {_lang} to value "%expr-3%" of {_json}
+		#
+		if expr-2 is set:
+			loop exprs-2:
+				replace first "**arg**" with "%loop-value%" in {_lang}
+		set raw expr-4 to {_lang} ? ""
+		continue
