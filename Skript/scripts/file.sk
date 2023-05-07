@@ -1,8 +1,0 @@
-on watching file changes at "plugins/Skript/scripts/botmuse", "plugins/Skript/scripts/botmuse/commd", "plugins/Skript/scripts/botmuse/panel" and "plugins/Skript/scripts/botmuse/commd/mods":
-	set {_compare} to the file size of event-path
-	wait a second
-	{_compare} = the file size of event-path
-	set {_in} to "%event-path%"
-	set {_path} to the last (length of {_in} - 23) characters of {_in}
-	reload script "%{_path}%"
-	broadcast "&e[!] &fReloaded: %{_path}%"

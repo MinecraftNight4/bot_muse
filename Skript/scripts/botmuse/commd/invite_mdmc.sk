@@ -1,7 +1,0 @@
-skitch command dmc:
-	prefixes: _m
-	trigger:
-		cooldown of 5 to event-livechannel
-		mod-translate for event-livechannel to "_mdmc::link" and save {_output} if see-json "twitch" have key "stream::tv-%event-livechannelid%::links" is true
-		mod-translate for event-livechannel to "_mdmc::info" and save {_output} if {_output} is not set
-		twitch reply with "%{_output}%"

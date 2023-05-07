@@ -1,8 +1,0 @@
-on load:
-	wait 10 seconds
-	execute console command "/skript reload /botmuse/commd/"
-	execute console command "/skript reload /botmuse/oauth2_secret.sk"
-	wait 2 seconds
-	execute console command "/skript reload /botmuse/oauth2.sk"
-	wait 2 seconds
-	oauth2-chat read "mnight4"
