@@ -1,7 +1,7 @@
 {
   "@bot_muse": {
     "botv": "I'm a bot not associated with Muse Dash or PeroPeroGames. I'll connect to your chat during Muse Dash streams, and you can adjust me with: [-help 1]",
-    "mods": "I'm a bot not associated with Muse Dash or PeroPeroGames. I'll only be here during Muse Dash streams and mods can modify my behavior. Commands: [-help 1]",
+    "mods": "I'm an [unofficial] community bot of MD. My commands are limited to the game and you can see them with [-help 1] or disable me using [@leave].",
     "base": "Hey! You can see my command list with: -help"
   },
   "@cooldown": {
@@ -10,17 +10,20 @@
   },
   "@leave": {
     "bye": "Bye chat!!",
-    "toggle_1": "❌ Blacklist: Channel added",
-    "toggle_2": "☑️ Blacklist: Channel removed"
+    "toggle_1": "[Authorized Channel]: I will connect when you switch to the Muse Dash category... Remember to grant me [VIP or MOD] to help me avoid chat restrictions. You can deactivate me with: @leave",
+    "toggle_2": "[Channel Blocked]: The bot will no longer try to connect to your chat next time. You can reactivate me with: @join"
   },
   "@links": {
     "toggle_1": "❌ Links: Disabled!",
-    "toggle_2": "☑️ Links: Enabled! 🛑 Warning: Other bots could time me out because in some commands I'll send links."
+    "toggle_2": "☑️ Links: Enabled! 🛑 Warning: Other bots could timeout me because in some commands I'll send links."
   },
   "@lang": {
     "default": "❌ Lang: -Using Twitch's data-",
     "updated": "☑️ Lang: Updated!",
     "langs": "Use \"@lang [number]\" to change the language: [English: 1] [Español: 2] [한국어: 3] [日本語: 4] [繁體中文: 5] [简体中文: 6]"
+  },
+  "@update340": {
+    "mods": "Muse Dash v3.4.0 updated the account system, and caused incompatibilities on various devices. On May 30, it was reported on Discord that an update is being worked on. If you want to play this update, you can fix them manually by reading [Bot_muse's Twitch Panels]."
   },
   "-player": {
     "help": "I'll search ranked players and their stats: \"-player [name/uid]\"",

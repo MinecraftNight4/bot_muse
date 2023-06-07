@@ -10,8 +10,8 @@
   },
   "@leave": {
     "bye": "¡Fue un gusto conocerlos chat!",
-    "toggle_1": "❌ ¿Ignorar tu canal?: Sí",
-    "toggle_2": "☑️ ¿Ignorar tu canal?: No (Esto puede demorar unos minutos)"
+    "toggle_1": "[¡Autorizado!]: Me conectare cuando emitas \"Muse Dash\". Si es posible otorgame [VIP o MOD], podre hablar con el [modo lento o solo seguidores]. Puedes desactivarme con: @leave",
+    "toggle_2": "[¡Bloqueado!]: El bot ya no intentará conectarse a tu canal. Puedes reactivar el bot con: @join"
   },
   "@links": {
     "toggle_1": "❌ Enlaces: No",
@@ -21,6 +21,9 @@
     "default": "❌ Idioma: -Utilizando idioma automático-",
     "updated": "☑️ Idioma: ¡Asignado al Español!",
     "langs": "Usa \"@lang [número]\" para asignar: [English: 1] [Español: 2] [한국어: 3] [日本語: 4] [繁體中文: 5] [简体中文: 6]"
+  },
+  "@update340": {
+    "mods": "Muse Dash v3.4.0 cambio el sistema de cuentas y causo errores en varios usuarios. El 30 de mayo, los devs anunciaron un parche de emergencia para arreglar estos errores. ¿Quieres jugar esta update? Puedes intentar arreglarlo leyendo los [Paneles de Twitch de Bot_muse]."
   },
   "-player": {
     "help": "Crearé un perfil del [Jugador Clasificado] que me digas: \"-player [name/uid]\"",
@@ -47,12 +50,12 @@
     "help": "Dime una canción y te diré como se llama en el juego: \"-song [name]\"",
     "more": "y **arg** más.",
     "opt": [
-      "[¡No hay resultados!] Prueba con: -song bpm:100+",
-      "[¡No hay resultados!] Prueba con: -song bpm:100-200",
-      "[¡No hay resultados!] Prueba con: -song des:Howard_Y",
-      "[¡No hay resultados!] Prueba con: -song lvl:9-12",
-      "[¡No hay resultados!] Prueba con: -song by:LeaF",
-      "[¡No hay resultados!] Prueba con: -song by:Camellia lvl:8-11"
+      "[Sin resultados...] Quizás gustes usar filtros como: -song bpm:100+",
+      "[Sin resultados...] Quizás gustes usar filtros como: -song bpm:100-200",
+      "[Sin resultados...] Quizás gustes usar filtros como: -song des:Howard_Y",
+      "[Sin resultados...] Quizás gustes usar filtros como: -song lvl:9-12",
+      "[Sin resultados...] Quizás gustes usar filtros como: -song by:LeaF",
+      "[Sin resultados...] Quizás gustes usar filtros como: -song by:Camellia lvl:8-11"
     ]
   },
   "-help": {

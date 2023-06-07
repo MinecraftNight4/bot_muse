@@ -992,7 +992,7 @@
       "zh": "🎵Soda Pop Canva5!",
       "zhs": "🎵Soda Pop Canva5!"
     },
-	"12-5": {
+    "12-5": {
       "en": "🎵ЯUBY:LINTe",
       "es": "🎵ЯUBY:LINTe",
       "jp": "🎵ЯUBY:LINTe",
@@ -1560,7 +1560,7 @@
       "zh": "🎵tape/stop/night",
       "zhs": "🎵tape/stop/night"
     },
-	"25-1": {
+    "25-1": {
       "en": "🎵Pixel Galaxy",
       "es": "🎵Pixel Galaxy",
       "jp": "🎵Pixel Galaxy",
@@ -1577,12 +1577,12 @@
       "zhs": "🎵Notice"
     },
     "25-3": {
-      "en": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ",
-      "es": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ",
-      "jp": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ",
-      "kr": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ",
-      "zh": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ",
-      "zhs": " 🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ"
+      "en": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+      "es": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+      "jp": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+      "kr": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+      "zh": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+      "zhs": "🎵<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>"
     },
     "25-4": {
       "en": "🎵OKIMOCHI EXPRESSION",
@@ -2504,7 +2504,7 @@
       "zh": "🎵ナイト・オブ・ナイツ",
       "zhs": "🎵ナイト・オブ・ナイツ"
     },
-	"43-4": {
+    "43-4": {
       "en": "🎵#Psychedelic_Meguro_River",
       "es": "🎵#Psychedelic_Meguro_River",
       "jp": "🎵#サイケデリック目黒川",
@@ -3511,6 +3511,110 @@
       "kr": "🎵WORLDINVADER",
       "zh": "🎵WORLDINVADER",
       "zhs": "🎵WORLDINVADER"
+    },
+    "43-23": {
+      "en": "🎵Gospel",
+      "es": "🎵Gospel",
+      "jp": "🎵福音",
+      "kr": "🎵Gospel",
+      "zh": "🎵福音",
+      "zhs": "🎵福音"
+    },
+    "62-0": {
+      "en": "🎵【东爱璃Lovely】Lovely",
+      "es": "🎵【东爱璃Lovely】Lovely",
+      "jp": "🎵【东爱璃Lovely】Lovely",
+      "kr": "🎵【东爱璃Lovely】Lovely",
+      "zh": "🎵【东爱璃Lovely】Lovely",
+      "zhs": "🎵【东爱璃Lovely】Lovely"
+    },
+    "62-1": {
+      "en": "🎵森海の船",
+      "es": "🎵森海の船",
+      "jp": "🎵森海の船",
+      "kr": "🎵森海の船",
+      "zh": "🎵森海の船",
+      "zhs": "🎵森海の船"
+    },
+    "62-2": {
+      "en": "🎵Ooi",
+      "es": "🎵Ooi",
+      "jp": "🎵おーい",
+      "kr": "🎵Ooi",
+      "zh": "🎵応為",
+      "zhs": "🎵応為"
+    },
+    "62-3": {
+      "en": "🎵沼った！！",
+      "es": "🎵沼った！！",
+      "jp": "🎵沼った！！",
+      "kr": "🎵沼った！！",
+      "zh": "🎵沼った！！",
+      "zhs": "🎵沼った！！"
+    },
+    "62-4": {
+      "en": "🎵SATELLITE",
+      "es": "🎵SATELLITE",
+      "jp": "🎵SATELLITE",
+      "kr": "🎵SATELLITE",
+      "zh": "🎵SATELLITE",
+      "zhs": "🎵SATELLITE"
+    },
+    "62-5": {
+      "en": "🎵Fantasia Sonata Colorful feat. V!C",
+      "es": "🎵Fantasia Sonata Colorful feat. V!C",
+      "jp": "🎵Fantasia Sonata Colorful feat. V!C",
+      "kr": "🎵Fantasia Sonata Colorful feat. V!C",
+      "zh": "🎵Fantasia Sonata Colorful feat. V!C",
+      "zhs": "🎵Fantasia Sonata Colorful feat. V!C"
+    },
+    "63-0": {
+      "en": "🎵Doki Doki Jump! (feat. ぷにぷに電機)",
+      "es": "🎵Doki Doki Jump! (feat. ぷにぷに電機)",
+      "jp": "🎵Doki Doki Jump! (feat. ぷにぷに電機)",
+      "kr": "🎵Doki Doki Jump! (feat. ぷにぷに電機)",
+      "zh": "🎵Doki Doki Jump! (feat. ぷにぷに電機)",
+      "zhs": "🎵Doki Doki Jump! (feat. ぷにぷに電機)"
+    },
+    "63-1": {
+      "en": "🎵100年モノのストリーマーズ・ハイ",
+      "es": "🎵100年モノのストリーマーズ・ハイ",
+      "jp": "🎵100年モノのストリーマーズ・ハイ",
+      "kr": "🎵100年モノのストリーマーズ・ハイ",
+      "zh": "🎵100年モノのストリーマーズ・ハイ",
+      "zhs": "🎵100年モノのストリーマーズ・ハイ"
+    },
+    "63-2": {
+      "en": "🎵Love Patrol",
+      "es": "🎵Love Patrol",
+      "jp": "🎵Love Patrol",
+      "kr": "🎵Love Patrol",
+      "zh": "🎵戀愛巡航",
+      "zhs": "🎵恋爱巡航"
+    },
+    "63-3": {
+      "en": "🎵Mahorova feat.omoto",
+      "es": "🎵Mahorova feat.omoto",
+      "jp": "🎵Mahorova feat.omoto",
+      "kr": "🎵Mahorova feat.omoto",
+      "zh": "🎵Mahorova feat.omoto",
+      "zhs": "🎵Mahorova feat.omoto"
+    },
+    "63-4": {
+      "en": "🎵夜の街",
+      "es": "🎵夜の街",
+      "jp": "🎵夜の街",
+      "kr": "🎵夜の街",
+      "zh": "🎵夜の街",
+      "zhs": "🎵夜の街"
+    },
+    "63-5": {
+      "en": "🎵INTERNET YAMERO（Aiobahn feat.KOTOKO）",
+      "es": "🎵INTERNET YAMERO（Aiobahn feat.KOTOKO）",
+      "jp": "🎵INTERNET YAMERO（Aiobahn feat.KOTOKO）",
+      "kr": "🎵INTERNET YAMERO（Aiobahn feat.KOTOKO）",
+      "zh": "🎵INTERNET YAMERO（Aiobahn feat.KOTOKO）",
+      "zhs": "🎵INTERNET YAMERO（Aiobahn feat.KOTOKO）"
     }
   }
 }

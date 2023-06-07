@@ -1,1067 +1,1112 @@
 {
-  "beats": {
+  "album": {
     "1": {
-      "min": 181,
-      "max": 181
+      "bpm_mn": 181,
+      "bpm_mx": 181,
+      "name": "かめりあ(EDP)   #1f1e33",
+      "design": "000"
     },
     "3": {
-      "min": 128,
-      "max": 128
+      "bpm_mn": 128,
+      "bpm_mx": 128,
+      "name": "MYUKKE.   5733P BOMB",
+      "design": "D丶R"
     },
     "4": {
-      "min": 234,
-      "max": 234
+      "bpm_mn": 234,
+      "bpm_mx": 234,
+      "name": "Silentroom vs Frums   Aegleseeker",
+      "design": "Hole"
     },
     "5": {
-      "min": 170,
-      "max": 170
+      "bpm_mn": 170,
+      "bpm_mx": 170,
+      "name": "Houshou Marine   Ahoy!! 我ら宝鐘海賊団☆   Ahoy!! Warera Houshou Kaizokudan☆",
+      "design": "linaxia"
     },
     "6": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "ゆよゆっぺ   AiAe",
+      "design": "D丶R"
+    },
+    "7": {
+      "bpm_mn": 140,
+      "bpm_mx": 400,
+      "name": "LeaF   Aleph-0",
+      "design": "Hole"
     },
     "9": {
-      "min": 177,
-      "max": 177
+      "bpm_mn": 177,
+      "bpm_mx": 177,
+      "name": "かたぎり   Angel's Salad",
+      "design": "Hole"
     },
     "10": {
-      "min": 212,
-      "max": 212
+      "bpm_mn": 212,
+      "bpm_mx": 212,
+      "name": "xi   Aparajita",
+      "design": "GRACE vs. ATK"
     },
     "13": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": "DJ Myosuke   Black Territory",
+      "design": "Hole"
     },
     "15": {
-      "min": 119,
-      "max": 119
+      "bpm_mn": 119,
+      "bpm_mx": 119,
+      "name": "Project Moon   Children of the City",
+      "design": "Will of the prescripts"
     },
     "16": {
-      "min": 196,
-      "max": 196
+      "bpm_mn": 196,
+      "bpm_mx": 196,
+      "name": "猫叉L.E.D.Master+   Chrono Diver -PENDULUMs-",
+      "design": "ATK"
+    },
+    "17": {
+      "bpm_mn": 190,
+      "bpm_mx": 250,
+      "name": "Ice   DJ Mashiro is dead or alive",
+      "design": "DJ SugarSu"
     },
     "18": {
-      "min": 205,
-      "max": 205
+      "bpm_mn": 205,
+      "bpm_mx": 205,
+      "name": "翡乃イスカ   Dreamin' Attraction!!",
+      "design": "GYY feat.ATK"
     },
     "20": {
-      "min": 252,
-      "max": 252
+      "bpm_mn": 252,
+      "bpm_mx": 252,
+      "name": "Kobaryo   FLUFFY FLASH",
+      "design": "ATK"
     },
     "21": {
-      "min": 185,
-      "max": 185
+      "bpm_mn": 185,
+      "bpm_mx": 185,
+      "name": "3R2   Funky Quest",
+      "design": "Hole"
     },
     "23": {
-      "min": 235.8,
-      "max": 235.8
+      "bpm_mn": 235.8,
+      "bpm_mx": 235.8,
+      "name": "t+pazolite   Glorious Crown (tpz over-Over-OVERCUTE REMIX)",
+      "design": "Hole"
     },
     "24": {
-      "min": 130,
-      "max": 130
+      "bpm_mn": 130,
+      "bpm_mx": 130,
+      "name": "DJ Ubur Ubur x Paket Phoenix IndiHome   Goyang Ubur Ubur",
+      "design": "AshtonMemer"
     },
     "25": {
-      "min": 155,
-      "max": 155
+      "bpm_mn": 155,
+      "bpm_mx": 155,
+      "name": "Massive New Krew   HADES",
+      "design": "Hole"
     },
     "26": {
-      "min": 165,
-      "max": 165
+      "bpm_mn": 165,
+      "bpm_mx": 165,
+      "name": "saaa feat. MC iwata Bros.   Head BONK ache",
+      "design": "Hole"
+    },
+    "27": {
+      "bpm_mn": 87,
+      "bpm_mx": 174,
+      "name": "Est feat. 雪歌ユフ   Hello Hello",
+      "design": "djwhitebooty"
     },
     "29": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": "U-Ske   High-School QUEEN!!!",
+      "design": "ShiroN_L"
     },
     "31": {
-      "min": 175,
-      "max": 175
+      "bpm_mn": 175,
+      "bpm_mx": 175,
+      "name": "You feat. nayuta   Illumination",
+      "design": "Keithy"
     },
     "32": {
-      "min": 210,
-      "max": 210
+      "bpm_mn": 210,
+      "bpm_mx": 210,
+      "name": "USAO feat. 光吉猛修   IMPACT",
+      "design": "陈熙"
     },
     "33": {
-      "min": 135,
-      "max": 135
+      "bpm_mn": 135,
+      "bpm_mx": 135,
+      "name": "COSIO (ZUNTATA)   Invader Disco",
+      "design": "RMU"
     },
     "34": {
-      "min": 190,
-      "max": 190
+      "bpm_mn": 190,
+      "bpm_mx": 190,
+      "name": "MYUKKE.   Kalis Mind",
+      "design": "Hole"
     },
     "36": {
-      "min": 208.5,
-      "max": 208.5
+      "bpm_mn": 208.5,
+      "bpm_mx": 208.5,
+      "name": "linear ring   lalabai call me",
+      "design": "Hole"
     },
     "37": {
-      "min": 202,
-      "max": 202
+      "bpm_mn": 202,
+      "bpm_mx": 202,
+      "name": "ガリガリさむし   larva",
+      "design": "GRACE"
     },
     "38": {
-      "min": 185,
-      "max": 185
+      "bpm_mn": 185,
+      "bpm_mx": 185,
+      "name": "Team Grimoire vs MASAKI   Lemegeton -little key of solomon-",
+      "design": "Sugar vs ATK"
     },
     "39": {
-      "min": 120,
-      "max": 120
+      "bpm_mn": 120,
+      "bpm_mx": 120,
+      "name": "U.T.D & Friends   Lesson by DJ",
+      "design": "linaxia"
     },
     "40": {
-      "min": 202,
-      "max": 202
+      "bpm_mn": 202,
+      "bpm_mx": 202,
+      "name": "Kobaryo   Lotus Quest",
+      "design": "un1"
     },
     "41": {
-      "min": 160,
-      "max": 160
+      "bpm_mn": 160,
+      "bpm_mx": 160,
+      "name": "EmoCosine   Love Kills U",
+      "design": "D丶R"
     },
     "42": {
-      "min": 219.19,
-      "max": 219.19
+      "bpm_mn": 219.19,
+      "bpm_mx": 219.19,
+      "name": "かめりあ / 歌劇派学生   Lowermost Revolt (Short ver.)",
+      "design": "反抗者の頌歌"
     },
     "43": {
-      "min": 170,
-      "max": 170
+      "bpm_mn": 170,
+      "bpm_mx": 170,
+      "name": "YUC'e   Macaron Moon",
+      "design": "djwhitebooty"
     },
     "44": {
-      "min": 150,
-      "max": 150
+      "bpm_mn": 150,
+      "bpm_mx": 150,
+      "name": "翡乃イスカ   Mechanical Jager",
+      "design": "SugarSu"
     },
     "45": {
-      "min": 165,
-      "max": 165
+      "bpm_mn": 165,
+      "bpm_mx": 165,
+      "name": "HiTECH NINJA   Modelista",
+      "design": "Hole"
+    },
+    "46": {
+      "bpm_mn": 150,
+      "bpm_mx": 175,
+      "name": "YUC'e   MUDPIE",
+      "design": "linaxia"
     },
     "49": {
-      "min": 222,
-      "max": 222
+      "bpm_mn": 222,
+      "bpm_mx": 222,
+      "name": "P*Light   NINJA IS DEAD IIDX ver.",
+      "design": "linaxia"
     },
     "51": {
-      "min": 240,
-      "max": 240
+      "bpm_mn": 240,
+      "bpm_mx": 240,
+      "name": "t+pazolite   OMAKENO Stroke",
+      "design": "ATK"
     },
     "53": {
-      "min": 132,
-      "max": 132
+      "bpm_mn": 132,
+      "bpm_mx": 132,
+      "name": "Sobrem × Silentroom   Random",
+      "design": "Hole"
     },
     "54": {
-      "min": 166,
-      "max": 166
+      "bpm_mn": 166,
+      "bpm_mx": 166,
+      "name": "Tsunku♂, Masami Yone, Shinji Ushiroda, Asuka Ito   Remix 10",
+      "design": "Hole"
     },
     "55": {
-      "min": 140,
-      "max": 140
+      "bpm_mn": 140,
+      "bpm_mx": 140,
+      "name": "Masami Yone, Shinji Ushiroda, Asuka Ito   Remix 4",
+      "design": "Hole"
     },
     "56": {
-      "min": 220,
-      "max": 220
+      "bpm_mn": 220,
+      "bpm_mx": 220,
+      "name": "MYUKKE.   ROAD to 773H",
+      "design": "D丶R"
     },
     "58": {
-      "min": 190,
-      "max": 190
+      "bpm_mn": 190,
+      "bpm_mx": 190,
+      "name": "Team Grimoire   Rrhar'il",
+      "design": "- Team Chronnection - 《TDA/shezza》"
     },
     "59": {
-      "min": 213,
-      "max": 213
+      "bpm_mn": 213,
+      "bpm_mx": 213,
+      "name": "梅干茶漬け   Run*2 Run to you!!!",
+      "design": "ATK"
     },
     "61": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": "t+pazolite & Getty   Twisted Drop Party",
+      "design": "D丶R"
     },
     "63": {
-      "min": 125,
-      "max": 125
+      "bpm_mn": 125,
+      "bpm_mx": 125,
+      "name": "owl＊tree feat.chi＊tree   Valsqotch",
+      "design": "SugarSu"
     },
     "64": {
-      "min": 170,
-      "max": 170
+      "bpm_mn": 170,
+      "bpm_mx": 170,
+      "name": "MYUKKE.   ViViTAL MONO",
+      "design": "Hole"
     },
     "65": {
-      "min": 153,
-      "max": 153
+      "bpm_mn": 153,
+      "bpm_mx": 153,
+      "name": "Shiron   Wave of Craze",
+      "design": "Hole"
     },
     "66": {
-      "min": 112,
-      "max": 112
+      "bpm_mn": 112,
+      "bpm_mx": 112,
+      "name": "Frums   Wavetapper",
+      "design": "Hole"
+    },
+    "67": {
+      "bpm_mn": 31,
+      "bpm_mx": 288,
+      "name": "かめりあ   We Could Get More Machinegun Psystyle! -And More Genre Switches-",
+      "design": "D丶R"
     },
     "68": {
-      "min": 155,
-      "max": 155
+      "bpm_mn": 155,
+      "bpm_mx": 155,
+      "name": "MYUKKE.   WONDER $LOT 777",
+      "design": "ATK & SugarSu"
     },
     "69": {
-      "min": 222,
-      "max": 222
+      "bpm_mn": 222,
+      "bpm_mx": 222,
+      "name": "Hino Isuka   ワンダフォー・パラダイス   Wonderful Paradise",
+      "design": "Hole"
     },
     "70": {
-      "min": 202,
-      "max": 202
+      "bpm_mn": 202,
+      "bpm_mx": 202,
+      "name": "ああああ vs. モリモリあつし   Xrocus",
+      "design": "SkyStar.04"
+    },
+    "71": {
+      "bpm_mn": 90,
+      "bpm_mx": 192,
+      "name": "穴山大輔 VS 光吉猛修 VS Kai   ω4",
+      "design": "ATK"
     },
     "72": {
-      "min": 130,
-      "max": 130
+      "bpm_mn": 130,
+      "bpm_mx": 130,
+      "name": "きゃりーぱみゅぱみゅ   にんじゃりばんばん   Ninja Re Bang Bang",
+      "design": "djwhitebooty"
     },
     "74": {
-      "min": 115,
-      "max": 115
+      "bpm_mn": 115,
+      "bpm_mx": 115,
+      "name": "Perfume   コミュニケーション   Communication",
+      "design": "D丶R"
     },
     "76": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": " DJ Genki feat.ななひら,yukacco,藍月なくる   ラヴ♡スパイス♡ライクユー!!!   LOVE♡SPICE♡LIKE U!!!",
+      "design": "ATK"
     },
     "77": {
-      "min": 150,
-      "max": 150
+      "bpm_mn": 150,
+      "bpm_mx": 150,
+      "name": "鏡音リン/みきとP   ロキ   ROKI",
+      "design": "白龙"
     },
     "80": {
-      "min": 185,
-      "max": 185
+      "bpm_mn": 185,
+      "bpm_mx": 185,
+      "name": "Eve   廻廻奇譚   Kaikai Kitan",
+      "design": "ATK"
     },
     "81": {
-      "min": 125,
-      "max": 125
+      "bpm_mn": 125,
+      "bpm_mx": 125,
+      "name": "LeaF   彁   Ka",
+      "design": "Hole"
     },
     "82": {
-      "min": 158,
-      "max": 158
+      "bpm_mn": 158,
+      "bpm_mx": 158,
+      "name": "這いよる! ニャルアニ   恋は浑沌の隶也   Koi wa chaos no shimobenari",
+      "design": "D丶R"
     },
     "83": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "Tsunku♂   悲しみのスコール   Squall of sadness",
+      "design": "Hole"
     },
     "84": {
-      "min": 186,
-      "max": 186
+      "bpm_mn": 186,
+      "bpm_mx": 186,
+      "name": "立秋 feat.ちょこ   田中   Tanaka",
+      "design": "Hole"
     },
     "86": {
-      "min": 205,
-      "max": 205
+      "bpm_mn": 205,
+      "bpm_mx": 205,
+      "name": "スズム feat.そらる   絶望性：ヒーロー治療薬   Zetsubousei: Hero Chiryouyaku",
+      "design": "ATK"
     },
     "88": {
-      "min": 245,
-      "max": 245
+      "bpm_mn": 245,
+      "bpm_mx": 245,
+      "name": "ああああ   ∀",
+      "design": "Hole"
     },
     "89": {
-      "min": 160,
-      "max": 160
+      "bpm_mn": 160,
+      "bpm_mx": 160,
+      "name": "Laur   DANGEROOOOUS JUNGLE",
+      "design": "Hole"
     },
     "90": {
-      "min": 202,
-      "max": 202
+      "bpm_mn": 202,
+      "bpm_mx": 202,
+      "name": "aran   EPHMR",
+      "design": "Hole"
     },
     "91": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": "P*Light   EVE",
+      "design": "Hole"
+    },
+    "92": {
+      "bpm_mn": 197,
+      "bpm_mx": 227,
+      "name": "Lime   Luminaria",
+      "design": "Hole"
     },
     "93": {
-      "min": 140,
-      "max": 140
+      "bpm_mn": 140,
+      "bpm_mx": 140,
+      "name": "ProjectG   Regain",
+      "design": "Hole"
     },
     "94": {
-      "min": 100,
-      "max": 100
+      "bpm_mn": 100,
+      "bpm_mx": 100,
+      "name": "Silentroom   NULCTRL",
+      "design": "Hole"
     },
     "95": {
-      "min": 220,
-      "max": 220
+      "bpm_mn": 220,
+      "bpm_mx": 220,
+      "name": "SLAM & NATO   PARADOXX",
+      "design": "Xyro"
+    },
+    "96": {
+      "bpm_mn": 170,
+      "bpm_mx": 350,
+      "name": "linear ring   little witch in permafrost garden",
+      "design": "Hole"
     },
     "97": {
-      "min": 190,
-      "max": 190
+      "bpm_mn": 190,
+      "bpm_mx": 190,
+      "name": "DJ Myosuke vs MASAKI   神   KAMI",
+      "design": "Hole"
     },
     "98": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "Team Grimoire feat. Sennzai   CHAOS MAGNVM",
+      "design": "Garyyang"
     },
     "99": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "kamome sano   init()",
+      "design": "Hole"
     },
     "101": {
-      "min": 210,
-      "max": 210
+      "bpm_mn": 210,
+      "bpm_mx": 210,
+      "name": "LeaF   Armageddon",
+      "design": "Hole"
     },
     "103": {
-      "min": 191,
-      "max": 191
+      "bpm_mn": 191,
+      "bpm_mx": 191,
+      "name": "xi+ねこみりん   After Burner",
+      "design": "SkyStar.04+Exc."
     },
     "104": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "Mitsukiyo   Unwelcome School",
+      "design": "Hole"
     },
     "105": {
-      "min": 100,
-      "max": 241
+      "bpm_mn": 100,
+      "bpm_mx": 241,
+      "name": "sasakure.UK   廃棄対象_ｱｦ・ｷﾅ   Disposal Target_Ao・Kina",
+      "design": "廃棄対象_Ho・le"
     },
     "106": {
-      "min": 222,
-      "max": 222
+      "bpm_mn": 222,
+      "bpm_mx": 222,
+      "name": "Hino Isuka   パラマウント☆ショータイム！！   Paramount☆Showtime!!",
+      "design": "Hole"
     },
     "107": {
-      "min": 172,
-      "max": 172
+      "bpm_mn": 172,
+      "bpm_mx": 172,
+      "name": "HiTECH NINJA   Online",
+      "design": "SHeZZA"
     },
     "108": {
-      "min": 185,
-      "max": 185
+      "bpm_mn": 185,
+      "bpm_mx": 185,
+      "name": "Aoi   Spark!e",
+      "design": "shezza"
     },
     "109": {
-      "min": 133,
-      "max": 200
+      "bpm_mn": 133,
+      "bpm_mx": 200,
+      "name": "TAG   POTENTIAL",
+      "design": "Xyro"
     },
     "110": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "SNKS/mimitsu   Abatement",
+      "design": "HGR"
     },
     "111": {
-      "min": 160,
-      "max": 160
+      "bpm_mn": 160,
+      "bpm_mx": 160,
+      "name": "Hige Driver   回レ！雪月花   Maware! Setsugetsuka",
+      "design": "djwhitebooty"
     },
     "112": {
-      "min": 210,
-      "max": 210
+      "bpm_mn": 210,
+      "bpm_mx": 210,
+      "name": "TORIENA   ノープラン・デイズ   No plan days",
+      "design": "xDewritos"
     },
     "113": {
-      "min": 194,
-      "max": 194
+      "bpm_mn": 194,
+      "bpm_mx": 194,
+      "name": "M-UE   Nightmares",
+      "design": "mernadi"
     },
     "114": {
-      "min": 252,
-      "max": 252
+      "bpm_mn": 252,
+      "bpm_mx": 252,
+      "name": "かたぎり   HIVEMIND",
+      "design": "Hole"
     },
     "115": {
-      "min": 240,
-      "max": 240
+      "bpm_mn": 240,
+      "bpm_mx": 240,
+      "name": "かたぎり   Scattered Pancakes",
+      "design": "Hole"
     },
     "116": {
-      "min": 209,
-      "max": 209
+      "bpm_mn": 209,
+      "bpm_mx": 209,
+      "name": "かたぎり   silly-willy-nilly",
+      "design": "Hole"
     },
     "117": {
-      "min": 207,
-      "max": 207
+      "bpm_mn": 207,
+      "bpm_mx": 207,
+      "name": "かたぎり   漆   Urushi",
+      "design": "Hole"
     },
     "118": {
-      "min": 194,
-      "max": 194
+      "bpm_mn": 194,
+      "bpm_mx": 194,
+      "name": "REDALiCE   Masakari Blade",
+      "design": "Cactus"
     },
     "119": {
-      "min": 128,
-      "max": 128
+      "bpm_mn": 128,
+      "bpm_mx": 128,
+      "name": "立秋 feat.ちょこ   ぱあ   Paa",
+      "design": "Hole"
     },
     "120": {
-      "min": 246,
-      "max": 246
+      "bpm_mn": 246,
+      "bpm_mx": 246,
+      "name": "\"漆黒\"の堕天使《Gram》†Versus† \"聖刻\"の熾天使《Gram》   eden",
+      "design": "\"劇毒\"の酸天使《Xyro》†Versus† \"深淵\"の虚天使《Hole》"
     },
     "121": {
-      "min": 127.5,
-      "max": 127.5
+      "bpm_mn": 127.5,
+      "bpm_mx": 127.5,
+      "name": "Yuzy   ミルククラウン・オン・ソーネチカ   Milk Crown on Sonnetica",
+      "design": "Franailin vs Hole"
     },
     "122": {
-      "min": 280,
-      "max": 280
+      "bpm_mn": 280,
+      "bpm_mx": 280,
+      "name": "かねこちはる   iLLness LiLin",
+      "design": "shezza"
     },
     "123": {
-      "min": 112,
-      "max": 112
+      "bpm_mn": 112,
+      "bpm_mx": 112,
+      "name": "Nanahira ft. T+Pazolite   ハロウィンのパリピに負けたくないうた   I won't be defeated by the normies of the Halloween",
+      "design": "lilbigestjake"
     },
     "124": {
-      "min": 150,
-      "max": 150
+      "bpm_mn": 150,
+      "bpm_mx": 150,
+      "name": "YUC'e   POISON",
+      "design": "Miriitode"
     },
     "125": {
-      "min": 120
+      "bpm_mn": 120,
+      "name": "REDALiCE   デッド・オア・ダイ   DEAD or DIE",
+      "design": "Hole"
     },
     "126": {
-      "min": 155,
-      "max": 155
+      "bpm_mn": 155,
+      "bpm_mx": 155,
+      "name": "Laur   Mutation",
+      "design": "Xyro"
     },
     "127": {
-      "min": 128,
-      "max": 128
+      "bpm_mn": 128,
+      "bpm_mx": 128,
+      "name": "戌神ころね   Doggy god's street",
+      "design": "Hole"
     },
     "128": {
-      "min": 190,
-      "max": 190
+      "bpm_mn": 190,
+      "bpm_mx": 190,
+      "name": "IRyS   HERE COMES HOPE",
+      "design": "Hole"
     },
     "129": {
-      "min": 152,
-      "max": 152
+      "bpm_mn": 152,
+      "bpm_mx": 152,
+      "name": "Mori Calliope   HUGE W",
+      "design": "Hole"
     },
     "130": {
-      "min": 128,
-      "max": 128
+      "bpm_mn": 128,
+      "bpm_mx": 128,
+      "name": "hololive IDOL PROJECT   今宵はHalloween Night!   Halloween Night Tonight!",
+      "design": "Hole"
     },
     "131": {
-      "min": 145,
-      "max": 145
+      "bpm_mn": 145,
+      "bpm_mx": 145,
+      "name": "Hakos Baelz   PLAY DICE!",
+      "design": "Hole"
     },
     "132": {
-      "min": 128,
-      "max": 128
+      "bpm_mn": 128,
+      "bpm_mx": 128,
+      "name": "尾丸ポルカ   Pastel Tea Time",
+      "design": "Hole"
     },
     "133": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "兎田ぺこら&さくらみこ   ぺこみこ大戦争！！   PekoMiko Great War!!",
+      "design": "Hole"
     },
     "134": {
-      "min": 125,
-      "max": 125
+      "bpm_mn": 125,
+      "bpm_mx": 125,
+      "name": "Gawr Gura   REFLECT",
+      "design": "Hole"
     },
     "135": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "m1dy   Cold Pizza",
+      "design": "leftover un1"
     },
     "136": {
-      "min": 250,
-      "max": 250
+      "bpm_mn": 250,
+      "bpm_mx": 250,
+      "name": "DJ Myosuke   GENOCIDER",
+      "design": "UN1 vs. CACTUS"
     },
     "137": {
-      "min": 105,
-      "max": 105
+      "bpm_mn": 105,
+      "bpm_mx": 105,
+      "name": "t+pazolite   Seedy Try",
+      "design": "zdechliiizna"
     },
     "138": {
-      "min": 125,
-      "max": 166
+      "bpm_mn": 125,
+      "bpm_mx": 166,
+      "name": "かねこちはる   《Re:miniscence》"
     },
     "139": {
-      "min": 183,
-      "max": 183
+      "bpm_mn": 183,
+      "bpm_mx": 183,
+      "name": "Nato   Lepton Strike",
+      "design": "Xyro"
     },
     "140": {
-      "min": 230,
-      "max": 230
+      "bpm_mn": 230,
+      "bpm_mx": 230,
+      "name": "USAO & Camellia   Möbius",
+      "design": "Höle & Shezza"
     },
     "141": {
-      "min": 152,
-      "max": 152
+      "bpm_mn": 152,
+      "bpm_mx": 152,
+      "name": "Nayutalien   エイリアンエイリアン (Alien Alien)",
+      "design": "Franailin"
     },
     "142": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "AJURIKA   Evidence of evil",
+      "design": "Evil Cactus"
     },
     "143": {
-      "min": 205,
-      "max": 205
+      "bpm_mn": 205,
+      "bpm_mx": 205,
+      "name": "Masahiro \"Godspeed\" Aoki VS Kai   UniTas",
+      "design": "Xyro \"The Maestro\""
     },
     "144": {
-      "min": 145,
-      "max": 145
+      "bpm_mn": 145,
+      "bpm_mx": 145,
+      "name": "Morimori Atsushi   Alter Ego",
+      "design": "Shipn"
     },
     "145": {
-      "min": 163,
-      "max": 163
+      "bpm_mn": 163,
+      "bpm_mx": 163,
+      "name": "ああああ&梅干茶漬け   はずかしがりやのトイ・ソルジャー   Hazukashigariya no Toy Soldier",
+      "design": "Hole"
     },
     "146": {
-      "min": 185,
-      "max": 185
+      "bpm_mn": 185,
+      "bpm_mx": 185,
+      "name": "DJ Myosuke   Comeback",
+      "design": "un1"
     },
     "147": {
-      "min": 203,
-      "max": 203
+      "bpm_mn": 203,
+      "bpm_mx": 203,
+      "name": "DJ Myosuke   Don't Stop The Game (USAO Remix)",
+      "design": "un1"
     },
     "148": {
-      "min": 210,
-      "max": 210
+      "bpm_mn": 210,
+      "bpm_mx": 210,
+      "name": "こげみょー家   固め・濃いめ・多め   Katame Koime Oome",
+      "design": "ブラックユニ"
     },
     "149": {
-      "min": 195,
-      "max": 195
+      "bpm_mn": 195,
+      "bpm_mx": 195,
+      "name": "DJ Myosuke   Lovely Shit",
+      "design": "un1"
     },
     "150": {
-      "min": 220,
-      "max": 220
+      "bpm_mn": 220,
+      "bpm_mx": 220,
+      "name": "DJ Myosuke   Megaton Killer",
+      "design": "un1"
     },
     "151": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": "LeaF   Agilion",
+      "design": "Hole"
     },
     "152": {
-      "min": 201,
-      "max": 201
+      "bpm_mn": 201,
+      "bpm_mx": 201,
+      "name": "かめりあ   GALAXY BURST",
+      "design": "Hole"
     },
     "153": {
-      "min": 152,
-      "max": 152
+      "bpm_mn": 152,
+      "bpm_mx": 152,
+      "name": "Kobaryo feat. HiTNEX-X   SUPER REACTOR",
+      "design": "CaCTUS-X"
     },
     "154": {
-      "min": 170,
-      "max": 170
+      "bpm_mn": 170,
+      "bpm_mx": 170,
+      "name": "DJ Genki   ATARAX1A",
+      "design": "NaRu_"
     },
     "155": {
-      "min": 190,
-      "max": 190
+      "bpm_mn": 190,
+      "bpm_mx": 190,
+      "name": "CANVAS x RoughSketch feat. Quimär   Grandeur",
+      "design": "un1"
     },
     "156": {
-      "min": 170,
-      "max": 170
+      "bpm_mn": 170,
+      "bpm_mx": 170,
+      "name": "Cranky   Warrior",
+      "design": "shezza"
     },
     "157": {
-      "min": 190,
-      "max": 190
+      "bpm_mn": 190,
+      "bpm_mx": 190,
+      "name": "brz1128   Prism",
+      "design": "Hcs feat.ATK"
     },
     "158": {
-      "min": 190,
-      "max": 190
+      "bpm_mn": 190,
+      "bpm_mx": 190,
+      "name": "キノシタ   Poppin' Candy☆Fever",
+      "design": "Franailin"
     },
     "159": {
-      "min": 120,
-      "max": 240
+      "bpm_mn": 120,
+      "bpm_mx": 240,
+      "name": "LeaF   NANO DEATH!!!!!",
+      "design": "HOLE DEATH!!!!!"
     },
     "160": {
-      "min": 144,
-      "max": 144
+      "bpm_mn": 144,
+      "bpm_mx": 144,
+      "name": "失楽ペトリ   初音ミク -ナナホシ管弦楽団   hololive   Nanahoshi Orchestra, Nekomata Okayu   Lost Paradise",
+      "design": "7OU"
     },
     "161": {
-      "min": 196,
-      "max": 196
+      "bpm_mn": 196,
+      "bpm_mx": 196,
+      "name": "triple cross   bemani sound team   sound voltex   franailin   Bemani Sound Team   Triple Cross",
+      "design": "Franailin"
     },
     "162": {
-      "min": 335,
-      "max": 335
+      "bpm_mn": 335,
+      "bpm_mx": 335,
+      "name": "かめりあ as 'menaXe inXonnu'   Xroniàl Xéro (Short ver.)",
+      "design": "shezza as 'Ravager of Sanity'"
     },
     "163": {
-      "min": 110,
-      "max": 220
+      "bpm_mn": 110,
+      "bpm_mx": 220,
+      "name": "MYUKKE.   Fortuna for Tuna",
+      "design": "Hole"
     },
     "164": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": "PYKAMIA   Fantasia Sonata Mirror",
+      "design": "ATK"
     },
     "165": {
-      "min": 188,
-      "max": 188
+      "bpm_mn": 188,
+      "bpm_mx": 188,
+      "name": "ribbon room   Mint Tears",
+      "design": "Mirii-don & Ka-ctus"
     },
     "166": {
-      "min": 160,
-      "max": 160
+      "bpm_mn": 160,
+      "bpm_mx": 160,
+      "name": "CAM fix when Pack   wakatori   saaa + kei_iwata + stuv + わかどり   New York Back Raise",
+      "design": "Hole"
     },
     "167": {
-      "min": 195,
-      "max": 195
+      "bpm_mn": 195,
+      "bpm_mx": 195,
+      "name": "brz1128   ROZELCIA",
+      "design": "lxy & Cactus"
     },
     "168": {
-      "min": 224,
-      "max": 224
+      "bpm_mn": 224,
+      "bpm_mx": 224,
+      "name": "litmus*   Rush-Hour",
+      "design": "Xyro"
     },
     "169": {
-      "min": 102.5,
-      "max": 249.5
+      "bpm_mn": 102.5,
+      "bpm_mx": 249.5,
+      "name": "Nanahira   ASMR   CAM fix when Pack   t+pazolite & ななひら   Hardcore ASMR",
+      "design": "Hole"
     },
     "170": {
-      "min": 164,
-      "max": 164
+      "bpm_mn": 164,
+      "bpm_mx": 164,
+      "name": "katagiri   CAM fix when Pack   かたぎり   東   Higashi",
+      "design": "Hole"
     },
     "171": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": "irucaice   choco   CAM fix when Pack   いるかアイス feat.ちょこ   Rainbow Rush Story",
+      "design": "Hole"
     },
     "172": {
-      "min": 240,
-      "max": 240
+      "bpm_mn": 240,
+      "bpm_mx": 240,
+      "name": "CAM fix when Pack   REDALiCE vs Kobaryo   烈華RESONANCE   REKKA RESONANCE",
+      "design": "Hole"
     },
     "173": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "AAAA   Hino Isuka   Umeboshi Chazuke   CAM fix when Pack   ああ…翡翠茶漬け…   Tricolor⁂circuS",
+      "design": "Hole"
     },
     "174": {
-      "min": 195,
-      "max": 195
+      "bpm_mn": 195,
+      "bpm_mx": 195,
+      "name": "CAM fix when Pack   M-UE   Witch's Curse",
+      "design": "Hole"
     },
     "175": {
-      "min": 250,
-      "max": 250
+      "bpm_mn": 250,
+      "bpm_mx": 250,
+      "name": "yomoha   414 PER SPEED (yomoha remix)",
+      "design": "7OU"
     },
     "176": {
-      "min": 148,
-      "max": 148
+      "bpm_mn": 148,
+      "bpm_mx": 148,
+      "name": "Bemani Sound Team   Konami   DDR A   Bemani Sound Team   Chronos (Walk With You)",
+      "design": "Franailin"
     },
     "177": {
-      "min": 178,
-      "max": 178
+      "bpm_mn": 178,
+      "bpm_mx": 178,
+      "name": "SHIKI   Pure Ruby",
+      "design": "♡ shezza ♡"
     },
     "178": {
-      "min": 205,
-      "max": 205
+      "bpm_mn": 205,
+      "bpm_mx": 205,
+      "name": "Camellia feat. Hatsune Miku   Future-Respawning Button",
+      "design": "Future 7OU"
     },
     "179": {
-      "min": 175,
-      "max": 175
+      "bpm_mn": 175,
+      "bpm_mx": 175,
+      "name": "Luzeri​A   Luze   ルゼ   MAGICAL RENDA STADIUM",
+      "design": "Hole"
     },
     "180": {
-      "min": 186,
-      "max": 186
+      "bpm_mn": 186,
+      "bpm_mx": 186,
+      "name": "Luzeri​A   Luze   ルゼ   オンゲキエータベータイータ",
+      "design": "Hole"
     },
     "181": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "Luzeri​A   Luze   ルゼ   ZEUS † 666",
+      "design": "Hole"
     },
     "182": {
-      "min": 250,
-      "max": 250
+      "bpm_mn": 250,
+      "bpm_mx": 250,
+      "name": "Luzeri​A   Luze   one fourteen   ルゼ   ∦   breakthrough",
+      "design": "Hole"
     },
     "183": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": "EmoCosine, nora2r   EmoCosine vs. nora2r   Initiating League",
+      "design": "Hole"
     },
     "184": {
-      "min": 175,
-      "max": 175
+      "bpm_mn": 175,
+      "bpm_mx": 175,
+      "name": "Kobaryo   Bookmaker",
+      "design": "[GNV] feat.shezza"
     },
     "185": {
-      "min": 199,
-      "max": 199
+      "bpm_mn": 199,
+      "bpm_mx": 199,
+      "name": "P*Light   Innocent Floor",
+      "design": "un1"
     },
     "186": {
-      "min": 190,
-      "max": 190
+      "bpm_mn": 190,
+      "bpm_mx": 190,
+      "name": "Srezcat feat. Kobaryo   Mandela Sound Effect",
+      "design": "un1"
     },
     "187": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "P*Light   Parallel★PRISM",
+      "design": "Franai★lin"
     },
     "188": {
-      "min": 197,
-      "max": 197
+      "bpm_mn": 197,
+      "bpm_mx": 197,
+      "name": "HyuN   Princess of Winter",
+      "design": "ShezzA"
     },
     "189": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": "DJ Noriken & MASAKI   QiXiN MAdN3ss 2153",
+      "design": "GNV 7OU"
     },
     "190": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": "Juggernaut.   Retaliation",
+      "design": "un1"
     },
     "191": {
-      "min": 172,
-      "max": 172
+      "bpm_mn": 172,
+      "bpm_mx": 172,
+      "name": "Tenma Tsukasa, Ootori Emu, Kusanagi Nene & Kamishiro Rui   Tondemo Wonders",
+      "design": "ame"
     },
     "192": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "CPSQUQI   μάγισσα   Witch",
+      "design": "un1"
     },
     "193": {
-      "min": 198,
-      "max": 198
+      "bpm_mn": 198,
+      "bpm_mx": 198,
+      "name": "GNV   WACCA   DJ Noriken   MAGiC4LG1RL M3GA S7R1KE!",
+      "design": "MAGiC4LG1RL Franailin"
     },
     "194": {
-      "min": 128
+      "bpm_mn": 128,
+      "name": "Hino Isuka   翡乃イスカ vs. s-don   Glooorious!!",
+      "design": "Hole"
     },
     "195": {
-      "min": 155,
-      "max": 155
+      "bpm_mn": 155,
+      "bpm_mx": 155,
+      "name": "Hino Isuka   s-don vs. 翡乃イスカ   Trrricksters!!",
+      "design": "Hole"
     },
     "196": {
-      "min": 185,
-      "max": 185
+      "bpm_mn": 185,
+      "bpm_mx": 185,
+      "name": "Hino Isuka   翡乃イスカ × otoshi.b   Twin☆kle Snowglobe",
+      "design": "Hole"
     },
     "197": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "Hino Isuka   翡乃イスカ   Moonheart",
+      "design": "Hole"
     },
     "198": {
-      "min": 190,
-      "max": 190
+      "bpm_mn": 190,
+      "bpm_mx": 190,
+      "name": "DJ Myosuke   Behemoth",
+      "design": "daemonum un1x"
     },
     "199": {
-      "min": 175,
-      "max": 175
+      "bpm_mn": 175,
+      "bpm_mx": 175,
+      "name": "ETIA.   Hainuwele",
+      "design": "Xyro"
     },
     "200": {
-      "min": 129,
-      "max": 129
+      "bpm_mn": 129,
+      "bpm_mx": 129,
+      "name": "Farhan Sarasin, Pavolia Reine   Gate Open: START!",
+      "design": "Darkhawk02"
     },
     "201": {
-      "min": 150,
-      "max": 480
+      "bpm_mn": 150,
+      "bpm_mx": 480,
+      "name": "ReeK   Yubi Breaker",
+      "design": "MDMC Charting Team"
     },
     "202": {
-      "min": 200,
-      "max": 200
+      "bpm_mn": 200,
+      "bpm_mx": 200,
+      "name": "Risu   Choco   立秋feat.ちょこ   †大闘士＝クライン・フォーゲル・シュピール＝えりか†   Daitoshi Kuraine Pogeru Supieru Erika",
+      "design": "Hole"
     },
     "203": {
-      "min": 220,
-      "max": 220
+      "bpm_mn": 220,
+      "bpm_mx": 220,
+      "name": "Camellia   GHOST",
+      "design": "Cactus & Hole's ghosts"
     },
     "204": {
-      "min": 180,
-      "max": 180
+      "bpm_mn": 180,
+      "bpm_mx": 180,
+      "name": "Luzeri​A   Luze   April Fools   ルゼ feat. えみゅう。   親フラ   Oyafla",
+      "design": "Hole"
     },
     "205": {
-      "min": 225,
-      "max": 225
+      "bpm_mn": 225,
+      "bpm_mx": 225,
+      "name": "DJ TECHNORCH feat. 宇宙★海月   金野火織の金色提言   Konno Hiori no konjiki teigen",
+      "design": "CACTUS"
     },
     "206": {
-      "min": 188,
-      "max": 188
+      "bpm_mn": 188,
+      "bpm_mx": 188,
+      "name": "BlackY   CUTIE☆EX-DREAM",
+      "design": "DREAMY☆UN1"
     },
     "207": {
-      "min": 186,
-      "max": 186
+      "bpm_mn": 186,
+      "bpm_mx": 186,
+      "name": "HyuN   Cross†Revolution (feat. LyuU)",
+      "design": "Fly†Fran"
+    },
+    "208": {
+      "bpm_mn": 170,
+      "bpm_mx": 170,
+      "name": "Rex   Heart of Witch",
+      "design": "7OU"
+    },
+    "209": {
+      "bpm_mn": 174,
+      "bpm_mx": 174,
+      "name": "BurgeraX   Scorpion",
+      "design": "shezza"
+    },
+    "210": {
+      "bpm_mn": 231,
+      "bpm_mx": 231,
+      "name": "7OU   モリモリあつし   Morimori Atsushi   Grand-Guignol",
+      "design": "7-OU"
     }
-  },
-  "name": {
-    "1": "かめりあ(EDP)   #1f1e33 ",
-    "3": "MYUKKE.   5733P BOMB ",
-    "4": "Silentroom vs Frums   Aegleseeker ",
-    "5": "Houshou Marine   Ahoy!! 我ら宝鐘海賊団☆   Ahoy!! Warera Houshou Kaizokudan☆  ",
-    "6": "ゆよゆっぺ   AiAe ",
-    "7": "LeaF   Aleph-0 ",
-    "9": "かたぎり   Angel's Salad ",
-    "10": "xi   Aparajita ",
-    "13": "DJ Myosuke   Black Territory ",
-    "15": "Project Moon   Children of the City ",
-    "16": "猫叉L.E.D.Master+   Chrono Diver -PENDULUMs- ",
-    "17": "Ice   DJ Mashiro is dead or alive ",
-    "18": "翡乃イスカ   Dreamin' Attraction!! ",
-    "20": "Kobaryo   FLUFFY FLASH ",
-    "21": "3R2   Funky Quest ",
-    "23": "t+pazolite   Glorious Crown (tpz over-Over-OVERCUTE REMIX) ",
-    "24": "DJ Ubur Ubur x Paket Phoenix IndiHome   Goyang Ubur Ubur ",
-    "25": "Massive New Krew   HADES ",
-    "26": "saaa feat. MC iwata Bros.   Head BONK ache ",
-    "27": "Est feat. 雪歌ユフ   Hello Hello ",
-    "29": "U-Ske   High-School QUEEN!!! ",
-    "31": "You feat. nayuta   Illumination ",
-    "32": "USAO feat. 光吉猛修   IMPACT ",
-    "33": "COSIO (ZUNTATA)   Invader Disco ",
-    "34": "MYUKKE.   Kalis Mind ",
-    "36": "linear ring   lalabai call me ",
-    "37": "ガリガリさむし   larva ",
-    "38": "Team Grimoire vs MASAKI   Lemegeton -little key of solomon- ",
-    "39": "U.T.D & Friends   Lesson by DJ ",
-    "40": "Kobaryo   Lotus Quest ",
-    "41": "EmoCosine   Love Kills U ",
-    "42": "かめりあ / 歌劇派学生   Lowermost Revolt (Short ver.) ",
-    "43": "YUC'e   Macaron Moon ",
-    "44": "翡乃イスカ   Mechanical Jager ",
-    "45": "HiTECH NINJA   Modelista ",
-    "46": "YUC'e   MUDPIE ",
-    "49": "P*Light   NINJA IS DEAD IIDX ver. ",
-    "51": "t+pazolite   OMAKENO Stroke ",
-    "53": "Sobrem × Silentroom   Random ",
-    "54": "Tsunku♂, Masami Yone, Shinji Ushiroda, Asuka Ito   Remix 10 ",
-    "55": "Masami Yone, Shinji Ushiroda, Asuka Ito   Remix 4 ",
-    "56": "MYUKKE.   ROAD to 773H ",
-    "58": "Team Grimoire   Rrhar'il ",
-    "59": "梅干茶漬け   Run*2 Run to you!!! ",
-    "61": "t+pazolite & Getty   Twisted Drop Party ",
-    "63": "owl＊tree feat.chi＊tree   Valsqotch ",
-    "64": "MYUKKE.   ViViTAL MONO ",
-    "65": "Shiron   Wave of Craze ",
-    "66": "Frums   Wavetapper ",
-    "67": "かめりあ   We Could Get More Machinegun Psystyle! -And More Genre Switches- ",
-    "68": "MYUKKE.   WONDER $LOT 777 ",
-    "69": "Hino Isuka   ワンダフォー・パラダイス   Wonderful Paradise  ",
-    "70": "ああああ vs. モリモリあつし   Xrocus ",
-    "71": "穴山大輔 VS 光吉猛修 VS Kai   ω4 ",
-    "72": "きゃりーぱみゅぱみゅ   にんじゃりばんばん   Ninja Re Bang Bang  ",
-    "74": "Perfume   コミュニケーション   Communication  ",
-    "76": " DJ Genki feat.ななひら,yukacco,藍月なくる   ラヴ♡スパイス♡ライクユー!!!   LOVE♡SPICE♡LIKE U!!!  ",
-    "77": "鏡音リン/みきとP   ロキ   ROKI  ",
-    "80": "Eve   廻廻奇譚   Kaikai Kitan  ",
-    "81": "LeaF   彁   Ka  ",
-    "82": "這いよる! ニャルアニ   恋は浑沌の隶也   Koi wa chaos no shimobenari  ",
-    "83": "Tsunku♂   悲しみのスコール   Squall of sadness  ",
-    "84": "立秋 feat.ちょこ   田中   Tanaka  ",
-    "86": "スズム feat.そらる   絶望性：ヒーロー治療薬   Zetsubousei: Hero Chiryouyaku  ",
-    "88": "ああああ   ∀ ",
-    "89": "Laur   DANGEROOOOUS JUNGLE ",
-    "90": "aran   EPHMR ",
-    "91": "P*Light   EVE ",
-    "92": "Lime   Luminaria ",
-    "93": "ProjectG   Regain ",
-    "94": "Silentroom   NULCTRL ",
-    "95": "SLAM & NATO   PARADOXX ",
-    "96": "linear ring   little witch in permafrost garden ",
-    "97": "DJ Myosuke vs MASAKI   神   KAMI  ",
-    "98": "Team Grimoire feat. Sennzai   CHAOS MAGNVM ",
-    "99": "kamome sano   init() ",
-    "101": "LeaF   Armageddon ",
-    "103": "xi+ねこみりん   After Burner ",
-    "104": "Mitsukiyo   Unwelcome School ",
-    "105": "sasakure.UK   廃棄対象_ｱｦ・ｷﾅ   Disposal Target_Ao・Kina  ",
-    "106": "Hino Isuka   パラマウント☆ショータイム！！   Paramount☆Showtime!!  ",
-    "107": "HiTECH NINJA   Online ",
-    "108": "Aoi   Spark!e ",
-    "109": "TAG   POTENTIAL ",
-    "110": "SNKS/mimitsu   Abatement ",
-    "111": "Hige Driver   回レ！雪月花   Maware! Setsugetsuka  ",
-    "112": "TORIENA   ノープラン・デイズ   No plan days  ",
-    "113": "M-UE   Nightmares ",
-    "114": "かたぎり   HIVEMIND ",
-    "115": "かたぎり   Scattered Pancakes ",
-    "116": "かたぎり   silly-willy-nilly ",
-    "117": "かたぎり   漆   Urushi  ",
-    "118": "REDALiCE   Masakari Blade ",
-    "119": "立秋 feat.ちょこ   ぱあ   Paa  ",
-    "120": "\"漆黒\"の堕天使《Gram》†Versus† \"聖刻\"の熾天使《Gram》   eden ",
-    "121": "Yuzy   ミルククラウン・オン・ソーネチカ   Milk Crown on Sonnetica  ",
-    "122": "かねこちはる   iLLness LiLin ",
-    "123": "Nanahira ft. T+Pazolite   ハロウィンのパリピに負けたくないうた   I won't be defeated by the normies of the Halloween  ",
-    "124": "YUC'e   POISON ",
-    "125": "REDALiCE   デッド・オア・ダイ   DEAD or DIE  ",
-    "126": "Laur   Mutation ",
-    "127": "戌神ころね   Doggy god's street ",
-    "128": "IRyS   HERE COMES HOPE ",
-    "129": "Mori Calliope   HUGE W ",
-    "130": "hololive IDOL PROJECT   今宵はHalloween Night!   Halloween Night Tonight!  ",
-    "131": "Hakos Baelz   PLAY DICE! ",
-    "132": "尾丸ポルカ   Pastel Tea Time ",
-    "133": "兎田ぺこら&さくらみこ   ぺこみこ大戦争！！   PekoMiko Great War!!  ",
-    "134": "Gawr Gura   REFLECT ",
-    "135": "m1dy   Cold Pizza ",
-    "136": "DJ Myosuke   GENOCIDER ",
-    "137": "t+pazolite   Seedy Try ",
-    "138": "かねこちはる   《Re:miniscence》 ",
-    "139": "Nato   Lepton Strike ",
-    "140": "USAO & Camellia   Möbius ",
-    "141": "Nayutalien   エイリアンエイリアン (Alien Alien) ",
-    "142": "AJURIKA   Evidence of evil ",
-    "143": "Masahiro \"Godspeed\" Aoki VS Kai   UniTas ",
-    "144": "Morimori Atsushi   Alter Ego ",
-    "145": "ああああ&梅干茶漬け   はずかしがりやのトイ・ソルジャー   Hazukashigariya no Toy Soldier  ",
-    "146": "DJ Myosuke   Comeback ",
-    "147": "DJ Myosuke   Don't Stop The Game (USAO Remix) ",
-    "148": "こげみょー家   固め・濃いめ・多め   Katame Koime Oome  ",
-    "149": "DJ Myosuke   Lovely Shit ",
-    "150": "DJ Myosuke   Megaton Killer ",
-    "151": "LeaF   Agilion ",
-    "152": "かめりあ   GALAXY BURST ",
-    "153": "Kobaryo feat. HiTNEX-X   SUPER REACTOR ",
-    "154": "DJ Genki   ATARAX1A ",
-    "155": "CANVAS x RoughSketch feat. Quimär   Grandeur ",
-    "156": "Cranky   Warrior ",
-    "157": "brz1128   Prism ",
-    "158": "キノシタ   Poppin' Candy☆Fever ",
-    "159": "LeaF   NANO DEATH!!!!! ",
-    "160": "Nanahoshi Orchestra, Nekomata Okayu   Lost Paradise ",
-    "161": "Bemani Sound Team   Triple Cross ",
-    "162": "かめりあ as 'menaXe inXonnu'   Xroniàl Xéro (Short ver.) ",
-    "163": "MYUKKE.   Fortuna for Tuna ",
-    "164": "PYKAMIA   Fantasia Sonata Mirror ",
-    "165": "ribbon room   Mint Tears ",
-    "166": "saaa + kei_iwata + stuv + わかどり   New York Back Raise ",
-    "167": "brz1128   ROZELCIA ",
-    "168": "litmus*   Rush-Hour ",
-    "169": "t+pazolite & ななひら   Hardcore ASMR ",
-    "170": "かたぎり   東   Higashi  ",
-    "171": "いるかアイス feat.ちょこ   Rainbow Rush Story ",
-    "172": "REDALiCE vs Kobaryo   烈華RESONANCE   REKKA RESONANCE  ",
-    "173": "ああ…翡翠茶漬け…   Tricolor⁂circuS ",
-    "174": "M-UE   Witch's Curse ",
-    "175": "yomoha   414 PER SPEED (yomoha remix) ",
-    "176": "Bemani Sound Team   Chronos (Walk With You) ",
-    "177": "SHIKI   Pure Ruby ",
-    "178": "Camellia feat. Hatsune Miku   Future-Respawning Button ",
-    "179": "ルゼ   MAGICAL RENDA STADIUM ",
-    "180": "ルゼ   オンゲキエータベータイータ ",
-    "181": "ルゼ   ZEUS † 666 ",
-    "182": "ルゼ   ∦   breakthrough  ",
-    "183": "EmoCosine vs. nora2r   Initiating League ",
-    "184": "Kobaryo   Bookmaker ",
-    "185": "P*Light   Innocent Floor ",
-    "186": "Srezcat feat. Kobaryo   Mandela Sound Effect ",
-    "187": "P*Light   Parallel★PRISM ",
-    "188": "HyuN   Princess of Winter ",
-    "189": "DJ Noriken & MASAKI   QiXiN MAdN3ss 2153 ",
-    "190": "Juggernaut.   Retaliation ",
-    "191": "Tenma Tsukasa, Ootori Emu, Kusanagi Nene & Kamishiro Rui   Tondemo Wonders ",
-    "192": "CPSQUQI   μάγισσα   Witch  ",
-    "193": "DJ Noriken   MAGiC4LG1RL M3GA S7R1KE! ",
-    "194": "翡乃イスカ vs. s-don   Glooorious!! ",
-    "195": "s-don vs. 翡乃イスカ   Trrricksters!! ",
-    "196": "翡乃イスカ × otoshi.b   Twin☆kle Snowglobe ",
-    "197": "翡乃イスカ   Moonheart ",
-    "198": "DJ Myosuke   Behemoth ",
-    "199": "ETIA.   Hainuwele ",
-    "200": "Farhan Sarasin, Pavolia Reine   Gate Open: START! ",
-    "201": "ReeK   Yubi Breaker ",
-    "202": "立秋feat.ちょこ   †大闘士＝クライン・フォーゲル・シュピール＝えりか†   Daitoshi Kuraine Pogeru Supieru Erika  ",
-    "203": "Camellia   GHOST ",
-    "204": "ルゼ feat. えみゅう。   親フラ   Oyafla  ",
-    "205": "DJ TECHNORCH feat. 宇宙★海月   金野火織の金色提言   Konno Hiori no konjiki teigen  ",
-    "206": "BlackY   CUTIE☆EX-DREAM ",
-    "207": "HyuN   Cross†Revolution (feat. LyuU) "
-  },
-  "design": {
-    "1": "|000 000 000 000 000 ",
-    "3": "|D丶R D丶R D丶R D丶R D丶R ",
-    "4": "|Hole Hole Hole Hole Hole ",
-    "5": "|linaxia linaxia linaxia linaxia linaxia ",
-    "6": "|D丶R D丶R D丶R D丶R D丶R ",
-    "7": "|Hole Hole Hole Hole Hole ",
-    "9": "|Hole Hole Hole Hole Hole ",
-    "10": "|GRACE vs. ATK GRACE vs. ATK GRACE vs. ATK GRACE vs. ATK GRACE vs. ATK ",
-    "13": "|Hole Hole Hole Hole Hole ",
-    "15": "|Will of the prescripts Will of the prescripts Will of the prescripts Will of the prescripts Will of the prescripts ",
-    "16": "|ATK ATK ATK ATK ATK ",
-    "17": "|DJ SugarSu DJ SugarSu DJ SugarSu DJ SugarSu DJ SugarSu ",
-    "18": "|GYY feat.ATK GYY feat.ATK GYY feat.ATK GYY feat.ATK GYY feat.ATK ",
-    "20": "|ATK ATK ATK ATK ATK ",
-    "21": "|Hole Hole Hole Hole Hole ",
-    "23": "|Hole Hole Hole Hole Hole ",
-    "24": "|AshtonMemer AshtonMemer AshtonMemer AshtonMemer AshtonMemer ",
-    "25": "|Hole Hole Hole Hole Hole ",
-    "26": "|Hole Hole Hole Hole Hole ",
-    "27": "|djwhitebooty djwhitebooty djwhitebooty djwhitebooty djwhitebooty ",
-    "29": "|ShiroN_L ShiroN_L ShiroN_L ShiroN_L ShiroN_L ",
-    "31": "|Keithy Keithy Keithy Keithy Keithy ",
-    "32": "|陈熙 陈熙 陈熙 陈熙 陈熙 ",
-    "33": "|RMU RMU RMU RMU RMU ",
-    "34": "|Hole Hole Hole Hole Hole ",
-    "36": "|Hole Hole Hole Hole Hole ",
-    "37": "|GRACE GRACE GRACE GRACE GRACE ",
-    "38": "|Sugar vs ATK Sugar vs ATK Sugar vs ATK Sugar vs ATK Sugar vs ATK ",
-    "39": "|linaxia linaxia linaxia linaxia linaxia ",
-    "40": "|un1 un1 un1 un1 un1 ",
-    "41": "|D丶R D丶R D丶R D丶R D丶R ",
-    "42": "|反抗者の頌歌 反抗者の頌歌 反抗者の頌歌 反抗者の頌歌 反抗者の頌歌 ",
-    "43": "|djwhitebooty djwhitebooty djwhitebooty djwhitebooty djwhitebooty ",
-    "44": "|SugarSu SugarSu SugarSu SugarSu SugarSu ",
-    "45": "|Hole Hole Hole Hole Hole ",
-    "46": "|linaxia linaxia linaxia linaxia linaxia ",
-    "49": "|linaxia linaxia linaxia linaxia linaxia ",
-    "51": "|ATK ATK ATK ATK ATK ",
-    "53": "|Hole Hole Hole Hole Hole ",
-    "54": "|Hole Hole Hole Hole Hole ",
-    "55": "|Hole Hole Hole Hole Hole ",
-    "56": "|D丶R D丶R D丶R D丶R D丶R ",
-    "58": "|- Team Chronnection - 《TDA/shezza》 - Team Chronnection - 《TDA/shezza》 - Team Chronnection - 《TDA/shezza》 - Team Chronnection - 《TDA/shezza/》 - Team Chronnection - 《TDA/shezza/》 ",
-    "59": "|ATK ATK ATK ATK ATK ",
-    "61": "|D丶R D丶R D丶R D丶R D丶R ",
-    "63": "|SugarSu SugarSu SugarSu SugarSu SugarSu ",
-    "64": "|Hole Hole Hole Hole Hole ",
-    "65": "|Hole Hole Hole Hole Hole ",
-    "66": "|Hole Hole Hole Hole Hole ",
-    "67": "|D丶R D丶R D丶R D丶R D丶R ",
-    "68": "|ATK & SugarSu ATK & SugarSu ATK & SugarSu ATK & SugarSu ATK & SugarSu ",
-    "69": "|Hole Hole Hole Hole Hole ",
-    "70": "|SkyStar.04 SkyStar.04 SkyStar.04 SkyStar.04 SkyStar.04 ",
-    "71": "|ATK ATK ATK ATK ATK ",
-    "72": "|djwhitebooty djwhitebooty djwhitebooty djwhitebooty djwhitebooty ",
-    "74": "|D丶R D丶R D丶R D丶R D丶R ",
-    "76": "|ATK ATK ATK ATK ATK ",
-    "77": "|白龙 白龙 白龙 白龙 白龙 ",
-    "80": "|ATK ATK ATK ATK ATK ",
-    "81": "|Hole Hole Hole Hole Hole ",
-    "82": "|D丶R D丶R D丶R D丶R D丶R ",
-    "83": "|Hole Hole Hole Hole Hole ",
-    "84": "|Hole Hole Hole Hole Hole ",
-    "86": "|ATK ATK ATK ATK ATK ",
-    "88": "|Hole Hole Hole Hole Hole ",
-    "89": "|Hole Hole Hole Hole Hole ",
-    "90": "|Hole Hole Hole Hole Hole ",
-    "91": "|Hole Hole Hole Hole Hole ",
-    "92": "|Hole Hole Hole Hole Hole ",
-    "93": "|Hole Hole Hole Hole Hole ",
-    "94": "|Hole Hole Hole Hole Hole ",
-    "95": "|Xyro Xyro Xyro Xyro Xyro ",
-    "96": "|Hole Hole Hole Hole Hole ",
-    "97": "|Hole Hole Hole Hole Hole ",
-    "98": "|Garyyang Garyyang Garyyang Garyyang Garyyang ",
-    "99": "|Hole Hole Hole Hole Hole ",
-    "101": "|Hole Hole Hole Hole Hole ",
-    "103": "|SkyStar.04+Exc. SkyStar.04+Exc. SkyStar.04+Exc. SkyStar.04+Exc. SkyStar.04+Exc. ",
-    "104": "|Hole Hole Hole Hole Hole ",
-    "105": "|廃棄対象_Ho・le 廃棄対象_Ho・le 廃棄対象_Ho・le 廃棄対象_Ho・le 廃棄対象_Ho・le ",
-    "106": "|Hole Hole Hole Hole Hole's Paramount Show ",
-    "107": "|SHeZZA SHeZZA SHeZZA SHeZZA SHeZZA ",
-    "108": "|shezza shezza shezza shezza  ",
-    "109": "|Xyro Xyro Xyro Xyro Xyro ",
-    "110": "|HGR ? HGR ? ? ",
-    "111": "|djwhitebooty djwhitebooty djwhitebooty djwhitebooty djwhitebooty ",
-    "112": "|xDewritos xDewritos xDewritos xDewritos xDewritos ",
-    "113": "|mernadi mernadi mernadi mernadi mernadi ",
-    "114": "|Hole Hole Hole Hole  ",
-    "115": "|Hole Hole Hole Hole  ",
-    "116": "|Hole Hole Hole Hole  ",
-    "117": "|Hole Hole Hole Hole  ",
-    "118": "|Cactus Cactus Cactus Cactus Cactus ",
-    "119": "|Hole Hole Hole Hole Hole ",
-    "120": "|\"劇毒\"の酸天使《Xyro》†Versus† \"深淵\"の虚天使《Hole》 \"劇毒\"の酸天使《Xyro》†Versus† \"深淵\"の虚天使《Hole》 \"劇毒\"の酸天使《Xyro》†Versus† \"深淵\"の虚天使《Hole》 \"劇毒\"の酸天使《Xyro》†Versus† \"深淵\"の虚天使《Hole》 \"劇毒\"の酸天使《Xyro》†Versus† \"深淵\"の虚天使《Hole》 ",
-    "121": "|Franailin vs Hole Franailin vs Hole Franailin vs Hole Franailin vs Hole Franailin vs Hole ",
-    "122": "|shezza shezza shezza shezza shezza ",
-    "123": "|lilbigestjake lilbigestjake lilbigestjake lilbigestjake lilbigestjake ",
-    "124": "|Miriitode Miriitode Miriitode Miriitode Miriitode ",
-    "125": "|Hole Hole Hole Hole Hole ",
-    "126": "|Xyro Xyro Xyro Xyro Xyro ",
-    "127": "|Hole Hole Hole Hole Hole ",
-    "128": "|Hole Hole Hole Hole Hole ",
-    "129": "|Hole Hole Hole Hole HUGE H ",
-    "130": "|Hole Hole Hole Hole Hole ",
-    "131": "|Hole Hole Hole Hole Hole ",
-    "132": "|Hole Hole Hole Hole Hole ",
-    "133": "|Hole Hole Hole Hole Hole ",
-    "134": "|Hole Hole Hole Hole Hole ",
-    "135": "|leftover un1 leftover un1 leftover un1 leftover un1 leftover un1 ",
-    "136": "|UN1 vs. CACTUS UN1 vs. CACTUS UN1 vs. CACTUS UN1 vs. CACTUS UN1 vs. CACTUS ",
-    "137": "|zdechliiizna zdechliiizna zdechliiizna zdechliiizna zdechliiizna ",
-    "138": "|《she:zza》 《she:zza》 《she:zza》 《she:zza》 《she:zza》 ",
-    "139": "|Xyro Xyro Xyro Xyro Xyro ",
-    "140": "|Höle & Shezza Höle & Shezza Höle & Shezza Höle & Shezza Höle & Shezza ",
-    "141": "|Franailin ? ? ? ? ",
-    "142": "|Evil Cactus Evil Cactus Evil Cactus Evil Cactus Evil Cactus ",
-    "143": "|Xyro \"The Maestro\" Xyro \"The Maestro\" Xyro \"The Maestro\" Xyro \"The Maestro\" Xyro \"The Maestro\" ",
-    "144": "|Shipn Shipn Shipn Shipn  ",
-    "145": "|Hole Hole Hole Hole  ",
-    "146": "|un1 un1 un1 un1  ",
-    "147": "|un1 un1 un1 un1  ",
-    "148": "|ブラックユニ ブラックユニ ブラックユニ ブラックユニ  ",
-    "149": "|un1 un1 un1 un1  ",
-    "150": "|un1 un1 un1 un1  ",
-    "151": "|Hole Hole Hole Hole  ",
-    "152": "|Hole Hole Hole Hole  ",
-    "153": "|CaCTUS-X CaCTUS-X CaCTUS-X CaCTUS-X CaCTUS-X ",
-    "154": "|NaRu_ NaRu_ NaRu_ NaRu_  ",
-    "155": "|un1 un1 un1 un1  ",
-    "156": "|shezza shezza shezza shezza shezza ",
-    "157": "|Hcs feat.ATK Hcs feat.ATK Hcs feat.ATK Hcs feat.ATK  ",
-    "158": "|Franailin Franailin Franailin Franailin Franailin ",
-    "159": "|HOLE DEATH!!!!! Hole Hole Hole  ",
-    "160": "|7OU 7OU 7OU 7OU 7OU ",
-    "161": "|Franailin Franailin Franailin Franailin Franailin ",
-    "162": "|shezza as 'Ravager of Sanity' shezza as 'Ravager of Sanity' shezza as 'Ravager of Sanity' shezza as 'Ravager of Sanity' shezza as 'Ravager of Sanity' ",
-    "163": "|Hole Hole Hole Hole Hole ",
-    "164": "|ATK ATK ATK ATK  ",
-    "165": "|Mirii-don & Ka-ctus Mirii-don & Ka-ctus Mirii-don & Ka-ctus Mirii-don & Ka-ctus Mirii-don & Ka-ctus ",
-    "166": "|Hole Hole Hole Hole Hole ",
-    "167": "|lxy & Cactus lxy & Cactus lxy & Cactus lxy & Cactus  ",
-    "168": "|Xyro Xyro Xyro Xyro Xyro ",
-    "169": "|Hole Hole the ASMR enjoyer Hole the ASMR enjoyer Hole the ASMR enjoyer Hole the ASMR enjoyer ",
-    "170": "|Hole Hole Hole Hole Hole ",
-    "171": "|Hole Hole Hole Hole Hole ",
-    "172": "|Hole Hole Hole Hole Hole ",
-    "173": "|Hole Hole Hole Hole Hole ",
-    "174": "|Hole Hole Hole Hole Hole ",
-    "175": "|7OU 7OU 7OU 7OU 7OU ",
-    "176": "|Franailin Franailin Franailin Franailin Franailin ",
-    "177": "|♡ shezza ♡ ♡ shezza ♡ ♡ shezza ♡ ♡ shezza ♡ ♡ shezza ♡ ",
-    "178": "|Future 7OU Future 7OU Future 7OU Future 7OU Future-Respawned 7OU ",
-    "179": "|Hole Hole Hole Hole Hole ",
-    "180": "|Hole Hole Hole Hole Hole ",
-    "181": "|Hole Hole Hole Hole Hole ",
-    "182": "|Hole Hole Hole Hole ∅ ",
-    "183": "|Hole Hole Hole Initiating Hole Hole ",
-    "184": "|[GNV] feat.shezza [GNV] feat.shezza [GNV] feat.shezza [GNV] feat.shezza  ",
-    "185": "|un1 un1 un1 un1  ",
-    "186": "|un1 un1 un1 un1 un1 ",
-    "187": "|Franai★lin Franai★lin Franai★lin Franai★lin Franai★lin ",
-    "188": "|ShezzA ShezzA ShezzA ShezzA ShezzA ",
-    "189": "|GNV 7OU GNV 7OU GNV 7OU GNV 7OU  ",
-    "190": "|un1 un1 un1 un1 un1 ",
-    "191": "|ame ame ame ame  ",
-    "192": "|un1 un1 un1 un1 un1 ",
-    "193": "|MAGiC4LG1RL Franailin MAGiC4LG1RL Franailin MAGiC4LG1RL Franailin MAGiC4LG1RL Franailin  ",
-    "194": "|Hole Hole Hole Hole Hole ",
-    "195": "|Hole Hole Hole Hole Hole ",
-    "196": "|Hole Hole Hole Hole Hole ",
-    "197": "|Hole Hole Hole Hole Hole ",
-    "198": "|daemonum un1x daemonum un1x daemonum un1x daemonum un1x  ",
-    "199": "|Xyro Xyro Xyro Xyro  ",
-    "200": "|Darkhawk02 Darkhawk02 Darkhawk02 7OU  ",
-    "201": "|MDMC Charting Team MDMC Charting Team MDMC Charting Team MDMC Charting Team  ",
-    "202": "|Hole Hole †大作家＝グランド・マスター・チャーター＝ほる† Hole Hole ",
-    "203": "|Cactus & Hole's ghosts ? ? ?  ",
-    "204": "|Hole Hole Hole Hole Dynamite Hole ",
-    "205": "|CACTUS ? CACTUS ?  ",
-    "206": "|DREAMY☆UN1 ? DREAMY☆UN1 ? ? ",
-    "207": "|Fly†Fran ? Fly†Fran ?  "
   },
   "level": {
     "11": [
@@ -1148,7 +1193,10 @@
       199,
       202,
       204,
-      206
+      206,
+      208,
+      209,
+      210
     ],
     "10": [
       3,
@@ -1227,7 +1275,9 @@
       156,
       159,
       177,
-      200
+      200,
+      208,
+      210
     ],
     "-1": [
       9,
@@ -1270,7 +1320,9 @@
       160,
       177,
       200,
-      204
+      204,
+      208,
+      210
     ],
     "8": [
       29,

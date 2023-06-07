@@ -1,0 +1,169 @@
+{
+  "es": {
+    "news": [
+	  {
+        "run": 1685501671,
+        "out": 1686387600,
+        "read": [
+          "[🛠]: ¿Problemas con MD v3.4.0? Pide a un [mod] que use este comando: @update340",
+          "[🛠]: ¡La ultima update de MD causo muchos problemas! Si fuiste afectado, pide a un [mod] que use: @update340"
+        ]
+      }
+    ],
+    "date": [
+      {
+        "run": "25_12",
+        "read": [
+          "[🎄] ¡¡Feliz Navidad!!",
+          "[🎄] Hmm... ¿Jugaste [🎵...Christmas though]?",
+          "[🎄] Hmm... ¿Jugaste [🎵Midnight O'clock]?",
+          "[🎄] Hmm... ¿Jugaste [🎵雪降り、メリクリ]?"
+        ]
+      },
+      {
+        "run": "24_12",
+        "read": [
+          "[🎄] ¡Tic Tac! Ya casi es Navidad...",
+          "[🎄] Hmm... ¿Jugaste [🎵...Christmas though]?",
+          "[🎄] Hmm... ¿Jugaste [🎵Midnight O'clock]?",
+          "[🎄] Hmm... ¿Jugaste [🎵雪降り、メリクリ]?"
+        ]
+      },
+      {
+        "run": "01_11",
+        "read": [
+          "[🎃] Disponible solo hoy: [🎵Sweet* Witch* Girl* ⭐?]",
+          "[🎃] ¿Viste el Disfraz de Buro Zombi?",
+          "[🎃] ¡Feliz Halloween!",
+          "[🎃] ¡Truco o Dulce!"
+        ]
+      },
+      {
+        "run": "31_10",
+        "read": [
+          "[🎃] Buu~ ¿Te asuste?",
+          "[🎃] ¡¡Truco o Dulce!!",
+          "[🎃] Noviembre 1 = [Nivel Oculto]"
+        ]
+      },
+      {
+        "run": "20_06",
+        "read": [
+          "[🥳] ¡Feliz Aniversario Muse Dash!",
+          "[🥳] ¡Celebremos los 5 años de Muse Dash!",
+          "[🥳] ¡Gracias por ser parte de la comunidad!",
+          "[🥳] ¡Toma! Por el Aniversario de Muse Dash... 🍰"
+        ]
+      },
+      {
+        "run": "01_04",
+        "read": [
+          "[🤡] ¡F3l1z di4 de L0z Inoc3ntez!",
+          "[🤡] ¡Feliz Cumpleaños Rin y Ola!",
+          "[🤡] Disponible solo hoy: [🎵GOODTEK ⭐?]",
+          "[🤡] Disponible solo hoy: [Ajustes]->[🎵How to Play]"
+        ]
+      }
+    ],
+    "base": [
+      "[⚡] *Aparece* Hola chat~",
+      "[⚡] ¡Comandos activados!",
+      "[⚡] Deja que el ritmo te lleve~",
+      "[⚡] ¡Tu ritmo atacará a los enemigos!"
+    ]
+  },
+  "en": {
+    "news": [
+	  {
+        "run": 1685501671,
+        "out": 1686387600,
+        "read": [
+          "[🛠]: Due to the latest update on MD, [mods] can use this command to help affected users: @update340",
+          "[🛠]: MD v3.4.0 caused issues for many users. If you were affected, ask a [mod] to use the command: @update340"
+        ]
+      }
+    ],
+    "date": [
+      {
+        "run": "25_12",
+        "read": [
+          "[🎄] Merry christmas!!",
+          "[🎄] You tried [🎵...Christmas though]?",
+          "[🎄] You tried [🎵Midnight O'clock]?",
+          "[🎄] You tried [🎵雪降り、メリクリ]?"
+        ]
+      },
+      {
+        "run": "24_12",
+        "read": [
+          "[🎄] Holy Night~ Holy Night~",
+          "[🎄] You tried [🎵...Christmas though]?",
+          "[🎄] You tried [🎵Midnight O'clock]?",
+          "[🎄] You tried [🎵雪降り、メリクリ]?"
+        ]
+      },
+      {
+        "run": "01_11",
+        "read": [
+          "[🎃] Only today: [🎵Sweet* Witch* Girl* ⭐?]",
+          "[🎃] It's Spooky Month!!",
+          "[🎃] Trick 'r Treat!"
+        ]
+      },
+      {
+        "run": "31_10",
+        "read": [
+          "[🎃] BOO!!",
+          "[🎃] Trick 'r Treat!"
+        ]
+      },
+      {
+        "run": "20_06",
+        "read": [
+          "[🥳] This cake is for you! 🍰",
+          "[🥳] Happy Anniversary Muse Dash!",
+          "[🥳] Let's celebrate Muse Dash's 5th anniversary!"
+        ]
+      },
+      {
+        "run": "01_04",
+        "read": [
+          "[🤡] H4ppy Apr1L F0ol5¡!",
+          "[🤡] Happy Bday, Rin Warrior and Ola!!",
+          "[🤡] Available during April Fools: [🎵GOODTEK ⭐?]",
+          "[🤡] Available during April Fools: [🎵How to Play ⭐?]"
+        ]
+      }
+    ],
+    "base": [
+      "[⚡] This bot is ready!",
+      "[⚡] Commands enabled...",
+      "[⚡] Music! Ready... GO!!",
+      "[⚡] Follow the rhythm~"
+    ]
+  },
+  "kr": {
+    "base": [
+      "[⚡] OhMyDog",
+      "[⚡] PopCorn"
+    ]
+  },
+  "jp": {
+    "base": [
+      "[⚡] OhMyDog",
+      "[⚡] PopCorn"
+    ]
+  },
+  "zh": {
+    "base": [
+      "[⚡] OhMyDog",
+      "[⚡] PopCorn"
+    ]
+  },
+  "zhs": {
+    "base": [
+      "[⚡] OhMyDog",
+      "[⚡] PopCorn"
+    ]
+  }
+}
