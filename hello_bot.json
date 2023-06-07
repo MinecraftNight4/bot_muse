@@ -1,11 +1,12 @@
 {
   "es": {
     "news": [
-      {
-        "run": 1681112802,
-        "out": 1681114800,
+	  {
+        "run": 1685501671,
+        "out": 1686387600,
         "read": [
-          "[📢] Empty!"
+          "[🛠]: ¿Problemas con MD v3.4.0? Pide a un [mod] que use este comando: @update340",
+          "[🛠]: ¡La ultima update de MD causo muchos problemas! Si fuiste afectado, pide a un [mod] que use: @update340"
         ]
       }
     ],
@@ -65,19 +66,20 @@
       }
     ],
     "base": [
-      "[⚡] Este bot esta listo~",
-      "[⚡] Comandos activados...",
-      "[⚡] ¡Todos tienen ritmo!",
-      "[⚡] ¡A por esos rangos S!"
+      "[⚡] *Aparece* Hola chat~",
+      "[⚡] ¡Comandos activados!",
+      "[⚡] Deja que el ritmo te lleve~",
+      "[⚡] ¡Tu ritmo atacará a los enemigos!"
     ]
   },
   "en": {
     "news": [
-      {
-        "run": 10,
-        "out": 1681113900,
+	  {
+        "run": 1685501671,
+        "out": 1686387600,
         "read": [
-          "[📢] Empty!"
+          "[🛠]: Due to the latest update on MD, [mods] can use this command to help affected users: @update340",
+          "[🛠]: MD v3.4.0 caused issues for many users. If you were affected, ask a [mod] to use the command: @update340"
         ]
       }
     ],
@@ -142,34 +144,26 @@
   },
   "kr": {
     "base": [
-      "[⚡] This bot is ready!",
-      "[⚡] Commands enabled...",
-      "[⚡] Music! Ready... GO!!",
-      "[⚡] Follow the rhythm~"
+      "[⚡] OhMyDog",
+      "[⚡] PopCorn"
     ]
   },
   "jp": {
     "base": [
-      "[⚡] This bot is ready!",
-      "[⚡] Commands enabled...",
-      "[⚡] Music! Ready... GO!!",
-      "[⚡] Follow the rhythm~"
+      "[⚡] OhMyDog",
+      "[⚡] PopCorn"
     ]
   },
   "zh": {
     "base": [
-      "[⚡] This bot is ready!",
-      "[⚡] Commands enabled...",
-      "[⚡] Music! Ready... GO!!",
-      "[⚡] Follow the rhythm~"
+      "[⚡] OhMyDog",
+      "[⚡] PopCorn"
     ]
   },
   "zhs": {
     "base": [
-      "[⚡] This bot is ready!",
-      "[⚡] Commands enabled...",
-      "[⚡] Music! Ready... GO!!",
-      "[⚡] Follow the rhythm~"
+      "[⚡] OhMyDog",
+      "[⚡] PopCorn"
     ]
   }
 }
