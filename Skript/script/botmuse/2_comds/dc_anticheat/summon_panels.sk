@@ -1,0 +1,58 @@
+#discord command !admin-anticheat:
+#	permissions: administrator
+#	permission message: ":x: You don't have the permission to do that!"
+#	trigger:
+#		create a new message and store it in {_msg}:
+#			make embed:
+#				set title of embed to "__MUSE DASH__ - __ANTICHEAT__"
+#				set description of embed to "This panel is designed to verify the data collected as **suspicious**, after the daily scanning of all official leaderboards:%nl%> - Each player will show the song and the strikes of the same, attached to it.%nl%> - If the strike data appears to be NOT valid, mark the strike as false."
+#			add last embed to the embeds of the message
+#			add new danger button with id "hacker_mod_panel" named "LAUNCH PANEL" to rows of the message
+#		post {_msg} to event-channel
+
+
+on button clicked:
+	if event-string = "hacker_mod_panel":
+		loop entries "knowledge" of cached json "mdac_inf":
+			json-look {_i} for key "score_pc" is false
+			set {_track::*} to "%loop-key%" split at "-"
+			set {_work} to loop-element
+			exit loop
+		#
+		set {_dp} to new dropdown with id "hacker_mod_legitmax"
+		loop entries "ranking_pc" of {_work}:
+			add new option with value "%{_track::1}%-%{_track::2}%-%{_track::3}%-%loop-key%" named "[%loop-key%] %value "names" of loop-element%" with description "%value "score" of loop-element%" to options of {_dp}
+			set {_read::build} to value "muse::%value "muses" of loop-element%" of cached json "game_obj"
+			set {_read::elfin} to value "elfin::%value "elfin" of loop-element%" of cached json "game_obj"
+			set {_read::score} to value "score" of loop-element
+			set {_read::accur} to value "accur" of loop-element
+			set {_read::healt} to value "healt" of loop-element
+			set {_read::names} to value "names" of loop-element
+			#
+			set {_board} to "%{_board} ? ""%```##%loop-key% - %round {_read::accur} to 2%%% - %{_read::score}%` | **%{_read::names}%** | [%{_read::build}%%{_read::elfin} ? ""%]```%nl%"
+		#
+		create a new message and store it in {_msg}:
+			set min range of {_dp} to 1
+			set max range of {_dp} to 2
+			add {_dp} to the rows of message
+			make embed:
+				set {_title} to value "name::%{_track::1}%-%{_track::2}%::en" of cached json "van_album"
+				set title of embed to "%{_title}% | [Level: %{_track::3}%]"
+				set title url of embed to "https://musedash.moe/music/%{_track::1}%-%{_track::2}%/%{_track::3} parsed as number - 1%/pc"
+				set description of embed to "%{_board}%"
+			add last embed to the embeds of the message
+		reply with hidden {_msg}
+
+
+on dropdown click:
+	broadcast selected values
+	broadcast event-string
+
+
+
+
+
+
+
+
+

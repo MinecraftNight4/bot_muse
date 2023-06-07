@@ -7,6 +7,7 @@ command /mdvn_reset <number>:
 	trigger:
 		broadcast "Running... %arg * 1.5 + 7%"
 		remove "level" from cached json "van_album_plus"
+		#-------------------------------------------------------------------
 		loop arg-1 times:
 			json-fixer "https://raw.githubusercontent.com/simon300000/musedash.moe/master/api/albums/ALBUM%loop-value%.json" and store {_chart}
 			loop ("Korean|kr|English|en|Japanese|jp|ChineseT|zh|ChineseS|zhs" split at "|"):
@@ -18,55 +19,99 @@ command /mdvn_reset <number>:
 					delete {_i}
 			set {_lang::es} to {_lang::en}
 			set {_val} to 0
-			
+		
+		#-------------------------------------------------------------------
 			loop entries "data[]" of {_chart}:
 				add 1 to {_val}
 				set {_json} to loop-element-2
 				set {_id} to value "uid" of {_json}
-				
-				#BY
-				set {_authors::*} to value "author" of {_json}
-				loop {_lang::*}:
-					set {_eauthor} to value "data[%{_val}%]::author" of {_lang::%loop-index%}
-					"%{_authors::*}%" does not contain "%{_eauthor}%"
-					add {_eauthor} to {_authors::*}
-				set json value "author::%{_id}%" in cached json "van_album_plus" to "%join {_authors::*} with "   "% "
-				
-				#NAME
-				if json-look cached json "van_album_plus" for key "name::%{_id}%" is false:
-					delete {_names::*}
+
+			#=============================================================================
+			#------------------------------------------------------------------- TRANSLATE
+				#-------------------------------------------- NAME
+				if json-look cached json "van_album_plus" for key "album::%{_id}%::name" is false:
 					loop {_lang::*}:
-						set {_e} to value "data[%{_val}%]::name" of {_lang::%loop-index%}
-						set json value "name::%{_id}%::%loop-index%" in cached json "van_album" to "🎵%{_e}%"
-						"%{_names::*} ? ""%" don't contain "%{_e}%"
-						add {_e} to {_names::*}
-					set json value "name::%{_id}%" in cached json "van_album_plus" to "%join {_names::*} with "   "% "
-				
-				#LEVEL
+						set {_lname} to value "data[%{_val}%]::name" of {_lang::%loop-index%}
+						set {_lname} to "🎵%{_lname}%"
+						set json value "name::%{_id}%::%loop-index%" in cached json "van_album" to "%{_lname}%"
+
+			#=============================================================================
+			#------------------------------------------------------------------- ADVANCED
+				#-------------------------------------------- BPM
+				set {_bpm} to value "bpm" of {_json}
+				replace "～" in {_bpm} with "~"
+				set {_bpm::*} to {_bpm} split at "~"
+				set json value "album::%{_id}%::bpm_mn" in cached json "van_album_plus" to ({_bpm::1} parsed as number)
+				set json value "album::%{_id}%::bpm_mx" in cached json "van_album_plus" to ("%{_bpm::2} ? {_bpm::1}%" parsed as number)
+				#-------------------------------------------- NAME
+				if json-look cached json "van_album_plus" for key "album::%{_id}%::name" is false:
+					delete {_lname::*}
+					loop {_lang::*}:
+						set {_lname} to value "data[%{_val}%]::name" of {_lang::%loop-index%}
+						"%{_lname::*} ? ""%" don't contain "%{_lname}%"
+						add {_lname} to {_lname::*}
+					set json value "album::%{_id}%::name" in cached json "van_album_plus" to (join {_lname::*} with "   ")
+				#-------------------------------------------- COVER
+				set {_cover} to value "cover" of {_json}
+				set json value "album::%{_id}%::cover" in cached json "van_album_plus" to "%{_cover}%"
+				#-------------------------------------------- DESIGN
+				delete {_ldes::*}
+				add value "levelDesigner" of {_json} to {_ldes::*} if json-look {_json} for key "levelDesigner" is true
+				loop 5 times:
+					json-look {_json} for key "levelDesigner%loop-value-3%" is true
+					add value "levelDesigner%loop-value-3%" of {_json} to {_ldes::*}
+				set json value "album::%{_id}%::design" in cached json "van_album_plus" to (join {_ldes::*} with "   ")
+				#-------------------------------------------- AUTHOR
+				if json-look cached json "van_album_plus" for key "album::%{_id}%::author" is false:
+					delete {_lauthor::*}
+					loop {_lang::*}:
+						set {_lauthor} to value "data[%{_val}%]::author" of {_lang::%loop-index%}
+						"%{_lauthor::*}%" does not contain "%{_lauthor}%"
+						add {_lauthor} to {_lauthor::*}
+					set json value "album::%{_id}%::author" in cached json "van_album_plus" to (join {_lauthor::*} with "   ")
+				#-------------------------------------------- LEVEL DIFFICULTY
 				loop 5 times:
 					{_json} has key "callBackDifficulty%loop-value-3%"
 					value "callBackDifficulty%loop-value-3%" of {_json} != 0
 					set {_lvl} to value "callBackDifficulty%loop-value-3%" of {_json}
 					json-kset "%{_id}%" at key "level::%{_lvl}%[]" for cached json "van_album_plus"
-				
-				#DESIGN
-				set json value "design::%{_id}%" in cached json "van_album_plus" to "|%value "levelDesigner" of {_json} ? ""% %value "levelDesigner1" of {_json} ? ""% %value "levelDesigner2" of {_json} ? ""% %value "levelDesigner3" of {_json} ? ""% %value "levelDesigner4" of {_json} ? ""% %value "levelDesigner5" of {_json} ? ""%"
-		
-				#BPM
-				if "%value "bpm" of {_json}%" contain "~" or "～":
-					set {_e} to value "bpm" of {_json}
-					replace "～" in {_e} with "~"
-					set {_bpm::*} to {_e} split at "~"
-					set json value "beats::%{_id}%::min" in cached json "van_album_plus" to ({_bpm::1} parsed as number)
-					set json value "beats::%{_id}%::max" in cached json "van_album_plus" to ({_bpm::2} parsed as number)
-				else:
-					set json value "beats::%{_id}%::min" in cached json "van_album_plus" to ("%value "bpm" of {_json}%" parsed as number)
-					set json value "beats::%{_id}%::max" in cached json "van_album_plus" to ("%value "bpm" of {_json}%" parsed as number)
-				
 				wait 2 tick
-		
+
 		save cached json "van_album_plus"
 		save cached json "van_album"
 		broadcast "Over!"
-			
-			
+
+
+
+
+
+#on load:
+#	loop entries "knowledge" of cached json "mdac_inf":
+#		set {_json-1} to loop-element
+#		if json-look {_json-1} for key "score_pc" is false:
+#			add loop-key to {_untracked::*}
+#			add 1 to {_without}
+#	
+#	loop {_untracked::*}:
+#		delete {_track::*}
+#		set {_track::*} to loop-value split at "-"
+#		
+#		send an http "GET" web request to the url "https://prpr-muse-dash.peropero.net/musedash/v1/pcleaderboard/top?music_uid=%{_track::1}%-%{_track::2}%&music_difficulty=%{_track::3}%&limit=8&offset=0&version=3.2.0&platform=bot_muse"
+#		json-form response body and store {_json}
+#		oaisjdoaijsdojaosd({_json}, "%{_track::1}%-%{_track::2}%-%{_track::3}%")
+#		anti-cheat ratelimit
+#		wait a second
+#	broadcast "END!"
+
+
+
+function oaisjdoaijsdojaosd(json: json, id: string):
+	loop entries "result[]" of {_json}:
+		add 1 to {_top}
+		set json value "knowledge::%{_id}%::ranking_pc::%{_top}%::names" in cached json "mdac_inf" to value "user::nickname" of loop-element
+		set json value "knowledge::%{_id}%::ranking_pc::%{_top}%::score" in cached json "mdac_inf" to value "play::score" of loop-element
+		set json value "knowledge::%{_id}%::ranking_pc::%{_top}%::accur" in cached json "mdac_inf" to value "play::acc" of loop-element
+		set json value "knowledge::%{_id}%::ranking_pc::%{_top}%::muses" in cached json "mdac_inf" to value "play::character_uid" of loop-element
+		set json value "knowledge::%{_id}%::ranking_pc::%{_top}%::elfin" in cached json "mdac_inf" to value "play::elfin_uid" of loop-element
+		set json value "knowledge::%{_id}%::ranking_pc::%{_top}%::healt" in cached json "mdac_inf" to value "play::hp" of loop-element
+		save cached json "mdac_inf"

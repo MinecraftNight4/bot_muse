@@ -1,0 +1,6 @@
+
+effect discord-var %string% as %string% to %object%:
+	trigger:
+		set {discord_temp::%expr-1%::%expr-2%} to expr-3
+		({discord_temp::%expr-1%} ? 0) > unix timestamp of now + 5
+		set {discord_temp::%expr-1%} to unix timestamp of now + 3600

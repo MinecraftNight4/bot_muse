@@ -30,12 +30,13 @@ expression json-read %json% the key %string%:
 effect json-kset %string% at key %string% for %json%:
 	trigger:
 		if expr-2 end with "[]":
-			if (size of entries "%expr-2%" of expr-3) = 0:
-				set json value "%expr-2%[1]" in expr-3 to expr-1
+			set {_expr} to first (length of "%expr-2%" - 2) characters of "%expr-2%"
+			if (size of values "%expr-2%" of expr-3) = 0:
+				set json value "%{_expr}%[1]" in expr-3 to "%expr-1%"
 			else:
-				add expr-1 to json list "%expr-2%" in expr-3
+				add expr-1 to json list "%{_expr}%" in expr-3
 		else:
-			set json value expr-2 in expr-3 to expr-1
+			set json value expr-2 in expr-3 to "%expr-1%"
 
 #TEMP JSON
 effect json-form %string% and store %~object%:
@@ -44,7 +45,7 @@ effect json-form %string% and store %~object%:
 		continue
 	trigger:
 		delay effect
-		set {_tempfile} to rounded unix timestamp of now
+		set {_tempfile} to random uuid
 		sync create file path "plugins/musedash/%{_tempfile}%.json" with text "%expr-1%"
 		link json file "plugins/musedash/%{_tempfile}%.json" as "%{_tempfile}%_b"
 		set raw expr-2 to cached json "%{_tempfile}%_b"
@@ -60,9 +61,13 @@ effect json-fixer %string% and store %~objects%:
 	trigger:
 		delay effect
 		set {_cache} to expr-1
+		if {_cache} starts with "http":
+			sync fetch url "%{_cache}%"
+			set {_cache} to fetched url content
+
 		replace newline or "	" in {_cache} with ""
 		replace ",}" in {_cache} with "}"
-		json-form "{""data"": %{_cache}%}" and store {_coffeerequired}
+		replace "},]" in {_cache} with "}]"
+		json-form "{""data"":%{_cache}%}" and store {_coffeerequired}
 		set raw expr-2 to {_coffeerequired}
 		continue
-

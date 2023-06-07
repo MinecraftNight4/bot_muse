@@ -1,0 +1,9 @@
+on load:
+	broadcast "[!] READING..."
+	wait 60 seconds
+	broadcast "[!] READ IS OVER..."
+	unload script file "/botmuse/3_boot/imp_panel_b.sk"
+
+
+on twitch message:
+	send "%event-livechannel%->[@%event-liveuser%]: %event-livemessage%" to console

@@ -1,0 +1,114 @@
+
+effect ranked-pc for track %string% at level %number%:
+	trigger:
+		delay effect
+		send an http "GET" web request to the url "https://api.musedash.moe/rank/%expr-1%/%expr-2%/pc"
+		json-form response body and store {_json}
+		if amount of elements of {_json} != 0:
+			loop entries of {_json}:
+				add 1 to {_all}
+				delete {_data::*}
+				set {_data::s} to element "1" of loop-element
+				set {_data::n} to element "4" of loop-element
+				#
+				length of {_data::n} >= 32
+				add rounded {_data::s} to {ranked::desktop::%{_data::n}%}
+				exit loop if {_all} >= 100
+		log "[pc]%expr-1% -> %expr-2% | %amount of elements of {_json}% | " to "rank/desktop.log"
+		wait 2 ticks
+		continue
+
+
+effect ranked-mb for track %string% at level %number%:
+	trigger:
+		delay effect
+		send an http "GET" web request to the url "https://api.musedash.moe/rank/%expr-1%/%expr-2%/mobile"
+		json-form response body and store {_json}
+		if amount of elements of {_json} != 0:
+			loop entries of {_json}:
+				add 1 to {_all}
+				delete {_data::*}
+				set {_data::s} to element "1" of loop-element
+				set {_data::n} to element "4" of loop-element
+				#
+				length of {_data::n} >= 32
+				add rounded {_data::s} to {ranked::mobile::%{_data::n}%}
+				exit loop if {_all} >= 100
+		log "[pc]%expr-1% -> %expr-2% | %amount of elements of {_json}% | " to "rank/mobile.log"
+		wait 2 ticks
+		continue
+
+
+
+
+
+effect update-ranked-leaderboard at desktop:
+	trigger:
+		delay effect
+		continue
+
+effect update-ranked-leaderboard at mobile:
+	trigger:
+		delay effect
+		continue
+
+
+
+
+command /ranked_update_pc:
+	trigger:
+		#------------------------------------------------
+		broadcast "[RANKS|PC]: Indexando %amount of elements "album" of cached json "van_album_plus"% canciones y sus leaderboard..."
+		loop entries "album" of cached json "van_album_plus":
+			add loop-key to {_uid::*}
+		#------------------------------------------------
+		loop {_uid::*}:
+			add 1 to {_ratelimit}
+			if {_ratelimit} = 50:
+				delete {_ratelimit}
+				wait 30 seconds
+			loop integers from 0 to 3:
+				ranked-pc for track "%loop-value-1%" at level loop-value-2
+		broadcast "[RANKS|PC]: ¡INDEXADO TERMINADO!"
+		#------------------------------------------------
+		set {_best::*} to sorted indices of {ranked::desktop::*} in descending order
+		remove "desktop" from cached json "van_rank"
+		#---------------------------------------------
+		loop {_best::*}:
+			set json value "desktop::%loop-value%::score" in cached json "van_rank" to {ranked::desktop::%loop-value%}
+			set json value "desktop::%loop-value%::rank" in cached json "van_rank" to loop-index
+			exit loop if loop-index = "2000"
+		delete {ranked::desktop::*}
+		save cached json "van_rank"
+		broadcast "[RANKS|PC]: ¡LEADERBOARD ACTUALIZADO!"
+
+
+
+
+
+command /ranked_update_pc:
+	trigger:
+		#------------------------------------------------
+		broadcast "[RANKS|MB]: Indexando %amount of elements "album" of cached json "van_album_plus"% canciones y sus leaderboard..."
+		loop entries "album" of cached json "van_album_plus":
+			add loop-key to {_uid::*}
+		#------------------------------------------------
+		loop {_uid::*}:
+			add 1 to {_ratelimit}
+			if {_ratelimit} = 50:
+				delete {_ratelimit}
+				wait 30 seconds
+			loop integers from 0 to 3:
+				ranked-mb for track "%loop-value-1%" at level loop-value-2
+		broadcast "[RANKS|MB]: ¡INDEXADO TERMINADO!"
+		#------------------------------------------------
+		set {_best::*} to sorted indices of {ranked::mobile::*} in descending order
+		remove "mobile" from cached json "van_rank"
+		#---------------------------------------------
+		loop {_best::*}:
+			set json value "mobile::%loop-value%::score" in cached json "van_rank" to {ranked::mobile::%loop-value%}
+			set json value "mobile::%loop-value%::rank" in cached json "van_rank" to loop-index
+			exit loop if loop-index = "2000"
+		delete {ranked::mobile::*}
+		save cached json "van_rank"
+		broadcast "[RANKS|MB]: ¡LEADERBOARD ACTUALIZADO!"

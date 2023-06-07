@@ -1,0 +1,6 @@
+define new bot named "ghost_muse":
+    token: "%SECRET%"
+    intents: default intents
+    policy: all
+    auto reconnect: true
+    compression: none

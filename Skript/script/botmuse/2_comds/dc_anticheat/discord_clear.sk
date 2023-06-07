@@ -1,0 +1,6 @@
+every 1 hour:
+	loop {discord_temp::*}
+		unix timestamp of now > loop-value
+		delete {discord_temp::%loop-index%::*}
+		delete {discord_temp::%loop-index%}
+		wait a tick

@@ -28,8 +28,8 @@ effect store md5 in %~object% for file %string%:
 
 command /mdmc_get:
 	trigger:
-		broadcast "ETA: %amount of values "name[]" of cached json "mod_album_plus" * 0.5%s"
-		loop entries "name" of cached json "mod_album_plus":
+		broadcast "ETA: %amount of values "album" of cached json "mod_album_plus" * 0.5%s"
+		loop entries "album" of cached json "mod_album_plus":
 			wait 10 ticks
 			sync create file path "plugins/Skript/scripts/unzip/%loop-key%/test.zip"
 			sync download file from url "https://mdmc.moe/api/v5/download/%loop-key%" to file path "plugins/Skript/scripts/unzip/%loop-key%/test.zip"
@@ -41,8 +41,8 @@ command /mdmc_get:
 
 command /mdmc_local:
 	trigger:
-		broadcast "ETA: %amount of values "name[]" of cached json "mod_album_plus" * 0.5%s"
-		loop entries "name" of cached json "mod_album_plus":
+		broadcast "ETA: %amount of values "album[]" of cached json "mod_album_plus" * 0.5%s"
+		loop entries "album" of cached json "mod_album_plus":
 			delete {_map::*}
 			delete {_dat::*}
 			link json file "plugins/Skript/scripts/unzip/%loop-key%/info.json" as "info"
@@ -80,48 +80,43 @@ command /mdmc_local:
 
 command /mdmc_index:
 	trigger:
-		sync fetch url "https://mdmc.moe/api/v5/charts"
-		set {_mdmccharts-api} to the fetched url content
-		json-fixer "%{_mdmccharts-api}%" and store {_data}
+		json-fixer "https://mdmc.moe/api/v5/charts" and store {_data}
+		broadcast "%{_data}%"
 		#
-		remove "name" from cached json "mod_album_plus"
-		remove "design" from cached json "mod_album_plus"
 		remove "level" from cached json "mod_album_plus"
 		loop entries "data[]" of {_data}:
 			set {_json} to loop-element
-			set {_id} to value "id" of loop-element
-	
-			#NAME - BY
-			delete {_data::*}
-			set {_data::n} to "%value "name" of {_json}%"
-			set {_data::a} to "%value "author" of {_json}%"
-			set {_data::r} to "%value "name_romanized" of {_json}% " if {_json} has key "name_romanized"
-			set json value "name::%{_id}%" in cached json "mod_album_plus" to "%join {_data::*} with "   "% "
+			set {_id} to value "id" of loop-element			
+			#========================================================================== ADVANCED
+			#------------------------------------------------ BPM
+			set {_bpm} to value "bpm" of {_json}
+			replace "～", " - " and "-" in {_bpm} with "~"
+			replace " " in {_bpm} with "~"
+			set {_bpm::*} to {_bpm} split at "~"
+			set json value "album::%{_id}%::bpm_mn" in cached json "mod_album_plus" to ({_bpm::1} parsed as number)
+			set json value "album::%{_id}%::bpm_mx" in cached json "mod_album_plus" to ("%{_bpm::2} ? {_bpm::1}%" parsed as number)
+			#------------------------------------------------ NAME
+			delete {_lname::*}
+			set {_lname::n} to value "name" of {_json}
+			set {_lname::a} to value "author" of {_json}
+			add values "searchTags" of {_json} to {_lname::*}
+			set {_lname::r} to value "name_romanized" of {_json} if {_json} has key "name_romanized"
+			set json value "album::%{_id}%::name" in cached json "mod_album_plus" to (join {_lname::*} with "   ")
+			#------------------------------------------------ DESIGN
+			delete {_ldes::*}
+			add value "levelDesigner" of {_json} to {_ldes::*} if json-look {_json} for key "levelDesigner" is true
+			loop 5 times:
+				json-look {_json} for key "levelDesigner%loop-value-3%" is true
+				add value "levelDesigner%loop-value-3%" of {_json} to {_ldes::*}
+			set json value "album::%{_id}%::design" in cached json "mod_album_plus" to (join {_ldes::*} with "   ")
+			#============================================================================= TRANSLATE
+			#-------------------------------------------- NAME
 			loop ("kr|en|jp|zh|zhs|es" split at "|"):
-				set json value "name::%{_id}%::%loop-value-2%" in cached json "mod_album" to "🎵%{_data::n}%"
-			
-			#DESIGN
-			set json value "design::%{_id}%" in cached json "mod_album_plus" to "|%value "levelDesigner" of {_json} ? ""% %value "levelDesigner1" of {_json} ? ""% %value "levelDesigner2" of {_json} ? ""% %value "levelDesigner3" of {_json} ? ""% %value "levelDesigner4" of {_json} ? ""% %value "levelDesigner5" of {_json} ? ""%"
-			
-			#BPM
-			if "%value "bpm" of {_json}%" contain "~", "-" or "～":
-				set {_e} to value "bpm" of {_json}
-				replace "～" and "-" in {_e} with "~"
-				set {_bpm::*} to {_e} split at "~"
-				set json value "beats::%{_id}%::min" in cached json "mod_album_plus" to ({_bpm::1} parsed as number)
-				set json value "beats::%{_id}%::max" in cached json "mod_album_plus" to ({_bpm::2} parsed as number)
-			else:
-				set json value "beats::%{_id}%::min" in cached json "mod_album_plus" to ("%value "bpm" of {_json}%" parsed as number)
-				set json value "beats::%{_id}%::max" in cached json "mod_album_plus" to ("%value "bpm" of {_json}%" parsed as number)
-			
+				set {_lname} to "🎵%{_lname::n}%"
+				set json value "name::%{_id}%::%loop-value-2%" in cached json "mod_album" to "%{_lname}%"
+
 		save cached json "mod_album_plus"
 		save cached json "mod_album"
 		wait a second
 		broadcast "[✅]INDEX -> [❌]GET -> [❌]SET"
 		execute console command "/mdmc_get"
-
-
-
-
-
-

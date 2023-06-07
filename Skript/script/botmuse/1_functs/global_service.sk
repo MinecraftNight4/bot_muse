@@ -63,3 +63,13 @@ expression text-2-number %strings%:
 			add {_n} to {_n::*}
 		return {_number::*}
 
+condition stop-order of id %string%:
+	check:
+		if {stoporders::%expr-1%} is set:
+			broadcast "[-=] ORDER BLOCKED BY ID %expr-1%"
+			delete {stoporders::%expr-1%}
+			continue
+
+	
+on load:
+	delete {stoporders::*}

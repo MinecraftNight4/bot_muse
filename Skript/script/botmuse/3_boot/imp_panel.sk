@@ -38,6 +38,7 @@ command /auth2_watch <string>:
 	trigger:
 		send "[!] Conectando al canal '%arg-1%'"
 		oauth2-chat read arg-1
+		execute console command "/chat_temptest"
 
 command /auth2_wiped:
 	trigger:
@@ -96,3 +97,9 @@ command /broadcast_streams <string>:
 			send "(@%loop-index%): [🤖] %arg-1%"
 			wait 2 seconds
 		stop
+
+
+command /chat_temptest:
+	cooldown: 60 seconds
+	trigger:
+		enable script file "/botmuse/3_boot/imp_panel_b.sk"
