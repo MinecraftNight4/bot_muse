@@ -1,0 +1,4 @@
+on load:
+	execute GET request to "https://mdmc.moe/api/v5/user/search?q=aaaaaaaaaaaaaaaaaaaa"
+	set {_out::*} to values of request's body
+	broadcast {_out::1}

@@ -1,0 +1,17 @@
+skitch command eave:
+	prefixes: @l
+	trigger:
+		if event-livechannel = "bot_muse":
+			if json-look cached json "twitch" for key "banned::tv-%event-liveuserid%" is false:
+				set json value "banned::tv-%event-liveuserid%" in cached json "twitch" to rounded unix timestamp of now
+			mod-translate for event-livechannel to "@leave::toggle_1" and save {_data}
+			twitch reply with "%{_data} ? ""%"
+			stop
+		
+		if badge event-twitchperms is mod:
+			set json value "banned::tv-%event-livechannelid%" in cached json "twitch" to rounded unix timestamp of now
+			mod-translate for event-livechannel to "@leave::bye" and save {_data}
+			twitch reply with "%{_data} ? ""%"
+			save cached json "twitch"
+			oauth2 roll watch
+			stop

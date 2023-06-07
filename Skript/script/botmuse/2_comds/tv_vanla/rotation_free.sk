@@ -1,0 +1,32 @@
+import:
+	ch.njol.skript.lang.Variable
+
+effect save official free songs in %~objects%: # "~" stands for non-literal
+	parse:
+		expr-1 is an instance of Variable
+		continue
+	trigger:
+		delay effect
+		execute GET request to "https://prpr-muse-dash.peropero.net/musedash/v3/weekly"
+		loop entries "items[]" of request's body:
+			add (value "music_uid" of loop-element) to {_out::*}
+		set raw expr-1 to {_out::*}
+		continue
+
+skitch command ree:
+	prefixes: -f
+	trigger:
+		cooldown of 6 to event-livechannel
+		if rounded unix timestamp of now >= value "_dev::free" of cached json "game_obj":
+			set {_time} to value "_dev::free" of cached json "game_obj"
+			add 604800 to {_time}
+			set json value "_dev::free" in cached json "game_obj" to {_time}
+			save cached json "game_obj"
+		set {_time} to format unix (json-read cached json "game_obj" the key "_dev::free")
+		save official free songs in {_f::*}
+		set {_free::*} to music {_f::*} from streamer event-livechannel with length of 15
+		loop {_free::*}:
+			set {_free::%loop-index%} to "[%loop-value%]"
+		
+		twitch reply with "[⏰] %{_time}% ──────────────────────────────── %{_free::*}%"
+		stop
