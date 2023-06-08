@@ -38,7 +38,7 @@
       "bpm_mx": 128,
       "cover": "danxiang_ditie_cover",
       "design": "Howard_Y",
-      "name": "One-way subway Feat.karin   单向地铁 Feat.karin   單向地鐵 Feat.karin"
+      "name": "One-way subway Feat.karin\u0000单向地铁 Feat.karin\u0000單向地鐵 Feat.karin"
     },
     "0-1": {
       "name": "Frost Land",
@@ -70,7 +70,7 @@
       "bpm_mx": 158,
       "cover": "shiguang_tuya_cover",
       "design": "Howard_Y",
-      "name": "Time Graffiti   时光涂鸦   時光塗鴉"
+      "name": "Time Graffiti\u0000时光涂鸦\u0000時光塗鴉"
     },
     "0-37": {
       "name": "Evolution",
@@ -86,18 +86,18 @@
       "bpm_mx": 128,
       "cover": "haitun_yu_guangbo_cover",
       "design": "Howard_Y",
-      "name": "Dolphins and radio feat.Uranyan   海豚与广播 feat.Uranyan   海豚與廣播 feat.烏拉喵   海豚与广播 feat.乌拉喵"
+      "name": "Dolphins and radio feat.Uranyan\u0000海豚与广播 feat.Uranyan\u0000海豚與廣播 feat.烏拉喵\u0000海豚与广播 feat.乌拉喵"
     },
     "0-8": {
-      "name": "Yuki no Shizuku Ame no Oto   雪の雫・雨の音",
-      "author": "Tenyu feat.Tokyo Tower   天遊 feat.東京塔子   天游 feat.东京塔子",
+      "name": "Yuki no Shizuku Ame no Oto\u0000雪の雫・雨の音",
+      "author": "Tenyu feat.Tokyo Tower\u0000天遊 feat.東京塔子\u0000天游 feat.东京塔子",
       "bpm_mn": 130,
       "bpm_mx": 130,
       "cover": "yuki_no_shizuku_ame_no_oto_cover",
       "design": "Howard_Y"
     },
     "0-43": {
-      "name": "Best One feat.tooko   Best One feat.墨橙",
+      "name": "Best One feat.tooko\u0000Best One feat.墨橙",
       "author": "小野道ono",
       "bpm_mn": 110,
       "bpm_mx": 110,
@@ -105,12 +105,12 @@
       "design": "Howard_Y"
     },
     "0-31": {
-      "author": "ANK feat.kumako   ANK feat.熊子",
+      "author": "ANK feat.kumako\u0000ANK feat.熊子",
       "bpm_mn": 150,
       "bpm_mx": 150,
       "cover": "tangguose_lianaixue_cover",
       "design": "Howard_Y",
-      "name": "Candy Color Love Science   糖果色恋爱学   糖果色戀愛學"
+      "name": "Candy Color Love Science\u0000糖果色恋爱学\u0000糖果色戀愛學"
     },
     "0-38": {
       "name": "Night Wander (cnsouka Remix)",
@@ -121,8 +121,8 @@
       "design": "Howard_Y"
     },
     "0-46": {
-      "name": "Dohna Dohna no Uta   ドーナドーナのうた",
-      "author": "L-Minatsu feat.Tsukino   水夏える feat.月乃",
+      "name": "Dohna Dohna no Uta\u0000ドーナドーナのうた",
+      "author": "L-Minatsu feat.Tsukino\u0000水夏える feat.月乃",
       "bpm_mn": 152,
       "bpm_mx": 152,
       "cover": "dohna_dohna_no_uta_cover",
@@ -138,15 +138,15 @@
     },
     "0-30": {
       "name": "DISCO NIGHT",
-      "author": "ANK feat.kumako   ANK feat.熊子",
+      "author": "ANK feat.kumako\u0000ANK feat.熊子",
       "bpm_mn": 120,
       "bpm_mx": 120,
       "cover": "disco_night_cover",
       "design": "Howard_Y"
     },
     "0-49": {
-      "name": "Koi no Moonlight   恋のMoonlight",
-      "author": "REDALiCE feat. Tamaki Inuyama   REDALiCE feat. 犬山たまき",
+      "name": "Koi no Moonlight\u0000恋のMoonlight",
+      "author": "REDALiCE feat. Tamaki Inuyama\u0000REDALiCE feat. 犬山たまき",
       "bpm_mn": 128,
       "bpm_mx": 128,
       "cover": "koi_no_moonlight_cover",
@@ -158,7 +158,7 @@
       "bpm_mx": 130,
       "cover": "lianai_yuyin_daohang_cover",
       "design": "Howard_Y",
-      "name": "Love voice navigation feat.yousa   恋爱语音导航 feat.yousa   戀愛語音導航 feat.yousa"
+      "name": "Love voice navigation feat.yousa\u0000恋爱语音导航 feat.yousa\u0000戀愛語音導航 feat.yousa"
     },
     "0-11": {
       "name": "Lights of Muse",
@@ -177,7 +177,7 @@
       "design": "Howard_Y"
     },
     "0-40": {
-      "name": "Nihao   ニーハオ   你好",
+      "name": "Nihao\u0000ニーハオ\u0000你好",
       "author": "MusikM",
       "bpm_mn": 140,
       "bpm_mx": 140,
@@ -217,7 +217,7 @@
       "design": "Howard_Y"
     },
     "0-16": {
-      "name": "Cage of Almeria   アルメリアの鳥籠",
+      "name": "Cage of Almeria\u0000アルメリアの鳥籠",
       "author": "a_hisa",
       "bpm_mn": 150,
       "bpm_mx": 150,
@@ -257,8 +257,8 @@
       "design": "Howard_Y"
     },
     "0-47": {
-      "name": "I don't care about Christmas though   クリスマスなんて興味ないけど",
-      "author": "Camellia feat.Nanahira   かめりあ feat.ななひら",
+      "name": "I don't care about Christmas though\u0000クリスマスなんて興味ないけど",
+      "author": "Camellia feat.Nanahira\u0000かめりあ feat.ななひら",
       "bpm_mn": 136,
       "bpm_mx": 136,
       "cover": "i_dont_care_about_christmas_though_cover",
@@ -281,32 +281,32 @@
       "design": "Howard_Y"
     },
     "0-42": {
-      "author": "綾奈なな (Prod.Aya2g+Works)   綾奈奈奈 (Prod.Aya2g+Works)",
+      "author": "綾奈なな (Prod.Aya2g+Works)\u0000綾奈奈奈 (Prod.Aya2g+Works)",
       "bpm_mn": 128,
       "bpm_mx": 128,
       "cover": "shinsekai_yori_cover",
       "design": "Howard_Y",
-      "name": "from the new world   新世界より"
+      "name": "from the new world\u0000新世界より"
     },
     "0-33": {
-      "name": "NISEGAO   僞顏",
-      "author": "Tenyu   天遊   天游",
+      "name": "NISEGAO\u0000僞顏",
+      "author": "Tenyu\u0000天遊\u0000天游",
       "bpm_mn": 180,
       "bpm_mx": 180,
       "cover": "nisegao_cover",
       "design": "Howard_Y"
     },
     "0-44": {
-      "name": "Say! Fanfare!   Say!ファンファーレ!",
-      "author": "Fubuki Shirakami   白上フブキ",
+      "name": "Say! Fanfare!\u0000Say!ファンファーレ!",
+      "author": "Fubuki Shirakami\u0000白上フブキ",
       "bpm_mn": 170,
       "bpm_mx": 170,
       "cover": "say_fanfare_cover",
       "design": "Howard_Y"
     },
     "0-34": {
-      "name": "Star Driver   流星车手",
-      "author": "iKz feat.Qiyou   iKz feat.漆柚",
+      "name": "Star Driver\u0000流星车手",
+      "author": "iKz feat.Qiyou\u0000iKz feat.漆柚",
       "bpm_mn": 160,
       "bpm_mx": 160,
       "cover": "star_driver_cover",
@@ -321,7 +321,7 @@
       "design": "Howard_Y"
     },
     "0-24": {
-      "name": "Shinsou Masui   心層麻酔   心层麻醉",
+      "name": "Shinsou Masui\u0000心層麻酔\u0000心层麻醉",
       "author": "iKz",
       "bpm_mn": 168,
       "bpm_mx": 168,
@@ -361,15 +361,15 @@
       "design": "Howard_Y"
     },
     "0-26": {
-      "name": "Funkotsu Saishin Casino   粉骨砕身カジノゥ",
-      "author": "Morimori Atsushi   モリモリあつし",
+      "name": "Funkotsu Saishin Casino\u0000粉骨砕身カジノゥ",
+      "author": "Morimori Atsushi\u0000モリモリあつし",
       "bpm_mn": 132,
       "bpm_mx": 198,
       "cover": "funkotsu_saishin_casino_cover",
       "design": "Howard_Y"
     },
     "0-27": {
-      "name": "Clock Room & Spiritual World   時計の部屋と精神世界",
+      "name": "Clock Room & Spiritual World\u0000時計の部屋と精神世界",
       "author": "a_hisa",
       "bpm_mn": 180,
       "bpm_mx": 180,
@@ -378,22 +378,22 @@
     },
     "0-52": {
       "name": "INTERNET OVERDOSE（Aiobahn feat.KOTOKO）",
-      "author": "\"NEEDY STREAMER OVERLOAD\" theme song   『NEEDY GIRL OVERDOSE』主題歌   \"NEEDY GIRL OVERDOSE\" theme song   『主播女孩重度依賴』主題歌   『主播女孩重度依赖』主题歌",
+      "author": "\"NEEDY STREAMER OVERLOAD\" theme song\u0000『NEEDY GIRL OVERDOSE』主題歌\u0000\"NEEDY GIRL OVERDOSE\" theme song\u0000『主播女孩重度依賴』主題歌\u0000『主播女孩重度依赖』主题歌",
       "bpm_mn": 90,
       "bpm_mx": 163,
       "cover": "internet_overdose_cover",
       "design": "Howard_Y"
     },
     "0-35": {
-      "author": "Aya.Tsumi   Aya~亜夜罪~   Aya~亞夜罪~   Aya~亚夜罪~",
+      "author": "Aya.Tsumi\u0000Aya~亜夜罪~\u0000Aya~亞夜罪~\u0000Aya~亚夜罪~",
       "bpm_mn": 125,
       "bpm_mx": 125,
       "cover": "tu_hua_cover",
       "design": "Howard_Y",
-      "name": "Actress flower    徒 花"
+      "name": "Actress flower\u0000 徒 花"
     },
     "0-28": {
-      "name": "Mujinku-Vacuum Track#ADD8E6-   無人区-Vacuum Track#ADD8E6-",
+      "name": "Mujinku-Vacuum Track#ADD8E6-\u0000無人区-Vacuum Track#ADD8E6-",
       "author": "NoKANY",
       "bpm_mn": 203,
       "bpm_mx": 203,
@@ -402,7 +402,7 @@
     },
     "0-36": {
       "name": "MilK",
-      "author": "Morimori Atsushi   モリモリあつし",
+      "author": "Morimori Atsushi\u0000モリモリあつし",
       "bpm_mn": 150,
       "bpm_mx": 150,
       "cover": "milk_cover",
@@ -410,24 +410,24 @@
     },
     "0-41": {
       "name": "umpopoff",
-      "author": "Mameko   まめこ",
+      "author": "Mameko\u0000まめこ",
       "bpm_mn": 123,
       "bpm_mx": 177,
       "cover": "umpopoff_cover",
       "design": "Howard_Y"
     },
     "0-45": {
-      "name": "Mopemope   もぺもぺ",
+      "name": "Mopemope\u0000もぺもぺ",
       "author": "LeaF",
       "bpm_mn": 100,
       "bpm_mx": 200,
       "cover": "mopemope_cover",
-      "design": "Howard_Y in_tha_W0ndeR1and_   Howard_Y in_tha_W0ndeR1and_   Howard_Y in_tha_W0ndeR1and_   Mwfyuma Peustallora"
+      "design": "Howard_Y in_tha_W0ndeR1and_\u0000Howard_Y in_tha_W0ndeR1and_\u0000Howard_Y in_tha_W0ndeR1and_\u0000Mwfyuma Peustallora"
     },
     "1-0": {
       "bpm_mn": 172,
       "bpm_mx": 172,
-      "name": "Sunshine and Rainbow after August Rain   八月の雨上がり、晴れ後レインボー   八月雨後，初晴與彩虹   八月雨后，初晴与彩虹",
+      "name": "Sunshine and Rainbow after August Rain\u0000八月の雨上がり、晴れ後レインボー\u0000八月雨後，初晴與彩虹\u0000八月雨后，初晴与彩虹",
       "cover": "sunshine_and_rainbow_after_august_rain_cover",
       "design": "Howard_Y",
       "author": "yk!"
@@ -435,7 +435,7 @@
     "1-1": {
       "bpm_mn": 135,
       "bpm_mx": 135,
-      "name": "Magical Number   マジカルナンバー   魔法數字   魔法数字",
+      "name": "Magical Number\u0000マジカルナンバー\u0000魔法數字\u0000魔法数字",
       "cover": "magical_number_cover",
       "design": "Howard_Y",
       "author": "味素"
@@ -446,7 +446,7 @@
       "name": "Dreaming Girl",
       "cover": "dreaming_girl_cover",
       "design": "Howard_Y",
-      "author": "Nano&板烧鹅尼子   Nano&板燒鵝尼子"
+      "author": "Nano&板烧鹅尼子\u0000Nano&板燒鵝尼子"
     },
     "1-3": {
       "bpm_mn": 195,
@@ -486,7 +486,7 @@
       "name": "PUPA",
       "cover": "pupa_cover",
       "design": "Howard_Y",
-      "author": "Morimori Atsushi   モリモリあつし"
+      "author": "Morimori Atsushi\u0000モリモリあつし"
     },
     "2-2": {
       "bpm_mn": 100,
@@ -494,20 +494,20 @@
       "name": "Luna Express 2032",
       "cover": "luna_express_2032_cover",
       "design": "Howard_Y",
-      "author": "Sakamiya feat.Mao Komiya   Sakamiya feat.小宮真央"
+      "author": "Sakamiya feat.Mao Komiya\u0000Sakamiya feat.小宮真央"
     },
     "2-3": {
       "bpm_mn": 192,
       "bpm_mx": 192,
-      "name": "Ukiyoe Yokochou   浮世絵横丁",
+      "name": "Ukiyoe Yokochou\u0000浮世絵横丁",
       "cover": "ukiyoe_yokochou_cover",
       "design": "Howard_Y",
-      "author": "Chaos City Niigata   魔界都市ニイガタ"
+      "author": "Chaos City Niigata\u0000魔界都市ニイガタ"
     },
     "2-4": {
       "bpm_mn": 154,
       "bpm_mx": 174,
-      "name": "Alice in Misanthrope   Alice in Misanthrope -厭世アリス-",
+      "name": "Alice in Misanthrope\u0000Alice in Misanthrope -厭世アリス-",
       "cover": "alice_in_misanthrope_cover",
       "design": "Howard_Y",
       "author": "LeaF"
@@ -526,7 +526,7 @@
       "name": "Maharajah",
       "cover": "maharajah_cover",
       "design": "Howard_Y",
-      "author": "Alice Schach and the Magic Orchestra   アリスシャッハと魔法の楽団"
+      "author": "Alice Schach and the Magic Orchestra\u0000アリスシャッハと魔法の楽団"
     },
     "3-1": {
       "bpm_mn": 175,
@@ -555,7 +555,7 @@
     "3-4": {
       "bpm_mn": 150,
       "bpm_mx": 150,
-      "name": "Tenri Kaku Jou   天理鶴情",
+      "name": "Tenri Kaku Jou\u0000天理鶴情",
       "cover": "tenri_kaku_jou_cover",
       "design": "Howard_Y",
       "author": "a_hisa"
@@ -563,7 +563,7 @@
     "3-5": {
       "bpm_mn": 191,
       "bpm_mx": 191,
-      "name": "Adjudicatorz-DanZai-   Adjudicatorz-断罪-",
+      "name": "Adjudicatorz-DanZai-\u0000Adjudicatorz-断罪-",
       "cover": "adjudicatorz_danzai_cover",
       "design": "Howard_Y",
       "author": "JurokuNeta."
@@ -574,7 +574,7 @@
       "name": "MUSEDASH!!!!",
       "cover": "musedash_cover",
       "design": "nikkukun",
-      "author": "Dan@Yomi   暖@よみぃ"
+      "author": "Dan@Yomi\u0000暖@よみぃ"
     },
     "4-1": {
       "bpm_mn": 175,
@@ -582,7 +582,7 @@
       "name": "Imprinting",
       "cover": "imprinting_cover",
       "design": "Howard_Y",
-      "author": "Sakuzyo   削除"
+      "author": "Sakuzyo\u0000削除"
     },
     "4-2": {
       "bpm_mn": 190,
@@ -622,7 +622,7 @@
       "name": "Thirty Million Persona",
       "cover": "thirty_million_persona_cover",
       "design": "Zpm",
-      "author": "Alice Schach and the Magic Orchestra   アリスシャッハと魔法の楽団"
+      "author": "Alice Schach and the Magic Orchestra\u0000アリスシャッハと魔法の楽団"
     },
     "5-1": {
       "bpm_mn": 160,
@@ -635,10 +635,10 @@
     "5-2": {
       "bpm_mn": 110,
       "bpm_mx": 110,
-      "name": "Enka Dance Music   演華舞踊 ~Enka Dance Music~",
+      "name": "Enka Dance Music\u0000演華舞踊 ~Enka Dance Music~",
       "cover": "enka_dance_music_cover",
       "design": "Howard_Y",
-      "author": "uma with Morimori Atsushi feat.Mashiro   uma with モリモリあつし feat.ましろ"
+      "author": "uma with Morimori Atsushi feat.Mashiro\u0000uma with モリモリあつし feat.ましろ"
     },
     "5-3": {
       "bpm_mn": 177,
@@ -651,10 +651,10 @@
     "5-4": {
       "bpm_mn": 165,
       "bpm_mx": 165,
-      "name": "Amakakeru Soukyuu no Serenade   天翔ける蒼穹のセレナーデ",
+      "name": "Amakakeru Soukyuu no Serenade\u0000天翔ける蒼穹のセレナーデ",
       "cover": "amakakeru_soukyuu_no_serenade_cover",
       "design": "LuiCat",
-      "author": "Sakamiya feat.Arata Kiki   Sakamiya feat.あらたきき"
+      "author": "Sakamiya feat.Arata Kiki\u0000Sakamiya feat.あらたきき"
     },
     "5-5": {
       "bpm_mn": 185,
@@ -691,7 +691,7 @@
     "6-3": {
       "bpm_mn": 166,
       "bpm_mx": 166,
-      "name": "Goodbye Boss   翹班   翘班",
+      "name": "Goodbye Boss\u0000翹班\u0000翘班",
       "cover": "goodbye_boss_cover",
       "design": "money钱",
       "author": "KillerBlood"
@@ -701,7 +701,7 @@
       "bpm_mx": 150,
       "name": "Stargazer",
       "cover": "stargazer_cover",
-      "design": "Phizer   Phizer   Phizer   Howard_Y",
+      "design": "Phizer\u0000Phizer\u0000Phizer\u0000Howard_Y",
       "author": "a_hisa"
     },
     "6-5": {
@@ -718,7 +718,7 @@
       "name": "Brave My Soul",
       "cover": "brave_my_soul_cover",
       "design": "nikkukun",
-      "author": "uma feat.Mashiro   uma feat.ましろ"
+      "author": "uma feat.Mashiro\u0000uma feat.ましろ"
     },
     "7-1": {
       "bpm_mn": 95.5,
@@ -747,10 +747,10 @@
     "7-4": {
       "bpm_mn": 177,
       "bpm_mx": 177,
-      "name": "Lyrith   Lyrith -迷宮リリス-",
+      "name": "Lyrith\u0000Lyrith -迷宮リリス-",
       "cover": "lyrith_cover",
       "design": "Howard_Y",
-      "author": "yumemidoll   ユメミド"
+      "author": "yumemidoll\u0000ユメミド"
     },
     "7-5": {
       "bpm_mn": 180,
@@ -766,7 +766,7 @@
       "name": "Altale",
       "cover": "altale_cover",
       "design": "Howard_Y",
-      "author": "Sakuzyo   削除"
+      "author": "Sakuzyo\u0000削除"
     },
     "8-1": {
       "bpm_mn": 170,
@@ -782,7 +782,7 @@
       "name": "Berry Go!!",
       "cover": "berry_go_cover",
       "design": "Howard_Y",
-      "author": "Freezer feat.Kiichigo   Freezer feat.妃苺"
+      "author": "Freezer feat.Kiichigo\u0000Freezer feat.妃苺"
     },
     "8-3": {
       "bpm_mn": 180,
@@ -790,14 +790,14 @@
       "name": "Sweet* Witch* Girl*",
       "cover": "sweet_witch_girl_cover",
       "design": "Howard_Y",
-      "author": "Morimori Atsushi vs. uma   モリモリあつし vs. uma"
+      "author": "Morimori Atsushi vs. uma\u0000モリモリあつし vs. uma"
     },
     "8-4": {
       "bpm_mn": 200,
       "bpm_mx": 200,
       "name": "trippers feeling!",
       "cover": "trippers_feeling_cover",
-      "design": "Phizer   Phizer   Phizer   Howard_Y",
+      "design": "Phizer\u0000Phizer\u0000Phizer\u0000Howard_Y",
       "author": "KAH"
     },
     "8-5": {
@@ -819,10 +819,10 @@
     "9-1": {
       "bpm_mn": 184,
       "bpm_mx": 184,
-      "name": "Tsubasa no Oreta Tenshitachi no Requiem   翼の折れた天使たちのレクイエム",
+      "name": "Tsubasa no Oreta Tenshitachi no Requiem\u0000翼の折れた天使たちのレクイエム",
       "cover": "tsubasa_no_oreta_tenshitachi_no_requiem_cover",
       "design": "Howard_Y",
-      "author": "Sakamiya feat.Maeno   Sakamiya feat.前野"
+      "author": "Sakamiya feat.Maeno\u0000Sakamiya feat.前野"
     },
     "9-2": {
       "bpm_mn": 227,
@@ -843,10 +843,10 @@
     "9-4": {
       "bpm_mn": 182,
       "bpm_mx": 182,
-      "name": "Lorikeet ~Flat design~   ロリキート ~Flat design~",
+      "name": "Lorikeet ~Flat design~\u0000ロリキート ~Flat design~",
       "cover": "lorikeet_flat_design_cover",
       "design": "Howard_Y",
-      "author": "Tedjimo Yomigy   黄泉路テヂーモ"
+      "author": "Tedjimo Yomigy\u0000黄泉路テヂーモ"
     },
     "9-5": {
       "bpm_mn": 222,
@@ -862,7 +862,7 @@
       "name": "Destr0yer",
       "cover": "destr0yer_cover",
       "design": "Howard_Y",
-      "author": "Sakuzyo feat.Nikki Simmons   削除 feat.Nikki Simmons"
+      "author": "Sakuzyo feat.Nikki Simmons\u0000削除 feat.Nikki Simmons"
     },
     "10-1": {
       "bpm_mn": 220,
@@ -870,12 +870,12 @@
       "name": "Noël",
       "cover": "noel_cover",
       "design": "Howard_Y",
-      "author": "Morimori Atsushi vs. uma   モリモリあつし vs. uma"
+      "author": "Morimori Atsushi vs. uma\u0000モリモリあつし vs. uma"
     },
     "10-2": {
       "bpm_mn": 230,
       "bpm_mx": 230,
-      "name": "Kyoukiranbu   狂喜蘭舞",
+      "name": "Kyoukiranbu\u0000狂喜蘭舞",
       "cover": "kyouki_ranbu_cover",
       "design": "Howard_Y",
       "author": "LeaF"
@@ -910,7 +910,7 @@
       "name": "Brave My Heart",
       "cover": "brave_my_heart_cover",
       "design": "Howard_Y",
-      "author": "uma feat.Mashiro   uma feat.ましろ"
+      "author": "uma feat.Mashiro\u0000uma feat.ましろ"
     },
     "11-1": {
       "bpm_mn": 175,
@@ -934,7 +934,7 @@
       "name": "Suffering of screw",
       "cover": "suffering_of_screw_cover",
       "design": "Howard_Y",
-      "author": "Sakamiya feat.Yuji Haru   Sakamiya feat.由地波瑠"
+      "author": "Sakamiya feat.Yuji Haru\u0000Sakamiya feat.由地波瑠"
     },
     "11-4": {
       "bpm_mn": 188,
@@ -955,7 +955,7 @@
     "12-0": {
       "bpm_mn": 160,
       "bpm_mx": 160,
-      "name": "Gaikan Chrysalis   蓋棺クリサリス",
+      "name": "Gaikan Chrysalis\u0000蓋棺クリサリス",
       "cover": "gaikan_chrysalis_cover",
       "design": "Howard_Y",
       "author": "Team Grimoire feat.Sennzai"
@@ -990,7 +990,7 @@
       "name": "Soda Pop Canva5!",
       "cover": "soda_pop_canva5_cover",
       "design": "無極Rayix",
-      "author": "Morimori Atsushi vs. XIzE   モリモリあつし vs. XIzE"
+      "author": "Morimori Atsushi vs. XIzE\u0000モリモリあつし vs. XIzE"
     },
     "12-5": {
       "bpm_mn": 100,
@@ -1005,15 +1005,15 @@
       "cover": "surong_nihong_cover",
       "design": "Howard_Y",
       "author": "ANK",
-      "name": "Instant Neon feat.kumako   速溶霓虹 feat.kumako   速溶霓虹 feat.熊子"
+      "name": "Instant Neon feat.kumako\u0000速溶霓虹 feat.kumako\u0000速溶霓虹 feat.熊子"
     },
     "13-1": {
       "bpm_mn": 130,
       "bpm_mx": 130,
       "cover": "xingqiu_shangde_zhuisushi_cover",
       "design": "Howard_Y",
-      "author": "味素 feat.kumako   味素 feat.熊子",
-      "name": "星球上的追溯诗   星球上的追溯詩"
+      "author": "味素 feat.kumako\u0000味素 feat.熊子",
+      "name": "星球上的追溯诗\u0000星球上的追溯詩"
     },
     "13-2": {
       "bpm_mn": 175,
@@ -1021,7 +1021,7 @@
       "cover": "woyao_maimaimai_cover",
       "design": "Howard_Y",
       "author": "iKz",
-      "name": "I want to buy buy buy   我要买买买   我要買買買"
+      "name": "I want to buy buy buy\u0000我要买买买\u0000我要買買買"
     },
     "13-3": {
       "bpm_mn": 135,
@@ -1029,15 +1029,15 @@
       "cover": "yuehui_xuanyan_cover",
       "design": "Phizer",
       "author": "iKz feat.Hanser",
-      "name": "Dating Declaration   约会宣言   約會宣言"
+      "name": "Dating Declaration\u0000约会宣言\u0000約會宣言"
     },
     "13-4": {
       "bpm_mn": 128,
       "bpm_mx": 128,
       "cover": "chuxue_cover",
       "design": "Phizer",
-      "author": "KyuRu☆ feat.Yuu Shitsuka   KyuRu☆ feat.清塚幽",
-      "name": "First Snow   初雪"
+      "author": "KyuRu☆ feat.Yuu Shitsuka\u0000KyuRu☆ feat.清塚幽",
+      "name": "First Snow\u0000初雪"
     },
     "13-5": {
       "bpm_mn": 128,
@@ -1045,7 +1045,7 @@
       "cover": "xinshang_huahai_cover",
       "design": "Howard_Y",
       "author": "Nekock·LK",
-      "name": "Heart on Huahai   心上华海   心上華海"
+      "name": "Heart on Huahai\u0000心上华海\u0000心上華海"
     },
     "14-0": {
       "bpm_mn": 118.8,
@@ -1053,7 +1053,7 @@
       "name": "Elysion's Old Mans",
       "cover": "elysions_old_mans_cover",
       "design": "Howard_Y",
-      "author": "Alice Schach and the Magic Orchestra   アリスシャッハと魔法の楽団"
+      "author": "Alice Schach and the Magic Orchestra\u0000アリスシャッハと魔法の楽団"
     },
     "14-1": {
       "bpm_mn": 160,
@@ -1061,7 +1061,7 @@
       "name": "AXION",
       "cover": "axion_cover",
       "design": "Howard_Y",
-      "author": "Sakuzyo   削除"
+      "author": "Sakuzyo\u0000削除"
     },
     "14-2": {
       "bpm_mn": 190,
@@ -1074,17 +1074,17 @@
     "14-3": {
       "bpm_mn": 205,
       "bpm_mx": 205,
-      "name": "Onsen Dai Sakusen   温泉大作戦",
+      "name": "Onsen Dai Sakusen\u0000温泉大作戦",
       "cover": "onsen_dai_sakusen_cover",
       "design": "Howard_Y",
-      "author": "Freezer feat.Kiichigo   Freezer feat.妃苺"
+      "author": "Freezer feat.Kiichigo\u0000Freezer feat.妃苺"
     },
     "14-4": {
       "bpm_mn": 140,
       "bpm_mx": 140,
       "name": "Gleam stone",
       "cover": "gleam_stone_cover",
-      "design": "   asdwadsxc   asdwadsxc   noodle",
+      "design": "\u0000asdwadsxc\u0000asdwadsxc\u0000noodle",
       "author": "adaptor"
     },
     "14-5": {
@@ -1101,7 +1101,7 @@
       "cover": "mozhou_cover",
       "design": "Howard_Y",
       "author": "ANK",
-      "name": "The Curse feat. Sayaki Rotor   魔咒 feat.早木旋子"
+      "name": "The Curse feat. Sayaki Rotor\u0000魔咒 feat.早木旋子"
     },
     "15-1": {
       "bpm_mn": 122,
@@ -1109,7 +1109,7 @@
       "cover": "banlanxing_caihui_lvxingshi_cover",
       "design": "Phizer",
       "author": "cnsouka Feat.karin",
-      "name": "Brilliant Stars Colorful Paintings Travel Poems   斑斓星，彩绘，旅行诗   斑斕星，彩繪，旅行詩"
+      "name": "Brilliant Stars Colorful Paintings Travel Poems\u0000斑斓星，彩绘，旅行诗\u0000斑斕星，彩繪，旅行詩"
     },
     "15-2": {
       "bpm_mn": 128,
@@ -1117,7 +1117,7 @@
       "name": "Satell Knight",
       "cover": "satell_knight_cover",
       "design": "Howard_Y",
-      "author": "UncleWang Feat.kumako   UncleWang Feat.熊子"
+      "author": "UncleWang Feat.kumako\u0000UncleWang Feat.熊子"
     },
     "15-3": {
       "bpm_mn": 105,
@@ -1133,12 +1133,12 @@
       "cover": "shenger_weiren_wohen_baoqian_cover",
       "design": "Howard_Y",
       "author": "Nekock·LK",
-      "name": "I'm sorry to be human   生而为人，我很抱歉   生而為人，我很抱歉"
+      "name": "I'm sorry to be human\u0000生而为人，我很抱歉\u0000生而為人，我很抱歉"
     },
     "15-5": {
       "bpm_mn": 126,
       "bpm_mx": 126,
-      "name": "Ueta Tori Tachi   飢えた鳥たち",
+      "name": "Ueta Tori Tachi\u0000飢えた鳥たち",
       "cover": "ueta_tori_tachi_cover",
       "design": "Phizer",
       "author": "MusikM"
@@ -1148,7 +1148,7 @@
       "bpm_mx": 181,
       "name": "Future Dive",
       "cover": "future_dive_cover",
-      "design": "   press to START   1UP   Trixxxter",
+      "design": "\u0000press to START\u00001UP\u0000Trixxxter",
       "author": "Cosmograph"
     },
     "16-1": {
@@ -1156,8 +1156,8 @@
       "bpm_mx": 212,
       "name": "Re：End of a Dream",
       "cover": "re_end_of_a_dream_cover",
-      "design": "   Howard_Y   Howard_Y   Howard_Y's Darkside",
-      "author": "uma vs. Morimori Atsushi   uma vs. モリモリあつし"
+      "design": "\u0000Howard_Y\u0000Howard_Y\u0000Howard_Y's Darkside",
+      "author": "uma vs. Morimori Atsushi\u0000uma vs. モリモリあつし"
     },
     "16-2": {
       "bpm_mn": 200,
@@ -1189,7 +1189,7 @@
       "name": "Eeliaas",
       "cover": "eeliaas_cover",
       "design": "Amami.A.Myamsar",
-      "author": "Mitsuki   ミツキ"
+      "author": "Mitsuki\u0000ミツキ"
     },
     "17-0": {
       "bpm_mn": 156,
@@ -1202,10 +1202,10 @@
     "17-1": {
       "bpm_mn": 271,
       "bpm_mx": 271,
-      "name": "Punai Punai Taiso   プナイプナイたいそう",
+      "name": "Punai Punai Taiso\u0000プナイプナイたいそう",
       "cover": "punai_punai_taiso_cover",
       "design": "TRIXXXTER • TERUYAMA",
-      "author": "Rish feat.Choko   立秋 feat.ちょこ"
+      "author": "Rish feat.Choko\u0000立秋 feat.ちょこ"
     },
     "17-2": {
       "bpm_mn": 142,
@@ -1245,15 +1245,15 @@
       "name": "SWEETSWEETSWEET",
       "cover": "sweetsweetsweet_cover",
       "design": "Howard_Y",
-      "author": "Sugar & Co.（ANK feat.kumako）   砂糖協会（ANK feat.kumako）   砂糖協會（ANK feat.熊子）   砂糖协会（ANK feat.熊子）"
+      "author": "Sugar & Co.（ANK feat.kumako）\u0000砂糖協会（ANK feat.kumako）\u0000砂糖協會（ANK feat.熊子）\u0000砂糖协会（ANK feat.熊子）"
     },
     "18-1": {
       "bpm_mn": 155,
       "bpm_mx": 155,
       "cover": "shenlan_yu_ye_de_huxi_cover",
       "design": "Howard_Y",
-      "author": "Sugar & Co.（ANK feat.kumako）   砂糖協会（ANK feat.kumako）   砂糖協會（ANK feat.熊子）   砂糖协会（ANK feat.熊子）",
-      "name": "Dark Blue and Night's Breath   深蓝与夜的呼吸   深藍与夜的呼吸"
+      "author": "Sugar & Co.（ANK feat.kumako）\u0000砂糖協会（ANK feat.kumako）\u0000砂糖協會（ANK feat.熊子）\u0000砂糖协会（ANK feat.熊子）",
+      "name": "Dark Blue and Night's Breath\u0000深蓝与夜的呼吸\u0000深藍与夜的呼吸"
     },
     "18-2": {
       "bpm_mn": 140,
@@ -1266,7 +1266,7 @@
     "18-3": {
       "bpm_mn": 174,
       "bpm_mx": 174,
-      "name": "Self Willed Girl Ver.B   わがまま Ver.B   任性 Ver.B",
+      "name": "Self Willed Girl Ver.B\u0000わがまま Ver.B\u0000任性 Ver.B",
       "cover": "self_willed_girl_cover",
       "design": "HXJ_ConveX",
       "author": "小野道ono"
@@ -1277,12 +1277,12 @@
       "cover": "jiushi_bu_tinghua_cover",
       "design": "Howard_Y",
       "author": "iKz feat.Hanser",
-      "name": "Just disobedient   就是不听话   就是不聽話"
+      "name": "Just disobedient\u0000就是不听话\u0000就是不聽話"
     },
     "18-5": {
       "bpm_mn": 128,
       "bpm_mx": 128,
-      "name": "Holy Shit Grass Snake   怖い草蛇   草蛇驚一   草蛇惊一",
+      "name": "Holy Shit Grass Snake\u0000怖い草蛇\u0000草蛇驚一\u0000草蛇惊一",
       "cover": "holy_shit_grass_snake_cover",
       "design": "Phizer",
       "author": "麦当叔劳劳"
@@ -1292,16 +1292,16 @@
       "bpm_mx": 175,
       "name": "INFINITY",
       "cover": "infinity_cover",
-      "design": "   Phizer∞   Phizer∞ [HD mix]   Phizer∞ [SHD mix]",
+      "design": "\u0000Phizer∞\u0000Phizer∞ [HD mix]\u0000Phizer∞ [SHD mix]",
       "author": "Cosmograph"
     },
     "19-1": {
       "bpm_mn": 271,
       "bpm_mx": 271,
-      "name": "Punai Punai Senso   プナイプナイせんそう",
+      "name": "Punai Punai Senso\u0000プナイプナイせんそう",
       "cover": "punai_punai_senso_cover",
       "design": "HOWARD • TERUYAMA",
-      "author": "Rish feat.Choko   立秋 feat.ちょこ"
+      "author": "Rish feat.Choko\u0000立秋 feat.ちょこ"
     },
     "19-2": {
       "bpm_mn": 180,
@@ -1324,7 +1324,7 @@
       "bpm_mx": 190,
       "name": "Plumage",
       "cover": "plumage_cover",
-      "design": "   asdwadsxc   Staties   asdwadsxc",
+      "design": "\u0000asdwadsxc\u0000Staties\u0000asdwadsxc",
       "author": "brz1128"
     },
     "19-5": {
@@ -1333,7 +1333,7 @@
       "name": "Dr.Techro",
       "cover": "dr_techro_cover",
       "design": "GearMaster_HY",
-      "author": "Meisenp.   米線p."
+      "author": "Meisenp.\u0000米線p."
     },
     "20-0": {
       "bpm_mn": 130,
@@ -1381,7 +1381,7 @@
       "name": "ULTRA MEGA HAPPY PARTY!!!",
       "cover": "ultra_mega_happy_party_cover",
       "design": "money钱",
-      "author": "Hino Isuka   翡乃イスカ"
+      "author": "Hino Isuka\u0000翡乃イスカ"
     },
     "21-0": {
       "bpm_mn": 146,
@@ -1405,7 +1405,7 @@
       "cover": "irreplaceable_cover",
       "design": "Howard_Y",
       "author": "Haloweak",
-      "name": "Irreplaceable feat.夏铜子   Irreplaceable feat.夏銅子"
+      "name": "Irreplaceable feat.夏铜子\u0000Irreplaceable feat.夏銅子"
     },
     "22-0": {
       "bpm_mn": 130,
@@ -1420,7 +1420,7 @@
       "bpm_mx": 222.22,
       "name": "FREEDOM DiVE↓",
       "cover": "freedom_dive_cover",
-      "design": "HOWARD_Y↓   HOWARD_Y↓   HOWARD_Y↓   HOWARD↓Y",
+      "design": "HOWARD_Y↓\u0000HOWARD_Y↓\u0000HOWARD_Y↓\u0000HOWARD↓Y",
       "author": "xi"
     },
     "22-2": {
@@ -1437,7 +1437,7 @@
       "name": "Lueur de la nuit",
       "cover": "lueur_de_la_nuit_cover",
       "design": "Howard_Y",
-      "author": "ああああ + しーけー   AAAA + ck"
+      "author": "ああああ + しーけー\u0000AAAA + ck"
     },
     "22-4": {
       "bpm_mn": 190,
@@ -1460,8 +1460,8 @@
       "bpm_mx": 128,
       "cover": "yuhou_tiandian_cover",
       "design": "Howard_Y",
-      "author": "Sugar & Co.（ANK feat.kumako）   砂糖协会（ANK feat.kumako）   砂糖協會（ANK feat.熊子）   砂糖协会（ANK feat.熊子）",
-      "name": "Dessert after the rain   雨后甜点   雨後甜點"
+      "author": "Sugar & Co.（ANK feat.kumako）\u0000砂糖协会（ANK feat.kumako）\u0000砂糖協會（ANK feat.熊子）\u0000砂糖协会（ANK feat.熊子）",
+      "name": "Dessert after the rain\u0000雨后甜点\u0000雨後甜點"
     },
     "23-1": {
       "bpm_mn": 160,
@@ -1469,7 +1469,7 @@
       "cover": "gaobai_yingyuan_fangchengshi_cover",
       "design": "Howard_Y",
       "author": "S9ryne Feat.祈Inory",
-      "name": "Confession support formula   告白应援方程式   告白應援方程式"
+      "name": "Confession support formula\u0000告白应援方程式\u0000告白應援方程式"
     },
     "23-2": {
       "bpm_mn": 145,
@@ -1485,7 +1485,7 @@
       "name": "FUTUREPOP",
       "cover": "futurepop_cover",
       "design": "Howard_Y",
-      "author": "Sugar & Co.（ANK feat.kumako）   砂糖协会（ANK feat.kumako）   砂糖協會（ANK feat.熊子）   砂糖协会（ANK feat.熊子）"
+      "author": "Sugar & Co.（ANK feat.kumako）\u0000砂糖协会（ANK feat.kumako）\u0000砂糖協會（ANK feat.熊子）\u0000砂糖协会（ANK feat.熊子）"
     },
     "23-4": {
       "bpm_mn": 98,
@@ -1498,10 +1498,10 @@
     "23-5": {
       "bpm_mn": 190,
       "bpm_mx": 190,
-      "name": "I LOVE LETTUCE FRIED RICE!!   ウォー・アイ・レタス炒飯！！",
+      "name": "I LOVE LETTUCE FRIED RICE!!\u0000ウォー・アイ・レタス炒飯！！",
       "cover": "i_love_lettuce_fried_rice_cover",
       "design": "Howard_Y",
-      "author": "Moroboshi Nana feat.Katou Haruka & Hirose Yuuki   諸星なな feat.加藤はるか&廣瀬祐輝"
+      "author": "Moroboshi Nana feat.Katou Haruka & Hirose Yuuki\u0000諸星なな feat.加藤はるか&廣瀬祐輝"
     },
     "24-0": {
       "bpm_mn": 195,
@@ -1522,9 +1522,9 @@
     "24-2": {
       "bpm_mn": 188,
       "bpm_mx": 188,
-      "name": "Tsukuyomi   月夜見",
+      "name": "Tsukuyomi\u0000月夜見",
       "cover": "tsukuyomi_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   SugarSu feat.RavE",
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000SugarSu feat.RavE",
       "author": "Halv"
     },
     "24-3": {
@@ -1556,7 +1556,7 @@
       "bpm_mx": 115,
       "cover": "tape_stop_night_cover",
       "design": "Howard_Y",
-      "author": "Sugar & Co.   砂糖協會   砂糖协会"
+      "author": "Sugar & Co.\u0000砂糖協會\u0000砂糖协会"
     },
     "25-1": {
       "bpm_mn": 150,
@@ -1580,7 +1580,7 @@
       "name": "<b>sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
       "cover": "strawberry_godzilla_cover",
       "design": "Howard_Y",
-      "author": "Sugar & Co.   砂糖協會   砂糖协会"
+      "author": "Sugar & Co.\u0000砂糖協會\u0000砂糖协会"
     },
     "25-4": {
       "bpm_mn": 131,
@@ -1588,7 +1588,7 @@
       "name": "OKIMOCHI EXPRESSION",
       "cover": "okimochi_expression_cover",
       "design": "Howard_Y",
-      "author": "DISCO BROTHERS   ディスコブラザーズ"
+      "author": "DISCO BROTHERS\u0000ディスコブラザーズ"
     },
     "25-5": {
       "bpm_mn": 128,
@@ -1596,12 +1596,12 @@
       "cover": "kimi_to_pool_disco_cover",
       "design": "Howard_Y",
       "author": "loopcoda",
-      "name": "Kimi to pool disco   君とpool disco"
+      "name": "Kimi to pool disco\u0000君とpool disco"
     },
     "26-0": {
       "bpm_mn": 160,
       "bpm_mx": 160,
-      "name": "Legend of Eastern Rabbit -SKY DEFENDER-   東方兔傳說 -SKY DEFENDER-",
+      "name": "Legend of Eastern Rabbit -SKY DEFENDER-\u0000東方兔傳說 -SKY DEFENDER-",
       "cover": "legend_of_eastern_rabbit_cover",
       "design": "Howard_Y",
       "author": "sctl"
@@ -1617,18 +1617,18 @@
     "26-2": {
       "bpm_mn": 271,
       "bpm_mx": 271,
-      "name": "Punai Punai Genso ~Punai Punai in Wonderland~   プナイプナイげんそう ～プナイプナイinワンダーランド～",
+      "name": "Punai Punai Genso ~Punai Punai in Wonderland~\u0000プナイプナイげんそう ～プナイプナイinワンダーランド～",
       "cover": "punai_punai_genso_cover",
       "design": "- Team TERUYAMA -",
-      "author": "Rish feat.Choko   立秋 feat.ちょこ"
+      "author": "Rish feat.Choko\u0000立秋 feat.ちょこ"
     },
     "26-3": {
       "bpm_mn": 180,
       "bpm_mx": 180,
       "name": "Better Graphic Animation",
       "cover": "better_graphic_animation_cover",
-      "design": "   Trixxxter   Trixxxter   Better Tate Renda",
-      "author": "LUZE   ルゼ"
+      "design": "\u0000Trixxxter\u0000Trixxxter\u0000Better Tate Renda",
+      "author": "LUZE\u0000ルゼ"
     },
     "26-4": {
       "bpm_mn": 210,
@@ -1644,31 +1644,31 @@
       "name": "Ultra Happy Miracle Bazoooooka!!",
       "cover": "ultra_happy_miracle_bazoooooka_cover",
       "design": "Howard_Y",
-      "author": "Hino Isuka vs. Umeboshi Chazuke   翡乃イスカ vs. 梅干茶漬け"
+      "author": "Hino Isuka vs. Umeboshi Chazuke\u0000翡乃イスカ vs. 梅干茶漬け"
     },
     "27-0": {
       "bpm_mn": 128,
       "bpm_mx": 128,
-      "name": "Can I friend you on Bassbook? lol   ベースラインやってる?笑",
+      "name": "Can I friend you on Bassbook? lol\u0000ベースラインやってる?笑",
       "cover": "can_i_friend_you_on_bassbook_lol_cover",
       "design": "SugarSuやってる?笑",
-      "author": "Camellia feat.Nanahira   かめりあ feat.ななひら"
+      "author": "Camellia feat.Nanahira\u0000かめりあ feat.ななひら"
     },
     "27-1": {
       "bpm_mn": 110,
       "bpm_mx": 212,
-      "name": "Gaming☆Everything   ゲーミング☆Everything",
+      "name": "Gaming☆Everything\u0000ゲーミング☆Everything",
       "cover": "gaming_everything_cover",
       "design": "Howard_Y☆Everything",
-      "author": "Camellia feat.Nanahira   かめりあ feat.ななひら"
+      "author": "Camellia feat.Nanahira\u0000かめりあ feat.ななひら"
     },
     "27-2": {
       "bpm_mn": 60,
       "bpm_mx": 190,
-      "name": "Renji de haochi☆Denshi choriki shiyou chuka ryori 4000nen rekishi shunkan chori kanryo butouteki ryoricho☆   レンジで好吃 ☆電子調理器使用中華料理四千年歴史瞬間調理完了武闘的料理長☆",
+      "name": "Renji de haochi☆Denshi choriki shiyou chuka ryori 4000nen rekishi shunkan chori kanryo butouteki ryoricho☆\u0000レンジで好吃 ☆電子調理器使用中華料理四千年歴史瞬間調理完了武闘的料理長☆",
       "cover": "renji_de_haochi_cover",
       "design": "money钱で好吃",
-      "author": "Camellia feat.Nanahira   かめりあ feat.ななひら"
+      "author": "Camellia feat.Nanahira\u0000かめりあ feat.ななひら"
     },
     "27-3": {
       "bpm_mn": 180,
@@ -1676,38 +1676,38 @@
       "name": "You Make My Life 1UP",
       "cover": "you_make_my_life_1up_cover",
       "design": "Howard_Y Makes Your Life 1UP",
-      "author": "Camellia feat.Nanahira   かめりあ feat.ななひら"
+      "author": "Camellia feat.Nanahira\u0000かめりあ feat.ななひら"
     },
     "27-4": {
       "bpm_mn": 216,
       "bpm_mx": 216,
-      "name": "Newbies take 3 years, geeks 8 years, and internets are forever   ニワカ三年オタ八年、インターネッツはforever",
+      "name": "Newbies take 3 years, geeks 8 years, and internets are forever\u0000ニワカ三年オタ八年、インターネッツはforever",
       "cover": "internets_are_forever_cover",
       "design": "ATKとHXJはforever",
-      "author": "Camellia feat.Nanahira   かめりあ feat.ななひら"
+      "author": "Camellia feat.Nanahira\u0000かめりあ feat.ななひら"
     },
     "27-5": {
       "bpm_mn": 175,
       "bpm_mx": 175,
-      "name": "Onegai!Kon kon Oinarisama   お願い！コンコンお稲荷さま",
+      "name": "Onegai!Kon kon Oinarisama\u0000お願い！コンコンお稲荷さま",
       "cover": "onegai_kon_kon_oinarisama_cover",
       "design": "お願い！コンコンHoward_Yさま",
-      "author": "ARM×Komso feat.Nanahira   ARM×狐夢想 feat.ななひら"
+      "author": "ARM×Komso feat.Nanahira\u0000ARM×狐夢想 feat.ななひら"
     },
     "28-0": {
       "bpm_mn": 180,
       "bpm_mx": 180,
-      "name": "Heisha Onsha   弊社御社",
+      "name": "Heisha Onsha\u0000弊社御社",
       "cover": "heisha_onsha_cover",
       "design": "弊社のHoward_Y",
-      "author": "Hige Driver   ヒゲドライバー"
+      "author": "Hige Driver\u0000ヒゲドライバー"
     },
     "28-1": {
       "bpm_mn": 170,
       "bpm_mx": 170,
       "name": "Ginevra",
       "cover": "ginevra_cover",
-      "design": "Howard_Y   Howard_Y   Howard_Y   Howard_Y's Avatar",
+      "design": "Howard_Y\u0000Howard_Y\u0000Howard_Y\u0000Howard_Y's Avatar",
       "author": "MYUKKE."
     },
     "28-2": {
@@ -1724,7 +1724,7 @@
       "name": "un secret",
       "cover": "un_secret_cover",
       "design": "money钱",
-      "author": "Morimori Atsushi   モリモリあつし"
+      "author": "Morimori Atsushi\u0000モリモリあつし"
     },
     "28-4": {
       "bpm_mn": 130,
@@ -1738,16 +1738,16 @@
       "bpm_mn": 174,
       "bpm_mx": 174,
       "cover": "nini_cover",
-      "design": "八咫鏡   八尺瓊勾玉   天叢雲剣",
-      "author": "tezuka(テヅカ) x Qayo   テヅカ × Qayo",
-      "name": "ニニ-nini-   ニニ   ニニ-邇々-"
+      "design": "八咫鏡\u0000八尺瓊勾玉\u0000天叢雲剣",
+      "author": "tezuka(テヅカ) x Qayo\u0000テヅカ × Qayo",
+      "name": "ニニ-nini-\u0000ニニ\u0000ニニ-邇々-"
     },
     "29-0": {
       "bpm_mn": 190,
       "bpm_mx": 190,
       "name": "Groove Prayer",
       "cover": "groove_prayer_cover",
-      "design": "Welcome to GROOVE COASTER !   Let' s GROOVE !   Anytime, anywhere, GROOVE !",
+      "design": "Welcome to GROOVE COASTER !\u0000Let' s GROOVE !\u0000Anytime, anywhere, GROOVE !",
       "author": "COSIO (ZUNTATA) feat. ChouCho"
     },
     "29-1": {
@@ -1755,7 +1755,7 @@
       "bpm_mx": 192,
       "name": "FUJIN Rumble",
       "cover": "fujin_rumble_cover",
-      "design": "烈風のHoward   烈風のHoward   烈風のHoward   風神「Howard_Y」",
+      "design": "烈風のHoward\u0000烈風のHoward\u0000烈風のHoward\u0000風神「Howard_Y」",
       "author": "COSIO(ZUNTATA)"
     },
     "29-2": {
@@ -1763,31 +1763,31 @@
       "bpm_mx": 284,
       "name": "Marry me, Nightmare",
       "cover": "marry_me_nightmare_cover",
-      "design": "Marry me, Howard_Y   Marry me, Howard_Y   Marry me, Trixxxter",
+      "design": "Marry me, Howard_Y\u0000Marry me, Howard_Y\u0000Marry me, Trixxxter",
       "author": "t+pazolite"
     },
     "29-3": {
       "bpm_mn": 140,
       "bpm_mx": 140,
       "cover": "hg_makaizou_polyvinyl_shounen_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   HXJ_ConveX   HXJ魔改造コンベックス少年",
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000HXJ_ConveX\u0000HXJ魔改造コンベックス少年",
       "author": "IOSYS TRAX (D.watt with さきぴょ)",
-      "name": "HG Magical Modified Polyvinyl Boy   HG魔改造ポリビニル少年"
+      "name": "HG Magical Modified Polyvinyl Boy\u0000HG魔改造ポリビニル少年"
     },
     "29-4": {
       "bpm_mn": 180,
       "bpm_mx": 180,
       "cover": "seija_no_ibuki_cover",
-      "design": "money钱の鼓動   money钱の息吹   money钱の覚醒",
+      "design": "money钱の鼓動\u0000money钱の息吹\u0000money钱の覚醒",
       "author": "世阿弥 vs Tatsh",
-      "name": "Saint's Breath   聖者の息吹"
+      "name": "Saint's Breath\u0000聖者の息吹"
     },
     "29-5": {
       "bpm_mn": 188,
       "bpm_mx": 188,
       "name": "ouroboros -twin stroke of the end-",
       "cover": "ouroboros_twin_stroke_of_the_end_cover",
-      "design": "ヾ(⌒(ﾉ'ω')ﾉ Howard_Y！！   ヾ(⌒(ﾉ'ω')ﾉ Howard_Y！！   ヾ(⌒(ﾉ'ω')ﾉ Howard_Y！！   終焉の双撃を放ちし者「Howard_Y」",
+      "design": "ヾ(⌒(ﾉ'ω')ﾉ Howard_Y！！\u0000ヾ(⌒(ﾉ'ω')ﾉ Howard_Y！！\u0000ヾ(⌒(ﾉ'ω')ﾉ Howard_Y！！\u0000終焉の双撃を放ちし者「Howard_Y」",
       "author": "Cranky VS MASAKI"
     },
     "30-0": {
@@ -1809,7 +1809,7 @@
     "30-2": {
       "bpm_mn": 118,
       "bpm_mx": 118,
-      "name": "Breaker city   ブレーカーシティ",
+      "name": "Breaker city\u0000ブレーカーシティ",
       "cover": "breaker_city_cover",
       "design": "Howard_Y",
       "author": "HAMA feat. Marpril"
@@ -1825,10 +1825,10 @@
     "30-4": {
       "bpm_mn": 152,
       "bpm_mx": 152,
-      "name": "Computer Music Girl   コンピューターミュージックガール",
+      "name": "Computer Music Girl\u0000コンピューターミュージックガール",
       "cover": "computer_music_girl_cover",
       "design": "money钱",
-      "author": "Midy   ミディ"
+      "author": "Midy\u0000ミディ"
     },
     "30-5": {
       "bpm_mn": 120,
@@ -1836,7 +1836,7 @@
       "cover": "jiaodian_cover",
       "design": "Howard_Y",
       "author": "ANK",
-      "name": "Focus feat. Sayaki Rotor   焦点 feat.早木旋子   焦點 feat.早木旋子"
+      "name": "Focus feat. Sayaki Rotor\u0000焦点 feat.早木旋子\u0000焦點 feat.早木旋子"
     },
     "31-0": {
       "bpm_mn": 128,
@@ -1876,23 +1876,23 @@
       "cover": "cross_ray_cover",
       "design": "ShiroN_L",
       "author": "HyuN",
-      "name": "Cross†Ray (feat. Lia under the Moon)   Cross†Ray (feat. 月下Lia)"
+      "name": "Cross†Ray (feat. Lia under the Moon)\u0000Cross†Ray (feat. 月下Lia)"
     },
     "31-5": {
       "bpm_mn": 200,
       "bpm_mx": 200,
       "name": "Square Lake",
       "cover": "square_lake_cover",
-      "design": "Zpm feat.RavE   Zpm feat.RavE   Zpm feat.RavE   HXJ_ConveX",
-      "author": "Mitsuki   ミツキ"
+      "design": "Zpm feat.RavE\u0000Zpm feat.RavE\u0000Zpm feat.RavE\u0000HXJ_ConveX",
+      "author": "Mitsuki\u0000ミツキ"
     },
     "32-0": {
       "bpm_mn": 116,
       "bpm_mx": 116,
-      "name": "Preparara   プレパララ",
+      "name": "Preparara\u0000プレパララ",
       "cover": "preparara_cover",
       "design": "Phizer",
-      "author": "L-Minatsu   水夏える"
+      "author": "L-Minatsu\u0000水夏える"
     },
     "32-1": {
       "bpm_mn": 144,
@@ -1900,12 +1900,12 @@
       "name": "Whatcha;Whatcha Doin'",
       "cover": "whatcha_whatcha_doin_cover",
       "design": "默蓝琉璃",
-      "author": "L-Minatsu   水夏える"
+      "author": "L-Minatsu\u0000水夏える"
     },
     "32-2": {
       "bpm_mn": 116,
       "bpm_mx": 116,
-      "name": "Madara   斑",
+      "name": "Madara\u0000斑",
       "cover": "madara_cover",
       "design": "Callisto",
       "author": "Fumihisa Tanaka"
@@ -1916,7 +1916,7 @@
       "name": "pICARESq",
       "cover": "picaresq_cover",
       "design": "Howard_Y",
-      "author": "L-Minatsu   水夏える"
+      "author": "L-Minatsu\u0000水夏える"
     },
     "32-4": {
       "bpm_mn": 146,
@@ -1924,7 +1924,7 @@
       "name": "Desastre",
       "cover": "desastre_cover",
       "design": "money钱",
-      "author": "L-Minatsu   水夏える"
+      "author": "L-Minatsu\u0000水夏える"
     },
     "32-5": {
       "bpm_mn": 145,
@@ -1932,7 +1932,7 @@
       "name": "Shoot for the Moon",
       "cover": "shoot_for_the_moon_cover",
       "design": "Howard_Y",
-      "author": "L-Minatsu   水夏える"
+      "author": "L-Minatsu\u0000水夏える"
     },
     "33-0": {
       "bpm_mn": 130,
@@ -1955,7 +1955,7 @@
       "bpm_mx": 185,
       "name": "Happiness Breeze",
       "cover": "happiness_breeze_cover",
-      "design": "yhzzzll   yhzzzll   yhzzzll   ATK & FHCY",
+      "design": "yhzzzll\u0000yhzzzll\u0000yhzzzll\u0000ATK & FHCY",
       "author": "3R2 as DJ Mashiro"
     },
     "33-3": {
@@ -2008,7 +2008,7 @@
     "33-9": {
       "bpm_mn": 156,
       "bpm_mx": 156,
-      "name": "Santouka   三灯火",
+      "name": "Santouka\u0000三灯火",
       "cover": "santouka_cover",
       "design": "Howard_Y",
       "author": "yuritoworks."
@@ -2016,7 +2016,7 @@
     "33-10": {
       "bpm_mn": 206,
       "bpm_mx": 206,
-      "name": "HEXENNACHTROCK-katashihaya-   「妖怪録、我し来にけり。」",
+      "name": "HEXENNACHTROCK-katashihaya-\u0000「妖怪録、我し来にけり。」",
       "cover": "hexennachtrock_katashihaya_cover",
       "design": "money钱",
       "author": "TEZUKApo11o band ft. ランコ(豚乙女)+OFFICE萬田㈱"
@@ -2050,7 +2050,7 @@
       "bpm_mx": 200,
       "name": "BATTLE NO.1",
       "cover": "battle_no1_cover",
-      "design": "PEROPERO Chart Team \"HXJ_ConveX\"   PEROPERO Chart Team \"HXJ_ConveX\"   PEROPERO Chart Team?!   PEROPERO Chart Team without \"HXJ_ConveX\"",
+      "design": "PEROPERO Chart Team \"HXJ_ConveX\"\u0000PEROPERO Chart Team \"HXJ_ConveX\"\u0000PEROPERO Chart Team?!\u0000PEROPERO Chart Team without \"HXJ_ConveX\"",
       "author": "TANO*C Sound Team"
     },
     "34-2": {
@@ -2058,7 +2058,7 @@
       "bpm_mx": 213,
       "name": "Cthugha",
       "cover": "cthugha_cover",
-      "design": "PEROPERO Chart Team \"money钱\"   PEROPERO Chart Team \"money钱\"   PEROPERO Chart Team \"money钱\"   money \"The Burning One\"",
+      "design": "PEROPERO Chart Team \"money钱\"\u0000PEROPERO Chart Team \"money钱\"\u0000PEROPERO Chart Team \"money钱\"\u0000money \"The Burning One\"",
       "author": "USAO"
     },
     "34-3": {
@@ -2066,7 +2066,7 @@
       "bpm_mx": 180,
       "name": "TWINKLE★MAGIC",
       "cover": "twinkle_magic_cover",
-      "design": "PEROPERO Chart Team \"Y*Howard\"   PEROPERO Chart Team \"P*Hizer\"   PEROPERO Chart Team \"P*Hizer\"   PEROPERO Chart Team \"Y*Howard\"",
+      "design": "PEROPERO Chart Team \"Y*Howard\"\u0000PEROPERO Chart Team \"P*Hizer\"\u0000PEROPERO Chart Team \"P*Hizer\"\u0000PEROPERO Chart Team \"Y*Howard\"",
       "author": "P*Light"
     },
     "34-4": {
@@ -2074,7 +2074,7 @@
       "bpm_mx": 180,
       "name": "Comet Coaster",
       "cover": "comet_coaster_cover",
-      "design": "PEROPERO Chart Team \"Howard_Y\"   PEROPERO Chart Team \"Howard_Y\"   PEROPERO Chart Team \"Howard_Y\"   #PRiNC3_OF_CHVRTZ",
+      "design": "PEROPERO Chart Team \"Howard_Y\"\u0000PEROPERO Chart Team \"Howard_Y\"\u0000PEROPERO Chart Team \"Howard_Y\"\u0000#PRiNC3_OF_CHVRTZ",
       "author": "DJ Noriken & aran"
     },
     "34-5": {
@@ -2082,15 +2082,15 @@
       "bpm_mx": 202,
       "name": "XODUS",
       "cover": "xodus_cover",
-      "design": "PEROPERO Chart Team \"Howard_Y\"   PEROPERO Chart Team \"Howard_Y\"   PEROPERO Chart Team \"Howard_Y\"   catastropHY.",
+      "design": "PEROPERO Chart Team \"Howard_Y\"\u0000PEROPERO Chart Team \"Howard_Y\"\u0000PEROPERO Chart Team \"Howard_Y\"\u0000catastropHY.",
       "author": "DJ Myosuke & Gram"
     },
     "35-0": {
       "bpm_mn": 33,
       "bpm_mx": 333,
       "cover": "peroperogames_tousan_cover",
-      "author": "Rish feat.Choko   立秋 feat.ちょこ",
-      "name": "PeroPeroGames the creator of MuseDash went bankrupt~   MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～"
+      "author": "Rish feat.Choko\u0000立秋 feat.ちょこ",
+      "name": "PeroPeroGames the creator of MuseDash went bankrupt~\u0000MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～"
     },
     "35-1": {
       "bpm_mn": 140,
@@ -2104,16 +2104,16 @@
       "bpm_mn": 180,
       "bpm_mx": 180,
       "cover": "boku_no_hefeng_bendang_shangshou_cover",
-      "design": "僕の古筝本当上手   僕の三弦本当上手   僕の唢呐本当上手",
-      "author": "Boss   ボス   老爺   老爷",
-      "name": "My Japanese style is really good   僕の和風本当上手   僕の和风本当上手"
+      "design": "僕の古筝本当上手\u0000僕の三弦本当上手\u0000僕の唢呐本当上手",
+      "author": "Boss\u0000ボス\u0000老爺\u0000老爷",
+      "name": "My Japanese style is really good\u0000僕の和風本当上手\u0000僕の和风本当上手"
     },
     "35-3": {
       "bpm_mn": 175,
       "bpm_mx": 175,
       "name": "Rush B",
       "cover": "rush_b_cover",
-      "design": "money钱 (Silver I)   money钱 (Silver II)   money钱 (Silver more than II but less than IV)",
+      "design": "money钱 (Silver I)\u0000money钱 (Silver II)\u0000money钱 (Silver more than II but less than IV)",
       "author": "iKz"
     },
     "35-4": {
@@ -2121,7 +2121,7 @@
       "bpm_mx": 180,
       "name": "DataErr0r",
       "cover": "dataerr0r_cover",
-      "design": "Howard_Y   Howard_Y   Howard_Y   [!!NODATA!!]",
+      "design": "Howard_Y\u0000Howard_Y\u0000Howard_Y\u0000[!!NODATA!!]",
       "author": "Cosmograph"
     },
     "35-5": {
@@ -2129,7 +2129,7 @@
       "bpm_mx": 148,
       "name": "Burn",
       "cover": "burn_cover",
-      "design": "您   您   您",
+      "design": "您\u0000您\u0000您",
       "author": "NceS"
     },
     "36-0": {
@@ -2138,7 +2138,7 @@
       "name": "NightTheater",
       "cover": "night_theater_cover",
       "design": "Howard_Y",
-      "author": "*wakadori   わかどり"
+      "author": "*wakadori\u0000わかどり"
     },
     "36-1": {
       "bpm_mn": 160,
@@ -2151,17 +2151,17 @@
     "36-2": {
       "bpm_mn": 5,
       "bpm_mx": 315,
-      "name": "bamboo   竹",
+      "name": "bamboo\u0000竹",
       "cover": "bamboo_cover",
-      "design": "money钱   money钱   money钱   Howard_Y",
-      "author": "Rish feat.Choko   立秋 feat.ちょこ"
+      "design": "money钱\u0000money钱\u0000money钱\u0000Howard_Y",
+      "author": "Rish feat.Choko\u0000立秋 feat.ちょこ"
     },
     "36-3": {
       "bpm_mn": 190,
       "bpm_mx": 190,
       "name": "enchanted love",
       "cover": "enchanted_love_cover",
-      "design": "money钱   money钱   ForeverFXS",
+      "design": "money钱\u0000money钱\u0000ForeverFXS",
       "author": "linear ring"
     },
     "36-4": {
@@ -2178,7 +2178,7 @@
       "name": "Booouncing!!",
       "cover": "booouncing_cover",
       "design": "HXJ_ConveX",
-      "author": "Hino Isuka vs. s-don   翡乃イスカ vs. s-don"
+      "author": "Hino Isuka vs. s-don\u0000翡乃イスカ vs. s-don"
     },
     "37-0": {
       "bpm_mn": 105,
@@ -2186,20 +2186,20 @@
       "cover": "crystal_prelude_cover",
       "design": "Howard_Y",
       "author": "Nekock·LK",
-      "name": "Glass Color Prelude   琉璃色前奏曲"
+      "name": "Glass Color Prelude\u0000琉璃色前奏曲"
     },
     "37-1": {
       "bpm_mn": 135,
       "bpm_mx": 135,
-      "name": "Neonlights   ネオンライト",
+      "name": "Neonlights\u0000ネオンライト",
       "cover": "neonlights_cover",
       "design": "money钱 & Howard_Y",
-      "author": "TEMPLIME feat HOSHIMIYA TOTO   TEMPLIME feat 星宫とと"
+      "author": "TEMPLIME feat HOSHIMIYA TOTO\u0000TEMPLIME feat 星宫とと"
     },
     "37-2": {
       "bpm_mn": 187,
       "bpm_mx": 187,
-      "name": "Hope for the flowers   花たちに希望を",
+      "name": "Hope for the flowers\u0000花たちに希望を",
       "cover": "hanatachi_ni_kibou_o_cover",
       "design": "Howard_Y",
       "author": "Sound piercer feat.DAZBEE"
@@ -2207,26 +2207,26 @@
     "37-3": {
       "bpm_mn": 172,
       "bpm_mx": 172,
-      "name": "Seaside Cycling on May 30   5月30日、自転車日和",
+      "name": "Seaside Cycling on May 30\u00005月30日、自転車日和",
       "cover": "cyclingroad_cover",
-      "design": "money钱   money钱   ForeverFXS",
-      "author": "dawn-system feat. OHkun   dawn-system feat.おーくん"
+      "design": "money钱\u0000money钱\u0000ForeverFXS",
+      "author": "dawn-system feat. OHkun\u0000dawn-system feat.おーくん"
     },
     "37-4": {
       "bpm_mn": 138,
       "bpm_mx": 138,
       "name": "SKY↑HIGH",
       "cover": "sky_high_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   YuzukiY",
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000YuzukiY",
       "author": "P4koo(feat.rerone)"
     },
     "37-5": {
       "bpm_mn": 238,
       "bpm_mx": 238,
-      "name": "Mousou Chu!!   妄想♡ちゅー!!",
+      "name": "Mousou Chu!!\u0000妄想♡ちゅー!!",
       "cover": "mousou_chu_cover",
-      "design": "money钱   money钱   ShiroN_L",
-      "author": "Ponchi feat.haxchi   Ponchi♪ feat.はぁち"
+      "design": "money钱\u0000money钱\u0000ShiroN_L",
+      "author": "Ponchi feat.haxchi\u0000Ponchi♪ feat.はぁち"
     },
     "38-0": {
       "bpm_mn": 170,
@@ -2240,16 +2240,16 @@
       "bpm_mn": 180,
       "bpm_mx": 180,
       "cover": "yuki_furi_merry_christmas_cover",
-      "design": "Howard_Y   Howard_Y   無極Rayix vs Catcats",
+      "design": "Howard_Y\u0000Howard_Y\u0000無極Rayix vs Catcats",
       "author": "A-39",
-      "name": "Snowfall Merikuri (MD edit)   雪降り、メリクリ （MD edit）"
+      "name": "Snowfall Merikuri (MD edit)\u0000雪降り、メリクリ （MD edit）"
     },
     "38-2": {
       "bpm_mn": 230,
       "bpm_mx": 230,
       "name": "Igallta",
       "cover": "igallta_cover",
-      "design": "信仰の剣『生』   平川の剣『士』   夜明の剣『靈』   断罪の剣『神』",
+      "design": "信仰の剣『生』\u0000平川の剣『士』\u0000夜明の剣『靈』\u0000断罪の剣『神』",
       "author": "Se-U-Ra"
     },
     "39-0": {
@@ -2257,40 +2257,40 @@
       "bpm_mx": 115,
       "cover": "qu_jianhai_de_rizi_cover",
       "design": "Howard_Y",
-      "author": "Sugar & Co.   砂糖協會   砂糖协会",
-      "name": "The Days to Cut the Sea   去剪海的日子"
+      "author": "Sugar & Co.\u0000砂糖協會\u0000砂糖协会",
+      "name": "The Days to Cut the Sea\u0000去剪海的日子"
     },
     "39-1": {
       "bpm_mn": 125,
       "bpm_mx": 125,
       "name": "happy hour",
       "cover": "happy_hour_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   happy thb",
-      "author": "Sugar & Co.   砂糖協會   砂糖协会"
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000happy thb",
+      "author": "Sugar & Co.\u0000砂糖協會\u0000砂糖协会"
     },
     "39-2": {
       "bpm_mn": 110,
       "bpm_mx": 110,
-      "name": "Seikimatsu no Natsu   世紀末の夏   世紀末的夏天   世纪末的夏天",
+      "name": "Seikimatsu no Natsu\u0000世紀末の夏\u0000世紀末的夏天\u0000世纪末的夏天",
       "cover": "seikimatsu_no_natsu_cover",
       "design": "Howard_Y",
-      "author": "Tenyu & Myanna   天遊 & Myanna   天遊 & 瑪安娜   天游 & 玛安娜"
+      "author": "Tenyu & Myanna\u0000天遊 & Myanna\u0000天遊 & 瑪安娜\u0000天游 & 玛安娜"
     },
     "39-3": {
       "bpm_mn": 174,
       "bpm_mx": 174,
       "name": "twinkle night",
       "cover": "twinkle_night_cover",
-      "design": "money钱   money钱   ATK",
+      "design": "money钱\u0000money钱\u0000ATK",
       "author": "nyankobrq & yaca feat. somunia"
     },
     "39-4": {
       "bpm_mn": 133,
       "bpm_mx": 133,
-      "name": "ARUYA HARERUYA   アルヤハレルヤ",
+      "name": "ARUYA HARERUYA\u0000アルヤハレルヤ",
       "cover": "aruya_hareruya_cover",
       "design": "Howard_Y",
-      "author": "CIOCALA（Haruka Toki + TEA）   シオカラ（Haruka Toki + TEA）"
+      "author": "CIOCALA（Haruka Toki + TEA）\u0000シオカラ（Haruka Toki + TEA）"
     },
     "39-5": {
       "bpm_mn": 127,
@@ -2304,17 +2304,17 @@
       "bpm_mn": 120,
       "bpm_mx": 120,
       "cover": "hadaka_no_summer_cover",
-      "design": "money钱   money钱   Callisto",
-      "author": "There are olives   オリーブがある",
-      "name": "Naked Summer   裸のSummer"
+      "design": "money钱\u0000money钱\u0000Callisto",
+      "author": "There are olives\u0000オリーブがある",
+      "name": "Naked Summer\u0000裸のSummer"
     },
     "39-7": {
       "bpm_mn": 110,
       "bpm_mx": 110,
       "name": "BLESS ME(Samplingsource)",
       "cover": "bless_me_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   D丶R",
-      "author": "There are olives   オリーブがある"
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000D丶R",
+      "author": "There are olives\u0000オリーブがある"
     },
     "39-8": {
       "bpm_mn": 125,
@@ -2322,14 +2322,14 @@
       "name": "FM 17314 SUGAR RADIO",
       "cover": "fm_17314_sugar_radio_cover",
       "design": "Howard_Y",
-      "author": "Sugar & Co.   砂糖協會   砂糖协会"
+      "author": "Sugar & Co.\u0000砂糖協會\u0000砂糖协会"
     },
     "40-0": {
       "bpm_mn": 160,
       "bpm_mx": 160,
       "name": "Rush-More",
       "cover": "rush_more_cover",
-      "design": "money钱   money钱   ForeverFXS",
+      "design": "money钱\u0000money钱\u0000ForeverFXS",
       "author": "litmus*"
     },
     "40-1": {
@@ -2338,27 +2338,27 @@
       "name": "Kill My Fortune",
       "cover": "kill_my_fortune_cover",
       "design": "Howard_Y",
-      "author": "Alice Schach and the Magic Orchestra   アリスシャッハと魔法の楽団"
+      "author": "Alice Schach and the Magic Orchestra\u0000アリスシャッハと魔法の楽団"
     },
     "40-2": {
       "bpm_mn": 179,
       "bpm_mx": 179,
-      "name": "Yosari Tsukibotaru Suminoborite   よさり 月蛍澄み昇りて",
+      "name": "Yosari Tsukibotaru Suminoborite\u0000よさり 月蛍澄み昇りて",
       "cover": "yosari_tsukibotaru_suminoborite_cover",
       "design": "Howard_Y",
-      "author": "Kayuki feat. Hiro   かゆき feat.燈露"
+      "author": "Kayuki feat. Hiro\u0000かゆき feat.燈露"
     },
     "40-3": {
       "bpm_mn": 132,
       "bpm_mx": 132,
       "name": "JUMP! HardCandy",
       "cover": "jump_hard_candy_cover",
-      "design": "money钱   money钱   silentgd/MLLL"
+      "design": "money钱\u0000money钱\u0000silentgd/MLLL"
     },
     "40-4": {
       "bpm_mn": 190,
       "bpm_mx": 190,
-      "name": "Hibari   雲雀   종다리",
+      "name": "Hibari\u0000雲雀\u0000종다리",
       "cover": "hibari_cover",
       "design": "money钱",
       "author": "Street"
@@ -2374,7 +2374,7 @@
     "41-0": {
       "bpm_mn": 90,
       "bpm_mx": 180,
-      "name": "Super Battleworn Insomniac   超・東方不眠症   超·東方不眠夜   超·东方不眠夜",
+      "name": "Super Battleworn Insomniac\u0000超・東方不眠症\u0000超·東方不眠夜\u0000超·东方不眠夜",
       "cover": "super_battleworn_insomniac_cover",
       "design": "Howard_Y",
       "author": "fizzd"
@@ -2382,23 +2382,23 @@
     "41-1": {
       "bpm_mn": 127.209,
       "bpm_mx": 127.209,
-      "name": "Bomb-Sniffing Pomeranian   嗅炸彈的博美犬   嗅炸弹的博美犬",
+      "name": "Bomb-Sniffing Pomeranian\u0000嗅炸彈的博美犬\u0000嗅炸弹的博美犬",
       "cover": "bomb_sniffing_pomeranian_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   yhzzzll",
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000yhzzzll",
       "author": "Stinkbug & Coda, Original song(Artificial Intelligence Bomb) from: naruto"
     },
     "41-2": {
       "bpm_mn": 125.523,
       "bpm_mx": 125.523,
-      "name": "Rollerdisco Rumble   ロールディスコ 鼓動   롤러 디스코 럼블   輪滑迪斯科震顫   轮滑迪斯科震颤",
+      "name": "Rollerdisco Rumble\u0000ロールディスコ 鼓動\u0000롤러 디스코 럼블\u0000輪滑迪斯科震顫\u0000轮滑迪斯科震颤",
       "cover": "rollerdisco_rumble_cover",
-      "design": "money钱   money钱   HikaHolic",
+      "design": "money钱\u0000money钱\u0000HikaHolic",
       "author": "Vince Kaichan"
     },
     "41-3": {
       "bpm_mn": 132,
       "bpm_mx": 132,
-      "name": "Rose Garden   玫瑰花園   玫瑰花园",
+      "name": "Rose Garden\u0000玫瑰花園\u0000玫瑰花园",
       "cover": "rose_garden_cover",
       "design": "ForeverFXS",
       "author": "RoDy.cOde"
@@ -2414,7 +2414,7 @@
     "41-5": {
       "bpm_mn": 193,
       "bpm_mx": 193,
-      "name": "Heracles   赫拉克勒斯",
+      "name": "Heracles\u0000赫拉克勒斯",
       "cover": "heracles_cover",
       "design": "Howard_Y",
       "author": "Yooh"
@@ -2431,41 +2431,41 @@
       "bpm_mn": 138,
       "bpm_mx": 138,
       "cover": "iro_wa_nioedo_chirinuru_wo_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   HXJ_ConveX   超妖怪弾頭",
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000HXJ_ConveX\u0000超妖怪弾頭",
       "author": "幽閉サテライト",
-      "name": "The color scatters through the smell   色は匂へど散りぬるを"
+      "name": "The color scatters through the smell\u0000色は匂へど散りぬるを"
     },
     "42-2": {
       "bpm_mn": 175,
       "bpm_mx": 175,
-      "name": "Cirno's Perfect Math Class   チルノのパーフェクトさんすう教室",
+      "name": "Cirno's Perfect Math Class\u0000チルノのパーフェクトさんすう教室",
       "cover": "cirnos_perfect_math_class_cover",
-      "design": "1! d(≧▽≦d)   2!! (b≧▽≦)b   ⑨!!!!!!!!! Σ(°Д °;)   氷の小さな妖精",
-      "author": "ARM + Yoshimi YOUNO (IOSYS) feat. miko   ARM＋夕野ヨシミ (IOSYS) feat. miko"
+      "design": "1! d(≧▽≦d)\u00002!! (b≧▽≦)b\u0000⑨!!!!!!!!! Σ(°Д °;)\u0000氷の小さな妖精",
+      "author": "ARM + Yoshimi YOUNO (IOSYS) feat. miko\u0000ARM＋夕野ヨシミ (IOSYS) feat. miko"
     },
     "42-3": {
       "bpm_mn": 150,
       "bpm_mx": 150,
       "cover": "hiiro_gekka_kyoushou_no_zetsu_cover",
-      "design": "Howard_Y   Howard_Y   Phizer   Howard_Y",
+      "design": "Howard_Y\u0000Howard_Y\u0000Phizer\u0000Howard_Y",
       "author": "EastNewSound",
-      "name": "Under the Scarlet Moon Mad Bloom's Severance   緋色月下、狂咲ノ絶"
+      "name": "Under the Scarlet Moon Mad Bloom's Severance\u0000緋色月下、狂咲ノ絶"
     },
     "42-4": {
       "bpm_mn": 145,
       "bpm_mx": 145,
-      "name": "Flowery Moonlit Night   花月夜",
+      "name": "Flowery Moonlit Night\u0000花月夜",
       "cover": "flowery_moonlit_night_cover",
-      "design": "money钱   money钱   Ctymax   money钱",
+      "design": "money钱\u0000money钱\u0000Ctymax\u0000money钱",
       "author": "Yonder Voice"
     },
     "42-5": {
       "bpm_mn": 150,
       "bpm_mx": 195,
-      "name": "Unconscious Requiem   無意識レクイエム",
+      "name": "Unconscious Requiem\u0000無意識レクイエム",
       "cover": "unconscious_requiem_cover",
       "design": "money钱",
-      "author": "Shinra-Bansho   森羅万象"
+      "author": "Shinra-Bansho\u0000森羅万象"
     },
     "43-0": {
       "bpm_mn": 170,
@@ -2478,10 +2478,10 @@
     "43-1": {
       "bpm_mn": 165,
       "bpm_mx": 165,
-      "name": "Amatsumikaboshi   天津甕星",
+      "name": "Amatsumikaboshi\u0000天津甕星",
       "cover": "amatsumikaboshi_cover",
       "design": "Howard_Y",
-      "author": "Sakuzyo   削除"
+      "author": "Sakuzyo\u0000削除"
     },
     "43-2": {
       "bpm_mn": 140,
@@ -2497,22 +2497,22 @@
       "cover": "night_of_knights_cover",
       "design": "Howard_Y",
       "author": "ビートまりお",
-      "name": "Night of Knights   ナイト・オブ・ナイツ"
+      "name": "Night of Knights\u0000ナイト・オブ・ナイツ"
     },
     "43-4": {
       "bpm_mn": 140,
       "bpm_mx": 140,
-      "name": "#Psychedelic_Meguro_River   #サイケデリック目黒川",
+      "name": "#Psychedelic_Meguro_River\u0000#サイケデリック目黒川",
       "cover": "psychedelic_meguro_river_cover",
       "design": "Howard_Y",
-      "author": "uma with Morimori Atsushi feat. masiro   uma with モリモリあつし feat. ましろ"
+      "author": "uma with Morimori Atsushi feat. masiro\u0000uma with モリモリあつし feat. ましろ"
     },
     "43-5": {
       "bpm_mn": 128,
       "bpm_mx": 128,
       "name": "can you feel it",
       "cover": "can_you_feel_it_cover",
-      "design": "money钱   money钱   無極Rayix   Beautiful Girl",
+      "design": "money钱\u0000money钱\u0000無極Rayix\u0000Beautiful Girl",
       "author": "MK"
     },
     "43-6": {
@@ -2526,7 +2526,7 @@
     "43-7": {
       "bpm_mn": 160,
       "bpm_mx": 160,
-      "name": "Rin   燐",
+      "name": "Rin\u0000燐",
       "cover": "rin_cover",
       "design": "ForeverFXS",
       "author": "a_hisa"
@@ -2542,10 +2542,10 @@
     "43-9": {
       "bpm_mn": 173,
       "bpm_mx": 173,
-      "name": "Believing and Being   信仰と存在   신앙과 존재   信仰與存在   信仰与存在",
+      "name": "Believing and Being\u0000信仰と存在\u0000신앙과 존재\u0000信仰與存在\u0000信仰与存在",
       "cover": "shinkou_to_sonzai_cover",
       "design": "Howard_Y",
-      "author": "hitogoto feat. ina   他人事 feat. 否   남의 일 feat. ina"
+      "author": "hitogoto feat. ina\u0000他人事 feat. 否\u0000남의 일 feat. ina"
     },
     "43-10": {
       "bpm_mn": 191,
@@ -2553,7 +2553,7 @@
       "cover": "catalyst_cover",
       "design": "ForeverFXS",
       "author": "P4koo(feat.つゆり花鈴)",
-      "name": "catalyst   カタリスト"
+      "name": "catalyst\u0000カタリスト"
     },
     "43-11": {
       "bpm_mn": 170,
@@ -2566,9 +2566,9 @@
     "43-12": {
       "bpm_mn": 200,
       "bpm_mx": 200,
-      "name": "pa pi pu pi pu pi pa   ぱぴぷぴぷぴぱ",
+      "name": "pa pi pu pi pu pi pa\u0000ぱぴぷぴぷぴぱ",
       "cover": "papipupipupipa_cover",
-      "design": "Villager With ForeverFXS   Villager With ForeverFXS   Sraimi With ShiroN_L",
+      "design": "Villager With ForeverFXS\u0000Villager With ForeverFXS\u0000Sraimi With ShiroN_L",
       "author": "ころねぽち With 立秋"
     },
     "43-13": {
@@ -2584,20 +2584,20 @@
       "bpm_mx": 173,
       "name": "Diffraction",
       "cover": "diffraction_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   默蓝琉璃"
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000默蓝琉璃"
     },
     "43-15": {
       "bpm_mn": 135,
       "bpm_mx": 135,
-      "name": "AKUMU / feat.tug   悪夢 / feat.つぐ",
+      "name": "AKUMU / feat.tug\u0000悪夢 / feat.つぐ",
       "cover": "akumu_cover",
       "design": "money钱",
-      "author": "Toiki.   吐息．"
+      "author": "Toiki.\u0000吐息．"
     },
     "43-16": {
       "bpm_mn": 212,
       "bpm_mx": 212,
-      "name": "Queen Aluett   Queen Aluett -女王アルエット-",
+      "name": "Queen Aluett\u0000Queen Aluett -女王アルエット-",
       "cover": "queen_aluett_cover",
       "design": "Howard_Y",
       "author": "LeaF"
@@ -2616,7 +2616,7 @@
       "cover": "furanchan_ga_monosugoi_uta_cover",
       "design": "Howard_Y",
       "author": "Halozy",
-      "name": "The crazy Fran-chan is a great song   物凄い狂っとるフランちゃんが物凄いうた"
+      "name": "The crazy Fran-chan is a great song\u0000物凄い狂っとるフランちゃんが物凄いうた"
     },
     "43-19": {
       "bpm_mn": 150,
@@ -2629,7 +2629,7 @@
     "43-20": {
       "bpm_mn": 140,
       "bpm_mx": 140,
-      "name": "Kuishinbo Hacker feat.Kuishinbo Akachan   くいしんぼハッカー feat.くいしんぼあかちゃん",
+      "name": "Kuishinbo Hacker feat.Kuishinbo Akachan\u0000くいしんぼハッカー feat.くいしんぼあかちゃん",
       "cover": "kuishinbo_hacker_cover",
       "design": "Hacker_FXS",
       "author": "Neko Hacker"
@@ -2637,10 +2637,10 @@
     "43-21": {
       "bpm_mn": 175,
       "bpm_mx": 175,
-      "name": "Inu no outa   いぬのおうた   犬之歌",
+      "name": "Inu no outa\u0000いぬのおうた\u0000犬之歌",
       "cover": "inu_no_outa_cover",
       "design": "SugarSu",
-      "author": "Aiobahn feat.Nanahira   Aiobahn feat.ななひら"
+      "author": "Aiobahn feat.Nanahira\u0000Aiobahn feat.ななひら"
     },
     "43-22": {
       "bpm_mn": 200,
@@ -2653,7 +2653,7 @@
     "43-23": {
       "bpm_mn": 160,
       "bpm_mx": 160,
-      "name": "Gospel   福音",
+      "name": "Gospel\u0000福音",
       "cover": "fukuin_cover",
       "design": "HXJ_ConveX",
       "author": "wotaku feat. SHIKI"
@@ -2671,8 +2671,8 @@
       "bpm_mx": 128,
       "cover": "yingying_dazuozhan_cover",
       "design": "money钱钱",
-      "author": "iKz feat.祖娅纳惜   iKz feat.祖婭納惜",
-      "name": "Big Battle   嘤嘤大作战   嚶嚶大作戰"
+      "author": "iKz feat.祖娅纳惜\u0000iKz feat.祖婭納惜",
+      "name": "Big Battle\u0000嘤嘤大作战\u0000嚶嚶大作戰"
     },
     "44-2": {
       "bpm_mn": 140,
@@ -2688,15 +2688,15 @@
       "name": "ONOMATO Pairing!!!",
       "cover": "onomato_pairing_cover",
       "design": "ForeverFXS",
-      "author": "t+pazolite feat. Nanahira   t+pazolite feat. ななひら"
+      "author": "t+pazolite feat. Nanahira\u0000t+pazolite feat. ななひら"
     },
     "45-1": {
       "bpm_mn": 155,
       "bpm_mx": 155,
       "name": "with U",
       "cover": "with_u_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   HXJ_ConveX   無極Rayix",
-      "author": "t+pazolite & Massive New Krew feat. Lily(Shiki Aoki)   t+pazolite & Massive New Krew feat. リリィ(CV:青木志貴)"
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000HXJ_ConveX\u0000無極Rayix",
+      "author": "t+pazolite & Massive New Krew feat. Lily(Shiki Aoki)\u0000t+pazolite & Massive New Krew feat. リリィ(CV:青木志貴)"
     },
     "45-2": {
       "bpm_mn": 128,
@@ -2725,10 +2725,10 @@
     "45-5": {
       "bpm_mn": 203,
       "bpm_mx": 203,
-      "name": "ANGEL HALO   天使光輪",
+      "name": "ANGEL HALO\u0000天使光輪",
       "cover": "angel_halo_cover",
       "design": "Howard_Y",
-      "author": "REDALiCE & cosMo@Bousou-P   REDALiCE & cosMo＠暴走P"
+      "author": "REDALiCE & cosMo@Bousou-P\u0000REDALiCE & cosMo＠暴走P"
     },
     "46-0": {
       "bpm_mn": 130,
@@ -2751,13 +2751,13 @@
       "bpm_mx": 175,
       "name": "Symbol",
       "cover": "symbol_cover",
-      "design": "money钱   money钱   Ctymax",
+      "design": "money钱\u0000money钱\u0000Ctymax",
       "author": "Silaver"
     },
     "46-3": {
       "bpm_mn": 185,
       "bpm_mx": 185,
-      "name": "Nekojarashi   ネコジャラシ",
+      "name": "Nekojarashi\u0000ネコジャラシ",
       "cover": "neko_jarashi_cover",
       "design": "money钱",
       "author": "EmoCosine"
@@ -2768,12 +2768,12 @@
       "name": "A Philosophical Wanderer",
       "cover": "a_philosophical_wanderer_cover",
       "design": "HXJ_ConveX",
-      "author": "tezuka x Yunosuke   テヅカ x Yunosuke"
+      "author": "tezuka x Yunosuke\u0000テヅカ x Yunosuke"
     },
     "46-5": {
       "bpm_mn": 191,
       "bpm_mx": 191,
-      "name": "Isouten   異想天   异想天",
+      "name": "Isouten\u0000異想天\u0000异想天",
       "cover": "isouten_cover",
       "design": "Howard_Y",
       "author": "Zris"
@@ -2781,7 +2781,7 @@
     "47-0": {
       "bpm_mn": 180,
       "bpm_mx": 180,
-      "name": "Haze of Autumn   秋の陽炎",
+      "name": "Haze of Autumn\u0000秋の陽炎",
       "cover": "haze_of_autumn_cover",
       "design": "money钱",
       "author": "karatoPαnchii feat.はるの"
@@ -2791,7 +2791,7 @@
       "bpm_mx": 220,
       "name": "GIMME DA BLOOD",
       "cover": "gimme_da_blood_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   無極Rayix with RavE",
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000無極Rayix with RavE",
       "author": "C-Show"
     },
     "47-2": {
@@ -2823,7 +2823,7 @@
       "bpm_mx": 130,
       "name": "Bright Dream",
       "cover": "bright_dream_cover",
-      "design": "ForeverFXS   ForeverFXS   yhzzzll",
+      "design": "ForeverFXS\u0000ForeverFXS\u0000yhzzzll",
       "author": "M2U"
     },
     "48-2": {
@@ -2831,7 +2831,7 @@
       "bpm_mx": 120,
       "name": "Groovin Up",
       "cover": "groovin_up_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   ATK",
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000ATK",
       "author": "Mycin.T"
     },
     "48-3": {
@@ -2855,7 +2855,7 @@
       "bpm_mx": 132,
       "name": "Elastic STAR",
       "cover": "elestic_star_cover",
-      "design": "無極Rayix   無極Rayix   Beautiful Girl",
+      "design": "無極Rayix\u0000無極Rayix\u0000Beautiful Girl",
       "author": "Forte Escape"
     },
     "48-6": {
@@ -2871,7 +2871,7 @@
       "bpm_mx": 125,
       "name": "Jealousy",
       "cover": "jealousy_cover",
-      "design": "money钱   money钱   Ctymax",
+      "design": "money钱\u0000money钱\u0000Ctymax",
       "author": "3rd Coast"
     },
     "48-8": {
@@ -2903,7 +2903,7 @@
       "bpm_mx": 122,
       "name": "Fancy Night",
       "cover": "fancy_night_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   SugarSu",
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000SugarSu",
       "author": "SiNA x CHUCK"
     },
     "48-12": {
@@ -2911,7 +2911,7 @@
       "bpm_mx": 125,
       "name": "Can We Talk",
       "cover": "can_we_talk_cover",
-      "design": "money钱   money钱   FH+CY",
+      "design": "money钱\u0000money钱\u0000FH+CY",
       "author": "Forte Escape"
     },
     "48-13": {
@@ -2919,7 +2919,7 @@
       "bpm_mx": 121,
       "name": "Give Me 5",
       "cover": "give_me_5_cover",
-      "design": "ForeverFXS   ForeverFXS   ShiroN_L",
+      "design": "ForeverFXS\u0000ForeverFXS\u0000ShiroN_L",
       "author": "ND Lee"
     },
     "48-14": {
@@ -2944,12 +2944,12 @@
       "cover": "renai_kaihi_izonsho_cover",
       "design": "money钱",
       "author": "Matthiola Records",
-      "name": "Romantic avoidance addiction   恋愛回避依存症"
+      "name": "Romantic avoidance addiction\u0000恋愛回避依存症"
     },
     "49-2": {
       "bpm_mn": 170,
       "bpm_mx": 170,
-      "name": "Daisuki Dayo feat.Wotoha   だーいすきだよ feat. をとは",
+      "name": "Daisuki Dayo feat.Wotoha\u0000だーいすきだよ feat. をとは",
       "cover": "daisuki_dayo_cover",
       "design": "ForeverFXS",
       "author": "Neko Hacker"
@@ -2965,18 +2965,18 @@
     "50-1": {
       "bpm_mn": 150,
       "bpm_mx": 150,
-      "name": "PeroPero in the Universe   ペロペロ in the Universe",
+      "name": "PeroPero in the Universe\u0000ペロペロ in the Universe",
       "cover": "peropero_in_the_universe_cover",
       "design": "宇宙の無極",
-      "author": "Rish feat.Choko   立秋 feat.ちょこ"
+      "author": "Rish feat.Choko\u0000立秋 feat.ちょこ"
     },
     "50-2": {
       "bpm_mn": 195,
       "bpm_mx": 195,
-      "name": "In-kya Yo-kya Onmyoji   陰キャ陽キャ陰陽師",
+      "name": "In-kya Yo-kya Onmyoji\u0000陰キャ陽キャ陰陽師",
       "cover": "in_kya_yo_kya_onmyoji_cover",
-      "design": "陰キャNEKO   陰キャNEKO   陰キャDDR",
-      "author": "Hige Driver   ヒゲドライバー"
+      "design": "陰キャNEKO\u0000陰キャNEKO\u0000陰キャDDR",
+      "author": "Hige Driver\u0000ヒゲドライバー"
     },
     "50-3": {
       "bpm_mn": 175,
@@ -2991,7 +2991,7 @@
       "bpm_mx": 280,
       "name": "Doppelganger",
       "cover": "doppelganger_cover",
-      "design": "Howard_Y's Shadow   Howard_Y's Avatar   Howard_Y's Darkside   Howard_Y's Doppelganger",
+      "design": "Howard_Y's Shadow\u0000Howard_Y's Avatar\u0000Howard_Y's Darkside\u0000Howard_Y's Doppelganger",
       "author": "LeaF"
     },
     "51-0": {
@@ -3000,7 +3000,7 @@
       "cover": "jiamian_riji_cover",
       "design": "Howard_Y",
       "author": "小野道ono feat.早木旋子",
-      "name": "Masked Diary   假面日记   仮面日記   假面日記"
+      "name": "Masked Diary\u0000假面日记\u0000仮面日記\u0000假面日記"
     },
     "51-1": {
       "bpm_mn": 252,
@@ -3008,15 +3008,15 @@
       "name": "Reminiscence",
       "cover": "reminiscence_cover",
       "design": "money钱",
-      "author": "technoplanet feat. AMAKI OKOME (from KAWAII MUSIC)   technoplanet feat. 天輝おこめ (from KAWAII MUSIC)"
+      "author": "technoplanet feat. AMAKI OKOME (from KAWAII MUSIC)\u0000technoplanet feat. 天輝おこめ (from KAWAII MUSIC)"
     },
     "51-2": {
       "bpm_mn": 120,
       "bpm_mx": 120,
-      "name": "DarakuDatenshi   ダラクダテンシ   墮墮天使   堕堕天使",
+      "name": "DarakuDatenshi\u0000ダラクダテンシ\u0000墮墮天使\u0000堕堕天使",
       "cover": "daraku_datenshi_cover",
       "design": "堕堕無極",
-      "author": "Project Mons feat.KurumiUsa   Project Mons feat.胡桃うさ   Project Mons feat.胡桃Usa"
+      "author": "Project Mons feat.KurumiUsa\u0000Project Mons feat.胡桃うさ\u0000Project Mons feat.胡桃Usa"
     },
     "51-3": {
       "bpm_mn": 134,
@@ -3032,12 +3032,12 @@
       "cover": "danshi_in_virtualand_cover",
       "design": "HXJ_ConveX",
       "author": "IOSYS",
-      "name": "Boys in ☆ Virtual Land   男子in☆バーチャランド"
+      "name": "Boys in ☆ Virtual Land\u0000男子in☆バーチャランド"
     },
     "51-5": {
       "bpm_mn": 209,
       "bpm_mx": 209,
-      "name": "kuí   虁",
+      "name": "kuí\u0000虁",
       "cover": "kui_cover",
       "design": "ForeverFXS",
       "author": "Apo11o program ft.ドーラ（にじさんじ）"
@@ -3045,10 +3045,10 @@
     "52-0": {
       "bpm_mn": 105,
       "bpm_mx": 105,
-      "name": "marooned night   夜的擱淺   夜的搁浅",
+      "name": "marooned night\u0000夜的擱淺\u0000夜的搁浅",
       "cover": "ye_de_geqian_cover",
       "design": "ForeverFXS",
-      "author": "Sugar&Co.   砂糖協會   砂糖协会"
+      "author": "Sugar&Co.\u0000砂糖協會\u0000砂糖协会"
     },
     "52-1": {
       "bpm_mn": 114,
@@ -3062,7 +3062,7 @@
       "bpm_mx": 136,
       "cover": "ornament_janai_cover",
       "design": "money钱",
-      "author": "There are olives with Sugar & Co.   オリーブがある with Sugar & Co.   オリーブがある with 砂糖协会",
+      "author": "There are olives with Sugar & Co.\u0000オリーブがある with Sugar & Co.\u0000オリーブがある with 砂糖协会",
       "name": "Ornamentじゃない(Muse Dash Mix)"
     },
     "52-3": {
@@ -3076,7 +3076,7 @@
     "52-4": {
       "bpm_mn": 126,
       "bpm_mx": 126,
-      "name": "I'm Here   ここにいる   ここにいる (I'm Here)",
+      "name": "I'm Here\u0000ここにいる\u0000ここにいる (I'm Here)",
       "cover": "im_here_cover",
       "design": "Howard_Y",
       "author": "Aiobahn"
@@ -3094,16 +3094,16 @@
       "bpm_mx": 128,
       "name": "Trip!",
       "cover": "trip_cover",
-      "design": "money钱   money钱   公大笑乐",
-      "author": "FOIV feat.Tomin Yukino   FOIV feat.都民ゆきの"
+      "design": "money钱\u0000money钱\u0000公大笑乐",
+      "author": "FOIV feat.Tomin Yukino\u0000FOIV feat.都民ゆきの"
     },
     "53-2": {
       "bpm_mn": 205,
       "bpm_mx": 205,
-      "name": "Hoshi no otoshimono   ほしのおとしもの",
+      "name": "Hoshi no otoshimono\u0000ほしのおとしもの",
       "cover": "hoshi_no_otoshi_mono_cover",
       "design": "ForeverFXS",
-      "author": "AAAA   ああああ"
+      "author": "AAAA\u0000ああああ"
     },
     "53-3": {
       "bpm_mn": 185,
@@ -3111,14 +3111,14 @@
       "name": "Plucky Race",
       "cover": "plucky_race_cover",
       "design": "money钱",
-      "author": "Yomii   よみぃ"
+      "author": "Yomii\u0000よみぃ"
     },
     "53-4": {
       "bpm_mn": 180,
       "bpm_mx": 180,
       "name": "Fantasia Sonata Destiny",
       "cover": "fantasia_sonata_destiny_cover",
-      "design": "無感のD   壓製のR   激昂のSHADOW",
+      "design": "無感のD\u0000壓製のR\u0000激昂のSHADOW",
       "author": "PYKAMIA"
     },
     "53-5": {
@@ -3151,7 +3151,7 @@
       "cover": "kongetsu_no_osusume_playlist_o_kensaku_shimasu_cover",
       "design": "Marathon Committee",
       "author": "kazeoff",
-      "name": "Find this month's featured playlists   今月のおすすめプレイリストを検索します"
+      "name": "Find this month's featured playlists\u0000今月のおすすめプレイリストを検索します"
     },
     "54-3": {
       "bpm_mn": 143,
@@ -3166,7 +3166,7 @@
       "bpm_mx": 170,
       "name": "Goodbye Goodnight (feat. Shully)",
       "cover": "goodbye_goodnight_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   Sya",
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000Sya",
       "author": "rejection"
     },
     "54-5": {
@@ -3174,56 +3174,56 @@
       "bpm_mx": 128,
       "name": "ENDLESS CIDER (feat. Such)",
       "cover": "endless_cider_cover",
-      "design": "ForeverFXS   ForeverFXS   GRACE",
+      "design": "ForeverFXS\u0000ForeverFXS\u0000GRACE",
       "author": "Mameyudoufu"
     },
     "55-0": {
       "bpm_mn": 160,
       "bpm_mx": 160,
       "cover": "tsuki_ni_murakumo_hana_ni_kaze_cover",
-      "design": "money钱   money钱   money钱   祀られる風の人間",
+      "design": "money钱\u0000money钱\u0000money钱\u0000祀られる風の人間",
       "author": "幽閉サテライト",
-      "name": "Moon Murakumo Flower and Wind   月に叢雲華に風"
+      "name": "Moon Murakumo Flower and Wind\u0000月に叢雲華に風"
     },
     "55-1": {
       "bpm_mn": 123,
       "bpm_mx": 123,
-      "name": "Patchouli's - Best Hit GSK   パチュリーズ・ベストヒットGSK",
+      "name": "Patchouli's - Best Hit GSK\u0000パチュリーズ・ベストヒットGSK",
       "cover": "pachurizu_best_hit_gsk_cover",
-      "design": "money钱   money钱   money钱   動かない大図書館",
-      "author": "minami + Shichijo Lettuce(IOSYS) feat.Iwasugi Natsu   minami＋七条レタス(IOSYS) feat. 岩杉夏"
+      "design": "money钱\u0000money钱\u0000money钱\u0000動かない大図書館",
+      "author": "minami + Shichijo Lettuce(IOSYS) feat.Iwasugi Natsu\u0000minami＋七条レタス(IOSYS) feat. 岩杉夏"
     },
     "55-2": {
       "bpm_mn": 175,
       "bpm_mx": 175,
       "cover": "koishi_ga_monosugoi_uta_cover",
-      "design": "ForeverFXS   ForeverFXS   villager feat. FXS   閉じた恋の瞳",
+      "design": "ForeverFXS\u0000ForeverFXS\u0000villager feat. FXS\u0000閉じた恋の瞳",
       "author": "Halozy",
-      "name": "Koishi sings a terrible song on a terrible space shuttle   物凄いスペースシャトルでこいしが物凄いうた"
+      "name": "Koishi sings a terrible song on a terrible space shuttle\u0000物凄いスペースシャトルでこいしが物凄いうた"
     },
     "55-3": {
       "bpm_mn": 102,
       "bpm_mx": 102,
       "cover": "kakoinakiyo_ha_ichigo_no_tsukikage_cover",
-      "design": "ForeverFXS   ForeverFXS   yhzzzll   永遠と須臾の罪人",
+      "design": "ForeverFXS\u0000ForeverFXS\u0000yhzzzll\u0000永遠と須臾の罪人",
       "author": "豚乙女",
-      "name": "A world without enclosures is a moonlight   囲い無き世は一期の月影"
+      "name": "A world without enclosures is a moonlight\u0000囲い無き世は一期の月影"
     },
     "55-4": {
       "bpm_mn": 160,
       "bpm_mx": 160,
-      "name": "Psychedelic Kizakura Doumei   サイケデリック鬼桜同盟",
+      "name": "Psychedelic Kizakura Doumei\u0000サイケデリック鬼桜同盟",
       "cover": "psychedelic_kizakura_domei_cover",
-      "design": "D丶R   D丶R   D丶R   普通の魔法使い",
+      "design": "D丶R\u0000D丶R\u0000D丶R\u0000普通の魔法使い",
       "author": "SOUND HOLIC feat. Nana Takahashi"
     },
     "55-5": {
       "bpm_mn": 192,
       "bpm_mx": 192,
-      "name": "Mischievous Sensation   悪戯センセーション",
+      "name": "Mischievous Sensation\u0000悪戯センセーション",
       "cover": "itazura_sensation_cover",
-      "design": "ForeverFXS   ForeverFXS   villager feat. FXS   永遠に紅い幼き月 vs. 悪魔の妹",
-      "author": "Shinra-Bansho   森羅万象 "
+      "design": "ForeverFXS\u0000ForeverFXS\u0000villager feat. FXS\u0000永遠に紅い幼き月 vs. 悪魔の妹",
+      "author": "Shinra-Bansho\u0000森羅万象 "
     },
     "56-0": {
       "bpm_mn": 150,
@@ -3236,18 +3236,18 @@
     "56-1": {
       "bpm_mn": 215,
       "bpm_mx": 215,
-      "name": "Inferno City   インフェルノシティ",
+      "name": "Inferno City\u0000インフェルノシティ",
       "cover": "inferno_city_cover",
-      "design": "ShiroN_L   ShiroN_L   KuroN_L",
-      "author": "Ponchi feat.haxchi   Ponchi♪ feat.はぁち"
+      "design": "ShiroN_L\u0000ShiroN_L\u0000KuroN_L",
+      "author": "Ponchi feat.haxchi\u0000Ponchi♪ feat.はぁち"
     },
     "56-2": {
       "bpm_mn": 145,
       "bpm_mx": 145,
       "name": "Paradigm Shift",
       "cover": "paradigm_shift_cover",
-      "design": "ForeverFXS   ForeverFXS   F_Eternal feat. FXS",
-      "author": "Morimori Atsushi   モリモリあつし"
+      "design": "ForeverFXS\u0000ForeverFXS\u0000F_Eternal feat. FXS",
+      "author": "Morimori Atsushi\u0000モリモリあつし"
     },
     "56-3": {
       "bpm_mn": 160,
@@ -3276,9 +3276,9 @@
     "57-0": {
       "bpm_mn": 160,
       "bpm_mx": 160,
-      "name": "Tokimeki★Meteostrike   ときめき★メテオストライク",
+      "name": "Tokimeki★Meteostrike\u0000ときめき★メテオストライク",
       "cover": "tokimeki_meteostrike_cover",
-      "design": "NekoSraimi   NekoSraimi   GiNER_Yang",
+      "design": "NekoSraimi\u0000NekoSraimi\u0000GiNER_Yang",
       "author": "TRIFLATS"
     },
     "57-1": {
@@ -3294,7 +3294,7 @@
       "bpm_mx": 180,
       "name": "LOUDER MACHINE",
       "cover": "louder_machine_cover",
-      "design": "EE-ᴇᴇᴇᴇᴇᴇᴇᴇᴇᴇ   AA-ᴀᴀᴀᴀᴀᴀᴀᴀᴀᴀ   OO-oooooooooo",
+      "design": "EE-ᴇᴇᴇᴇᴇᴇᴇᴇᴇᴇ\u0000AA-ᴀᴀᴀᴀᴀᴀᴀᴀᴀᴀ\u0000OO-oooooooooo",
       "author": "NOMA"
     },
     "57-3": {
@@ -3303,14 +3303,14 @@
       "cover": "sorewa_mo_lovechu_cover",
       "design": "Howard_Y",
       "author": "タケノコ少年 feat. 周央サンゴ（にじさんじ）",
-      "name": "That's another Rabuchu   それはもうらぶちゅ"
+      "name": "That's another Rabuchu\u0000それはもうらぶちゅ"
     },
     "57-4": {
       "bpm_mn": 220,
       "bpm_mx": 220,
       "name": "Rave_Tech",
       "cover": "rave_tech_cover",
-      "design": "RavE   RavE   RavE with HXJ",
+      "design": "RavE\u0000RavE\u0000RavE with HXJ",
       "author": "3R2"
     },
     "57-5": {
@@ -3324,34 +3324,34 @@
     "58-0": {
       "bpm_mn": 230,
       "bpm_mx": 230,
-      "name": "People People   ピポピポ -People People",
+      "name": "People People\u0000ピポピポ -People People",
       "cover": "people_people_cover",
-      "design": "ForeverFXS   ForeverFXS   villager feat. FXS   Villager Hacker feat. FXS",
-      "author": "Neko Hacker feat. Nanahira   Neko Hacker feat. ななひら"
+      "design": "ForeverFXS\u0000ForeverFXS\u0000villager feat. FXS\u0000Villager Hacker feat. FXS",
+      "author": "Neko Hacker feat. Nanahira\u0000Neko Hacker feat. ななひら"
     },
     "58-1": {
       "bpm_mn": 145,
       "bpm_mx": 145,
       "name": "Endless Error Loop",
       "cover": "endless_error_loop_cover",
-      "design": "▒▒▒▒▒▓▓   烫烫烫烫烫烫烫烫烫烫烫   锟斤拷锟斤拷锟斤拷锟斤拷",
-      "author": "Neko Hacker feat. Nanahira   Neko Hacker feat. ななひら"
+      "design": "▒▒▒▒▒▓▓\u0000烫烫烫烫烫烫烫烫烫烫烫\u0000锟斤拷锟斤拷锟斤拷锟斤拷",
+      "author": "Neko Hacker feat. Nanahira\u0000Neko Hacker feat. ななひら"
     },
     "58-2": {
       "bpm_mn": 134,
       "bpm_mx": 134,
-      "name": "Forbidden Pizza!   フォビどぅん・ピザ！",
+      "name": "Forbidden Pizza!\u0000フォビどぅん・ピザ！",
       "cover": "forbidden_pizza_cover",
       "design": "HXJ_ConveX",
-      "author": "Camellia feat. Nanahira   かめりあ feat. ななひら"
+      "author": "Camellia feat. Nanahira\u0000かめりあ feat. ななひら"
     },
     "58-3": {
       "bpm_mn": 120,
       "bpm_mx": 120,
       "cover": "vocal_ni_mucha_sasenna_cover",
       "design": "Howard_Y",
-      "author": "t+pazolite feat. Nanahira   t+pazolite feat. ななひら",
-      "name": "Don't mess with the vocals   ボーカルに無茶させんな"
+      "author": "t+pazolite feat. Nanahira\u0000t+pazolite feat. ななひら",
+      "name": "Don't mess with the vocals\u0000ボーカルに無茶させんな"
     },
     "59-0": {
       "bpm_mn": 163,
@@ -3359,7 +3359,7 @@
       "name": "Boiling Blood",
       "cover": "boiling_blood_cover",
       "design": "ForeverFXS",
-      "author": "Monster Siren Records   塞壬唱片-MSR"
+      "author": "Monster Siren Records\u0000塞壬唱片-MSR"
     },
     "59-1": {
       "bpm_mn": 155,
@@ -3367,7 +3367,7 @@
       "name": "ManiFesto：",
       "cover": "manifesto_cover",
       "design": "Howard_Y",
-      "author": "Monster Siren Records   塞壬唱片-MSR"
+      "author": "Monster Siren Records\u0000塞壬唱片-MSR"
     },
     "59-2": {
       "bpm_mn": 125,
@@ -3375,7 +3375,7 @@
       "name": "Operation Blade",
       "cover": "operation_blade_cover",
       "design": "money钱",
-      "author": "Monster Siren Records   塞壬唱片-MSR"
+      "author": "Monster Siren Records\u0000塞壬唱片-MSR"
     },
     "59-3": {
       "bpm_mn": 176,
@@ -3383,7 +3383,7 @@
       "name": "Radiant",
       "cover": "radiant_cover",
       "design": "money钱",
-      "author": "Monster Siren Records   塞壬唱片-MSR"
+      "author": "Monster Siren Records\u0000塞壬唱片-MSR"
     },
     "59-4": {
       "bpm_mn": 154,
@@ -3391,7 +3391,7 @@
       "name": "Renegade",
       "cover": "renegade_cover",
       "design": "ForeverFXS",
-      "author": "Monster Siren Records   塞壬唱片-MSR"
+      "author": "Monster Siren Records\u0000塞壬唱片-MSR"
     },
     "59-5": {
       "bpm_mn": 112,
@@ -3399,30 +3399,30 @@
       "name": "Speed of Light",
       "cover": "speed_of_light_cover",
       "design": "HXJ_ConveX",
-      "author": "Monster Siren Records   塞壬唱片-MSR"
+      "author": "Monster Siren Records\u0000塞壬唱片-MSR"
     },
     "59-6": {
       "bpm_mn": 125,
       "bpm_mx": 125,
-      "name": "Dossoles Holiday   多索雷斯假日",
+      "name": "Dossoles Holiday\u0000多索雷斯假日",
       "cover": "dossoles_holiday_cover",
       "design": "Ch'en the Holungday",
-      "author": "Monster Siren Records   塞壬唱片-MSR"
+      "author": "Monster Siren Records\u0000塞壬唱片-MSR"
     },
     "59-7": {
       "bpm_mn": 138,
       "bpm_mx": 138,
-      "name": "Autumn Moods   秋绪",
+      "name": "Autumn Moods\u0000秋绪",
       "cover": "autumn_moods_cover",
-      "design": "Dr.ShiroN_L   Dr.ShiroN_L   Croissant&Angelina and the Sweet Autumn",
-      "author": "Monster Siren Records   塞壬唱片-MSR"
+      "design": "Dr.ShiroN_L\u0000Dr.ShiroN_L\u0000Croissant&Angelina and the Sweet Autumn",
+      "author": "Monster Siren Records\u0000塞壬唱片-MSR"
     },
     "60-0": {
       "bpm_mn": 128,
       "bpm_mx": 128,
       "name": "N3V3R G3T OV3R",
       "cover": "n3v3r_g3t_ov3r_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   HXJ_OV3RDRiV3",
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000HXJ_OV3RDRiV3",
       "author": "C-Show"
     },
     "60-1": {
@@ -3444,40 +3444,40 @@
     "60-3": {
       "bpm_mn": 178,
       "bpm_mx": 178,
-      "name": "Paranormal My Mind   超常マイマイン",
+      "name": "Paranormal My Mind\u0000超常マイマイン",
       "cover": "chojo_mai_mind_cover",
       "design": "Vignette☆",
-      "author": "NayutalieN   ナユタン星人"
+      "author": "NayutalieN\u0000ナユタン星人"
     },
     "60-4": {
       "bpm_mn": 90,
       "bpm_mx": 90,
-      "name": "Flower, snow and Drum'n'bass.   花と、雪と、ドラムンベース。",
+      "name": "Flower, snow and Drum'n'bass.\u0000花と、雪と、ドラムンベース。",
       "cover": "hana_to_yuki_to_drumn_bass_cover",
       "design": "元と、首と、ハワード・ワイ。",
-      "author": "kanone feat. Sennzai   kanone feat. せんざい"
+      "author": "kanone feat. Sennzai\u0000kanone feat. せんざい"
     },
     "60-5": {
       "bpm_mn": 155,
       "bpm_mx": 155,
-      "name": "Amenohoakari   天火明命",
+      "name": "Amenohoakari\u0000天火明命",
       "cover": "ameno_hoakari_cover",
       "design": "D丶R",
-      "author": "Sakuzyo   削除"
+      "author": "Sakuzyo\u0000削除"
     },
     "61-0": {
       "bpm_mn": 160,
       "bpm_mx": 160,
       "cover": "musedash_ga_nanika_chotto_okashi_cover",
       "design": "♂圣ヵ壩鐠||帀②亾蒩→",
-      "author": "Rish feat.Choko   立秋 feat.ちょこ",
-      "name": "MuseDash How many times?   MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ"
+      "author": "Rish feat.Choko\u0000立秋 feat.ちょこ",
+      "name": "MuseDash How many times?\u0000MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ"
     },
     "61-1": {
       "bpm_mn": 250,
       "bpm_mx": 250,
       "name": "Aleph-0",
-	  "design": "2^ℵ0=ℵ1",
+      "design": "2^ℵ0=ℵ1",
       "cover": "aleph_0_cover",
       "author": "LeaF"
     },
@@ -3487,14 +3487,14 @@
       "cover": "buttoba_supernova_cover",
       "design": "「永遠のスーパーノヴァ」",
       "author": "ななひら&ころねぽち",
-      "name": "Buttoba Super Nova   ぶっとばスーパーノヴァ"
+      "name": "Buttoba Super Nova\u0000ぶっとばスーパーノヴァ"
     },
     "61-3": {
       "bpm_mn": 224,
       "bpm_mx": 224,
       "name": "Rush-Hour",
       "cover": "rush_hour_cover",
-      "design": "SGFwcHkgQX   ByaWwgRm   9vbCdzIERhe   SwgQmFiYWJh",
+      "design": "SGFwcHkgQX\u0000ByaWwgRm\u00009vbCdzIERhe\u0000SwgQmFiYWJh",
       "author": "litmus*"
     },
     "61-4": {
@@ -3502,7 +3502,7 @@
       "bpm_mx": 90,
       "name": "3rd Avenue",
       "cover": "3rd_avenue_cover",
-      "design": "money钱   money钱   マ〇ニ",
+      "design": "money钱\u0000money钱\u0000マ〇ニ",
       "author": "Sound Souler"
     },
     "61-5": {
@@ -3510,13 +3510,13 @@
       "bpm_mx": 155,
       "name": "WORLDINVADER",
       "cover": "world_invader_cover",
-      "design": "HXJ_ConveX   HXJ_ConveX   #×]~（0^/v3><",
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000#×]~（0^/v3><",
       "author": "EBIMAYO"
     },
     "62-0": {
       "bpm_mn": 136,
       "bpm_mx": 136,
-      "name": "Dong Aili Lovely Lovely      【东爱璃Lovely】Lovely",
+      "name": "Dong Aili Lovely Lovely\u0000【东爱璃Lovely】Lovely",
       "cover": "lovely_cover",
       "design": "公大笑乐",
       "author": "Mrguai"
@@ -3524,23 +3524,23 @@
     "62-1": {
       "bpm_mn": 130,
       "bpm_mx": 130,
-      "name": "forest sea ship      森海の船",
+      "name": "forest sea ship\u0000森海の船",
       "cover": "shinkai_no_fune_cover",
       "design": "GiNER_Yang",
-      "author": "Apo11o program ft.Emma Chouette   Apo11o program ft.栢森エマ"
+      "author": "Apo11o program ft.Emma Chouette\u0000Apo11o program ft.栢森エマ"
     },
     "62-2": {
       "bpm_mn": 137,
       "bpm_mx": 137,
-      "name": "Ooi   おーい   応為",
+      "name": "Ooi\u0000おーい\u0000応為",
       "cover": "ooi_cover",
       "design": "GRACE",
-      "author": "NIWASHI feat. やみん   庭師 feat.やみん"
+      "author": "NIWASHI feat. やみん\u0000庭師 feat.やみん"
     },
     "62-3": {
       "bpm_mn": 201,
       "bpm_mx": 201,
-      "name": "I'm swamped!!      沼った！！",
+      "name": "I'm swamped!!\u0000沼った！！",
       "cover": "numatta_cover",
       "design": "ShiroN_L",
       "author": "タケノコ少年 feat. 秋奈"
@@ -3564,15 +3564,15 @@
     "63-0": {
       "bpm_mn": 115,
       "bpm_mx": 115,
-      "name": "Doki Doki Jump! (feat. Punipuni Denki)      Doki Doki Jump! (feat. ぷにぷに電機)",
+      "name": "Doki Doki Jump! (feat. Punipuni Denki)\u0000Doki Doki Jump! (feat. ぷにぷに電機)",
       "cover": "doki_doki_jump_cover",
-      "design": "Apple_Hox   Apple_Hox   Apple Apple Hox!",
+      "design": "Apple_Hox\u0000Apple_Hox\u0000Apple Apple Hox!",
       "author": "Club2Tokyo"
     },
     "63-1": {
       "bpm_mn": 120,
       "bpm_mx": 120,
-      "name": "Centennial Streamers High      100年モノのストリーマーズ・ハイ",
+      "name": "Centennial Streamers High\u0000100年モノのストリーマーズ・ハイ",
       "cover": "streamers_high_of_100_years_cover",
       "design": "ForeverFXS",
       "author": "D.watt feat. 紡音れい"
@@ -3580,10 +3580,10 @@
     "63-2": {
       "bpm_mn": 120,
       "bpm_mx": 120,
-      "name": "Love Patrol   戀愛巡航   恋爱巡航",
+      "name": "Love Patrol\u0000戀愛巡航\u0000恋爱巡航",
       "cover": "lianai_xunhang_cover",
       "design": "GRACE",
-      "author": "Sugar&Co.   砂糖協會   砂糖协会"
+      "author": "Sugar&Co.\u0000砂糖協會\u0000砂糖协会"
     },
     "63-3": {
       "bpm_mn": 134,
@@ -3596,7 +3596,7 @@
     "63-4": {
       "bpm_mn": 180,
       "bpm_mx": 180,
-      "name": "City of night      夜の街",
+      "name": "City of night\u0000夜の街",
       "cover": "yoru_no_maji_cover",
       "design": "喀戎Chiron",
       "author": "HiRO.JP"
@@ -3607,7 +3607,7 @@
       "name": "INTERNET YAMERO（Aiobahn feat.KOTOKO）",
       "cover": "internet_yamero_cover",
       "design": "Howard_Y",
-      "author": "From \"NEEDY STREAMER OVERLOAD\"   『NEEDY GIRL OVERDOSE』より   From \"NEEDY GIRL OVERDOSE\"   來自『主播女孩重度依賴』   来自『主播女孩重度依赖』"
+      "author": "From \"NEEDY STREAMER OVERLOAD\"\u0000『NEEDY GIRL OVERDOSE』より\u0000From \"NEEDY GIRL OVERDOSE\"\u0000來自『主播女孩重度依賴』\u0000来自『主播女孩重度依赖』"
     }
   },
   "level": {
