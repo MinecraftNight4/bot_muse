@@ -1,12 +1,12 @@
-`[*]`: Required!
-**Support email:** `player@peropero.work`
-- __**`[*]`Device model**__:  `e.g.: LG K40`
-- __**`[*]`System Version**__: `e.g.: Android 9`
-- __**`[*]`Platform/Store**__: `e.g.: PlayStore`
-- __**`[ ]`Evidence**__: Record some video where the bug can be reproduced and evidenced.
-- __**`[*]`Last Game Log**__: Delete the original files in the folder first, after triggering the problem, save and send us the latest generated file:
-1) **macOS:** `/Users/"your username"/Library/Logs/Unity/Player.log`
-2) **Windows:** `C:\Users\%USERNAME%\AppData\LocalLow\PeroPeroGames\MuseDash`
-3) **iOS:** `"Files" app > My iPhone > MuseDash > Logs`
-4) **Android:** `Android>data>com.prpr.musedash>files>Logs`
-https://media.discordapp.net/attachments/1098765504958713937/1115727781880410142/image.png?width=449&height=340
+In case of having an Error 401, Error 0 banner or NOT being able to interact with the Welcome Screen, these methods can be a possible solution:
+Try to remember which login options appeared last time, depending on this follow the instructions.
+- **QQ, Wechat, TapTap and Apple ID:**
+> 1) Logging out of your logged-in game account.
+> 2) Switch the device region to [China mainland].
+> [PlayStore method!](https://support.google.com/googleplay/answer/7431675?hl=en) / [AppStore method!](https://support.apple.com/en-au/HT201389)
+> 3) Restart the game and re-login.
+- **Google, Facebook, Appld ID:**
+> 1) Logging out of your logged-in game account(In case of not being able to access the game menu, it will be necessary to delete the data of the App)
+> 2) Switch the device region to the region you use to register in-game account.
+> [PlayStore method!](https://support.google.com/googleplay/answer/7431675?hl=en) / [AppStore method!](https://support.apple.com/en-au/HT201389)
+> 3) Restart the game and re-login.
