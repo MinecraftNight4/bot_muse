@@ -997,7 +997,8 @@
       "bpm_mx": 230,
       "cover": "ruby_linte_cover",
       "design": "Howard_Y",
-      "author": "orangentle"
+      "author": "orangentle",
+      "name": "ЯUBY:LINTe\u0000RUBY:LINTe"
     },
     "13-0": {
       "bpm_mn": 124,
@@ -1556,7 +1557,8 @@
       "bpm_mx": 115,
       "cover": "tape_stop_night_cover",
       "design": "Howard_Y",
-      "author": "Sugar & Co.\u0000砂糖協會\u0000砂糖协会"
+      "author": "Sugar & Co.\u0000砂糖協會\u0000砂糖协会",
+      "name": "tape/stop/night"
     },
     "25-1": {
       "bpm_mn": 150,
@@ -1987,6 +1989,7 @@
       "bpm_mx": 128,
       "name": "Standby for Action",
       "cover": "standby_for_action_cover",
+      "design": "Ignition/Set/Go!",
       "author": "3R2"
     },
     "33-7": {
@@ -2090,6 +2093,7 @@
       "bpm_mx": 333,
       "cover": "peroperogames_tousan_cover",
       "author": "Rish feat.Choko\u0000立秋 feat.ちょこ",
+      "design": "HOWARDY 1mg",
       "name": "PeroPeroGames the creator of MuseDash went bankrupt~\u0000MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～"
     },
     "35-1": {
@@ -2353,7 +2357,8 @@
       "bpm_mx": 132,
       "name": "JUMP! HardCandy",
       "cover": "jump_hard_candy_cover",
-      "design": "money钱\u0000money钱\u0000silentgd/MLLL"
+      "design": "money钱\u0000money钱\u0000silentgd/MLLL",
+      "author": "Gəyxe/HJLL"
     },
     "40-4": {
       "bpm_mn": 190,
@@ -2584,7 +2589,8 @@
       "bpm_mx": 173,
       "name": "Diffraction",
       "cover": "diffraction_cover",
-      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000默蓝琉璃"
+      "design": "HXJ_ConveX\u0000HXJ_ConveX\u0000默蓝琉璃",
+      "author": "StormWolf/Rakuda"
     },
     "43-15": {
       "bpm_mn": 135,
@@ -3055,7 +3061,8 @@
       "bpm_mx": 114,
       "name": "daydream girl",
       "cover": "daydream_girl_cover",
-      "design": "Howard_Y"
+      "design": "Howard_Y",
+      "author": "ANK/早木旋子"
     },
     "52-2": {
       "bpm_mn": 136,
