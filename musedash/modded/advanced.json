@@ -1,2860 +1,3208 @@
 {
-  "patch": {
-    "hash": "8520e774a1b468dd0cb1e00ba90d90ee",
-    "latest": 1695509348
+  "0-48": {
+    "en": "🎵Magical Wonderland (More colorful mix)",
+    "kr": "🎵Magical Wonderland (More colorful mix)",
+    "jp": "🎵Magical Wonderland (More colorful mix)",
+    "ch": "🎵Magical Wonderland (More colorful mix)"
   },
-  "tier": {
-    "11": [
-      1,
-      4,
-      7,
-      10,
-      16,
-      17,
-      18,
-      20,
-      26,
-      32,
-      34,
-      36,
-      37,
-      40,
-      42,
-      49,
-      51,
-      59,
-      61,
-      63,
-      69,
-      70,
-      71,
-      84,
-      88,
-      89,
-      91,
-      96,
-      97,
-      98,
-      101,
-      103,
-      106,
-      107,
-      108,
-      109,
-      115,
-      117,
-      125,
-      126,
-      129,
-      135,
-      136,
-      138,
-      139,
-      142,
-      143,
-      145,
-      146,
-      147,
-      148,
-      149,
-      150,
-      151,
-      153,
-      154,
-      156,
-      159,
-      161,
-      164,
-      166,
-      168,
-      171,
-      172,
-      174,
-      177,
-      179,
-      180,
-      182,
-      183,
-      184,
-      185,
-      186,
-      187,
-      188,
-      189,
-      190,
-      192,
-      195,
-      198,
-      199,
-      202,
-      204,
-      206,
-      208,
-      209,
-      210,
-      211,
-      212,
-      213,
-      216,
-      217,
-      218,
-      219,
-      220,
-      221,
-      223,
-      226,
-      227,
-      228,
-      231,
-      232,
-      234,
-      236,
-      237,
-      240,
-      241,
-      242,
-      244,
-      245,
-      246,
-      247,
-      255,
-      1,
-      4,
-      7,
-      10,
-      16,
-      17,
-      18,
-      20,
-      26,
-      32,
-      34,
-      36,
-      37,
-      40,
-      42,
-      49,
-      51,
-      59,
-      61,
-      63,
-      69,
-      70,
-      71,
-      84,
-      88,
-      89,
-      91,
-      96,
-      97,
-      98,
-      101,
-      103,
-      106,
-      107,
-      108,
-      109,
-      115,
-      117,
-      125,
-      126,
-      129,
-      135,
-      136,
-      138,
-      139,
-      142,
-      143,
-      145,
-      146,
-      147,
-      148,
-      149,
-      150,
-      151,
-      153,
-      154,
-      156,
-      159,
-      161,
-      164,
-      166,
-      168,
-      171,
-      172,
-      174,
-      177,
-      179,
-      180,
-      182,
-      183,
-      184,
-      185,
-      186,
-      187,
-      188,
-      189,
-      190,
-      192,
-      195,
-      198,
-      199,
-      202,
-      204,
-      206,
-      208,
-      209,
-      210,
-      211,
-      212,
-      213,
-      216,
-      217,
-      218,
-      219,
-      220,
-      221,
-      223,
-      226,
-      227,
-      228,
-      231,
-      232,
-      234,
-      236,
-      237,
-      240,
-      241,
-      242,
-      244,
-      245,
-      246,
-      247,
-      255
-    ],
-    "-1": [
-      1,
-      3,
-      4,
-      5,
-      6,
-      7,
-      9,
-      9,
-      10,
-      13,
-      15,
-      16,
-      17,
-      18,
-      20,
-      21,
-      23,
-      24,
-      25,
-      26,
-      27,
-      29,
-      31,
-      32,
-      33,
-      34,
-      36,
-      37,
-      38,
-      39,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      49,
-      51,
-      53,
-      54,
-      54,
-      55,
-      56,
-      58,
-      59,
-      61,
-      63,
-      64,
-      65,
-      66,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
-      72,
-      74,
-      76,
-      77,
-      80,
-      81,
-      81,
-      82,
-      83,
-      84,
-      86,
-      88,
-      89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
-      101,
-      103,
-      104,
-      105,
-      105,
-      107,
-      108,
-      109,
-      110,
-      111,
-      112,
-      113,
-      114,
-      115,
-      116,
-      116,
-      117,
-      118,
-      119,
-      120,
-      121,
-      122,
-      123,
-      124,
-      125,
-      126,
-      127,
-      128,
-      130,
-      131,
-      132,
-      133,
-      134,
-      135,
-      136,
-      137,
-      138,
-      139,
-      140,
-      141,
-      142,
-      143,
-      144,
-      145,
-      146,
-      147,
-      148,
-      149,
-      150,
-      151,
-      152,
-      153,
-      154,
-      155,
-      156,
-      157,
-      158,
-      159,
-      160,
-      161,
-      162,
-      163,
-      164,
-      165,
-      166,
-      167,
-      168,
-      169,
-      169,
-      170,
-      171,
-      172,
-      173,
-      174,
-      175,
-      176,
-      177,
-      178,
-      179,
-      180,
-      181,
-      183,
-      184,
-      185,
-      186,
-      188,
-      189,
-      190,
-      191,
-      192,
-      193,
-      194,
-      195,
-      196,
-      197,
-      198,
-      199,
-      200,
-      201,
-      201,
-      202,
-      203,
-      203,
-      205,
-      206,
-      207,
-      208,
-      209,
-      210,
-      211,
-      212,
-      213,
-      214,
-      215,
-      216,
-      217,
-      218,
-      219,
-      220,
-      221,
-      222,
-      223,
-      224,
-      225,
-      226,
-      227,
-      228,
-      229,
-      230,
-      231,
-      232,
-      233,
-      234,
-      236,
-      237,
-      238,
-      239,
-      240,
-      241,
-      242,
-      243,
-      244,
-      245,
-      246,
-      247,
-      248,
-      250,
-      251,
-      252,
-      253,
-      1,
-      3,
-      4,
-      5,
-      6,
-      7,
-      9,
-      9,
-      10,
-      13,
-      15,
-      16,
-      17,
-      18,
-      20,
-      21,
-      23,
-      24,
-      25,
-      26,
-      27,
-      29,
-      31,
-      32,
-      33,
-      34,
-      36,
-      37,
-      38,
-      39,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      49,
-      51,
-      53,
-      54,
-      54,
-      55,
-      56,
-      58,
-      59,
-      61,
-      63,
-      64,
-      65,
-      66,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
-      72,
-      74,
-      76,
-      77,
-      80,
-      81,
-      81,
-      82,
-      83,
-      84,
-      86,
-      88,
-      89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
-      101,
-      103,
-      104,
-      105,
-      105,
-      107,
-      108,
-      109,
-      110,
-      111,
-      112,
-      113,
-      114,
-      115,
-      116,
-      116,
-      117,
-      118,
-      119,
-      120,
-      121,
-      122,
-      123,
-      124,
-      125,
-      126,
-      127,
-      128,
-      130,
-      131,
-      132,
-      133,
-      134,
-      135,
-      136,
-      137,
-      138,
-      139,
-      140,
-      141,
-      142,
-      143,
-      144,
-      145,
-      146,
-      147,
-      148,
-      149,
-      150,
-      151,
-      152,
-      153,
-      154,
-      155,
-      156,
-      157,
-      158,
-      159,
-      160,
-      161,
-      162,
-      163,
-      164,
-      165,
-      166,
-      167,
-      168,
-      169,
-      169,
-      170,
-      171,
-      172,
-      173,
-      174,
-      175,
-      176,
-      177,
-      178,
-      179,
-      180,
-      181,
-      183,
-      184,
-      185,
-      186,
-      188,
-      189,
-      190,
-      191,
-      192,
-      193,
-      194,
-      195,
-      196,
-      197,
-      198,
-      199,
-      200,
-      201,
-      201,
-      202,
-      203,
-      203,
-      205,
-      206,
-      207,
-      208,
-      209,
-      210,
-      211,
-      212,
-      213,
-      214,
-      215,
-      216,
-      217,
-      218,
-      219,
-      220,
-      221,
-      222,
-      223,
-      224,
-      225,
-      226,
-      227,
-      228,
-      229,
-      230,
-      231,
-      232,
-      233,
-      234,
-      236,
-      237,
-      238,
-      239,
-      240,
-      241,
-      242,
-      243,
-      244,
-      245,
-      246,
-      247,
-      248,
-      250,
-      251,
-      252,
-      253
-    ],
-    "10": [
-      3,
-      6,
-      13,
-      41,
-      43,
-      44,
-      45,
-      46,
-      53,
-      54,
-      68,
-      72,
-      76,
-      77,
-      82,
-      83,
-      90,
-      92,
-      99,
-      104,
-      106,
-      110,
-      112,
-      113,
-      118,
-      119,
-      121,
-      123,
-      129,
-      131,
-      133,
-      144,
-      155,
-      157,
-      158,
-      160,
-      163,
-      165,
-      167,
-      170,
-      173,
-      175,
-      176,
-      178,
-      181,
-      187,
-      191,
-      193,
-      194,
-      196,
-      197,
-      205,
-      207,
-      214,
-      215,
-      225,
-      230,
-      238,
-      239,
-      243,
-      248,
-      250,
-      252,
-      253,
-      3,
-      6,
-      13,
-      41,
-      43,
-      44,
-      45,
-      46,
-      53,
-      54,
-      68,
-      72,
-      76,
-      77,
-      82,
-      83,
-      90,
-      92,
-      99,
-      104,
-      106,
-      110,
-      112,
-      113,
-      118,
-      119,
-      121,
-      123,
-      129,
-      131,
-      133,
-      144,
-      155,
-      157,
-      158,
-      160,
-      163,
-      165,
-      167,
-      170,
-      173,
-      175,
-      176,
-      178,
-      181,
-      187,
-      191,
-      193,
-      194,
-      196,
-      197,
-      205,
-      207,
-      214,
-      215,
-      225,
-      230,
-      238,
-      239,
-      243,
-      248,
-      250,
-      252,
-      253
-    ],
-    "9": [
-      5,
-      21,
-      25,
-      31,
-      33,
-      56,
-      64,
-      65,
-      69,
-      86,
-      93,
-      94,
-      111,
-      124,
-      127,
-      132,
-      134,
-      137,
-      156,
-      159,
-      177,
-      200,
-      208,
-      210,
-      218,
-      222,
-      224,
-      225,
-      227,
-      235,
-      246,
-      251,
-      254,
-      5,
-      21,
-      25,
-      31,
-      33,
-      56,
-      64,
-      65,
-      69,
-      86,
-      93,
-      94,
-      111,
-      124,
-      127,
-      132,
-      134,
-      137,
-      156,
-      159,
-      177,
-      200,
-      208,
-      210,
-      218,
-      222,
-      224,
-      225,
-      227,
-      235,
-      246,
-      251,
-      254
-    ],
-    "5": [
-      15,
-      27,
-      72,
-      76,
-      178,
-      200,
-      215,
-      15,
-      27,
-      72,
-      76,
-      178,
-      200,
-      215
-    ],
-    "12": [
-      23,
-      38,
-      58,
-      67,
-      95,
-      114,
-      120,
-      122,
-      140,
-      152,
-      182,
-      229,
-      233,
-      235,
-      23,
-      38,
-      58,
-      67,
-      95,
-      114,
-      120,
-      122,
-      140,
-      152,
-      182,
-      229,
-      233,
-      235
-    ],
-    "7": [
-      24,
-      74,
-      159,
-      160,
-      177,
-      200,
-      204,
-      208,
-      210,
-      215,
-      246,
-      24,
-      74,
-      159,
-      160,
-      177,
-      200,
-      204,
-      208,
-      210,
-      215,
-      246
-    ],
-    "8": [
-      29,
-      55,
-      72,
-      76,
-      80,
-      106,
-      128,
-      130,
-      141,
-      183,
-      187,
-      189,
-      213,
-      216,
-      217,
-      234,
-      29,
-      55,
-      72,
-      76,
-      80,
-      106,
-      128,
-      130,
-      141,
-      183,
-      187,
-      189,
-      213,
-      216,
-      217,
-      234
-    ],
-    "6": [
-      106,
-      175,
-      183,
-      189,
-      216,
-      217,
-      218,
-      106,
-      175,
-      183,
-      189,
-      216,
-      217,
-      218
-    ],
-    "13": [
-      162,
-      162
-    ],
-    "4": [
-      213,
-      213
-    ]
+  "0-0": {
+    "en": "🎵Iyaiya",
+    "kr": "🎵Iyaiya",
+    "jp": "🎵Iyaiya",
+    "ch": "🎵Iyaiya"
   },
-  "album": {
-    "1": {
-      "cover": "https://mdmc.moe/cover/1",
-      "name": "\u0000#1f1e33\u0000",
-      "design": "\u0000000\u0000",
-      "author": "\u0000かめりあ(EDP)\u0000",
-      "bpm_mn": 181,
-      "bpm_mx": 181
-    },
-    "3": {
-      "cover": "https://mdmc.moe/cover/3",
-      "name": "\u00005733P BOMB\u0000",
-      "design": "\u0000D丶R\u0000",
-      "author": "\u0000MYUKKE.\u0000",
-      "bpm_mn": 128,
-      "bpm_mx": 128
-    },
-    "4": {
-      "cover": "https://mdmc.moe/cover/4",
-      "name": "\u0000Aegleseeker\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Silentroom vs Frums\u0000",
-      "bpm_mn": 234,
-      "bpm_mx": 234
-    },
-    "5": {
-      "cover": "https://mdmc.moe/cover/5",
-      "name": "\u0000Ahoy!! 我ら宝鐘海賊団☆\u0000Ahoy!! Warera Houshou Kaizokudan☆\u0000",
-      "design": "\u0000linaxia\u0000",
-      "author": "\u0000Houshou Marine\u0000",
-      "bpm_mn": 170,
-      "bpm_mx": 170
-    },
-    "6": {
-      "cover": "https://mdmc.moe/cover/6",
-      "name": "\u0000AiAe\u0000",
-      "design": "\u0000D丶R\u0000",
-      "author": "\u0000ゆよゆっぺ\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "7": {
-      "cover": "https://mdmc.moe/cover/7",
-      "name": "\u0000Aleph-0\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000LeaF\u0000",
-      "bpm_mn": 140,
-      "bpm_mx": 400
-    },
-    "9": {
-      "cover": "https://mdmc.moe/cover/9",
-      "name": "\u0000Angel's Salad\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000かたぎり\u0000",
-      "bpm_mn": 177,
-      "bpm_mx": 177
-    },
-    "10": {
-      "cover": "https://mdmc.moe/cover/10",
-      "name": "\u0000Aparajita\u0000",
-      "design": "\u0000GRACE vs. ATK\u0000",
-      "author": "\u0000xi\u0000",
-      "bpm_mn": 212,
-      "bpm_mx": 212
-    },
-    "13": {
-      "cover": "https://mdmc.moe/cover/13",
-      "name": "\u0000Black Territory\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000DJ Myosuke\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "15": {
-      "cover": "https://mdmc.moe/cover/15",
-      "name": "\u0000Children of the City\u0000",
-      "design": "\u0000Will of the prescripts\u0000",
-      "author": "\u0000Project Moon\u0000",
-      "bpm_mn": 119,
-      "bpm_mx": 119
-    },
-    "16": {
-      "cover": "https://mdmc.moe/cover/16",
-      "name": "\u0000Chrono Diver -PENDULUMs-\u0000",
-      "design": "\u0000ATK\u0000",
-      "author": "\u0000猫叉L.E.D.Master+\u0000",
-      "bpm_mn": 196,
-      "bpm_mx": 196
-    },
-    "17": {
-      "cover": "https://mdmc.moe/cover/17",
-      "name": "\u0000DJ Mashiro is dead or alive\u0000",
-      "design": "\u0000DJ SugarSu\u0000",
-      "author": "\u0000Ice\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 250
-    },
-    "18": {
-      "cover": "https://mdmc.moe/cover/18",
-      "name": "\u0000Dreamin' Attraction!!\u0000",
-      "design": "\u0000GYY feat.ATK\u0000",
-      "author": "\u0000翡乃イスカ\u0000",
-      "bpm_mn": 205,
-      "bpm_mx": 205
-    },
-    "20": {
-      "cover": "https://mdmc.moe/cover/20",
-      "name": "\u0000FLUFFY FLASH\u0000",
-      "design": "\u0000ATK\u0000",
-      "author": "\u0000Kobaryo\u0000",
-      "bpm_mn": 252,
-      "bpm_mx": 252
-    },
-    "21": {
-      "cover": "https://mdmc.moe/cover/21",
-      "name": "\u0000Funky Quest\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u00003R2\u0000",
-      "bpm_mn": 185,
-      "bpm_mx": 185
-    },
-    "23": {
-      "cover": "https://mdmc.moe/cover/23",
-      "name": "\u0000Glorious Crown (tpz over-Over-OVERCUTE REMIX)\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000t+pazolite\u0000",
-      "bpm_mn": 8,
-      "bpm_mx": 235
-    },
-    "24": {
-      "cover": "https://mdmc.moe/cover/24",
-      "name": "\u0000Goyang Ubur Ubur\u0000",
-      "design": "\u0000AshtonMemer\u0000",
-      "author": "\u0000DJ Ubur Ubur x Paket Phoenix IndiHome\u0000",
-      "bpm_mn": 130,
-      "bpm_mx": 130
-    },
-    "25": {
-      "cover": "https://mdmc.moe/cover/25",
-      "name": "\u0000HADES\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Massive New Krew\u0000",
-      "bpm_mn": 155,
-      "bpm_mx": 155
-    },
-    "26": {
-      "cover": "https://mdmc.moe/cover/26",
-      "name": "\u0000Head BONK ache\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000saaa feat. MC iwata Bros.\u0000",
-      "bpm_mn": 165,
-      "bpm_mx": 165
-    },
-    "27": {
-      "cover": "https://mdmc.moe/cover/27",
-      "name": "\u0000Hello Hello\u0000",
-      "design": "\u0000djwhitebooty\u0000",
-      "author": "\u0000Est feat. 雪歌ユフ\u0000",
-      "bpm_mn": 87,
-      "bpm_mx": 174
-    },
-    "29": {
-      "cover": "https://mdmc.moe/cover/29",
-      "name": "\u0000High-School QUEEN!!!\u0000",
-      "design": "\u0000ShiroN_L\u0000",
-      "author": "\u0000U-Ske\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "31": {
-      "cover": "https://mdmc.moe/cover/31",
-      "name": "\u0000Illumination\u0000",
-      "design": "\u0000Keithy\u0000",
-      "author": "\u0000You feat. nayuta\u0000",
-      "bpm_mn": 175,
-      "bpm_mx": 175
-    },
-    "32": {
-      "cover": "https://mdmc.moe/cover/32",
-      "name": "\u0000IMPACT\u0000",
-      "design": "\u0000陈熙\u0000",
-      "author": "\u0000USAO feat. 光吉猛修\u0000",
-      "bpm_mn": 210,
-      "bpm_mx": 210
-    },
-    "33": {
-      "cover": "https://mdmc.moe/cover/33",
-      "name": "\u0000Invader Disco\u0000",
-      "design": "\u0000RMU\u0000",
-      "author": "\u0000COSIO (ZUNTATA)\u0000",
-      "bpm_mn": 135,
-      "bpm_mx": 135
-    },
-    "34": {
-      "cover": "https://mdmc.moe/cover/34",
-      "name": "\u0000Kalis Mind\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000MYUKKE.\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "36": {
-      "cover": "https://mdmc.moe/cover/36",
-      "name": "\u0000lalabai call me\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000linear ring\u0000",
-      "bpm_mn": 5,
-      "bpm_mx": 208
-    },
-    "37": {
-      "cover": "https://mdmc.moe/cover/37",
-      "name": "\u0000larva\u0000",
-      "design": "\u0000GRACE\u0000",
-      "author": "\u0000ガリガリさむし\u0000",
-      "bpm_mn": 202,
-      "bpm_mx": 202
-    },
-    "38": {
-      "cover": "https://mdmc.moe/cover/38",
-      "name": "\u0000Lemegeton -little key of solomon-\u0000",
-      "design": "\u0000Sugar vs ATK\u0000",
-      "author": "\u0000Team Grimoire vs MASAKI\u0000",
-      "bpm_mn": 185,
-      "bpm_mx": 185
-    },
-    "39": {
-      "cover": "https://mdmc.moe/cover/39",
-      "name": "\u0000Lesson by DJ\u0000",
-      "design": "\u0000linaxia\u0000",
-      "author": "\u0000U.T.D & Friends\u0000",
-      "bpm_mn": 120,
-      "bpm_mx": 120
-    },
-    "40": {
-      "cover": "https://mdmc.moe/cover/40",
-      "name": "\u0000Lotus Quest\u0000",
-      "design": "\u0000un1\u0000",
-      "author": "\u0000Kobaryo\u0000",
-      "bpm_mn": 202,
-      "bpm_mx": 202
-    },
-    "41": {
-      "cover": "https://mdmc.moe/cover/41",
-      "name": "\u0000Love Kills U\u0000",
-      "design": "\u0000D丶R\u0000",
-      "author": "\u0000EmoCosine\u0000",
-      "bpm_mn": 160,
-      "bpm_mx": 160
-    },
-    "42": {
-      "cover": "https://mdmc.moe/cover/42",
-      "name": "\u0000Lowermost Revolt (Short ver.)\u0000",
-      "design": "\u0000反抗者の頌歌\u0000",
-      "author": "\u0000かめりあ / 歌劇派学生\u0000",
-      "bpm_mn": 19,
-      "bpm_mx": 219
-    },
-    "43": {
-      "cover": "https://mdmc.moe/cover/43",
-      "name": "\u0000Macaron Moon\u0000",
-      "design": "\u0000djwhitebooty\u0000",
-      "author": "\u0000YUC'e\u0000",
-      "bpm_mn": 170,
-      "bpm_mx": 170
-    },
-    "44": {
-      "cover": "https://mdmc.moe/cover/44",
-      "name": "\u0000Mechanical Jager\u0000",
-      "design": "\u0000SugarSu\u0000",
-      "author": "\u0000翡乃イスカ\u0000",
-      "bpm_mn": 150,
-      "bpm_mx": 150
-    },
-    "45": {
-      "cover": "https://mdmc.moe/cover/45",
-      "name": "\u0000Modelista\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000HiTECH NINJA\u0000",
-      "bpm_mn": 165,
-      "bpm_mx": 165
-    },
-    "46": {
-      "cover": "https://mdmc.moe/cover/46",
-      "name": "\u0000MUDPIE\u0000",
-      "design": "\u0000linaxia\u0000",
-      "author": "\u0000YUC'e\u0000",
-      "bpm_mn": 150,
-      "bpm_mx": 175
-    },
-    "49": {
-      "cover": "https://mdmc.moe/cover/49",
-      "name": "\u0000NINJA IS DEAD IIDX ver.\u0000",
-      "design": "\u0000linaxia\u0000",
-      "author": "\u0000P*Light\u0000",
-      "bpm_mn": 222,
-      "bpm_mx": 222
-    },
-    "51": {
-      "cover": "https://mdmc.moe/cover/51",
-      "name": "\u0000OMAKENO Stroke\u0000",
-      "design": "\u0000ATK\u0000",
-      "author": "\u0000t+pazolite\u0000",
-      "bpm_mn": 240,
-      "bpm_mx": 240
-    },
-    "53": {
-      "cover": "https://mdmc.moe/cover/53",
-      "name": "\u0000Random\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Sobrem × Silentroom\u0000",
-      "bpm_mn": 132,
-      "bpm_mx": 132
-    },
-    "54": {
-      "cover": "https://mdmc.moe/cover/54",
-      "name": "\u0000Remix 10\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Tsunku♂, Masami Yone, Shinji Ushiroda, Asuka Ito\u0000",
-      "bpm_mn": 166,
-      "bpm_mx": 166
-    },
-    "55": {
-      "cover": "https://mdmc.moe/cover/55",
-      "name": "\u0000Remix 4\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Masami Yone, Shinji Ushiroda, Asuka Ito\u0000",
-      "bpm_mn": 140,
-      "bpm_mx": 140
-    },
-    "56": {
-      "cover": "https://mdmc.moe/cover/56",
-      "name": "\u0000ROAD to 773H\u0000",
-      "design": "\u0000D丶R\u0000",
-      "author": "\u0000MYUKKE.\u0000",
-      "bpm_mn": 220,
-      "bpm_mx": 220
-    },
-    "58": {
-      "cover": "https://mdmc.moe/cover/58",
-      "name": "\u0000Rrhar'il\u0000",
-      "design": "\u0000- Team Chronnection - 《TDA/shezza》\u0000- Team Chronnection - 《TDA/shezza/》\u0000",
-      "author": "\u0000Team Grimoire\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "59": {
-      "cover": "https://mdmc.moe/cover/59",
-      "name": "\u0000Run*2 Run to you!!!\u0000",
-      "design": "\u0000ATK\u0000",
-      "author": "\u0000梅干茶漬け\u0000",
-      "bpm_mn": 213,
-      "bpm_mx": 213
-    },
-    "61": {
-      "cover": "https://mdmc.moe/cover/61",
-      "name": "\u0000Twisted Drop Party\u0000",
-      "design": "\u0000D丶R\u0000",
-      "author": "\u0000t+pazolite & Getty\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "63": {
-      "cover": "https://mdmc.moe/cover/63",
-      "name": "\u0000Valsqotch\u0000",
-      "design": "\u0000SugarSu\u0000",
-      "author": "\u0000owl＊tree feat.chi＊tree\u0000",
-      "bpm_mn": 125,
-      "bpm_mx": 125
-    },
-    "64": {
-      "cover": "https://mdmc.moe/cover/64",
-      "name": "\u0000ViViTAL MONO\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000MYUKKE.\u0000",
-      "bpm_mn": 170,
-      "bpm_mx": 170
-    },
-    "65": {
-      "cover": "https://mdmc.moe/cover/65",
-      "name": "\u0000Wave of Craze\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Shiron\u0000",
-      "bpm_mn": 153,
-      "bpm_mx": 153
-    },
-    "66": {
-      "cover": "https://mdmc.moe/cover/66",
-      "name": "\u0000Wavetapper\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Frums\u0000",
-      "bpm_mn": 112,
-      "bpm_mx": 112
-    },
-    "67": {
-      "cover": "https://mdmc.moe/cover/67",
-      "name": "\u0000We Could Get More Machinegun Psystyle! -And More Genre Switches-\u0000",
-      "design": "\u0000D丶R\u0000",
-      "author": "\u0000かめりあ\u0000",
-      "bpm_mn": 31,
-      "bpm_mx": 288
-    },
-    "68": {
-      "cover": "https://mdmc.moe/cover/68",
-      "name": "\u0000WONDER $LOT 777\u0000",
-      "design": "\u0000ATK & SugarSu\u0000",
-      "author": "\u0000MYUKKE.\u0000",
-      "bpm_mn": 155,
-      "bpm_mx": 155
-    },
-    "69": {
-      "cover": "https://mdmc.moe/cover/69",
-      "name": "\u0000ワンダフォー・パラダイス\u0000Wonderful Paradise\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Hino Isuka\u0000",
-      "bpm_mn": 222,
-      "bpm_mx": 222
-    },
-    "70": {
-      "cover": "https://mdmc.moe/cover/70",
-      "name": "\u0000Xrocus\u0000",
-      "design": "\u0000SkyStar.04\u0000",
-      "author": "\u0000ああああ vs. モリモリあつし\u0000",
-      "bpm_mn": 202,
-      "bpm_mx": 202
-    },
-    "71": {
-      "cover": "https://mdmc.moe/cover/71",
-      "name": "\u0000ω4\u0000",
-      "design": "\u0000ATK\u0000",
-      "author": "\u0000穴山大輔 VS 光吉猛修 VS Kai\u0000",
-      "bpm_mn": 90,
-      "bpm_mx": 192
-    },
-    "72": {
-      "cover": "https://mdmc.moe/cover/72",
-      "name": "\u0000にんじゃりばんばん\u0000Ninja Re Bang Bang\u0000",
-      "design": "\u0000djwhitebooty\u0000",
-      "author": "\u0000きゃりーぱみゅぱみゅ\u0000",
-      "bpm_mn": 130,
-      "bpm_mx": 130
-    },
-    "74": {
-      "cover": "https://mdmc.moe/cover/74",
-      "name": "\u0000コミュニケーション\u0000Communication\u0000",
-      "design": "\u0000D丶R\u0000",
-      "author": "\u0000Perfume\u0000",
-      "bpm_mn": 115,
-      "bpm_mx": 115
-    },
-    "76": {
-      "cover": "https://mdmc.moe/cover/76",
-      "name": "\u0000ラヴ♡スパイス♡ライクユー!!!\u0000LOVE♡SPICE♡LIKE U!!!\u0000",
-      "design": "\u0000ATK\u0000",
-      "author": "\u0000 DJ Genki feat.ななひら,yukacco,藍月なくる\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "77": {
-      "cover": "https://mdmc.moe/cover/77",
-      "name": "\u0000ロキ\u0000ROKI\u0000",
-      "design": "\u0000白龙\u0000",
-      "author": "\u0000鏡音リン/みきとP\u0000",
-      "bpm_mn": 150,
-      "bpm_mx": 150
-    },
-    "80": {
-      "cover": "https://mdmc.moe/cover/80",
-      "name": "\u0000廻廻奇譚\u0000Kaikai Kitan\u0000",
-      "design": "\u0000ATK\u0000",
-      "author": "\u0000Eve\u0000",
-      "bpm_mn": 185,
-      "bpm_mx": 185
-    },
-    "81": {
-      "cover": "https://mdmc.moe/cover/81",
-      "name": "\u0000彁\u0000Ka\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000LeaF\u0000",
-      "bpm_mn": 125,
-      "bpm_mx": 125
-    },
-    "82": {
-      "cover": "https://mdmc.moe/cover/82",
-      "name": "\u0000恋は浑沌の隶也\u0000Koi wa chaos no shimobenari\u0000",
-      "design": "\u0000D丶R\u0000",
-      "author": "\u0000這いよる! ニャルアニ\u0000",
-      "bpm_mn": 158,
-      "bpm_mx": 158
-    },
-    "83": {
-      "cover": "https://mdmc.moe/cover/83",
-      "name": "\u0000悲しみのスコール\u0000Squall of sadness\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Tsunku♂\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "84": {
-      "cover": "https://mdmc.moe/cover/84",
-      "name": "\u0000田中\u0000Tanaka\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000立秋 feat.ちょこ\u0000",
-      "bpm_mn": 186,
-      "bpm_mx": 186
-    },
-    "86": {
-      "cover": "https://mdmc.moe/cover/86",
-      "name": "\u0000絶望性：ヒーロー治療薬\u0000Zetsubousei: Hero Chiryouyaku\u0000",
-      "design": "\u0000ATK\u0000",
-      "author": "\u0000スズム feat.そらる\u0000",
-      "bpm_mn": 205,
-      "bpm_mx": 205
-    },
-    "88": {
-      "cover": "https://mdmc.moe/cover/88",
-      "name": "\u0000∀\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000ああああ\u0000",
-      "bpm_mn": 245,
-      "bpm_mx": 245
-    },
-    "89": {
-      "cover": "https://mdmc.moe/cover/89",
-      "name": "\u0000DANGEROOOOUS JUNGLE\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Laur\u0000",
-      "bpm_mn": 160,
-      "bpm_mx": 160
-    },
-    "90": {
-      "cover": "https://mdmc.moe/cover/90",
-      "name": "\u0000EPHMR\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000aran\u0000",
-      "bpm_mn": 202,
-      "bpm_mx": 202
-    },
-    "91": {
-      "cover": "https://mdmc.moe/cover/91",
-      "name": "\u0000EVE\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000P*Light\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "92": {
-      "cover": "https://mdmc.moe/cover/92",
-      "name": "\u0000Luminaria\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Lime\u0000",
-      "bpm_mn": 197,
-      "bpm_mx": 227
-    },
-    "93": {
-      "cover": "https://mdmc.moe/cover/93",
-      "name": "\u0000Regain\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000ProjectG\u0000",
-      "bpm_mn": 140,
-      "bpm_mx": 140
-    },
-    "94": {
-      "cover": "https://mdmc.moe/cover/94",
-      "name": "\u0000NULCTRL\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Silentroom\u0000",
-      "bpm_mn": 100,
-      "bpm_mx": 100
-    },
-    "95": {
-      "cover": "https://mdmc.moe/cover/95",
-      "name": "\u0000PARADOXX\u0000",
-      "design": "\u0000Xyro\u0000",
-      "author": "\u0000SLAM & NATO\u0000",
-      "bpm_mn": 220,
-      "bpm_mx": 220
-    },
-    "96": {
-      "cover": "https://mdmc.moe/cover/96",
-      "name": "\u0000little witch in permafrost garden\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000linear ring\u0000",
-      "bpm_mn": 170,
-      "bpm_mx": 350
-    },
-    "97": {
-      "cover": "https://mdmc.moe/cover/97",
-      "name": "\u0000神\u0000KAMI\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000DJ Myosuke vs MASAKI\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "98": {
-      "cover": "https://mdmc.moe/cover/98",
-      "name": "\u0000CHAOS MAGNVM\u0000",
-      "design": "\u0000Garyyang\u0000",
-      "author": "\u0000Team Grimoire feat. Sennzai\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "99": {
-      "cover": "https://mdmc.moe/cover/99",
-      "name": "\u0000init()\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000kamome sano\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "101": {
-      "cover": "https://mdmc.moe/cover/101",
-      "name": "\u0000Armageddon\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000LeaF\u0000",
-      "bpm_mn": 210,
-      "bpm_mx": 210
-    },
-    "103": {
-      "cover": "https://mdmc.moe/cover/103",
-      "name": "\u0000After Burner\u0000",
-      "design": "\u0000SkyStar.04+Exc.\u0000",
-      "author": "\u0000xi+ねこみりん\u0000",
-      "bpm_mn": 191,
-      "bpm_mx": 191
-    },
-    "104": {
-      "cover": "https://mdmc.moe/cover/104",
-      "name": "\u0000Unwelcome School\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Mitsukiyo\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "105": {
-      "cover": "https://mdmc.moe/cover/105",
-      "name": "\u0000廃棄対象_ｱｦ・ｷﾅ\u0000Disposal Target_Ao・Kina\u0000",
-      "design": "\u0000廃棄対象_Ho・le\u0000",
-      "author": "\u0000sasakure.UK\u0000",
-      "bpm_mn": 100,
-      "bpm_mx": 241
-    },
-    "106": {
-      "cover": "https://mdmc.moe/cover/106",
-      "name": "\u0000パラマウント☆ショータイム！！\u0000Paramount☆Showtime!!\u0000",
-      "design": "\u0000Hole\u0000Hole's Paramount Show\u0000",
-      "author": "\u0000Hino Isuka\u0000",
-      "bpm_mn": 222,
-      "bpm_mx": 222
-    },
-    "107": {
-      "cover": "https://mdmc.moe/cover/107",
-      "name": "\u0000Online\u0000",
-      "design": "\u0000SHeZZA\u0000",
-      "author": "\u0000HiTECH NINJA\u0000",
-      "bpm_mn": 172,
-      "bpm_mx": 172
-    },
-    "108": {
-      "cover": "https://mdmc.moe/cover/108",
-      "name": "\u0000Spark!e\u0000",
-      "design": "\u0000shezza\u0000",
-      "author": "\u0000Aoi\u0000",
-      "bpm_mn": 185,
-      "bpm_mx": 185
-    },
-    "109": {
-      "cover": "https://mdmc.moe/cover/109",
-      "name": "\u0000POTENTIAL\u0000",
-      "design": "\u0000Xyro\u0000",
-      "author": "\u0000TAG\u0000",
-      "bpm_mn": 133,
-      "bpm_mx": 200
-    },
-    "110": {
-      "cover": "https://mdmc.moe/cover/110",
-      "name": "\u0000Abatement\u0000",
-      "design": "\u0000HGR\u0000?\u0000",
-      "author": "\u0000SNKS/mimitsu\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "111": {
-      "cover": "https://mdmc.moe/cover/111",
-      "name": "\u0000回レ！雪月花\u0000Maware! Setsugetsuka\u0000",
-      "design": "\u0000djwhitebooty\u0000",
-      "author": "\u0000Hige Driver\u0000",
-      "bpm_mn": 160,
-      "bpm_mx": 160
-    },
-    "112": {
-      "cover": "https://mdmc.moe/cover/112",
-      "name": "\u0000ノープラン・デイズ\u0000No plan days\u0000",
-      "design": "\u0000xDewritos\u0000",
-      "author": "\u0000TORIENA\u0000",
-      "bpm_mn": 210,
-      "bpm_mx": 210
-    },
-    "113": {
-      "cover": "https://mdmc.moe/cover/113",
-      "name": "\u0000Nightmares\u0000",
-      "design": "\u0000mernadi\u0000",
-      "author": "\u0000M-UE\u0000",
-      "bpm_mn": 194,
-      "bpm_mx": 194
-    },
-    "114": {
-      "cover": "https://mdmc.moe/cover/114",
-      "name": "\u0000HIVEMIND\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000かたぎり\u0000",
-      "bpm_mn": 252,
-      "bpm_mx": 252
-    },
-    "115": {
-      "cover": "https://mdmc.moe/cover/115",
-      "name": "\u0000Scattered Pancakes\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000かたぎり\u0000",
-      "bpm_mn": 240,
-      "bpm_mx": 240
-    },
-    "116": {
-      "cover": "https://mdmc.moe/cover/116",
-      "name": "\u0000silly-willy-nilly\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000かたぎり\u0000",
-      "bpm_mn": 209,
-      "bpm_mx": 209
-    },
-    "117": {
-      "cover": "https://mdmc.moe/cover/117",
-      "name": "\u0000漆\u0000Urushi\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000かたぎり\u0000",
-      "bpm_mn": 207,
-      "bpm_mx": 207
-    },
-    "118": {
-      "cover": "https://mdmc.moe/cover/118",
-      "name": "\u0000Masakari Blade\u0000",
-      "design": "\u0000Cactus\u0000",
-      "author": "\u0000REDALiCE\u0000",
-      "bpm_mn": 194,
-      "bpm_mx": 194
-    },
-    "119": {
-      "cover": "https://mdmc.moe/cover/119",
-      "name": "\u0000ぱあ\u0000Paa\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000立秋 feat.ちょこ\u0000",
-      "bpm_mn": 128,
-      "bpm_mx": 128
-    },
-    "120": {
-      "cover": "https://mdmc.moe/cover/120",
-      "name": "\u0000eden\u0000",
-      "design": "\u0000\"劇毒\"の酸天使《Xyro》†Versus† \"深淵\"の虚天使《Hole》\u0000",
-      "author": "\u0000\"漆黒\"の堕天使《Gram》†Versus† \"聖刻\"の熾天使《Gram》\u0000",
-      "bpm_mn": 246,
-      "bpm_mx": 246
-    },
-    "121": {
-      "cover": "https://mdmc.moe/cover/121",
-      "name": "\u0000ミルククラウン・オン・ソーネチカ\u0000Milk Crown on Sonnetica\u0000",
-      "design": "\u0000Franailin vs Hole\u0000",
-      "author": "\u0000Yuzy\u0000",
-      "bpm_mn": 5,
-      "bpm_mx": 127
-    },
-    "122": {
-      "cover": "https://mdmc.moe/cover/122",
-      "name": "\u0000iLLness LiLin\u0000",
-      "design": "\u0000shezza\u0000",
-      "author": "\u0000かねこちはる\u0000",
-      "bpm_mn": 280,
-      "bpm_mx": 280
-    },
-    "123": {
-      "cover": "https://mdmc.moe/cover/123",
-      "name": "\u0000ハロウィンのパリピに負けたくないうた\u0000I won't be defeated by the normies of the Halloween\u0000",
-      "design": "\u0000lilbigestjake\u0000",
-      "author": "\u0000Nanahira ft. T+Pazolite\u0000",
-      "bpm_mn": 112,
-      "bpm_mx": 112
-    },
-    "124": {
-      "cover": "https://mdmc.moe/cover/124",
-      "name": "\u0000POISON\u0000",
-      "design": "\u0000Miriitode\u0000",
-      "author": "\u0000YUC'e\u0000",
-      "bpm_mn": 150,
-      "bpm_mx": 150
-    },
-    "125": {
-      "cover": "https://mdmc.moe/cover/125",
-      "name": "\u0000デッド・オア・ダイ\u0000DEAD or DIE\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000REDALiCE\u0000",
-      "bpm_mn": 120,
-      "bpm_mx": 240
-    },
-    "126": {
-      "cover": "https://mdmc.moe/cover/126",
-      "name": "\u0000Mutation\u0000",
-      "design": "\u0000Xyro\u0000",
-      "author": "\u0000Laur\u0000",
-      "bpm_mn": 155,
-      "bpm_mx": 155
-    },
-    "127": {
-      "cover": "https://mdmc.moe/cover/127",
-      "name": "\u0000Doggy god's street\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000戌神ころね\u0000",
-      "bpm_mn": 128,
-      "bpm_mx": 128
-    },
-    "128": {
-      "cover": "https://mdmc.moe/cover/128",
-      "name": "\u0000HERE COMES HOPE\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000IRyS\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "129": {
-      "cover": "https://mdmc.moe/cover/129",
-      "name": "\u0000HUGE W\u0000",
-      "design": "\u0000Hole\u0000HUGE H\u0000",
-      "author": "\u0000Mori Calliope\u0000",
-      "bpm_mn": 152,
-      "bpm_mx": 152
-    },
-    "130": {
-      "cover": "https://mdmc.moe/cover/130",
-      "name": "\u0000今宵はHalloween Night!\u0000Halloween Night Tonight!\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000hololive IDOL PROJECT\u0000",
-      "bpm_mn": 128,
-      "bpm_mx": 128
-    },
-    "131": {
-      "cover": "https://mdmc.moe/cover/131",
-      "name": "\u0000PLAY DICE!\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Hakos Baelz\u0000",
-      "bpm_mn": 145,
-      "bpm_mx": 145
-    },
-    "132": {
-      "cover": "https://mdmc.moe/cover/132",
-      "name": "\u0000Pastel Tea Time\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000尾丸ポルカ\u0000",
-      "bpm_mn": 128,
-      "bpm_mx": 128
-    },
-    "133": {
-      "cover": "https://mdmc.moe/cover/133",
-      "name": "\u0000ぺこみこ大戦争！！\u0000PekoMiko Great War!!\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000兎田ぺこら&さくらみこ\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "134": {
-      "cover": "https://mdmc.moe/cover/134",
-      "name": "\u0000REFLECT\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Gawr Gura\u0000",
-      "bpm_mn": 125,
-      "bpm_mx": 125
-    },
-    "135": {
-      "cover": "https://mdmc.moe/cover/135",
-      "name": "\u0000Cold Pizza\u0000",
-      "design": "\u0000leftover un1\u0000",
-      "author": "\u0000m1dy\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "136": {
-      "cover": "https://mdmc.moe/cover/136",
-      "name": "\u0000GENOCIDER\u0000",
-      "design": "\u0000UN1 vs. CACTUS\u0000",
-      "author": "\u0000DJ Myosuke\u0000",
-      "bpm_mn": 250,
-      "bpm_mx": 250
-    },
-    "137": {
-      "cover": "https://mdmc.moe/cover/137",
-      "name": "\u0000Seedy Try\u0000",
-      "design": "\u0000zdechliiizna\u0000",
-      "author": "\u0000t+pazolite\u0000",
-      "bpm_mn": 105,
-      "bpm_mx": 105
-    },
-    "138": {
-      "cover": "https://mdmc.moe/cover/138",
-      "name": "\u0000《Re:miniscence》\u0000",
-      "design": "\u0000《she:zza》\u0000",
-      "author": "\u0000かねこちはる\u0000",
-      "bpm_mn": 125,
-      "bpm_mx": 166
-    },
-    "139": {
-      "cover": "https://mdmc.moe/cover/139",
-      "name": "\u0000Lepton Strike\u0000",
-      "design": "\u0000Xyro\u0000",
-      "author": "\u0000Nato\u0000",
-      "bpm_mn": 183,
-      "bpm_mx": 183
-    },
-    "140": {
-      "cover": "https://mdmc.moe/cover/140",
-      "name": "\u0000Möbius\u0000",
-      "design": "\u0000Höle & Shezza\u0000",
-      "author": "\u0000USAO & Camellia\u0000",
-      "bpm_mn": 230,
-      "bpm_mx": 230
-    },
-    "141": {
-      "cover": "https://mdmc.moe/cover/141",
-      "name": "\u0000エイリアンエイリアン (Alien Alien)\u0000",
-      "design": "\u0000Franailin\u0000?\u0000",
-      "author": "\u0000Nayutalien\u0000",
-      "bpm_mn": 152,
-      "bpm_mx": 152
-    },
-    "142": {
-      "cover": "https://mdmc.moe/cover/142",
-      "name": "\u0000Evidence of evil\u0000",
-      "design": "\u0000Evil Cactus\u0000",
-      "author": "\u0000AJURIKA\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "143": {
-      "cover": "https://mdmc.moe/cover/143",
-      "name": "\u0000UniTas\u0000",
-      "design": "\u0000Xyro \"The Maestro\"\u0000",
-      "author": "\u0000Masahiro \"Godspeed\" Aoki VS Kai\u0000",
-      "bpm_mn": 205,
-      "bpm_mx": 205
-    },
-    "144": {
-      "cover": "https://mdmc.moe/cover/144",
-      "name": "\u0000Alter Ego\u0000",
-      "design": "\u0000Shipn\u0000",
-      "author": "\u0000Morimori Atsushi\u0000",
-      "bpm_mn": 145,
-      "bpm_mx": 145
-    },
-    "145": {
-      "cover": "https://mdmc.moe/cover/145",
-      "name": "\u0000はずかしがりやのトイ・ソルジャー\u0000Hazukashigariya no Toy Soldier\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000ああああ&梅干茶漬け\u0000",
-      "bpm_mn": 163,
-      "bpm_mx": 163
-    },
-    "146": {
-      "cover": "https://mdmc.moe/cover/146",
-      "name": "\u0000Comeback\u0000",
-      "design": "\u0000un1\u0000",
-      "author": "\u0000DJ Myosuke\u0000",
-      "bpm_mn": 185,
-      "bpm_mx": 185
-    },
-    "147": {
-      "cover": "https://mdmc.moe/cover/147",
-      "name": "\u0000Don't Stop The Game (USAO Remix)\u0000",
-      "design": "\u0000un1\u0000",
-      "author": "\u0000DJ Myosuke\u0000",
-      "bpm_mn": 203,
-      "bpm_mx": 203
-    },
-    "148": {
-      "cover": "https://mdmc.moe/cover/148",
-      "name": "\u0000固め・濃いめ・多め\u0000Katame Koime Oome\u0000",
-      "design": "\u0000ブラックユニ\u0000",
-      "author": "\u0000こげみょー家\u0000",
-      "bpm_mn": 210,
-      "bpm_mx": 210
-    },
-    "149": {
-      "cover": "https://mdmc.moe/cover/149",
-      "name": "\u0000Lovely Shit\u0000",
-      "design": "\u0000un1\u0000",
-      "author": "\u0000DJ Myosuke\u0000",
-      "bpm_mn": 195,
-      "bpm_mx": 195
-    },
-    "150": {
-      "cover": "https://mdmc.moe/cover/150",
-      "name": "\u0000Megaton Killer\u0000",
-      "design": "\u0000un1\u0000",
-      "author": "\u0000DJ Myosuke\u0000",
-      "bpm_mn": 220,
-      "bpm_mx": 220
-    },
-    "151": {
-      "cover": "https://mdmc.moe/cover/151",
-      "name": "\u0000Agilion\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000LeaF\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "152": {
-      "cover": "https://mdmc.moe/cover/152",
-      "name": "\u0000GALAXY BURST\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000かめりあ\u0000",
-      "bpm_mn": 201,
-      "bpm_mx": 201
-    },
-    "153": {
-      "cover": "https://mdmc.moe/cover/153",
-      "name": "\u0000SUPER REACTOR\u0000",
-      "design": "\u0000CaCTUS-X\u0000",
-      "author": "\u0000Kobaryo feat. HiTNEX-X\u0000",
-      "bpm_mn": 152,
-      "bpm_mx": 152
-    },
-    "154": {
-      "cover": "https://mdmc.moe/cover/154",
-      "name": "\u0000ATARAX1A\u0000",
-      "design": "\u0000NaRu_\u0000",
-      "author": "\u0000DJ Genki\u0000",
-      "bpm_mn": 170,
-      "bpm_mx": 170
-    },
-    "155": {
-      "cover": "https://mdmc.moe/cover/155",
-      "name": "\u0000Grandeur\u0000",
-      "design": "\u0000un1\u0000",
-      "author": "\u0000CANVAS x RoughSketch feat. Quimär\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "156": {
-      "cover": "https://mdmc.moe/cover/156",
-      "name": "\u0000Warrior\u0000",
-      "design": "\u0000shezza\u0000",
-      "author": "\u0000Cranky\u0000",
-      "bpm_mn": 170,
-      "bpm_mx": 170
-    },
-    "157": {
-      "cover": "https://mdmc.moe/cover/157",
-      "name": "\u0000Prism\u0000",
-      "design": "\u0000Hcs feat.ATK\u0000",
-      "author": "\u0000brz1128\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "158": {
-      "cover": "https://mdmc.moe/cover/158",
-      "name": "\u0000Poppin' Candy☆Fever\u0000",
-      "design": "\u0000Franailin\u0000",
-      "author": "\u0000キノシタ\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "159": {
-      "cover": "https://mdmc.moe/cover/159",
-      "name": "\u0000NANO DEATH!!!!!\u0000",
-      "design": "\u0000HOLE DEATH!!!!!\u0000Hole\u0000",
-      "author": "\u0000LeaF\u0000",
-      "bpm_mn": 120,
-      "bpm_mx": 240
-    },
-    "160": {
-      "cover": "https://mdmc.moe/cover/160",
-      "name": "\u0000失楽ペトリ\u0000初音ミク -ナナホシ管弦楽団\u0000hololive\u0000Lost Paradise\u0000",
-      "design": "\u00007OU\u0000",
-      "author": "\u0000Nanahoshi Orchestra, Nekomata Okayu\u0000",
-      "bpm_mn": 144,
-      "bpm_mx": 144
-    },
-    "161": {
-      "cover": "https://mdmc.moe/cover/161",
-      "name": "\u0000triple cross\u0000bemani sound team\u0000sound voltex\u0000franailin\u0000Triple Cross\u0000",
-      "design": "\u0000Franailin\u0000",
-      "author": "\u0000Bemani Sound Team\u0000",
-      "bpm_mn": 196,
-      "bpm_mx": 196
-    },
-    "162": {
-      "cover": "https://mdmc.moe/cover/162",
-      "name": "\u0000Xroniàl Xéro (Short ver.)\u0000",
-      "design": "\u0000shezza as 'Ravager of Sanity'\u0000",
-      "author": "\u0000かめりあ as 'menaXe inXonnu'\u0000",
-      "bpm_mn": 335,
-      "bpm_mx": 335
-    },
-    "163": {
-      "cover": "https://mdmc.moe/cover/163",
-      "name": "\u0000Fortuna for Tuna\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000MYUKKE.\u0000",
-      "bpm_mn": 110,
-      "bpm_mx": 220
-    },
-    "164": {
-      "cover": "https://mdmc.moe/cover/164",
-      "name": "\u0000Fantasia Sonata Mirror\u0000",
-      "design": "\u0000ATK\u0000",
-      "author": "\u0000PYKAMIA\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "165": {
-      "cover": "https://mdmc.moe/cover/165",
-      "name": "\u0000Mint Tears\u0000",
-      "design": "\u0000Mirii-don & Ka-ctus\u0000",
-      "author": "\u0000ribbon room\u0000",
-      "bpm_mn": 188,
-      "bpm_mx": 188
-    },
-    "166": {
-      "cover": "https://mdmc.moe/cover/166",
-      "name": "\u0000CAM fix when Pack\u0000wakatori\u0000New York Back Raise\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000saaa + kei_iwata + stuv + わかどり\u0000",
-      "bpm_mn": 160,
-      "bpm_mx": 160
-    },
-    "167": {
-      "cover": "https://mdmc.moe/cover/167",
-      "name": "\u0000ROZELCIA\u0000",
-      "design": "\u0000lxy & Cactus\u0000",
-      "author": "\u0000brz1128\u0000",
-      "bpm_mn": 195,
-      "bpm_mx": 195
-    },
-    "168": {
-      "cover": "https://mdmc.moe/cover/168",
-      "name": "\u0000Rush-Hour\u0000",
-      "design": "\u0000Xyro\u0000",
-      "author": "\u0000litmus*\u0000",
-      "bpm_mn": 224,
-      "bpm_mx": 224
-    },
-    "169": {
-      "cover": "https://mdmc.moe/cover/169",
-      "name": "\u0000Nanahira\u0000ASMR\u0000CAM fix when Pack\u0000Hardcore ASMR\u0000",
-      "design": "\u0000Hole\u0000Hole the ASMR enjoyer\u0000",
-      "author": "\u0000t+pazolite & ななひら\u0000",
-      "bpm_mn": 5,
-      "bpm_mx": 249
-    },
-    "170": {
-      "cover": "https://mdmc.moe/cover/170",
-      "name": "\u0000katagiri\u0000CAM fix when Pack\u0000東\u0000Higashi\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000かたぎり\u0000",
-      "bpm_mn": 164,
-      "bpm_mx": 164
-    },
-    "171": {
-      "cover": "https://mdmc.moe/cover/171",
-      "name": "\u0000irucaice\u0000choco\u0000CAM fix when Pack\u0000Rainbow Rush Story\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000いるかアイス feat.ちょこ\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "172": {
-      "cover": "https://mdmc.moe/cover/172",
-      "name": "\u0000CAM fix when Pack\u0000烈華RESONANCE\u0000REKKA RESONANCE\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000REDALiCE vs Kobaryo\u0000",
-      "bpm_mn": 240,
-      "bpm_mx": 240
-    },
-    "173": {
-      "cover": "https://mdmc.moe/cover/173",
-      "name": "\u0000AAAA\u0000Hino Isuka\u0000Umeboshi Chazuke\u0000CAM fix when Pack\u0000Tricolor⁂circuS\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000ああ…翡翠茶漬け…\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "174": {
-      "cover": "https://mdmc.moe/cover/174",
-      "name": "\u0000CAM fix when Pack\u0000Witch's Curse\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000M-UE\u0000",
-      "bpm_mn": 195,
-      "bpm_mx": 195
-    },
-    "175": {
-      "cover": "https://mdmc.moe/cover/175",
-      "name": "\u0000414 PER SPEED (yomoha remix)\u0000",
-      "design": "\u00007OU\u0000",
-      "author": "\u0000yomoha\u0000",
-      "bpm_mn": 250,
-      "bpm_mx": 250
-    },
-    "176": {
-      "cover": "https://mdmc.moe/cover/176",
-      "name": "\u0000Bemani Sound Team\u0000Konami\u0000DDR A\u0000Chronos (Walk With You)\u0000",
-      "design": "\u0000Franailin\u0000",
-      "author": "\u0000Bemani Sound Team\u0000",
-      "bpm_mn": 148,
-      "bpm_mx": 148
-    },
-    "177": {
-      "cover": "https://mdmc.moe/cover/177",
-      "name": "\u0000Pure Ruby\u0000",
-      "design": "\u0000♡ shezza ♡\u0000",
-      "author": "\u0000SHIKI\u0000",
-      "bpm_mn": 178,
-      "bpm_mx": 178
-    },
-    "178": {
-      "cover": "https://mdmc.moe/cover/178",
-      "name": "\u0000Future-Respawning Button\u0000",
-      "design": "\u0000Future 7OU\u0000",
-      "author": "\u0000Camellia feat. Hatsune Miku\u0000",
-      "bpm_mn": 205,
-      "bpm_mx": 205
-    },
-    "179": {
-      "cover": "https://mdmc.moe/cover/179",
-      "name": "\u0000Luzeri​A\u0000Luze\u0000MAGICAL RENDA STADIUM\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000ルゼ\u0000",
-      "bpm_mn": 175,
-      "bpm_mx": 175
-    },
-    "180": {
-      "cover": "https://mdmc.moe/cover/180",
-      "name": "\u0000Luzeri​A\u0000Luze\u0000オンゲキエータベータイータ\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000ルゼ\u0000",
-      "bpm_mn": 186,
-      "bpm_mx": 186
-    },
-    "181": {
-      "cover": "https://mdmc.moe/cover/181",
-      "name": "\u0000Luzeri​A\u0000Luze\u0000ZEUS † 666\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000ルゼ\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "182": {
-      "cover": "https://mdmc.moe/cover/182",
-      "name": "\u0000Luzeri​A\u0000Luze\u0000one fourteen\u0000∦\u0000breakthrough\u0000",
-      "design": "\u0000Hole\u0000∅\u0000",
-      "author": "\u0000ルゼ\u0000",
-      "bpm_mn": 250,
-      "bpm_mx": 250
-    },
-    "183": {
-      "cover": "https://mdmc.moe/cover/183",
-      "name": "\u0000EmoCosine, nora2r\u0000Initiating League\u0000",
-      "design": "\u0000Hole\u0000Initiating Hole\u0000",
-      "author": "\u0000EmoCosine vs. nora2r\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "184": {
-      "cover": "https://mdmc.moe/cover/184",
-      "name": "\u0000Bookmaker\u0000",
-      "design": "\u0000[GNV] feat.shezza\u0000",
-      "author": "\u0000Kobaryo\u0000",
-      "bpm_mn": 175,
-      "bpm_mx": 175
-    },
-    "185": {
-      "cover": "https://mdmc.moe/cover/185",
-      "name": "\u0000Innocent Floor\u0000",
-      "design": "\u0000un1\u0000",
-      "author": "\u0000P*Light\u0000",
-      "bpm_mn": 199,
-      "bpm_mx": 199
-    },
-    "186": {
-      "cover": "https://mdmc.moe/cover/186",
-      "name": "\u0000Mandela Sound Effect\u0000",
-      "design": "\u0000un1\u0000",
-      "author": "\u0000Srezcat feat. Kobaryo\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "187": {
-      "cover": "https://mdmc.moe/cover/187",
-      "name": "\u0000Parallel★PRISM\u0000",
-      "design": "\u0000Franai★lin\u0000",
-      "author": "\u0000P*Light\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "188": {
-      "cover": "https://mdmc.moe/cover/188",
-      "name": "\u0000Princess of Winter\u0000",
-      "design": "\u0000ShezzA\u0000",
-      "author": "\u0000HyuN\u0000",
-      "bpm_mn": 197,
-      "bpm_mx": 197
-    },
-    "189": {
-      "cover": "https://mdmc.moe/cover/189",
-      "name": "\u0000QiXiN MAdN3ss 2153\u0000",
-      "design": "\u0000GNV 7OU\u0000",
-      "author": "\u0000DJ Noriken & MASAKI\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "190": {
-      "cover": "https://mdmc.moe/cover/190",
-      "name": "\u0000Retaliation\u0000",
-      "design": "\u0000un1\u0000",
-      "author": "\u0000Juggernaut.\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "191": {
-      "cover": "https://mdmc.moe/cover/191",
-      "name": "\u0000Tondemo Wonders\u0000",
-      "design": "\u0000ame\u0000",
-      "author": "\u0000Tenma Tsukasa, Ootori Emu, Kusanagi Nene & Kamishiro Rui\u0000",
-      "bpm_mn": 172,
-      "bpm_mx": 172
-    },
-    "192": {
-      "cover": "https://mdmc.moe/cover/192",
-      "name": "\u0000μάγισσα\u0000Witch\u0000",
-      "design": "\u0000un1\u0000",
-      "author": "\u0000CPSQUQI\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "193": {
-      "cover": "https://mdmc.moe/cover/193",
-      "name": "\u0000GNV\u0000WACCA\u0000MAGiC4LG1RL M3GA S7R1KE!\u0000",
-      "design": "\u0000MAGiC4LG1RL Franailin\u0000",
-      "author": "\u0000DJ Noriken\u0000",
-      "bpm_mn": 198,
-      "bpm_mx": 198
-    },
-    "194": {
-      "cover": "https://mdmc.moe/cover/194",
-      "name": "\u0000Hino Isuka\u0000Glooorious!!\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000翡乃イスカ vs. s-don\u0000",
-      "bpm_mn": 128,
-      "bpm_mx": 180
-    },
-    "195": {
-      "cover": "https://mdmc.moe/cover/195",
-      "name": "\u0000Hino Isuka\u0000Trrricksters!!\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000s-don vs. 翡乃イスカ\u0000",
-      "bpm_mn": 155,
-      "bpm_mx": 155
-    },
-    "196": {
-      "cover": "https://mdmc.moe/cover/196",
-      "name": "\u0000Hino Isuka\u0000Twin☆kle Snowglobe\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000翡乃イスカ × otoshi.b\u0000",
-      "bpm_mn": 185,
-      "bpm_mx": 185
-    },
-    "197": {
-      "cover": "https://mdmc.moe/cover/197",
-      "name": "\u0000Hino Isuka\u0000Moonheart\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000翡乃イスカ\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "198": {
-      "cover": "https://mdmc.moe/cover/198",
-      "name": "\u0000Behemoth\u0000",
-      "design": "\u0000daemonum un1x\u0000",
-      "author": "\u0000DJ Myosuke\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "199": {
-      "cover": "https://mdmc.moe/cover/199",
-      "name": "\u0000Hainuwele\u0000",
-      "design": "\u0000Xyro\u0000",
-      "author": "\u0000ETIA.\u0000",
-      "bpm_mn": 175,
-      "bpm_mx": 175
-    },
-    "200": {
-      "cover": "https://mdmc.moe/cover/200",
-      "name": "\u0000Gate Open: START!\u0000",
-      "design": "\u0000Darkhawk02\u00007OU\u0000",
-      "author": "\u0000Farhan Sarasin, Pavolia Reine\u0000",
-      "bpm_mn": 129,
-      "bpm_mx": 129
-    },
-    "201": {
-      "cover": "https://mdmc.moe/cover/201",
-      "name": "\u0000Yubi Breaker\u0000",
-      "design": "\u0000MDMC Charting Team\u0000",
-      "author": "\u0000ReeK\u0000",
-      "bpm_mn": 150,
-      "bpm_mx": 480
-    },
-    "202": {
-      "cover": "https://mdmc.moe/cover/202",
-      "name": "\u0000Risu\u0000Choco\u0000†大闘士＝クライン・フォーゲル・シュピール＝えりか†\u0000Daitoshi Kuraine Pogeru Supieru Erika\u0000",
-      "design": "\u0000Hole\u0000†大作家＝グランド・マスター・チャーター＝ほる†\u0000",
-      "author": "\u0000立秋feat.ちょこ\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "203": {
-      "cover": "https://mdmc.moe/cover/203",
-      "name": "\u0000GHOST\u0000",
-      "design": "\u0000Cactus & Hole's ghosts\u0000?\u0000",
-      "author": "\u0000Camellia\u0000",
-      "bpm_mn": 220,
-      "bpm_mx": 220
-    },
-    "204": {
-      "cover": "https://mdmc.moe/cover/204",
-      "name": "\u0000Luzeri​A\u0000Luze\u0000April Fools\u0000親フラ\u0000Oyafla\u0000",
-      "design": "\u0000Hole\u0000Dynamite Hole\u0000",
-      "author": "\u0000ルゼ feat. えみゅう。\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "205": {
-      "cover": "https://mdmc.moe/cover/205",
-      "name": "\u0000金野火織の金色提言\u0000Konno Hiori no konjiki teigen\u0000",
-      "design": "\u0000CACTUS\u0000?\u0000",
-      "author": "\u0000DJ TECHNORCH feat. 宇宙★海月\u0000",
-      "bpm_mn": 225,
-      "bpm_mx": 225
-    },
-    "206": {
-      "cover": "https://mdmc.moe/cover/206",
-      "name": "\u0000CUTIE☆EX-DREAM\u0000",
-      "design": "\u0000DREAMY☆UN1\u0000?\u0000",
-      "author": "\u0000BlackY\u0000",
-      "bpm_mn": 188,
-      "bpm_mx": 188
-    },
-    "207": {
-      "cover": "https://mdmc.moe/cover/207",
-      "name": "\u0000Cross†Revolution (feat. LyuU)\u0000",
-      "design": "\u0000Fly†Fran\u0000?\u0000",
-      "author": "\u0000HyuN\u0000",
-      "bpm_mn": 186,
-      "bpm_mx": 186
-    },
-    "208": {
-      "cover": "https://mdmc.moe/cover/208",
-      "name": "\u0000Heart of Witch\u0000",
-      "design": "\u00007OU\u0000ame\u0000",
-      "author": "\u0000Rex\u0000",
-      "bpm_mn": 170,
-      "bpm_mx": 170
-    },
-    "209": {
-      "cover": "https://mdmc.moe/cover/209",
-      "name": "\u0000Scorpion\u0000",
-      "design": "\u0000shezza\u0000",
-      "author": "\u0000BurgeraX\u0000",
-      "bpm_mn": 174,
-      "bpm_mx": 174
-    },
-    "210": {
-      "cover": "https://mdmc.moe/cover/210",
-      "name": "\u00007OU\u0000モリモリあつし\u0000Grand-Guignol\u0000",
-      "design": "\u00007-OU\u0000",
-      "author": "\u0000Morimori Atsushi\u0000",
-      "bpm_mn": 231,
-      "bpm_mx": 231
-    },
-    "211": {
-      "cover": "https://mdmc.moe/cover/211",
-      "name": "\u00001116\u0000",
-      "design": "\u0000MDMC Chart Team \"316\"\u0000?\u0000",
-      "author": "\u0000BEMANI Sound Team \"Dustup\"\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "212": {
-      "cover": "https://mdmc.moe/cover/212",
-      "name": "\u0000Awaking Beat -From the next generation-\u0000",
-      "design": "\u0000Xyro\u0000",
-      "author": "\u0000nmk feat.橘花音\u0000",
-      "bpm_mn": 178,
-      "bpm_mx": 178
-    },
-    "213": {
-      "cover": "https://mdmc.moe/cover/213",
-      "name": "\u0000Great Warrior = Klein Vogel Spiel = Erika\u0000Erika\u0000Chunithm\u0000Rish\u0000Choko\u0000Risyuu\u0000†大闘士＝クライン・フォーゲル・シュピール＝えりか†\u0000",
-      "design": "\u0000Dark Magician Xyro\u00007OU\u0000Xyro\u0000",
-      "author": "\u0000立秋 feat.ちょこ\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "214": {
-      "cover": "https://mdmc.moe/cover/214",
-      "name": "\u0000LEMON SUMMER\u0000",
-      "design": "\u0000A_Shion\u0000",
-      "author": "\u0000パイタン\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "215": {
-      "cover": "https://mdmc.moe/cover/215",
-      "name": "\u0000Meng-tun Kung-fu Da-luanwu\u0000Chunithm\u0000萌豚❤功夫❤大乱舞\u0000李 龟琍椏\u0000娜娜苤來\u0000かめりあ\u0000ななひら\u0000萌豚 功夫 大乱舞\u0000Meng tun Kung fu Da luanwu\u0000Méng-tún Kung-fu Dà-luànwǔ\u0000",
-      "design": "\u00007OU\u0000",
-      "author": "\u0000Camellia feat. Nanahira\u0000",
-      "bpm_mn": 144,
-      "bpm_mx": 144
-    },
-    "216": {
-      "cover": "https://mdmc.moe/cover/216",
-      "name": "\u0000Chunithm\u0000SQUAD-Phvntom-\u0000",
-      "design": "\u0000SQUAD-Xyro-\u0000SQUAD-7OU-\u0000",
-      "author": "\u0000Getty vs DJ DiA\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "217": {
-      "cover": "https://mdmc.moe/cover/217",
-      "name": "\u0000蜘蛛の糸\u0000きくお\u0000cosMo＠暴走P\u0000影縫英\u0000Chunithm\u0000Spider's Thread\u0000",
-      "design": "\u00007OU\u0000",
-      "author": "\u0000kikuo x cosMo@BousouP feat. kagenui hana\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "218": {
-      "cover": "https://mdmc.moe/cover/218",
-      "name": "\u0000Chunithm\u0000削除\u0000Strange Love\u0000",
-      "design": "\u00007OU\u0000",
-      "author": "\u0000Sakuzyo\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "219": {
-      "cover": "https://mdmc.moe/cover/219",
-      "name": "\u0000Verlesq\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000LeaF\u0000",
-      "bpm_mn": 280,
-      "bpm_mx": 280
-    },
-    "220": {
-      "cover": "https://mdmc.moe/cover/220",
-      "name": "\u0000Viyella's Destiny\u0000\u0000",
-      "design": "\u0000outi\u0000",
-      "author": "\u0000Laur\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "221": {
-      "cover": "https://mdmc.moe/cover/221",
-      "name": "\u0000Xenovcipher\u0000",
-      "design": "\u0000Xyro\u0000?\u0000",
-      "author": "\u0000Juggernaut.\u0000",
-      "bpm_mn": 210,
-      "bpm_mx": 210
-    },
-    "222": {
-      "cover": "https://mdmc.moe/cover/222",
-      "name": "\u0000SoundVoltex\u0000Sound Voltex\u0000charm♡you\u0000charm♡you\u0000",
-      "design": "\u0000ke feat.毛\u0000",
-      "author": "\u0000U-ske feat.花柚\u0000",
-      "bpm_mn": 147,
-      "bpm_mx": 147
-    },
-    "223": {
-      "cover": "https://mdmc.moe/cover/223",
-      "name": "\u0000ハピラキ→injection!!\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000brz1128\u0000",
-      "bpm_mn": 234,
-      "bpm_mx": 234
-    },
-    "224": {
-      "cover": "https://mdmc.moe/cover/224",
-      "name": "\u0000Vocaloid\u0000PinocchioP\u0000魔法少女とチョコレゐト\u0000Magical Girl and Chocolate\u0000",
-      "design": "\u0000GreenHub\u0000",
-      "author": "\u0000ピノキオピー / 初音ミク\u0000",
-      "bpm_mn": 150,
-      "bpm_mx": 150
-    },
-    "225": {
-      "cover": "https://mdmc.moe/cover/225",
-      "name": "\u0000Voez\u0000Fenekohq\u0000おわりとはじまりのおと\u0000Owari to Hajimari no Oto\u0000",
-      "design": "\u0000Franailin\u0000Franailin feat. Fenekohq\u0000",
-      "author": "\u0000梅干茶漬け\u0000",
-      "bpm_mn": 201,
-      "bpm_mx": 201
-    },
-    "226": {
-      "cover": "https://mdmc.moe/cover/226",
-      "name": "\u0000IZANA\u0000",
-      "design": "\u0000flygon です\u0000",
-      "author": "\u0000t+pazolite vs P*Light\u0000",
-      "bpm_mn": 222,
-      "bpm_mx": 222
-    },
-    "227": {
-      "cover": "https://mdmc.moe/cover/227",
-      "name": "\u0000AμreoLe ~for Triumph~\u0000",
-      "design": "\u0000Xγrσ ~for Conquest~\u0000Xyro\u0000",
-      "author": "\u0000Ashrount\u0000",
-      "bpm_mn": 321,
-      "bpm_mx": 321
-    },
-    "228": {
-      "cover": "https://mdmc.moe/cover/228",
-      "name": "\u0000Imperator\u0000",
-      "design": "\u0000CαctuX\u0000",
-      "author": "\u0000Xe (αirlemoneX)\u0000",
-      "bpm_mn": 215,
-      "bpm_mx": 215
-    },
-    "229": {
-      "cover": "https://mdmc.moe/cover/229",
-      "name": "\u0000MixxioN\u0000",
-      "design": "\u0000Taxtixal CRAZY SHEZZA\u0000",
-      "author": "\u0000MisoilePunch♪\u0000",
-      "bpm_mn": 275,
-      "bpm_mx": 275
-    },
-    "230": {
-      "cover": "https://mdmc.moe/cover/230",
-      "name": "\u0000PHOTON BLAXT\u0000",
-      "design": "\u0000Cactus\u0000",
-      "author": "\u0000seatrus\u0000",
-      "bpm_mn": 165,
-      "bpm_mx": 165
-    },
-    "231": {
-      "cover": "https://mdmc.moe/cover/231",
-      "name": "\u0000Re:Rose Gun Shoooot!\u0000",
-      "design": "\u0000un1x\u0000",
-      "author": "\u0000あるふぁ\u0000",
-      "bpm_mn": 190,
-      "bpm_mx": 190
-    },
-    "232": {
-      "cover": "https://mdmc.moe/cover/232",
-      "name": "\u0000World Vanquisher\u0000",
-      "design": "\u0000shezza (Penitence)\u0000",
-      "author": "\u0000void (Mournfinale)\u0000",
-      "bpm_mn": 170,
-      "bpm_mx": 170
-    },
-    "233": {
-      "cover": "https://mdmc.moe/cover/233",
-      "name": "\u0000XHRONOXAPSULΞ\u0000",
-      "design": "\u0000シェッザ meets ラシスとミオン\u0000",
-      "author": "\u0000Silentroom\u0000",
-      "bpm_mn": 277,
-      "bpm_mx": 277
-    },
-    "234": {
-      "cover": "https://mdmc.moe/cover/234",
-      "name": "\u0000Xb10r\u0000",
-      "design": "\u0000Xyro\u0000",
-      "author": "\u0000隣の庭は青い(庭師+Aoi)\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "235": {
-      "cover": "https://mdmc.moe/cover/235",
-      "name": "\u0000DJMAX\u0000DIE IN\u0000",
-      "design": "\u0000Hole\u0000HOLE EXTENSION\u0000",
-      "author": "\u0000TAK x Sobrem\u0000",
-      "bpm_mn": 160,
-      "bpm_mx": 230
-    },
-    "236": {
-      "cover": "https://mdmc.moe/cover/236",
-      "name": "\u0000DJMAX\u0000Hell'o\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000Pan\u0000",
-      "bpm_mn": 185,
-      "bpm_mx": 185
-    },
-    "237": {
-      "cover": "https://mdmc.moe/cover/237",
-      "name": "\u0000DJMAX\u0000KICK IT\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000HAYAKO\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "238": {
-      "cover": "https://mdmc.moe/cover/238",
-      "name": "\u0000DJMAX\u0000Teikyou\u0000!!New Game Start!!\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000提供\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "239": {
-      "cover": "https://mdmc.moe/cover/239",
-      "name": "\u0000DJMAX\u0000Odysseus\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000XeoN\u0000",
-      "bpm_mn": 187,
-      "bpm_mx": 187
-    },
-    "240": {
-      "cover": "https://mdmc.moe/cover/240",
-      "name": "\u0000refluxio\u0000",
-      "design": "\u0000un1x\u0000",
-      "author": "\u0000Juggernaut.\u0000",
-      "bpm_mn": 212,
-      "bpm_mx": 212
-    },
-    "241": {
-      "cover": "https://mdmc.moe/cover/241",
-      "name": "\u0000DJMAX\u0000Vertical Eclipse\u0000",
-      "design": "\u0000Hole\u0000",
-      "author": "\u0000TAG\u0000",
-      "bpm_mn": 200,
-      "bpm_mx": 200
-    },
-    "242": {
-      "cover": "https://mdmc.moe/cover/242",
-      "name": "\u0000L.F.O\u0000",
-      "design": "\u0000low frequency un1x\u0000",
-      "author": "\u0000aran\u0000",
-      "bpm_mn": 180,
-      "bpm_mx": 180
-    },
-    "243": {
-      "cover": "https://mdmc.moe/cover/243",
-      "name": "\u0000Shipn\u0000Franailin\u0000Stellaria\u0000",
-      "design": "\u0000Shipn (Franailin edit)\u0000",
-      "author": "\u0000Lime\u0000",
-      "bpm_mn": 227,
-      "bpm_mx": 227
-    },
-    "244": {
-      "cover": "https://mdmc.moe/cover/244",
-      "name": "\u0000Vibrant Cross\u0000",
-      "design": "\u0000un1x ♥ Franailin\u0000",
-      "author": "\u0000M-UE\u0000",
-      "bpm_mn": 210,
-      "bpm_mx": 210
-    },
-    "245": {
-      "cover": "https://mdmc.moe/cover/245",
-      "name": "\u0000Arcaea\u0000Grievous Lady\u0000\u0000",
-      "design": "\u0000flygon です vs Hole\u0000?\u0000",
-      "author": "\u0000Team Grimoire vs Laur\u0000",
-      "bpm_mn": 210,
-      "bpm_mx": 210
-    },
-    "246": {
-      "cover": "https://mdmc.moe/cover/246",
-      "name": "\u0000arcaea\u0000Tempestissimo\u0000",
-      "design": "\u0000Hole\u0000H+le\u0000",
-      "author": "\u0000t+pazolite\u0000",
-      "bpm_mn": 231,
-      "bpm_mx": 231
-    },
-    "247": {
-      "cover": "https://mdmc.moe/cover/247",
-      "name": "\u0000Alternate Sacrifice\u0000",
-      "design": "\u0000un1x\u0000",
-      "author": "\u0000No3\u0000",
-      "bpm_mn": 230,
-      "bpm_mx": 230
-    },
-    "248": {
-      "cover": "https://mdmc.moe/cover/248",
-      "name": "\u0000Arcaea\u0000Antagonism\u0000\u0000",
-      "design": "\u0000Grievous flygon\u0000",
-      "author": "\u0000Yooh vs. siromaru\u0000",
-      "bpm_mn": 160,
-      "bpm_mx": 160
-    },
-    "250": {
-      "cover": "https://mdmc.moe/cover/250",
-      "name": "\u0000phigros\u0000いざ、参ります\u0000iza mairimasu\u0000",
-      "design": "\u0000Darisu\u0000",
-      "author": "\u0000U-ske\u0000",
-      "bpm_mn": 188,
-      "bpm_mx": 188
-    },
-    "251": {
-      "cover": "https://mdmc.moe/cover/251",
-      "name": "\u0000Sound Voltex\u0000Konami Digital Entertainment\u0000スイーツはとまらない\u0000Sweets Wa Tomaranai\u0000",
-      "design": "\u0000Franailin\u0000",
-      "author": "\u0000日向美ビタースイーツ♪\u0000",
-      "bpm_mn": 204,
-      "bpm_mx": 204
-    },
-    "252": {
-      "cover": "https://mdmc.moe/cover/252",
-      "name": "\u0000GOODRUSH\u0000",
-      "design": "\u0000KE\u0000",
-      "author": "\u0000EBIMAYO\u0000",
-      "bpm_mn": 185,
-      "bpm_mx": 185
-    },
-    "253": {
-      "cover": "https://mdmc.moe/cover/253",
-      "name": "\u0000Touhou\u0000Ayaponzu*\u0000beatMARIO\u0000MARON\u0000インターネットサバイバー\u0000INTERNET SURVIVOR\u0000",
-      "design": "\u0000flygon＊サバイバー!!!\u0000\u0000",
-      "author": "\u0000あやぽんず＊ feat.ビートまりお × まろん\u0000",
-      "bpm_mn": 172,
-      "bpm_mx": 172
-    },
-    "254": {
-      "cover": "https://mdmc.moe/cover/254",
-      "name": "\u0000Identity (SEKAI Version)\u0000",
-      "design": "\u0000Cactus\u0000",
-      "author": "\u0000Kanaria\u0000",
-      "bpm_mn": 195,
-      "bpm_mx": 195
-    },
-    "255": {
-      "cover": "https://mdmc.moe/cover/255",
-      "name": "\u0000Morimori Atsushi\u0000Chrono Circle\u0000SPEED KiNG\u0000",
-      "design": "\u0000Franailin vs Fenekohq (Sugarsu edit)\u0000",
-      "author": "\u0000モリモリあつし\u0000",
-      "bpm_mn": 150,
-      "bpm_mx": 150
-    }
+  "0-2": {
+    "en": "🎵Wonderful Pain",
+    "kr": "🎵Wonderful Pain",
+    "jp": "🎵Wonderful Pain",
+    "ch": "🎵Wonderful Pain"
+  },
+  "0-3": {
+    "en": "🎵Breaking Dawn",
+    "kr": "🎵Breaking Dawn",
+    "jp": "🎵Breaking Dawn",
+    "ch": "🎵Breaking Dawn"
+  },
+  "0-4": {
+    "en": "🎵单向地铁 Feat.karin",
+    "kr": "🎵单向地铁 Feat.karin",
+    "jp": "🎵单向地铁 Feat.karin",
+    "ch": "🎵單向地鐵 Feat.karin"
+  },
+  "0-1": {
+    "en": "🎵Frost Land",
+    "kr": "🎵Frost Land",
+    "jp": "🎵Frost Land",
+    "ch": "🎵Frost Land"
+  },
+  "0-5": {
+    "en": "🎵Heart-Pounding Flight",
+    "kr": "🎵Heart-Pounding Flight",
+    "jp": "🎵Heart-Pounding Flight",
+    "ch": "🎵Heart-Pounding Flight"
+  },
+  "0-29": {
+    "en": "🎵Pancake is Love",
+    "kr": "🎵Pancake is Love",
+    "jp": "🎵Pancake is Love",
+    "ch": "🎵Pancake is Love"
+  },
+  "0-6": {
+    "en": "🎵时光涂鸦",
+    "kr": "🎵时光涂鸦",
+    "jp": "🎵时光涂鸦",
+    "ch": "🎵時光塗鴉"
+  },
+  "0-37": {
+    "en": "🎵Evolution",
+    "kr": "🎵Evolution",
+    "jp": "🎵Evolution",
+    "ch": "🎵Evolution"
+  },
+  "0-7": {
+    "en": "🎵海豚与广播 feat.Uranyan",
+    "kr": "🎵海豚与广播 feat.Uranyan",
+    "jp": "🎵海豚与广播 feat.Uranyan",
+    "ch": "🎵海豚與廣播 feat.烏拉喵"
+  },
+  "0-8": {
+    "en": "🎵Yuki no Shizuku Ame no Oto",
+    "kr": "🎵Yuki no Shizuku Ame no Oto",
+    "jp": "🎵雪の雫・雨の音",
+    "ch": "🎵雪の雫・雨の音"
+  },
+  "0-43": {
+    "en": "🎵Best One feat.tooko",
+    "kr": "🎵Best One feat.tooko",
+    "jp": "🎵Best One feat.tooko",
+    "ch": "🎵Best One feat.墨橙"
+  },
+  "0-31": {
+    "en": "🎵糖果色恋爱学",
+    "kr": "🎵糖果色恋爱学",
+    "jp": "🎵糖果色恋爱学",
+    "ch": "🎵糖果色戀愛學"
+  },
+  "0-38": {
+    "en": "🎵Night Wander (cnsouka Remix)",
+    "kr": "🎵Night Wander (cnsouka Remix)",
+    "jp": "🎵Night Wander (cnsouka Remix)",
+    "ch": "🎵Night Wander (cnsouka Remix)"
+  },
+  "0-46": {
+    "en": "🎵Dohna Dohna no Uta",
+    "kr": "🎵Dohna Dohna no Uta",
+    "jp": "🎵ドーナドーナのうた",
+    "ch": "🎵ドーナドーナのうた"
+  },
+  "0-9": {
+    "en": "🎵Spring Carnival",
+    "kr": "🎵Spring Carnival",
+    "jp": "🎵Spring Carnival",
+    "ch": "🎵Spring Carnival"
+  },
+  "0-30": {
+    "en": "🎵DISCO NIGHT",
+    "kr": "🎵DISCO NIGHT",
+    "jp": "🎵DISCO NIGHT",
+    "ch": "🎵DISCO NIGHT"
+  },
+  "0-49": {
+    "en": "🎵Koi no Moonlight",
+    "kr": "🎵Koi no Moonlight",
+    "jp": "🎵恋のMoonlight",
+    "ch": "🎵恋のMoonlight"
+  },
+  "0-10": {
+    "en": "🎵恋爱语音导航 feat.yousa",
+    "kr": "🎵恋爱语音导航 feat.yousa",
+    "jp": "🎵恋爱语音导航 feat.yousa",
+    "ch": "🎵戀愛語音導航 feat.yousa"
+  },
+  "0-11": {
+    "en": "🎵Lights of Muse",
+    "kr": "🎵Lights of Muse",
+    "jp": "🎵Lights of Muse",
+    "ch": "🎵Lights of Muse"
+  },
+  "0-12": {
+    "en": "🎵midstream jam",
+    "kr": "🎵midstream jam",
+    "jp": "🎵midstream jam",
+    "ch": "🎵midstream jam"
+  },
+  "0-40": {
+    "en": "🎵Nihao",
+    "kr": "🎵Nihao",
+    "jp": "🎵ニーハオ",
+    "ch": "🎵你好"
+  },
+  "0-13": {
+    "en": "🎵Confession",
+    "kr": "🎵Confession",
+    "jp": "🎵Confession",
+    "ch": "🎵Confession"
+  },
+  "0-32": {
+    "en": "🎵Galaxy Striker",
+    "kr": "🎵Galaxy Striker",
+    "jp": "🎵Galaxy Striker",
+    "ch": "🎵Galaxy Striker"
+  },
+  "0-14": {
+    "en": "🎵Departure Road",
+    "kr": "🎵Departure Road",
+    "jp": "🎵Departure Road",
+    "ch": "🎵Departure Road"
+  },
+  "0-15": {
+    "en": "🎵Bass Telekinesis",
+    "kr": "🎵Bass Telekinesis",
+    "jp": "🎵Bass Telekinesis",
+    "ch": "🎵Bass Telekinesis"
+  },
+  "0-16": {
+    "en": "🎵Cage of Almeria",
+    "kr": "🎵Cage of Almeria",
+    "jp": "🎵アルメリアの鳥籠",
+    "ch": "🎵Cage of Almeria"
+  },
+  "0-17": {
+    "en": "🎵Ira",
+    "kr": "🎵Ira",
+    "jp": "🎵Ira",
+    "ch": "🎵Ira"
+  },
+  "0-18": {
+    "en": "🎵Blackest Luxury Car",
+    "kr": "🎵Blackest Luxury Car",
+    "jp": "🎵Blackest Luxury Car",
+    "ch": "🎵Blackest Luxury Car"
+  },
+  "0-19": {
+    "en": "🎵Medicine of Sing",
+    "kr": "🎵Medicine of Sing",
+    "jp": "🎵Medicine of Sing",
+    "ch": "🎵Medicine of Sing"
+  },
+  "0-20": {
+    "en": "🎵irregulyze",
+    "kr": "🎵irregulyze",
+    "jp": "🎵irregulyze",
+    "ch": "🎵irregulyze"
+  },
+  "0-47": {
+    "en": "🎵I don't care about Christmas though",
+    "kr": "🎵I don't care about Christmas though",
+    "jp": "🎵クリスマスなんて興味ないけど",
+    "ch": "🎵クリスマスなんて興味ないけど"
+  },
+  "0-21": {
+    "en": "🎵Imaginary World",
+    "kr": "🎵Imaginary World",
+    "jp": "🎵Imaginary World",
+    "ch": "🎵Imaginary World"
+  },
+  "0-22": {
+    "en": "🎵Dysthymia",
+    "kr": "🎵Dysthymia",
+    "jp": "🎵Dysthymia",
+    "ch": "🎵Dysthymia"
+  },
+  "0-42": {
+    "en": "🎵新世界より",
+    "kr": "🎵新世界より",
+    "jp": "🎵新世界より",
+    "ch": "🎵新世界より"
+  },
+  "0-33": {
+    "en": "🎵NISEGAO",
+    "kr": "🎵NISEGAO",
+    "jp": "🎵僞顏",
+    "ch": "🎵僞顏"
+  },
+  "0-44": {
+    "en": "🎵Say! Fanfare!",
+    "kr": "🎵Say! Fanfare!",
+    "jp": "🎵Say!ファンファーレ!",
+    "ch": "🎵Say!ファンファーレ!"
+  },
+  "0-34": {
+    "en": "🎵Star Driver",
+    "kr": "🎵Star Driver",
+    "jp": "🎵Star Driver",
+    "ch": "🎵流星车手"
+  },
+  "0-23": {
+    "en": "🎵Formation",
+    "kr": "🎵Formation",
+    "jp": "🎵Formation",
+    "ch": "🎵Formation"
+  },
+  "0-24": {
+    "en": "🎵Shinsou Masui",
+    "kr": "🎵Shinsou Masui",
+    "jp": "🎵心層麻酔",
+    "ch": "🎵心層麻酔"
+  },
+  "0-50": {
+    "en": "🎵Mezame Eurythmics",
+    "kr": "🎵Mezame Eurythmics",
+    "jp": "🎵Mezame Eurythmics",
+    "ch": "🎵Mezame Eurythmics"
+  },
+  "0-51": {
+    "en": "🎵Shenri Kuaira -repeat-",
+    "kr": "🎵Shenri Kuaira -repeat-",
+    "jp": "🎵Shenri Kuaira -repeat-",
+    "ch": "🎵Shenri Kuaira -repeat-"
+  },
+  "0-25": {
+    "en": "🎵Latitude",
+    "kr": "🎵Latitude",
+    "jp": "🎵Latitude",
+    "ch": "🎵Latitude"
+  },
+  "0-39": {
+    "en": "🎵Aqua Stars",
+    "kr": "🎵Aqua Stars",
+    "jp": "🎵Aqua Stars",
+    "ch": "🎵Aqua Stars"
+  },
+  "0-26": {
+    "en": "🎵Funkotsu Saishin Casino",
+    "kr": "🎵Funkotsu Saishin Casino",
+    "jp": "🎵粉骨砕身カジノゥ",
+    "ch": "🎵粉骨砕身カジノゥ"
+  },
+  "0-27": {
+    "en": "🎵Clock Room & Spiritual World",
+    "kr": "🎵Clock Room & Spiritual World",
+    "jp": "🎵時計の部屋と精神世界",
+    "ch": "🎵Clock Room & Spiritual World"
+  },
+  "0-52": {
+    "en": "🎵INTERNET OVERDOSE（Aiobahn feat.KOTOKO）",
+    "kr": "🎵INTERNET OVERDOSE（Aiobahn feat.KOTOKO）",
+    "jp": "🎵INTERNET OVERDOSE（Aiobahn feat.KOTOKO）",
+    "ch": "🎵INTERNET OVERDOSE（Aiobahn feat.KOTOKO）"
+  },
+  "0-35": {
+    "en": "🎵徒 花",
+    "kr": "🎵徒 花",
+    "jp": "🎵徒 花",
+    "ch": "🎵徒 花"
+  },
+  "0-28": {
+    "en": "🎵Mujinku-Vacuum Track#ADD8E6-",
+    "kr": "🎵Mujinku-Vacuum Track#ADD8E6-",
+    "jp": "🎵無人区-Vacuum Track#ADD8E6-",
+    "ch": "🎵無人区-Vacuum Track#ADD8E6-"
+  },
+  "0-36": {
+    "en": "🎵MilK",
+    "kr": "🎵MilK",
+    "jp": "🎵MilK",
+    "ch": "🎵MilK"
+  },
+  "0-41": {
+    "en": "🎵umpopoff",
+    "kr": "🎵umpopoff",
+    "jp": "🎵umpopoff",
+    "ch": "🎵umpopoff"
+  },
+  "0-45": {
+    "en": "🎵Mopemope",
+    "kr": "🎵Mopemope",
+    "jp": "🎵もぺもぺ",
+    "ch": "🎵もぺもぺ"
+  },
+  "<none>": {
+    "jp": "🎵<none>",
+    "ch": "🎵<none>"
+  },
+  "1-0": {
+    "en": "🎵Sunshine and Rainbow after August Rain",
+    "kr": "🎵Sunshine and Rainbow after August Rain",
+    "jp": "🎵八月の雨上がり、晴れ後レインボー",
+    "ch": "🎵八月雨後，初晴與彩虹",
+    "chs": "🎵八月雨后，初晴与彩虹"
+  },
+  "1-1": {
+    "en": "🎵Magical Number",
+    "kr": "🎵Magical Number",
+    "jp": "🎵マジカルナンバー",
+    "ch": "🎵魔法數字",
+    "chs": "🎵魔法数字"
+  },
+  "1-2": {
+    "en": "🎵Dreaming Girl",
+    "kr": "🎵Dreaming Girl",
+    "jp": "🎵Dreaming Girl",
+    "ch": "🎵Dreaming Girl",
+    "chs": "🎵Dreaming Girl"
+  },
+  "1-3": {
+    "en": "🎵Daruma-san Fell Over",
+    "kr": "🎵Daruma-san Fell Over",
+    "jp": "🎵Daruma-san Fell Over",
+    "ch": "🎵Daruma-san Fell Over",
+    "chs": "🎵Daruma-san Fell Over"
+  },
+  "1-4": {
+    "en": "🎵Different",
+    "kr": "🎵Different",
+    "jp": "🎵Different",
+    "ch": "🎵Different",
+    "chs": "🎵Different"
+  },
+  "1-5": {
+    "en": "🎵The Future of the Phantom",
+    "kr": "🎵The Future of the Phantom",
+    "jp": "🎵The Future of the Phantom",
+    "ch": "🎵The Future of the Phantom",
+    "chs": "🎵The Future of the Phantom"
+  },
+  "2-0": {
+    "en": "🎵Oriens",
+    "kr": "🎵Oriens",
+    "jp": "🎵Oriens",
+    "ch": "🎵Oriens",
+    "chs": "🎵Oriens"
+  },
+  "2-1": {
+    "en": "🎵PUPA",
+    "kr": "🎵PUPA",
+    "jp": "🎵PUPA",
+    "ch": "🎵PUPA",
+    "chs": "🎵PUPA"
+  },
+  "2-2": {
+    "en": "🎵Luna Express 2032",
+    "kr": "🎵Luna Express 2032",
+    "jp": "🎵Luna Express 2032",
+    "ch": "🎵Luna Express 2032",
+    "chs": "🎵Luna Express 2032"
+  },
+  "2-3": {
+    "en": "🎵Ukiyoe Yokochou",
+    "kr": "🎵Ukiyoe Yokochou",
+    "jp": "🎵浮世絵横丁",
+    "ch": "🎵浮世絵横丁",
+    "chs": "🎵浮世絵横丁"
+  },
+  "2-4": {
+    "en": "🎵Alice in Misanthrope",
+    "kr": "🎵Alice in Misanthrope",
+    "jp": "🎵Alice in Misanthrope -厭世アリス-",
+    "ch": "🎵Alice in Misanthrope -厭世アリス-",
+    "chs": "🎵Alice in Misanthrope -厭世アリス-"
+  },
+  "2-5": {
+    "en": "🎵GOODMEN",
+    "kr": "🎵GOODMEN",
+    "jp": "🎵GOODMEN",
+    "ch": "🎵GOODMEN",
+    "chs": "🎵GOODMEN"
+  },
+  "3-0": {
+    "en": "🎵Maharajah",
+    "kr": "🎵Maharajah",
+    "jp": "🎵Maharajah",
+    "ch": "🎵Maharajah",
+    "chs": "🎵Maharajah"
+  },
+  "3-1": {
+    "en": "🎵keep on running",
+    "kr": "🎵keep on running",
+    "jp": "🎵keep on running",
+    "ch": "🎵keep on running",
+    "chs": "🎵keep on running"
+  },
+  "3-2": {
+    "en": "🎵Käfig",
+    "kr": "🎵Käfig",
+    "jp": "🎵Käfig",
+    "ch": "🎵Käfig",
+    "chs": "🎵Käfig"
+  },
+  "3-3": {
+    "en": "🎵-+",
+    "kr": "🎵-+",
+    "jp": "🎵-+",
+    "ch": "🎵-+",
+    "chs": "🎵-+"
+  },
+  "3-4": {
+    "en": "🎵Tenri Kaku Jou",
+    "kr": "🎵Tenri Kaku Jou",
+    "jp": "🎵天理鶴情",
+    "ch": "🎵天理鶴情",
+    "chs": "🎵天理鶴情"
+  },
+  "3-5": {
+    "en": "🎵Adjudicatorz-DanZai-",
+    "kr": "🎵Adjudicatorz-DanZai-",
+    "jp": "🎵Adjudicatorz-断罪-",
+    "ch": "🎵Adjudicatorz-断罪-",
+    "chs": "🎵Adjudicatorz-断罪-"
+  },
+  "4-0": {
+    "en": "🎵MUSEDASH!!!!",
+    "kr": "🎵MUSEDASH!!!!",
+    "jp": "🎵MUSEDASH!!!!",
+    "ch": "🎵MUSEDASH!!!!",
+    "chs": "🎵MUSEDASH!!!!"
+  },
+  "4-1": {
+    "en": "🎵Imprinting",
+    "kr": "🎵Imprinting",
+    "jp": "🎵Imprinting",
+    "ch": "🎵Imprinting",
+    "chs": "🎵Imprinting"
+  },
+  "4-2": {
+    "en": "🎵Skyward",
+    "kr": "🎵Skyward",
+    "jp": "🎵Skyward",
+    "ch": "🎵Skyward",
+    "chs": "🎵Skyward"
+  },
+  "4-3": {
+    "en": "🎵La nuit de vif",
+    "kr": "🎵La nuit de vif",
+    "jp": "🎵La nuit de vif",
+    "ch": "🎵La nuit de vif",
+    "chs": "🎵La nuit de vif"
+  },
+  "4-4": {
+    "en": "🎵Bit-alize",
+    "kr": "🎵Bit-alize",
+    "jp": "🎵Bit-alize",
+    "ch": "🎵Bit-alize",
+    "chs": "🎵Bit-alize"
+  },
+  "4-5": {
+    "en": "🎵GOODTEK(Hyper Edit)",
+    "kr": "🎵GOODTEK(Hyper Edit)",
+    "jp": "🎵GOODTEK(Hyper Edit)",
+    "ch": "🎵GOODTEK(Hyper Edit)",
+    "chs": "🎵GOODTEK(Hyper Edit)"
+  },
+  "5-0": {
+    "en": "🎵Thirty Million Persona",
+    "kr": "🎵Thirty Million Persona",
+    "jp": "🎵Thirty Million Persona",
+    "ch": "🎵Thirty Million Persona",
+    "chs": "🎵Thirty Million Persona"
+  },
+  "5-1": {
+    "en": "🎵conflict",
+    "kr": "🎵conflict",
+    "jp": "🎵conflict",
+    "ch": "🎵conflict",
+    "chs": "🎵conflict"
+  },
+  "5-2": {
+    "en": "🎵Enka Dance Music",
+    "kr": "🎵Enka Dance Music",
+    "jp": "🎵演華舞踊 ~Enka Dance Music~",
+    "ch": "🎵演華舞踊 ~Enka Dance Music~",
+    "chs": "🎵演華舞踊 ~Enka Dance Music~"
+  },
+  "5-3": {
+    "en": "🎵XING",
+    "kr": "🎵XING",
+    "jp": "🎵XING",
+    "ch": "🎵XING",
+    "chs": "🎵XING"
+  },
+  "5-4": {
+    "en": "🎵Amakakeru Soukyuu no Serenade",
+    "kr": "🎵Amakakeru Soukyuu no Serenade",
+    "jp": "🎵天翔ける蒼穹のセレナーデ",
+    "ch": "🎵天翔ける蒼穹のセレナーデ",
+    "chs": "🎵天翔ける蒼穹のセレナーデ"
+  },
+  "5-5": {
+    "en": "🎵Gift box",
+    "kr": "🎵Gift box",
+    "jp": "🎵Gift box",
+    "ch": "🎵Gift box",
+    "chs": "🎵Gift box"
+  },
+  "7-0": {
+    "en": "🎵Brave My Soul",
+    "kr": "🎵Brave My Soul",
+    "jp": "🎵Brave My Soul",
+    "ch": "🎵Brave My Soul",
+    "chs": "🎵Brave My Soul"
+  },
+  "7-1": {
+    "en": "🎵Halcyon",
+    "kr": "🎵Halcyon",
+    "jp": "🎵Halcyon",
+    "ch": "🎵Halcyon",
+    "chs": "🎵Halcyon"
+  },
+  "7-2": {
+    "en": "🎵Crimson Nightingle",
+    "kr": "🎵Crimson Nightingle",
+    "jp": "🎵Crimson Nightingle",
+    "ch": "🎵Crimson Nightingle",
+    "chs": "🎵Crimson Nightingle"
+  },
+  "7-3": {
+    "en": "🎵Invader",
+    "kr": "🎵Invader",
+    "jp": "🎵Invader",
+    "ch": "🎵Invader",
+    "chs": "🎵Invader"
+  },
+  "7-4": {
+    "en": "🎵Lyrith",
+    "kr": "🎵Lyrith",
+    "jp": "🎵Lyrith -迷宮リリス-",
+    "ch": "🎵Lyrith -迷宮リリス-",
+    "chs": "🎵Lyrith -迷宮リリス-"
+  },
+  "7-5": {
+    "en": "🎵GOODBOUNCE (Groove Edit)",
+    "kr": "🎵GOODBOUNCE (Groove Edit)",
+    "jp": "🎵GOODBOUNCE (Groove Edit)",
+    "ch": "🎵GOODBOUNCE (Groove Edit)",
+    "chs": "🎵GOODBOUNCE (Groove Edit)"
+  },
+  "8-0": {
+    "en": "🎵Altale",
+    "kr": "🎵Altale",
+    "jp": "🎵Altale",
+    "ch": "🎵Altale",
+    "chs": "🎵Altale"
+  },
+  "8-1": {
+    "en": "🎵Brain Power",
+    "kr": "🎵Brain Power",
+    "jp": "🎵Brain Power",
+    "ch": "🎵Brain Power",
+    "chs": "🎵Brain Power"
+  },
+  "8-2": {
+    "en": "🎵Berry Go!!",
+    "kr": "🎵Berry Go!!",
+    "jp": "🎵Berry Go!!",
+    "ch": "🎵Berry Go!!",
+    "chs": "🎵Berry Go!!"
+  },
+  "8-3": {
+    "en": "🎵Sweet* Witch* Girl*",
+    "kr": "🎵Sweet* Witch* Girl*",
+    "jp": "🎵Sweet* Witch* Girl*",
+    "ch": "🎵Sweet* Witch* Girl*",
+    "chs": "🎵Sweet* Witch* Girl*"
+  },
+  "8-4": {
+    "en": "🎵trippers feeling!",
+    "kr": "🎵trippers feeling!",
+    "jp": "🎵trippers feeling!",
+    "ch": "🎵trippers feeling!",
+    "chs": "🎵trippers feeling!"
+  },
+  "8-5": {
+    "en": "🎵Lilith ambivalence lovers",
+    "kr": "🎵Lilith ambivalence lovers",
+    "jp": "🎵Lilith ambivalence lovers",
+    "ch": "🎵Lilith ambivalence lovers",
+    "chs": "🎵Lilith ambivalence lovers"
+  },
+  "9-0": {
+    "en": "🎵Leave It Alone",
+    "kr": "🎵Leave It Alone",
+    "jp": "🎵Leave It Alone",
+    "ch": "🎵Leave It Alone",
+    "chs": "🎵Leave It Alone"
+  },
+  "9-1": {
+    "en": "🎵Tsubasa no Oreta Tenshitachi no Requiem",
+    "kr": "🎵Tsubasa no Oreta Tenshitachi no Requiem",
+    "jp": "🎵翼の折れた天使たちのレクイエム",
+    "ch": "🎵翼の折れた天使たちのレクイエム",
+    "chs": "🎵翼の折れた天使たちのレクイエム"
+  },
+  "9-2": {
+    "en": "🎵Chronomia",
+    "kr": "🎵Chronomia",
+    "jp": "🎵Chronomia",
+    "ch": "🎵Chronomia",
+    "chs": "🎵Chronomia"
+  },
+  "9-3": {
+    "en": "🎵Dandelion's Daydream",
+    "kr": "🎵Dandelion's Daydream",
+    "jp": "🎵Dandelion's Daydream",
+    "ch": "🎵Dandelion's Daydream",
+    "chs": "🎵Dandelion's Daydream"
+  },
+  "9-4": {
+    "en": "🎵Lorikeet ~Flat design~",
+    "kr": "🎵Lorikeet ~Flat design~",
+    "jp": "🎵ロリキート ~Flat design~",
+    "ch": "🎵ロリキート ~Flat design~",
+    "chs": "🎵ロリキート ~Flat design~"
+  },
+  "9-5": {
+    "en": "🎵GOODRAGE",
+    "kr": "🎵GOODRAGE",
+    "jp": "🎵GOODRAGE",
+    "ch": "🎵GOODRAGE",
+    "chs": "🎵GOODRAGE"
+  },
+  "10-0": {
+    "en": "🎵Destr0yer",
+    "kr": "🎵Destr0yer",
+    "jp": "🎵Destr0yer",
+    "ch": "🎵Destr0yer",
+    "chs": "🎵Destr0yer"
+  },
+  "10-1": {
+    "en": "🎵Noël",
+    "kr": "🎵Noël",
+    "jp": "🎵Noël",
+    "ch": "🎵Noël",
+    "chs": "🎵Noël"
+  },
+  "10-2": {
+    "en": "🎵Kyoukiranbu",
+    "kr": "🎵Kyoukiranbu",
+    "jp": "🎵狂喜蘭舞",
+    "ch": "🎵狂喜蘭舞",
+    "chs": "🎵狂喜蘭舞"
+  },
+  "10-3": {
+    "en": "🎵Two Phace",
+    "kr": "🎵Two Phace",
+    "jp": "🎵Two Phace",
+    "ch": "🎵Two Phace",
+    "chs": "🎵Two Phace"
+  },
+  "10-4": {
+    "en": "🎵Fly Again",
+    "kr": "🎵Fly Again",
+    "jp": "🎵Fly Again",
+    "ch": "🎵Fly Again",
+    "chs": "🎵Fly Again"
+  },
+  "10-5": {
+    "en": "🎵ouroVoros",
+    "kr": "🎵ouroVoros",
+    "jp": "🎵ouroVoros",
+    "ch": "🎵ouroVoros",
+    "chs": "🎵ouroVoros"
+  },
+  "11-0": {
+    "en": "🎵Brave My Heart",
+    "kr": "🎵Brave My Heart",
+    "jp": "🎵Brave My Heart",
+    "ch": "🎵Brave My Heart",
+    "chs": "🎵Brave My Heart"
+  },
+  "11-1": {
+    "en": "🎵Sakura Fubuki",
+    "kr": "🎵Sakura Fubuki",
+    "jp": "🎵Sakura Fubuki",
+    "ch": "🎵Sakura Fubuki",
+    "chs": "🎵Sakura Fubuki"
+  },
+  "11-2": {
+    "en": "🎵8bit Adventurer",
+    "kr": "🎵8bit Adventurer",
+    "jp": "🎵8bit Adventurer",
+    "ch": "🎵8bit Adventurer",
+    "chs": "🎵8bit Adventurer"
+  },
+  "11-3": {
+    "en": "🎵Suffering of screw",
+    "kr": "🎵Suffering of screw",
+    "jp": "🎵Suffering of screw",
+    "ch": "🎵Suffering of screw",
+    "chs": "🎵Suffering of screw"
+  },
+  "11-4": {
+    "en": "🎵tiny lady",
+    "kr": "🎵tiny lady",
+    "jp": "🎵tiny lady",
+    "ch": "🎵tiny lady",
+    "chs": "🎵tiny lady"
+  },
+  "11-5": {
+    "en": "🎵Power Attack",
+    "kr": "🎵Power Attack",
+    "jp": "🎵Power Attack",
+    "ch": "🎵Power Attack",
+    "chs": "🎵Power Attack"
+  },
+  "12-0": {
+    "en": "🎵Gaikan Chrysalis",
+    "kr": "🎵Gaikan Chrysalis",
+    "jp": "🎵蓋棺クリサリス",
+    "ch": "🎵蓋棺クリサリス",
+    "chs": "🎵蓋棺クリサリス"
+  },
+  "12-1": {
+    "en": "🎵Sterelogue",
+    "kr": "🎵Sterelogue",
+    "jp": "🎵Sterelogue",
+    "ch": "🎵Sterelogue",
+    "chs": "🎵Sterelogue"
+  },
+  "12-2": {
+    "en": "🎵Cheshire's Dance",
+    "kr": "🎵Cheshire's Dance",
+    "jp": "🎵Cheshire's Dance",
+    "ch": "🎵Cheshire's Dance",
+    "chs": "🎵Cheshire's Dance"
+  },
+  "12-3": {
+    "en": "🎵Skrik",
+    "kr": "🎵Skrik",
+    "jp": "🎵Skrik",
+    "ch": "🎵Skrik",
+    "chs": "🎵Skrik"
+  },
+  "12-4": {
+    "en": "🎵Soda Pop Canva5!",
+    "kr": "🎵Soda Pop Canva5!",
+    "jp": "🎵Soda Pop Canva5!",
+    "ch": "🎵Soda Pop Canva5!",
+    "chs": "🎵Soda Pop Canva5!"
+  },
+  "12-5": {
+    "en": "🎵ЯUBY:LINTe",
+    "kr": "🎵ЯUBY:LINTe",
+    "jp": "🎵ЯUBY:LINTe",
+    "ch": "🎵ЯUBY:LINTe",
+    "chs": "🎵ЯUBY:LINTe"
+  },
+  "13-0": {
+    "en": "🎵速溶霓虹 feat.kumako",
+    "kr": "🎵速溶霓虹 feat.kumako",
+    "jp": "🎵速溶霓虹 feat.kumako",
+    "ch": "🎵速溶霓虹 feat.熊子",
+    "chs": "🎵速溶霓虹 feat.熊子"
+  },
+  "13-1": {
+    "en": "🎵星球上的追溯诗",
+    "kr": "🎵星球上的追溯诗",
+    "jp": "🎵星球上的追溯诗",
+    "ch": "🎵星球上的追溯詩",
+    "chs": "🎵星球上的追溯诗"
+  },
+  "13-2": {
+    "en": "🎵我要买买买",
+    "kr": "🎵我要买买买",
+    "jp": "🎵我要买买买",
+    "ch": "🎵我要買買買",
+    "chs": "🎵我要买买买"
+  },
+  "13-3": {
+    "en": "🎵约会宣言",
+    "kr": "🎵约会宣言",
+    "jp": "🎵约会宣言",
+    "ch": "🎵約會宣言",
+    "chs": "🎵约会宣言"
+  },
+  "13-4": {
+    "en": "🎵初雪",
+    "kr": "🎵初雪",
+    "jp": "🎵初雪",
+    "ch": "🎵初雪",
+    "chs": "🎵初雪"
+  },
+  "13-5": {
+    "en": "🎵心上华海",
+    "kr": "🎵心上华海",
+    "jp": "🎵心上华海",
+    "ch": "🎵心上華海",
+    "chs": "🎵心上华海"
+  },
+  "14-0": {
+    "en": "🎵Elysion's Old Mans",
+    "kr": "🎵Elysion's Old Mans",
+    "jp": "🎵Elysion's Old Mans",
+    "ch": "🎵Elysion's Old Mans",
+    "chs": "🎵Elysion's Old Mans"
+  },
+  "14-1": {
+    "en": "🎵AXION",
+    "kr": "🎵AXION",
+    "jp": "🎵AXION",
+    "ch": "🎵AXION",
+    "chs": "🎵AXION"
+  },
+  "14-2": {
+    "en": "🎵Amnesia",
+    "kr": "🎵Amnesia",
+    "jp": "🎵Amnesia",
+    "ch": "🎵Amnesia",
+    "chs": "🎵Amnesia"
+  },
+  "14-3": {
+    "en": "🎵Onsen Dai Sakusen",
+    "kr": "🎵Onsen Dai Sakusen",
+    "jp": "🎵温泉大作戦",
+    "ch": "🎵温泉大作戦",
+    "chs": "🎵温泉大作戦"
+  },
+  "14-4": {
+    "en": "🎵Gleam stone",
+    "kr": "🎵Gleam stone",
+    "jp": "🎵Gleam stone",
+    "ch": "🎵Gleam stone",
+    "chs": "🎵Gleam stone"
+  },
+  "14-5": {
+    "en": "🎵GOODWORLD",
+    "kr": "🎵GOODWORLD",
+    "jp": "🎵GOODWORLD",
+    "ch": "🎵GOODWORLD",
+    "chs": "🎵GOODWORLD"
+  },
+  "15-0": {
+    "en": "🎵魔咒 feat.早木旋子",
+    "kr": "🎵魔咒 feat.早木旋子",
+    "jp": "🎵魔咒 feat.早木旋子",
+    "ch": "🎵魔咒 feat.早木旋子",
+    "chs": "🎵魔咒 feat.早木旋子"
+  },
+  "15-1": {
+    "en": "🎵斑斓星，彩绘，旅行诗",
+    "kr": "🎵斑斓星，彩绘，旅行诗",
+    "jp": "🎵斑斓星，彩绘，旅行诗",
+    "ch": "🎵斑斕星，彩繪，旅行詩",
+    "chs": "🎵斑斓星，彩绘，旅行诗"
+  },
+  "15-2": {
+    "en": "🎵Satell Knight",
+    "kr": "🎵Satell Knight",
+    "jp": "🎵Satell Knight",
+    "ch": "🎵Satell Knight",
+    "chs": "🎵Satell Knight"
+  },
+  "15-3": {
+    "en": "🎵Black River Feat.Mes",
+    "kr": "🎵Black River Feat.Mes",
+    "jp": "🎵Black River Feat.Mes",
+    "ch": "🎵Black River Feat.Mes",
+    "chs": "🎵Black River Feat.Mes"
+  },
+  "15-4": {
+    "en": "🎵生而为人，我很抱歉",
+    "kr": "🎵生而为人，我很抱歉",
+    "jp": "🎵生而为人，我很抱歉",
+    "ch": "🎵生而為人，我很抱歉",
+    "chs": "🎵生而为人，我很抱歉"
+  },
+  "15-5": {
+    "en": "🎵Ueta Tori Tachi",
+    "kr": "🎵Ueta Tori Tachi",
+    "jp": "🎵飢えた鳥たち",
+    "ch": "🎵飢えた鳥たち",
+    "chs": "🎵飢えた鳥たち"
+  },
+  "16-0": {
+    "en": "🎵Future Dive",
+    "kr": "🎵Future Dive",
+    "jp": "🎵Future Dive",
+    "ch": "🎵Future Dive",
+    "chs": "🎵Future Dive"
+  },
+  "16-1": {
+    "en": "🎵Re：End of a Dream",
+    "kr": "🎵Re：End of a Dream",
+    "jp": "🎵Re：End of a Dream",
+    "ch": "🎵Re：End of a Dream",
+    "chs": "🎵Re：End of a Dream"
+  },
+  "16-2": {
+    "en": "🎵Etude -Storm-",
+    "kr": "🎵Etude -Storm-",
+    "jp": "🎵Etude -Storm-",
+    "ch": "🎵Etude -Storm-",
+    "chs": "🎵Etude -Storm-"
+  },
+  "16-3": {
+    "en": "🎵Unlimited Katharsis",
+    "kr": "🎵Unlimited Katharsis",
+    "jp": "🎵Unlimited Katharsis",
+    "ch": "🎵Unlimited Katharsis",
+    "chs": "🎵Unlimited Katharsis"
+  },
+  "16-4": {
+    "en": "🎵Magic Knight Girl",
+    "kr": "🎵Magic Knight Girl",
+    "jp": "🎵Magic Knight Girl",
+    "ch": "🎵Magic Knight Girl",
+    "chs": "🎵Magic Knight Girl"
+  },
+  "16-5": {
+    "en": "🎵Eeliaas",
+    "kr": "🎵Eeliaas",
+    "jp": "🎵Eeliaas",
+    "ch": "🎵Eeliaas",
+    "chs": "🎵Eeliaas"
+  },
+  "17-0": {
+    "en": "🎵Cotton Candy Wonderland",
+    "kr": "🎵Cotton Candy Wonderland",
+    "jp": "🎵Cotton Candy Wonderland",
+    "ch": "🎵Cotton Candy Wonderland",
+    "chs": "🎵Cotton Candy Wonderland"
+  },
+  "17-1": {
+    "en": "🎵Punai Punai Taiso",
+    "kr": "🎵Punai Punai Taiso",
+    "jp": "🎵プナイプナイたいそう",
+    "ch": "🎵プナイプナイたいそう",
+    "chs": "🎵プナイプナイたいそう"
+  },
+  "17-2": {
+    "en": "🎵Fly↑High",
+    "kr": "🎵Fly↑High",
+    "jp": "🎵Fly↑High",
+    "ch": "🎵Fly↑High",
+    "chs": "🎵Fly↑High"
+  },
+  "17-3": {
+    "en": "🎵prejudice",
+    "kr": "🎵prejudice",
+    "jp": "🎵prejudice",
+    "ch": "🎵prejudice",
+    "chs": "🎵prejudice"
+  },
+  "17-4": {
+    "en": "🎵The 89's Momentum",
+    "kr": "🎵The 89's Momentum",
+    "jp": "🎵The 89's Momentum",
+    "ch": "🎵The 89's Momentum",
+    "chs": "🎵The 89's Momentum"
+  },
+  "17-5": {
+    "en": "🎵energy night(DASH mix)",
+    "kr": "🎵energy night(DASH mix)",
+    "jp": "🎵energy night(DASH mix)",
+    "ch": "🎵energy night(DASH mix)",
+    "chs": "🎵energy night(DASH mix)"
+  },
+  "18-0": {
+    "en": "🎵SWEETSWEETSWEET",
+    "kr": "🎵SWEETSWEETSWEET",
+    "jp": "🎵SWEETSWEETSWEET",
+    "ch": "🎵SWEETSWEETSWEET",
+    "chs": "🎵SWEETSWEETSWEET"
+  },
+  "18-1": {
+    "en": "🎵深蓝与夜的呼吸",
+    "kr": "🎵深蓝与夜的呼吸",
+    "jp": "🎵深蓝与夜的呼吸",
+    "ch": "🎵深藍与夜的呼吸",
+    "chs": "🎵深蓝与夜的呼吸"
+  },
+  "18-2": {
+    "en": "🎵Joy Connection",
+    "kr": "🎵Joy Connection",
+    "jp": "🎵Joy Connection",
+    "ch": "🎵Joy Connection",
+    "chs": "🎵Joy Connection"
+  },
+  "18-3": {
+    "en": "🎵Self Willed Girl Ver.B",
+    "kr": "🎵Self Willed Girl Ver.B",
+    "jp": "🎵わがまま Ver.B",
+    "ch": "🎵任性 Ver.B",
+    "chs": "🎵任性 Ver.B"
+  },
+  "18-4": {
+    "en": "🎵就是不听话",
+    "kr": "🎵就是不听话",
+    "jp": "🎵就是不听话",
+    "ch": "🎵就是不聽話",
+    "chs": "🎵就是不听话"
+  },
+  "18-5": {
+    "en": "🎵Holy Shit Grass Snake",
+    "kr": "🎵Holy Shit Grass Snake",
+    "jp": "🎵怖い草蛇",
+    "ch": "🎵草蛇驚一",
+    "chs": "🎵草蛇惊一"
+  },
+  "19-0": {
+    "en": "🎵INFINITY",
+    "kr": "🎵INFINITY",
+    "jp": "🎵INFINITY",
+    "ch": "🎵INFINITY",
+    "chs": "🎵INFINITY"
+  },
+  "19-1": {
+    "en": "🎵Punai Punai Senso",
+    "kr": "🎵Punai Punai Senso",
+    "jp": "🎵プナイプナイせんそう",
+    "ch": "🎵プナイプナイせんそう",
+    "chs": "🎵プナイプナイせんそう"
+  },
+  "19-2": {
+    "en": "🎵Maxi",
+    "kr": "🎵Maxi",
+    "jp": "🎵Maxi",
+    "ch": "🎵Maxi",
+    "chs": "🎵Maxi"
+  },
+  "19-3": {
+    "en": "🎵YInMn Blue",
+    "kr": "🎵YInMn Blue",
+    "jp": "🎵YInMn Blue",
+    "ch": "🎵YInMn Blue",
+    "chs": "🎵YInMn Blue"
+  },
+  "19-4": {
+    "en": "🎵Plumage",
+    "kr": "🎵Plumage",
+    "jp": "🎵Plumage",
+    "ch": "🎵Plumage",
+    "chs": "🎵Plumage"
+  },
+  "19-5": {
+    "en": "🎵Dr.Techro",
+    "kr": "🎵Dr.Techro",
+    "jp": "🎵Dr.Techro",
+    "ch": "🎵Dr.Techro",
+    "chs": "🎵Dr.Techro"
+  },
+  "20-0": {
+    "en": "🎵Moonlight Banquet",
+    "kr": "🎵Moonlight Banquet",
+    "jp": "🎵Moonlight Banquet",
+    "ch": "🎵Moonlight Banquet",
+    "chs": "🎵Moonlight Banquet"
+  },
+  "20-1": {
+    "en": "🎵Flashdance",
+    "kr": "🎵Flashdance",
+    "jp": "🎵Flashdance",
+    "ch": "🎵Flashdance",
+    "chs": "🎵Flashdance"
+  },
+  "20-2": {
+    "en": "🎵INFiNiTE ENERZY -Overdoze-",
+    "kr": "🎵INFiNiTE ENERZY -Overdoze-",
+    "jp": "🎵INFiNiTE ENERZY -Overdoze-",
+    "ch": "🎵INFiNiTE ENERZY -Overdoze-",
+    "chs": "🎵INFiNiTE ENERZY -Overdoze-"
+  },
+  "20-3": {
+    "en": "🎵One Way Street",
+    "kr": "🎵One Way Street",
+    "jp": "🎵One Way Street",
+    "ch": "🎵One Way Street",
+    "chs": "🎵One Way Street"
+  },
+  "20-4": {
+    "en": "🎵This Club is Not 4 U",
+    "kr": "🎵This Club is Not 4 U",
+    "jp": "🎵This Club is Not 4 U",
+    "ch": "🎵This Club is Not 4 U",
+    "chs": "🎵This Club is Not 4 U"
+  },
+  "20-5": {
+    "en": "🎵ULTRA MEGA HAPPY PARTY!!!",
+    "kr": "🎵ULTRA MEGA HAPPY PARTY!!!",
+    "jp": "🎵ULTRA MEGA HAPPY PARTY!!!",
+    "ch": "🎵ULTRA MEGA HAPPY PARTY!!!",
+    "chs": "🎵ULTRA MEGA HAPPY PARTY!!!"
+  },
+  "21-0": {
+    "en": "🎵Glimmer feat.祈Inory",
+    "kr": "🎵Glimmer feat.祈Inory",
+    "jp": "🎵Glimmer feat.祈Inory",
+    "ch": "🎵Glimmer feat.祈Inory",
+    "chs": "🎵Glimmer feat.祈Inory"
+  },
+  "21-1": {
+    "en": "🎵EXIST feat.米雅",
+    "kr": "🎵EXIST feat.米雅",
+    "jp": "🎵EXIST feat.米雅",
+    "ch": "🎵EXIST feat.米雅",
+    "chs": "🎵EXIST feat.米雅"
+  },
+  "21-2": {
+    "en": "🎵Irreplaceable feat.夏铜子",
+    "kr": "🎵Irreplaceable feat.夏铜子",
+    "jp": "🎵Irreplaceable feat.夏铜子",
+    "ch": "🎵Irreplaceable feat.夏銅子",
+    "chs": "🎵Irreplaceable feat.夏铜子"
+  },
+  "22-0": {
+    "en": "🎵The NightScape",
+    "kr": "🎵The NightScape",
+    "jp": "🎵The NightScape",
+    "ch": "🎵The NightScape",
+    "chs": "🎵The NightScape"
+  },
+  "22-1": {
+    "en": "🎵FREEDOM DiVE↓",
+    "kr": "🎵FREEDOM DiVE↓",
+    "jp": "🎵FREEDOM DiVE↓",
+    "ch": "🎵FREEDOM DiVE↓",
+    "chs": "🎵FREEDOM DiVE↓"
+  },
+  "22-2": {
+    "en": "🎵Φ",
+    "kr": "🎵Φ",
+    "jp": "🎵Φ",
+    "ch": "🎵Φ",
+    "chs": "🎵Φ"
+  },
+  "22-3": {
+    "en": "🎵Lueur de la nuit",
+    "kr": "🎵Lueur de la nuit",
+    "jp": "🎵Lueur de la nuit",
+    "ch": "🎵Lueur de la nuit",
+    "chs": "🎵Lueur de la nuit"
+  },
+  "22-4": {
+    "en": "🎵Creamy Sugary OVERDRIVE!!!",
+    "kr": "🎵Creamy Sugary OVERDRIVE!!!",
+    "jp": "🎵Creamy Sugary OVERDRIVE!!!",
+    "ch": "🎵Creamy Sugary OVERDRIVE!!!",
+    "chs": "🎵Creamy Sugary OVERDRIVE!!!"
+  },
+  "22-5": {
+    "en": "🎵Disorder (feat.YURI)",
+    "kr": "🎵Disorder (feat.YURI)",
+    "jp": "🎵Disorder (feat.YURI)",
+    "ch": "🎵Disorder (feat.YURI)",
+    "chs": "🎵Disorder (feat.YURI)"
+  },
+  "23-0": {
+    "en": "🎵雨后甜点",
+    "kr": "🎵雨后甜点",
+    "jp": "🎵雨后甜点",
+    "ch": "🎵雨後甜點",
+    "chs": "🎵雨后甜点"
+  },
+  "23-1": {
+    "en": "🎵告白应援方程式",
+    "kr": "🎵告白应援方程式",
+    "jp": "🎵告白应援方程式",
+    "ch": "🎵告白應援方程式",
+    "chs": "🎵告白应援方程式"
+  },
+  "23-2": {
+    "en": "🎵Omatsuri feat.兔子ST",
+    "kr": "🎵Omatsuri feat.兔子ST",
+    "jp": "🎵Omatsuri feat.兔子ST",
+    "ch": "🎵Omatsuri feat.兔子ST",
+    "chs": "🎵Omatsuri feat.兔子ST"
+  },
+  "23-3": {
+    "en": "🎵FUTUREPOP",
+    "kr": "🎵FUTUREPOP",
+    "jp": "🎵FUTUREPOP",
+    "ch": "🎵FUTUREPOP",
+    "chs": "🎵FUTUREPOP"
+  },
+  "23-4": {
+    "en": "🎵The Breeze",
+    "kr": "🎵The Breeze",
+    "jp": "🎵The Breeze",
+    "ch": "🎵The Breeze",
+    "chs": "🎵The Breeze"
+  },
+  "23-5": {
+    "en": "🎵I LOVE LETTUCE FRIED RICE!!",
+    "kr": "🎵I LOVE LETTUCE FRIED RICE!!",
+    "jp": "🎵ウォー・アイ・レタス炒飯！！",
+    "ch": "🎵ウォー・アイ・レタス炒飯！！",
+    "chs": "🎵ウォー・アイ・レタス炒飯！！"
+  },
+  "24-0": {
+    "en": "🎵The Last Page",
+    "kr": "🎵The Last Page",
+    "jp": "🎵The Last Page",
+    "ch": "🎵The Last Page",
+    "chs": "🎵The Last Page"
+  },
+  "24-1": {
+    "en": "🎵IKAROS",
+    "kr": "🎵IKAROS",
+    "jp": "🎵IKAROS",
+    "ch": "🎵IKAROS",
+    "chs": "🎵IKAROS"
+  },
+  "24-2": {
+    "en": "🎵Tsukuyomi",
+    "kr": "🎵Tsukuyomi",
+    "jp": "🎵月夜見",
+    "ch": "🎵月夜見",
+    "chs": "🎵月夜見"
+  },
+  "24-3": {
+    "en": "🎵Future Stream",
+    "kr": "🎵Future Stream",
+    "jp": "🎵Future Stream",
+    "ch": "🎵Future Stream",
+    "chs": "🎵Future Stream"
+  },
+  "24-4": {
+    "en": "🎵FULi AUTO SHOOTER",
+    "kr": "🎵FULi AUTO SHOOTER",
+    "jp": "🎵FULi AUTO SHOOTER",
+    "ch": "🎵FULi AUTO SHOOTER",
+    "chs": "🎵FULi AUTO SHOOTER"
+  },
+  "24-5": {
+    "en": "🎵GOODFORTUNE",
+    "kr": "🎵GOODFORTUNE",
+    "jp": "🎵GOODFORTUNE",
+    "ch": "🎵GOODFORTUNE",
+    "chs": "🎵GOODFORTUNE"
+  },
+  "25-0": {
+    "en": "🎵tape/stop/night",
+    "kr": "🎵tape/stop/night",
+    "jp": "🎵tape/stop/night",
+    "ch": "🎵tape/stop/night",
+    "chs": "🎵tape/stop/night"
+  },
+  "25-1": {
+    "en": "🎵Pixel Galaxy",
+    "kr": "🎵Pixel Galaxy",
+    "jp": "🎵Pixel Galaxy",
+    "ch": "🎵Pixel Galaxy",
+    "chs": "🎵Pixel Galaxy"
+  },
+  "25-2": {
+    "en": "🎵Notice",
+    "kr": "🎵Notice",
+    "jp": "🎵Notice",
+    "ch": "🎵Notice",
+    "chs": "🎵Notice"
+  },
+  "25-3": {
+    "en": "🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+    "kr": "🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+    "jp": "🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+    "ch": "🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>",
+    "chs": "🎵sᴛʀᴀᴡʙᴇʀʀʏ ɢᴏᴅᴢɪʟʟᴀ</b>"
+  },
+  "25-4": {
+    "en": "🎵OKIMOCHI EXPRESSION",
+    "kr": "🎵OKIMOCHI EXPRESSION",
+    "jp": "🎵OKIMOCHI EXPRESSION",
+    "ch": "🎵OKIMOCHI EXPRESSION",
+    "chs": "🎵OKIMOCHI EXPRESSION"
+  },
+  "25-5": {
+    "en": "🎵君とpool disco",
+    "kr": "🎵君とpool disco",
+    "jp": "🎵君とpool disco",
+    "ch": "🎵君とpool disco",
+    "chs": "🎵君とpool disco"
+  },
+  "26-0": {
+    "en": "🎵Legend of Eastern Rabbit -SKY DEFENDER-",
+    "kr": "🎵Legend of Eastern Rabbit -SKY DEFENDER-",
+    "jp": "🎵東方兔傳說 -SKY DEFENDER-",
+    "ch": "🎵東方兔傳說 -SKY DEFENDER-",
+    "chs": "🎵東方兔傳說 -SKY DEFENDER-"
+  },
+  "26-1": {
+    "en": "🎵ENERGY SYNERGY MATRIX",
+    "kr": "🎵ENERGY SYNERGY MATRIX",
+    "jp": "🎵ENERGY SYNERGY MATRIX",
+    "ch": "🎵ENERGY SYNERGY MATRIX",
+    "chs": "🎵ENERGY SYNERGY MATRIX"
+  },
+  "26-2": {
+    "en": "🎵Punai Punai Genso ~Punai Punai in Wonderland~",
+    "kr": "🎵Punai Punai Genso ~Punai Punai in Wonderland~",
+    "jp": "🎵プナイプナイげんそう ～プナイプナイinワンダーランド～",
+    "ch": "🎵プナイプナイげんそう ～プナイプナイinワンダーランド～",
+    "chs": "🎵プナイプナイげんそう ～プナイプナイinワンダーランド～"
+  },
+  "26-3": {
+    "en": "🎵Better Graphic Animation",
+    "kr": "🎵Better Graphic Animation",
+    "jp": "🎵Better Graphic Animation",
+    "ch": "🎵Better Graphic Animation",
+    "chs": "🎵Better Graphic Animation"
+  },
+  "26-4": {
+    "en": "🎵Variant Cross",
+    "kr": "🎵Variant Cross",
+    "jp": "🎵Variant Cross",
+    "ch": "🎵Variant Cross",
+    "chs": "🎵Variant Cross"
+  },
+  "26-5": {
+    "en": "🎵Ultra Happy Miracle Bazoooooka!!",
+    "kr": "🎵Ultra Happy Miracle Bazoooooka!!",
+    "jp": "🎵Ultra Happy Miracle Bazoooooka!!",
+    "ch": "🎵Ultra Happy Miracle Bazoooooka!!",
+    "chs": "🎵Ultra Happy Miracle Bazoooooka!!"
+  },
+  "27-0": {
+    "en": "🎵Can I friend you on Bassbook? lol",
+    "kr": "🎵Can I friend you on Bassbook? lol",
+    "jp": "🎵ベースラインやってる?笑",
+    "ch": "🎵ベースラインやってる?笑",
+    "chs": "🎵ベースラインやってる?笑"
+  },
+  "27-1": {
+    "en": "🎵Gaming☆Everything",
+    "kr": "🎵Gaming☆Everything",
+    "jp": "🎵ゲーミング☆Everything",
+    "ch": "🎵ゲーミング☆Everything",
+    "chs": "🎵ゲーミング☆Everything"
+  },
+  "27-2": {
+    "en": "🎵Renji de haochi☆Denshi choriki shiyou chuka ryori 4000nen rekishi shunkan chori kanryo butouteki ryoricho☆",
+    "kr": "🎵Renji de haochi☆Denshi choriki shiyou chuka ryori 4000nen rekishi shunkan chori kanryo butouteki ryoricho☆",
+    "jp": "🎵レンジで好吃 ☆電子調理器使用中華料理四千年歴史瞬間調理完了武闘的料理長☆",
+    "ch": "🎵レンジで好吃 ☆電子調理器使用中華料理四千年歴史瞬間調理完了武闘的料理長☆",
+    "chs": "🎵レンジで好吃 ☆電子調理器使用中華料理四千年歴史瞬間調理完了武闘的料理長☆"
+  },
+  "27-3": {
+    "en": "🎵You Make My Life 1UP",
+    "kr": "🎵You Make My Life 1UP",
+    "jp": "🎵You Make My Life 1UP",
+    "ch": "🎵You Make My Life 1UP",
+    "chs": "🎵You Make My Life 1UP"
+  },
+  "27-4": {
+    "en": "🎵Newbies take 3 years, geeks 8 years, and internets are forever",
+    "kr": "🎵Newbies take 3 years, geeks 8 years, and internets are forever",
+    "jp": "🎵ニワカ三年オタ八年、インターネッツはforever",
+    "ch": "🎵ニワカ三年オタ八年、インターネッツはforever",
+    "chs": "🎵ニワカ三年オタ八年、インターネッツはforever"
+  },
+  "27-5": {
+    "en": "🎵Onegai!Kon kon Oinarisama",
+    "kr": "🎵Onegai!Kon kon Oinarisama",
+    "jp": "🎵お願い！コンコンお稲荷さま",
+    "ch": "🎵お願い！コンコンお稲荷さま",
+    "chs": "🎵お願い！コンコンお稲荷さま"
+  },
+  "28-0": {
+    "en": "🎵Heisha Onsha",
+    "kr": "🎵Heisha Onsha",
+    "jp": "🎵弊社御社",
+    "ch": "🎵弊社御社",
+    "chs": "🎵弊社御社"
+  },
+  "28-1": {
+    "en": "🎵Ginevra",
+    "kr": "🎵Ginevra",
+    "jp": "🎵Ginevra",
+    "ch": "🎵Ginevra",
+    "chs": "🎵Ginevra"
+  },
+  "28-2": {
+    "en": "🎵Paracelestia",
+    "kr": "🎵Paracelestia",
+    "jp": "🎵Paracelestia",
+    "ch": "🎵Paracelestia",
+    "chs": "🎵Paracelestia"
+  },
+  "28-3": {
+    "en": "🎵un secret",
+    "kr": "🎵un secret",
+    "jp": "🎵un secret",
+    "ch": "🎵un secret",
+    "chs": "🎵un secret"
+  },
+  "28-4": {
+    "en": "🎵Good Life",
+    "kr": "🎵Good Life",
+    "jp": "🎵Good Life",
+    "ch": "🎵Good Life",
+    "chs": "🎵Good Life"
+  },
+  "28-5": {
+    "en": "🎵ニニ-nini-",
+    "kr": "🎵ニニ-nini-",
+    "jp": "🎵ニニ",
+    "ch": "🎵ニニ-邇々-",
+    "chs": "🎵ニニ-邇々-"
+  },
+  "29-0": {
+    "en": "🎵Groove Prayer",
+    "kr": "🎵Groove Prayer",
+    "jp": "🎵Groove Prayer",
+    "ch": "🎵Groove Prayer",
+    "chs": "🎵Groove Prayer"
+  },
+  "29-1": {
+    "en": "🎵FUJIN Rumble",
+    "kr": "🎵FUJIN Rumble",
+    "jp": "🎵FUJIN Rumble",
+    "ch": "🎵FUJIN Rumble",
+    "chs": "🎵FUJIN Rumble"
+  },
+  "29-2": {
+    "en": "🎵Marry me, Nightmare",
+    "kr": "🎵Marry me, Nightmare",
+    "jp": "🎵Marry me, Nightmare",
+    "ch": "🎵Marry me, Nightmare",
+    "chs": "🎵Marry me, Nightmare"
+  },
+  "29-3": {
+    "en": "🎵HG魔改造ポリビニル少年",
+    "kr": "🎵HG魔改造ポリビニル少年",
+    "jp": "🎵HG魔改造ポリビニル少年",
+    "ch": "🎵HG魔改造ポリビニル少年",
+    "chs": "🎵HG魔改造ポリビニル少年"
+  },
+  "29-4": {
+    "en": "🎵聖者の息吹",
+    "kr": "🎵聖者の息吹",
+    "jp": "🎵聖者の息吹",
+    "ch": "🎵聖者の息吹",
+    "chs": "🎵聖者の息吹"
+  },
+  "29-5": {
+    "en": "🎵ouroboros -twin stroke of the end-",
+    "kr": "🎵ouroboros -twin stroke of the end-",
+    "jp": "🎵ouroboros -twin stroke of the end-",
+    "ch": "🎵ouroboros -twin stroke of the end-",
+    "chs": "🎵ouroboros -twin stroke of the end-"
+  },
+  "30-0": {
+    "en": "🎵Girly Cupid",
+    "kr": "🎵Girly Cupid",
+    "jp": "🎵Girly Cupid",
+    "ch": "🎵Girly Cupid",
+    "chs": "🎵Girly Cupid"
+  },
+  "30-1": {
+    "en": "🎵sheep in the light",
+    "kr": "🎵sheep in the light",
+    "jp": "🎵sheep in the light",
+    "ch": "🎵sheep in the light",
+    "chs": "🎵sheep in the light"
+  },
+  "30-2": {
+    "en": "🎵Breaker city",
+    "kr": "🎵Breaker city",
+    "jp": "🎵ブレーカーシティ",
+    "ch": "🎵ブレーカーシティ",
+    "chs": "🎵ブレーカーシティ"
+  },
+  "30-3": {
+    "en": "🎵heterodoxy",
+    "kr": "🎵heterodoxy",
+    "jp": "🎵heterodoxy",
+    "ch": "🎵heterodoxy",
+    "chs": "🎵heterodoxy"
+  },
+  "30-4": {
+    "en": "🎵Computer Music Girl",
+    "kr": "🎵Computer Music Girl",
+    "jp": "🎵コンピューターミュージックガール",
+    "ch": "🎵コンピューターミュージックガール",
+    "chs": "🎵コンピューターミュージックガール"
+  },
+  "30-5": {
+    "en": "🎵焦点 feat.早木旋子",
+    "kr": "🎵焦点 feat.早木旋子",
+    "jp": "🎵焦点 feat.早木旋子",
+    "ch": "🎵焦點 feat.早木旋子",
+    "chs": "🎵焦点 feat.早木旋子"
+  },
+  "31-0": {
+    "en": "🎵The 90's Decision",
+    "kr": "🎵The 90's Decision",
+    "jp": "🎵The 90's Decision",
+    "ch": "🎵The 90's Decision",
+    "chs": "🎵The 90's Decision"
+  },
+  "31-1": {
+    "en": "🎵Medusa",
+    "kr": "🎵Medusa",
+    "jp": "🎵Medusa",
+    "ch": "🎵Medusa",
+    "chs": "🎵Medusa"
+  },
+  "31-2": {
+    "en": "🎵Final Step!",
+    "kr": "🎵Final Step!",
+    "jp": "🎵Final Step!",
+    "ch": "🎵Final Step!",
+    "chs": "🎵Final Step!"
+  },
+  "31-3": {
+    "en": "🎵MAGENTA POTION",
+    "kr": "🎵MAGENTA POTION",
+    "jp": "🎵MAGENTA POTION",
+    "ch": "🎵MAGENTA POTION",
+    "chs": "🎵MAGENTA POTION"
+  },
+  "31-4": {
+    "en": "🎵Cross†Ray (feat. 月下Lia)",
+    "kr": "🎵Cross†Ray (feat. 月下Lia)",
+    "jp": "🎵Cross†Ray (feat. 月下Lia)",
+    "ch": "🎵Cross†Ray (feat. 月下Lia)",
+    "chs": "🎵Cross†Ray (feat. 月下Lia)"
+  },
+  "31-5": {
+    "en": "🎵Square Lake",
+    "kr": "🎵Square Lake",
+    "jp": "🎵Square Lake",
+    "ch": "🎵Square Lake",
+    "chs": "🎵Square Lake"
+  },
+  "32-0": {
+    "en": "🎵Preparara",
+    "kr": "🎵Preparara",
+    "jp": "🎵プレパララ",
+    "ch": "🎵プレパララ",
+    "chs": "🎵プレパララ"
+  },
+  "32-1": {
+    "en": "🎵Whatcha;Whatcha Doin'",
+    "kr": "🎵Whatcha;Whatcha Doin'",
+    "jp": "🎵Whatcha;Whatcha Doin'",
+    "ch": "🎵Whatcha;Whatcha Doin'",
+    "chs": "🎵Whatcha;Whatcha Doin'"
+  },
+  "32-2": {
+    "en": "🎵Madara",
+    "kr": "🎵Madara",
+    "jp": "🎵斑",
+    "ch": "🎵斑",
+    "chs": "🎵斑"
+  },
+  "32-3": {
+    "en": "🎵pICARESq",
+    "kr": "🎵pICARESq",
+    "jp": "🎵pICARESq",
+    "ch": "🎵pICARESq",
+    "chs": "🎵pICARESq"
+  },
+  "32-4": {
+    "en": "🎵Desastre",
+    "kr": "🎵Desastre",
+    "jp": "🎵Desastre",
+    "ch": "🎵Desastre",
+    "chs": "🎵Desastre"
+  },
+  "32-5": {
+    "en": "🎵Shoot for the Moon",
+    "kr": "🎵Shoot for the Moon",
+    "jp": "🎵Shoot for the Moon",
+    "ch": "🎵Shoot for the Moon",
+    "chs": "🎵Shoot for the Moon"
+  },
+  "33-0": {
+    "en": "🎵Fireflies (Funk Fiction remix)",
+    "kr": "🎵Fireflies (Funk Fiction remix)",
+    "jp": "🎵Fireflies (Funk Fiction remix)",
+    "ch": "🎵Fireflies (Funk Fiction remix)",
+    "chs": "🎵Fireflies (Funk Fiction remix)"
+  },
+  "33-1": {
+    "en": "🎵Light up my love!!",
+    "kr": "🎵Light up my love!!",
+    "jp": "🎵Light up my love!!",
+    "ch": "🎵Light up my love!!",
+    "chs": "🎵Light up my love!!"
+  },
+  "33-2": {
+    "en": "🎵Happiness Breeze",
+    "kr": "🎵Happiness Breeze",
+    "jp": "🎵Happiness Breeze",
+    "ch": "🎵Happiness Breeze",
+    "chs": "🎵Happiness Breeze"
+  },
+  "33-3": {
+    "en": "🎵Chrome VOX",
+    "kr": "🎵Chrome VOX",
+    "jp": "🎵Chrome VOX",
+    "ch": "🎵Chrome VOX",
+    "chs": "🎵Chrome VOX"
+  },
+  "33-4": {
+    "en": "🎵CHAOS",
+    "kr": "🎵CHAOS",
+    "jp": "🎵CHAOS",
+    "ch": "🎵CHAOS",
+    "chs": "🎵CHAOS"
+  },
+  "33-5": {
+    "en": "🎵Saika",
+    "kr": "🎵Saika",
+    "jp": "🎵Saika",
+    "ch": "🎵Saika",
+    "chs": "🎵Saika"
+  },
+  "33-6": {
+    "en": "🎵Standby for Action",
+    "kr": "🎵Standby for Action",
+    "jp": "🎵Standby for Action",
+    "ch": "🎵Standby for Action",
+    "chs": "🎵Standby for Action"
+  },
+  "33-7": {
+    "en": "🎵Hydrangea",
+    "kr": "🎵Hydrangea",
+    "jp": "🎵Hydrangea",
+    "ch": "🎵Hydrangea",
+    "chs": "🎵Hydrangea"
+  },
+  "33-8": {
+    "en": "🎵Amenemhat",
+    "kr": "🎵Amenemhat",
+    "jp": "🎵Amenemhat",
+    "ch": "🎵Amenemhat",
+    "chs": "🎵Amenemhat"
+  },
+  "33-9": {
+    "en": "🎵Santouka",
+    "kr": "🎵Santouka",
+    "jp": "🎵三灯火",
+    "ch": "🎵三灯火",
+    "chs": "🎵三灯火"
+  },
+  "33-10": {
+    "en": "🎵HEXENNACHTROCK-katashihaya-",
+    "kr": "🎵HEXENNACHTROCK-katashihaya-",
+    "jp": "🎵「妖怪録、我し来にけり。」",
+    "ch": "🎵「妖怪録、我し来にけり。」",
+    "chs": "🎵「妖怪録、我し来にけり。」"
+  },
+  "33-11": {
+    "en": "🎵Blah!!",
+    "kr": "🎵Blah!!",
+    "jp": "🎵Blah!!",
+    "ch": "🎵Blah!!",
+    "chs": "🎵Blah!!"
+  },
+  "33-12": {
+    "en": "🎵CHAOS (Glitch)",
+    "kr": "🎵CHAOS (Glitch)",
+    "jp": "🎵CHAOS (Glitch)",
+    "ch": "🎵CHAOS (Glitch)",
+    "chs": "🎵CHAOS (Glitch)"
+  },
+  "34-0": {
+    "en": "🎵ALiVE",
+    "kr": "🎵ALiVE",
+    "jp": "🎵ALiVE",
+    "ch": "🎵ALiVE",
+    "chs": "🎵ALiVE"
+  },
+  "34-1": {
+    "en": "🎵BATTLE NO.1",
+    "kr": "🎵BATTLE NO.1",
+    "jp": "🎵BATTLE NO.1",
+    "ch": "🎵BATTLE NO.1",
+    "chs": "🎵BATTLE NO.1"
+  },
+  "34-2": {
+    "en": "🎵Cthugha",
+    "kr": "🎵Cthugha",
+    "jp": "🎵Cthugha",
+    "ch": "🎵Cthugha",
+    "chs": "🎵Cthugha"
+  },
+  "34-3": {
+    "en": "🎵TWINKLE★MAGIC",
+    "kr": "🎵TWINKLE★MAGIC",
+    "jp": "🎵TWINKLE★MAGIC",
+    "ch": "🎵TWINKLE★MAGIC",
+    "chs": "🎵TWINKLE★MAGIC"
+  },
+  "34-4": {
+    "en": "🎵Comet Coaster",
+    "kr": "🎵Comet Coaster",
+    "jp": "🎵Comet Coaster",
+    "ch": "🎵Comet Coaster",
+    "chs": "🎵Comet Coaster"
+  },
+  "34-5": {
+    "en": "🎵XODUS",
+    "kr": "🎵XODUS",
+    "jp": "🎵XODUS",
+    "ch": "🎵XODUS",
+    "chs": "🎵XODUS"
+  },
+  "35-0": {
+    "en": "🎵MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～",
+    "kr": "🎵MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～",
+    "jp": "🎵MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～",
+    "ch": "🎵MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～",
+    "chs": "🎵MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～"
+  },
+  "35-1": {
+    "en": "🎵MARENOL",
+    "kr": "🎵MARENOL",
+    "jp": "🎵MARENOL",
+    "ch": "🎵MARENOL",
+    "chs": "🎵MARENOL"
+  },
+  "35-2": {
+    "en": "🎵僕の和風本当上手",
+    "kr": "🎵僕の和風本当上手",
+    "jp": "🎵僕の和風本当上手",
+    "ch": "🎵僕の和風本当上手",
+    "chs": "🎵僕の和风本当上手"
+  },
+  "35-3": {
+    "en": "🎵Rush B",
+    "kr": "🎵Rush B",
+    "jp": "🎵Rush B",
+    "ch": "🎵Rush B",
+    "chs": "🎵Rush B"
+  },
+  "35-4": {
+    "en": "🎵DataErr0r",
+    "kr": "🎵DataErr0r",
+    "jp": "🎵DataErr0r",
+    "ch": "🎵DataErr0r",
+    "chs": "🎵DataErr0r"
+  },
+  "35-5": {
+    "en": "🎵Burn",
+    "kr": "🎵Burn",
+    "jp": "🎵Burn",
+    "ch": "🎵Burn",
+    "chs": "🎵Burn"
+  },
+  "36-0": {
+    "en": "🎵NightTheater",
+    "kr": "🎵NightTheater",
+    "jp": "🎵NightTheater",
+    "ch": "🎵NightTheater",
+    "chs": "🎵NightTheater"
+  },
+  "36-1": {
+    "en": "🎵Cutter",
+    "kr": "🎵Cutter",
+    "jp": "🎵Cutter",
+    "ch": "🎵Cutter",
+    "chs": "🎵Cutter"
+  },
+  "36-2": {
+    "en": "🎵bamboo",
+    "kr": "🎵bamboo",
+    "jp": "🎵竹",
+    "ch": "🎵竹",
+    "chs": "🎵竹"
+  },
+  "36-3": {
+    "en": "🎵enchanted love",
+    "kr": "🎵enchanted love",
+    "jp": "🎵enchanted love",
+    "ch": "🎵enchanted love",
+    "chs": "🎵enchanted love"
+  },
+  "36-4": {
+    "en": "🎵c.s.q.n.",
+    "kr": "🎵c.s.q.n.",
+    "jp": "🎵c.s.q.n.",
+    "ch": "🎵c.s.q.n.",
+    "chs": "🎵c.s.q.n."
+  },
+  "36-5": {
+    "en": "🎵Booouncing!!",
+    "kr": "🎵Booouncing!!",
+    "jp": "🎵Booouncing!!",
+    "ch": "🎵Booouncing!!",
+    "chs": "🎵Booouncing!!"
+  },
+  "37-0": {
+    "en": "🎵琉璃色前奏曲",
+    "kr": "🎵琉璃色前奏曲",
+    "jp": "🎵琉璃色前奏曲",
+    "ch": "🎵琉璃色前奏曲",
+    "chs": "🎵琉璃色前奏曲"
+  },
+  "37-1": {
+    "en": "🎵Neonlights",
+    "kr": "🎵Neonlights",
+    "jp": "🎵ネオンライト",
+    "ch": "🎵ネオンライト",
+    "chs": "🎵ネオンライト"
+  },
+  "37-2": {
+    "en": "🎵Hope for the flowers",
+    "kr": "🎵Hope for the flowers",
+    "jp": "🎵花たちに希望を",
+    "ch": "🎵花たちに希望を",
+    "chs": "🎵花たちに希望を"
+  },
+  "37-3": {
+    "en": "🎵Seaside Cycling on May 30",
+    "kr": "🎵Seaside Cycling on May 30",
+    "jp": "🎵5月30日、自転車日和",
+    "ch": "🎵5月30日、自転車日和",
+    "chs": "🎵5月30日、自転車日和"
+  },
+  "37-4": {
+    "en": "🎵SKY↑HIGH",
+    "kr": "🎵SKY↑HIGH",
+    "jp": "🎵SKY↑HIGH",
+    "ch": "🎵SKY↑HIGH",
+    "chs": "🎵SKY↑HIGH"
+  },
+  "37-5": {
+    "en": "🎵Mousou Chu!!",
+    "kr": "🎵Mousou Chu!!",
+    "jp": "🎵妄想♡ちゅー!!",
+    "ch": "🎵妄想♡ちゅー!!",
+    "chs": "🎵妄想♡ちゅー!!"
+  },
+  "38-0": {
+    "en": "🎵NO ONE YES MAN",
+    "kr": "🎵NO ONE YES MAN",
+    "jp": "🎵NO ONE YES MAN",
+    "ch": "🎵NO ONE YES MAN",
+    "chs": "🎵NO ONE YES MAN"
+  },
+  "38-1": {
+    "en": "🎵雪降り、メリクリ （MD edit）",
+    "kr": "🎵雪降り、メリクリ （MD edit）",
+    "jp": "🎵雪降り、メリクリ （MD edit）",
+    "ch": "🎵雪降り、メリクリ （MD edit）",
+    "chs": "🎵雪降り、メリクリ （MD edit）"
+  },
+  "38-2": {
+    "en": "🎵Igallta",
+    "kr": "🎵Igallta",
+    "jp": "🎵Igallta",
+    "ch": "🎵Igallta",
+    "chs": "🎵Igallta"
+  },
+  "39-0": {
+    "en": "🎵去剪海的日子",
+    "kr": "🎵去剪海的日子",
+    "jp": "🎵去剪海的日子",
+    "ch": "🎵去剪海的日子",
+    "chs": "🎵去剪海的日子"
+  },
+  "39-1": {
+    "en": "🎵happy hour",
+    "kr": "🎵happy hour",
+    "jp": "🎵happy hour",
+    "ch": "🎵happy hour",
+    "chs": "🎵happy hour"
+  },
+  "39-2": {
+    "en": "🎵Seikimatsu no Natsu",
+    "kr": "🎵Seikimatsu no Natsu",
+    "jp": "🎵世紀末の夏",
+    "ch": "🎵世紀末的夏天",
+    "chs": "🎵世纪末的夏天"
+  },
+  "39-3": {
+    "en": "🎵twinkle night",
+    "kr": "🎵twinkle night",
+    "jp": "🎵twinkle night",
+    "ch": "🎵twinkle night",
+    "chs": "🎵twinkle night"
+  },
+  "39-4": {
+    "en": "🎵ARUYA HARERUYA",
+    "kr": "🎵ARUYA HARERUYA",
+    "jp": "🎵アルヤハレルヤ",
+    "ch": "🎵アルヤハレルヤ",
+    "chs": "🎵アルヤハレルヤ"
+  },
+  "39-5": {
+    "en": "🎵Blush (feat. MYLK)",
+    "kr": "🎵Blush (feat. MYLK)",
+    "jp": "🎵Blush (feat. MYLK)",
+    "ch": "🎵Blush (feat. MYLK)",
+    "chs": "🎵Blush (feat. MYLK)"
+  },
+  "39-6": {
+    "en": "🎵裸のSummer",
+    "kr": "🎵裸のSummer",
+    "jp": "🎵裸のSummer",
+    "ch": "🎵裸のSummer",
+    "chs": "🎵裸のSummer"
+  },
+  "39-7": {
+    "en": "🎵BLESS ME(Samplingsource)",
+    "kr": "🎵BLESS ME(Samplingsource)",
+    "jp": "🎵BLESS ME(Samplingsource)",
+    "ch": "🎵BLESS ME(Samplingsource)",
+    "chs": "🎵BLESS ME(Samplingsource)"
+  },
+  "39-8": {
+    "en": "🎵FM 17314 SUGAR RADIO",
+    "kr": "🎵FM 17314 SUGAR RADIO",
+    "jp": "🎵FM 17314 SUGAR RADIO",
+    "ch": "🎵FM 17314 SUGAR RADIO",
+    "chs": "🎵FM 17314 SUGAR RADIO"
+  },
+  "40-0": {
+    "en": "🎵Rush-More",
+    "kr": "🎵Rush-More",
+    "jp": "🎵Rush-More",
+    "ch": "🎵Rush-More",
+    "chs": "🎵Rush-More"
+  },
+  "40-1": {
+    "en": "🎵Kill My Fortune",
+    "kr": "🎵Kill My Fortune",
+    "jp": "🎵Kill My Fortune",
+    "ch": "🎵Kill My Fortune",
+    "chs": "🎵Kill My Fortune"
+  },
+  "40-2": {
+    "en": "🎵Yosari Tsukibotaru Suminoborite",
+    "kr": "🎵Yosari Tsukibotaru Suminoborite",
+    "jp": "🎵よさり 月蛍澄み昇りて",
+    "ch": "🎵よさり 月蛍澄み昇りて",
+    "chs": "🎵よさり 月蛍澄み昇りて"
+  },
+  "40-3": {
+    "en": "🎵JUMP! HardCandy",
+    "kr": "🎵JUMP! HardCandy",
+    "jp": "🎵JUMP! HardCandy",
+    "ch": "🎵JUMP! HardCandy",
+    "chs": "🎵JUMP! HardCandy"
+  },
+  "40-4": {
+    "en": "🎵Hibari",
+    "kr": "🎵종다리",
+    "jp": "🎵雲雀",
+    "ch": "🎵雲雀",
+    "chs": "🎵雲雀"
+  },
+  "40-5": {
+    "en": "🎵OCCHOCO-REST-LESS",
+    "kr": "🎵OCCHOCO-REST-LESS",
+    "jp": "🎵OCCHOCO-REST-LESS",
+    "ch": "🎵OCCHOCO-REST-LESS",
+    "chs": "🎵OCCHOCO-REST-LESS"
+  },
+  "41-0": {
+    "en": "🎵Super Battleworn Insomniac",
+    "kr": "🎵Super Battleworn Insomniac",
+    "jp": "🎵超・東方不眠症",
+    "ch": "🎵超·東方不眠夜",
+    "chs": "🎵超·东方不眠夜"
+  },
+  "41-1": {
+    "en": "🎵Bomb-Sniffing Pomeranian",
+    "kr": "🎵Bomb-Sniffing Pomeranian",
+    "jp": "🎵Bomb-Sniffing Pomeranian",
+    "ch": "🎵嗅炸彈的博美犬",
+    "chs": "🎵嗅炸弹的博美犬"
+  },
+  "41-2": {
+    "en": "🎵Rollerdisco Rumble",
+    "kr": "🎵롤러 디스코 럼블",
+    "jp": "🎵ロールディスコ 鼓動",
+    "ch": "🎵輪滑迪斯科震顫",
+    "chs": "🎵轮滑迪斯科震颤"
+  },
+  "41-3": {
+    "en": "🎵Rose Garden",
+    "kr": "🎵Rose Garden",
+    "jp": "🎵Rose Garden",
+    "ch": "🎵玫瑰花園",
+    "chs": "🎵玫瑰花园"
+  },
+  "41-4": {
+    "en": "🎵EMOMOMO",
+    "kr": "🎵EMOMOMO",
+    "jp": "🎵EMOMOMO",
+    "ch": "🎵EMOMOMO",
+    "chs": "🎵EMOMOMO"
+  },
+  "41-5": {
+    "en": "🎵Heracles",
+    "kr": "🎵Heracles",
+    "jp": "🎵Heracles",
+    "ch": "🎵赫拉克勒斯",
+    "chs": "🎵赫拉克勒斯"
+  },
+  "42-0": {
+    "en": "🎵Bad Apple!! feat. Nomico",
+    "kr": "🎵Bad Apple!! feat. Nomico",
+    "jp": "🎵Bad Apple!! feat. Nomico",
+    "ch": "🎵Bad Apple!! feat. Nomico",
+    "chs": "🎵Bad Apple!! feat. Nomico"
+  },
+  "42-1": {
+    "en": "🎵色は匂へど散りぬるを",
+    "kr": "🎵色は匂へど散りぬるを",
+    "jp": "🎵色は匂へど散りぬるを",
+    "ch": "🎵色は匂へど散りぬるを",
+    "chs": "🎵色は匂へど散りぬるを"
+  },
+  "42-2": {
+    "en": "🎵Cirno's Perfect Math Class",
+    "kr": "🎵Cirno's Perfect Math Class",
+    "jp": "🎵チルノのパーフェクトさんすう教室",
+    "ch": "🎵チルノのパーフェクトさんすう教室",
+    "chs": "🎵チルノのパーフェクトさんすう教室"
+  },
+  "42-3": {
+    "en": "🎵緋色月下、狂咲ノ絶",
+    "kr": "🎵緋色月下、狂咲ノ絶",
+    "jp": "🎵緋色月下、狂咲ノ絶",
+    "ch": "🎵緋色月下、狂咲ノ絶",
+    "chs": "🎵緋色月下、狂咲ノ絶"
+  },
+  "42-4": {
+    "en": "🎵Flowery Moonlit Night",
+    "kr": "🎵Flowery Moonlit Night",
+    "jp": "🎵花月夜",
+    "ch": "🎵花月夜",
+    "chs": "🎵花月夜"
+  },
+  "42-5": {
+    "en": "🎵Unconscious Requiem",
+    "kr": "🎵Unconscious Requiem",
+    "jp": "🎵無意識レクイエム",
+    "ch": "🎵無意識レクイエム",
+    "chs": "🎵無意識レクイエム"
+  },
+  "43-0": {
+    "en": "🎵The Happycore Idol",
+    "kr": "🎵The Happycore Idol",
+    "jp": "🎵The Happycore Idol",
+    "ch": "🎵The Happycore Idol",
+    "chs": "🎵The Happycore Idol"
+  },
+  "43-1": {
+    "en": "🎵Amatsumikaboshi",
+    "kr": "🎵天津甕星",
+    "jp": "🎵天津甕星",
+    "ch": "🎵天津甕星",
+    "chs": "🎵天津甕星"
+  },
+  "43-2": {
+    "en": "🎵ARIGA THESIS",
+    "kr": "🎵ARIGA THESIS",
+    "jp": "🎵ARIGA THESIS",
+    "ch": "🎵ARIGA THESIS",
+    "chs": "🎵ARIGA THESIS"
+  },
+  "43-3": {
+    "en": "🎵ナイト・オブ・ナイツ",
+    "kr": "🎵ナイト・オブ・ナイツ",
+    "jp": "🎵ナイト・オブ・ナイツ",
+    "ch": "🎵ナイト・オブ・ナイツ",
+    "chs": "🎵ナイト・オブ・ナイツ"
+  },
+  "43-4": {
+    "en": "🎵#Psychedelic_Meguro_River",
+    "kr": "🎵#Psychedelic_Meguro_River",
+    "jp": "🎵#サイケデリック目黒川",
+    "ch": "🎵#サイケデリック目黒川",
+    "chs": "🎵#サイケデリック目黒川"
+  },
+  "43-5": {
+    "en": "🎵can you feel it",
+    "kr": "🎵can you feel it",
+    "jp": "🎵can you feel it",
+    "ch": "🎵can you feel it",
+    "chs": "🎵can you feel it"
+  },
+  "43-6": {
+    "en": "🎵Midnight O'clock",
+    "kr": "🎵Midnight O'clock",
+    "jp": "🎵Midnight O'clock",
+    "ch": "🎵Midnight O'clock",
+    "chs": "🎵Midnight O'clock"
+  },
+  "43-7": {
+    "en": "🎵Rin",
+    "kr": "🎵Rin",
+    "jp": "🎵燐",
+    "ch": "🎵Rin",
+    "chs": "🎵Rin"
+  },
+  "43-8": {
+    "en": "🎵Smile-mileS",
+    "kr": "🎵Smile-mileS",
+    "jp": "🎵Smile-mileS",
+    "ch": "🎵Smile-mileS",
+    "chs": "🎵Smile-mileS"
+  },
+  "43-9": {
+    "en": "🎵Believing and Being",
+    "kr": "🎵신앙과 존재",
+    "jp": "🎵信仰と存在",
+    "ch": "🎵信仰與存在",
+    "chs": "🎵信仰与存在"
+  },
+  "43-10": {
+    "en": "🎵カタリスト",
+    "kr": "🎵カタリスト",
+    "jp": "🎵カタリスト",
+    "ch": "🎵カタリスト",
+    "chs": "🎵カタリスト"
+  },
+  "43-11": {
+    "en": "🎵don't！stop！eroero！",
+    "kr": "🎵don't！stop！eroero！",
+    "jp": "🎵don't！stop！eroero！",
+    "ch": "🎵don't！stop！eroero！",
+    "chs": "🎵don't！stop！eroero！"
+  },
+  "43-12": {
+    "en": "🎵pa pi pu pi pu pi pa",
+    "kr": "🎵pa pi pu pi pu pi pa",
+    "jp": "🎵ぱぴぷぴぷぴぱ",
+    "ch": "🎵pa pi pu pi pu pi pa",
+    "chs": "🎵pa pi pu pi pu pi pa"
+  },
+  "43-13": {
+    "en": "🎵Sand Maze",
+    "kr": "🎵Sand Maze",
+    "jp": "🎵Sand Maze",
+    "ch": "🎵Sand Maze",
+    "chs": "🎵Sand Maze"
+  },
+  "43-14": {
+    "en": "🎵Diffraction",
+    "kr": "🎵Diffraction",
+    "jp": "🎵Diffraction",
+    "ch": "🎵Diffraction",
+    "chs": "🎵Diffraction"
+  },
+  "43-15": {
+    "en": "🎵AKUMU / feat.tug",
+    "kr": "🎵AKUMU / feat.tug",
+    "jp": "🎵悪夢 / feat.つぐ",
+    "ch": "🎵AKUMU / feat.tug",
+    "chs": "🎵悪夢 / feat.つぐ"
+  },
+  "43-16": {
+    "en": "🎵Queen Aluett",
+    "kr": "🎵Queen Aluett",
+    "jp": "🎵Queen Aluett -女王アルエット-",
+    "ch": "🎵Queen Aluett",
+    "chs": "🎵Queen Aluett"
+  },
+  "43-17": {
+    "en": "🎵DROPS (feat. Such)",
+    "kr": "🎵DROPS (feat. Such)",
+    "jp": "🎵DROPS (feat. Such)",
+    "ch": "🎵DROPS (feat. Such)",
+    "chs": "🎵DROPS (feat. Such)"
+  },
+  "43-18": {
+    "en": "🎵物凄い狂っとるフランちゃんが物凄いうた",
+    "kr": "🎵物凄い狂っとるフランちゃんが物凄いうた",
+    "jp": "🎵物凄い狂っとるフランちゃんが物凄いうた",
+    "ch": "🎵物凄い狂っとるフランちゃんが物凄いうた",
+    "chs": "🎵物凄い狂っとるフランちゃんが物凄いうた"
+  },
+  "43-19": {
+    "en": "🎵snooze",
+    "kr": "🎵snooze",
+    "jp": "🎵snooze",
+    "ch": "🎵snooze",
+    "chs": "🎵snooze"
+  },
+  "43-20": {
+    "en": "🎵Kuishinbo Hacker feat.Kuishinbo Akachan",
+    "kr": "🎵Kuishinbo Hacker feat.Kuishinbo Akachan",
+    "jp": "🎵くいしんぼハッカー feat.くいしんぼあかちゃん",
+    "ch": "🎵Kuishinbo Hacker feat.Kuishinbo Akachan",
+    "chs": "🎵Kuishinbo Hacker feat.Kuishinbo Akachan"
+  },
+  "43-21": {
+    "en": "🎵Inu no outa",
+    "kr": "🎵Inu no outa",
+    "jp": "🎵いぬのおうた",
+    "ch": "🎵犬之歌",
+    "chs": "🎵犬之歌"
+  },
+  "43-22": {
+    "en": "🎵Prism Fountain",
+    "kr": "🎵Prism Fountain",
+    "jp": "🎵Prism Fountain",
+    "ch": "🎵Prism Fountain",
+    "chs": "🎵Prism Fountain"
+  },
+  "43-23": {
+    "en": "🎵Gospel",
+    "kr": "🎵Gospel",
+    "jp": "🎵福音",
+    "ch": "🎵福音",
+    "chs": "🎵福音"
+  },
+  "43-24": {
+    "en": "🎵天靈靈地靈靈",
+    "kr": "🎵天靈靈地靈靈",
+    "jp": "🎵天靈靈地靈靈",
+    "ch": "🎵天靈靈地靈靈",
+    "chs": "🎵天灵灵地灵灵"
+  },
+  "43-25": {
+    "en": "🎵Squalldecimator feat. EZ-Ven",
+    "kr": "🎵Squalldecimator feat. EZ-Ven",
+    "jp": "🎵Squalldecimator feat. EZ-Ven",
+    "ch": "🎵定飑芙蕖 feat. EZ-Ven",
+    "chs": "🎵定飑芙蕖 feat. EZ-Ven"
+  },
+  "43-26": {
+    "en": "🎵Amateras Rhythm",
+    "kr": "🎵Amateras Rhythm",
+    "jp": "🎵天照らす律動",
+    "ch": "🎵天照らす律動",
+    "chs": "🎵天照らす律動"
+  },
+  "43-27": {
+    "en": "🎵Record one's Dream",
+    "kr": "🎵Record one's Dream",
+    "jp": "🎵Record one's Dream",
+    "ch": "🎵Record one's Dream",
+    "chs": "🎵Record one's Dream"
+  },
+  "43-28": {
+    "en": "🎵Lunatic",
+    "kr": "🎵Lunatic",
+    "jp": "🎵Lunatic",
+    "ch": "🎵Lunatic",
+    "chs": "🎵Lunatic"
+  },
+  "43-29": {
+    "en": "🎵旧梦",
+    "kr": "🎵旧梦",
+    "jp": "🎵旧梦",
+    "ch": "🎵旧梦",
+    "chs": "🎵旧梦"
+  },
+  "43-30": {
+    "en": "🎵The Day We Become Family",
+    "kr": "🎵The Day We Become Family",
+    "jp": "🎵The Day We Become Family",
+    "ch": "🎵The Day We Become Family",
+    "chs": "🎵The Day We Become Family"
+  },
+  "44-0": {
+    "en": "🎵Party in the HOLLOWood feat. ななひら",
+    "kr": "🎵Party in the HOLLOWood feat. ななひら",
+    "jp": "🎵Party in the HOLLOWood feat. ななひら",
+    "ch": "🎵Party in the HOLLOWood feat. ななひら",
+    "chs": "🎵Party in the HOLLOWood feat. ななひら"
+  },
+  "44-1": {
+    "en": "🎵嘤嘤大作战",
+    "kr": "🎵嘤嘤大作战",
+    "jp": "🎵嘤嘤大作战",
+    "ch": "🎵嚶嚶大作戰",
+    "chs": "🎵嘤嘤大作战"
+  },
+  "44-2": {
+    "en": "🎵Howlin' Pumpkin",
+    "kr": "🎵Howlin' Pumpkin",
+    "jp": "🎵Howlin' Pumpkin",
+    "ch": "🎵Howlin' Pumpkin",
+    "chs": "🎵Howlin' Pumpkin"
+  },
+  "45-0": {
+    "en": "🎵ONOMATO Pairing!!!",
+    "kr": "🎵ONOMATO Pairing!!!",
+    "jp": "🎵ONOMATO Pairing!!!",
+    "ch": "🎵ONOMATO Pairing!!!",
+    "chs": "🎵ONOMATO Pairing!!!"
+  },
+  "45-1": {
+    "en": "🎵with U",
+    "kr": "🎵with U",
+    "jp": "🎵with U",
+    "ch": "🎵with U",
+    "chs": "🎵with U"
+  },
+  "45-2": {
+    "en": "🎵Chariot",
+    "kr": "🎵Chariot",
+    "jp": "🎵Chariot",
+    "ch": "🎵Chariot",
+    "chs": "🎵Chariot"
+  },
+  "45-3": {
+    "en": "🎵GASHATT",
+    "kr": "🎵GASHATT",
+    "jp": "🎵GASHATT",
+    "ch": "🎵GASHATT",
+    "chs": "🎵GASHATT"
+  },
+  "45-4": {
+    "en": "🎵LIN NE KRO NE feat. lasah",
+    "kr": "🎵LIN NE KRO NE feat. lasah",
+    "jp": "🎵LIN NE KRO NE feat. lasah",
+    "ch": "🎵LIN NE KRO NE feat. lasah",
+    "chs": "🎵LIN NE KRO NE feat. lasah"
+  },
+  "45-5": {
+    "en": "🎵ANGEL HALO",
+    "kr": "🎵ANGEL HALO",
+    "jp": "🎵天使光輪",
+    "ch": "🎵天使光輪",
+    "chs": "🎵天使光輪"
+  },
+  "46-0": {
+    "en": "🎵Bang!!",
+    "kr": "🎵Bang!!",
+    "jp": "🎵Bang!!",
+    "ch": "🎵Bang!!",
+    "chs": "🎵Bang!!"
+  },
+  "46-1": {
+    "en": "🎵Paradise Ⅱ",
+    "kr": "🎵Paradise Ⅱ",
+    "jp": "🎵Paradise Ⅱ",
+    "ch": "🎵Paradise Ⅱ",
+    "chs": "🎵Paradise Ⅱ"
+  },
+  "46-2": {
+    "en": "🎵Symbol",
+    "kr": "🎵Symbol",
+    "jp": "🎵Symbol",
+    "ch": "🎵Symbol",
+    "chs": "🎵Symbol"
+  },
+  "46-3": {
+    "en": "🎵Nekojarashi",
+    "kr": "🎵Nekojarashi",
+    "jp": "🎵ネコジャラシ",
+    "ch": "🎵ネコジャラシ",
+    "chs": "🎵ネコジャラシ"
+  },
+  "46-4": {
+    "en": "🎵A Philosophical Wanderer",
+    "kr": "🎵A Philosophical Wanderer",
+    "jp": "🎵A Philosophical Wanderer",
+    "ch": "🎵A Philosophical Wanderer",
+    "chs": "🎵A Philosophical Wanderer"
+  },
+  "46-5": {
+    "en": "🎵Isouten",
+    "kr": "🎵异想天",
+    "jp": "🎵異想天",
+    "ch": "🎵異想天",
+    "chs": "🎵异想天"
+  },
+  "47-0": {
+    "en": "🎵Haze of Autumn",
+    "kr": "🎵秋の陽炎",
+    "jp": "🎵秋の陽炎",
+    "ch": "🎵秋の陽炎",
+    "chs": "🎵秋の陽炎"
+  },
+  "47-1": {
+    "en": "🎵GIMME DA BLOOD",
+    "kr": "🎵GIMME DA BLOOD",
+    "jp": "🎵GIMME DA BLOOD",
+    "ch": "🎵GIMME DA BLOOD",
+    "chs": "🎵GIMME DA BLOOD"
+  },
+  "47-2": {
+    "en": "🎵Libertas",
+    "kr": "🎵Libertas",
+    "jp": "🎵Libertas",
+    "ch": "🎵Libertas",
+    "chs": "🎵Libertas"
+  },
+  "47-3": {
+    "en": "🎵Cyaegha",
+    "kr": "🎵Cyaegha",
+    "jp": "🎵Cyaegha",
+    "ch": "🎵Cyaegha",
+    "chs": "🎵Cyaegha"
+  },
+  "48-0": {
+    "en": "🎵glory day",
+    "kr": "🎵glory day",
+    "jp": "🎵glory day",
+    "ch": "🎵glory day",
+    "chs": "🎵glory day"
+  },
+  "48-1": {
+    "en": "🎵Bright Dream",
+    "kr": "🎵Bright Dream",
+    "jp": "🎵Bright Dream",
+    "ch": "🎵Bright Dream",
+    "chs": "🎵Bright Dream"
+  },
+  "48-2": {
+    "en": "🎵Groovin Up",
+    "kr": "🎵Groovin Up",
+    "jp": "🎵Groovin Up",
+    "ch": "🎵Groovin Up",
+    "chs": "🎵Groovin Up"
+  },
+  "48-3": {
+    "en": "🎵I Want You",
+    "kr": "🎵I Want You",
+    "jp": "🎵I Want You",
+    "ch": "🎵I Want You",
+    "chs": "🎵I Want You"
+  },
+  "48-4": {
+    "en": "🎵OBLIVION",
+    "kr": "🎵OBLIVION",
+    "jp": "🎵OBLIVION",
+    "ch": "🎵OBLIVION",
+    "chs": "🎵OBLIVION"
+  },
+  "48-5": {
+    "en": "🎵Elastic STAR",
+    "kr": "🎵Elastic STAR",
+    "jp": "🎵Elastic STAR",
+    "ch": "🎵Elastic STAR",
+    "chs": "🎵Elastic STAR"
+  },
+  "48-6": {
+    "en": "🎵U.A.D",
+    "kr": "🎵U.A.D",
+    "jp": "🎵U.A.D",
+    "ch": "🎵U.A.D",
+    "chs": "🎵U.A.D"
+  },
+  "48-7": {
+    "en": "🎵Jealousy",
+    "kr": "🎵Jealousy",
+    "jp": "🎵Jealousy",
+    "ch": "🎵Jealousy",
+    "chs": "🎵Jealousy"
+  },
+  "48-8": {
+    "en": "🎵Memory of Beach",
+    "kr": "🎵Memory of Beach",
+    "jp": "🎵Memory of Beach",
+    "ch": "🎵Memory of Beach",
+    "chs": "🎵Memory of Beach"
+  },
+  "48-9": {
+    "en": "🎵Don't Die",
+    "kr": "🎵Don't Die",
+    "jp": "🎵Don't Die",
+    "ch": "🎵Don't Die",
+    "chs": "🎵Don't Die"
+  },
+  "48-10": {
+    "en": "🎵Y (CE Ver.)",
+    "kr": "🎵Y (CE Ver.)",
+    "jp": "🎵Y (CE Ver.)",
+    "ch": "🎵Y (CE Ver.)",
+    "chs": "🎵Y (CE Ver.)"
+  },
+  "48-11": {
+    "en": "🎵Fancy Night",
+    "kr": "🎵Fancy Night",
+    "jp": "🎵Fancy Night",
+    "ch": "🎵Fancy Night",
+    "chs": "🎵Fancy Night"
+  },
+  "48-12": {
+    "en": "🎵Can We Talk",
+    "kr": "🎵Can We Talk",
+    "jp": "🎵Can We Talk",
+    "ch": "🎵Can We Talk",
+    "chs": "🎵Can We Talk"
+  },
+  "48-13": {
+    "en": "🎵Give Me 5",
+    "kr": "🎵Give Me 5",
+    "jp": "🎵Give Me 5",
+    "ch": "🎵Give Me 5",
+    "chs": "🎵Give Me 5"
+  },
+  "48-14": {
+    "en": "🎵Nightmare",
+    "kr": "🎵Nightmare",
+    "jp": "🎵Nightmare",
+    "ch": "🎵Nightmare",
+    "chs": "🎵Nightmare"
+  },
+  "49-0": {
+    "en": "🎵Pray a LOVE",
+    "kr": "🎵Pray a LOVE",
+    "jp": "🎵Pray a LOVE",
+    "ch": "🎵Pray a LOVE",
+    "chs": "🎵Pray a LOVE"
+  },
+  "49-1": {
+    "en": "🎵恋愛回避依存症",
+    "kr": "🎵恋愛回避依存症",
+    "jp": "🎵恋愛回避依存症",
+    "ch": "🎵恋愛回避依存症",
+    "chs": "🎵恋愛回避依存症"
+  },
+  "49-2": {
+    "en": "🎵Daisuki Dayo feat.Wotoha",
+    "kr": "🎵Daisuki Dayo feat.Wotoha",
+    "jp": "🎵だーいすきだよ feat. をとは",
+    "ch": "🎵Daisuki Dayo feat.Wotoha",
+    "chs": "🎵Daisuki Dayo feat.Wotoha"
+  },
+  "50-0": {
+    "en": "🎵Nyan Cat",
+    "kr": "🎵Nyan Cat",
+    "jp": "🎵Nyan Cat",
+    "ch": "🎵Nyan Cat",
+    "chs": "🎵Nyan Cat"
+  },
+  "50-1": {
+    "en": "🎵PeroPero in the Universe",
+    "kr": "🎵ペロペロ in the Universe",
+    "jp": "🎵ペロペロ in the Universe",
+    "ch": "🎵ペロペロ in the Universe",
+    "chs": "🎵ペロペロ in the Universe"
+  },
+  "50-2": {
+    "en": "🎵In-kya Yo-kya Onmyoji",
+    "kr": "🎵陰キャ陽キャ陰陽師",
+    "jp": "🎵陰キャ陽キャ陰陽師",
+    "ch": "🎵陰キャ陽キャ陰陽師",
+    "chs": "🎵陰キャ陽キャ陰陽師"
+  },
+  "50-3": {
+    "en": "🎵KABOOOOOM!!!!",
+    "kr": "🎵KABOOOOOM!!!!",
+    "jp": "🎵KABOOOOOM!!!!",
+    "ch": "🎵KABOOOOOM!!!!",
+    "chs": "🎵KABOOOOOM!!!!"
+  },
+  "50-4": {
+    "en": "🎵Doppelganger",
+    "kr": "🎵Doppelganger",
+    "jp": "🎵Doppelganger",
+    "ch": "🎵Doppelganger",
+    "chs": "🎵Doppelganger"
+  },
+  "51-0": {
+    "en": "🎵假面日记",
+    "kr": "🎵假面日记",
+    "jp": "🎵仮面日記",
+    "ch": "🎵假面日記",
+    "chs": "🎵假面日记"
+  },
+  "51-1": {
+    "en": "🎵Reminiscence",
+    "kr": "🎵Reminiscence",
+    "jp": "🎵Reminiscence",
+    "ch": "🎵Reminiscence",
+    "chs": "🎵Reminiscence"
+  },
+  "51-2": {
+    "en": "🎵DarakuDatenshi",
+    "kr": "🎵DarakuDatenshi",
+    "jp": "🎵ダラクダテンシ",
+    "ch": "🎵墮墮天使",
+    "chs": "🎵堕堕天使"
+  },
+  "51-3": {
+    "en": "🎵D.I.Y.",
+    "kr": "🎵D.I.Y.",
+    "jp": "🎵D.I.Y.",
+    "ch": "🎵D.I.Y.",
+    "chs": "🎵D.I.Y."
+  },
+  "51-4": {
+    "en": "🎵男子in☆バーチャランド",
+    "kr": "🎵男子in☆バーチャランド",
+    "jp": "🎵男子in☆バーチャランド",
+    "ch": "🎵男子in☆バーチャランド",
+    "chs": "🎵男子in☆バーチャランド"
+  },
+  "51-5": {
+    "en": "🎵kuí",
+    "kr": "🎵虁",
+    "jp": "🎵虁",
+    "ch": "🎵虁",
+    "chs": "🎵虁"
+  },
+  "52-0": {
+    "en": "🎵marooned night",
+    "kr": "🎵marooned night",
+    "jp": "🎵marooned night",
+    "ch": "🎵夜的擱淺",
+    "chs": "🎵夜的搁浅"
+  },
+  "52-1": {
+    "en": "🎵daydream girl",
+    "kr": "🎵daydream girl",
+    "jp": "🎵daydream girl",
+    "ch": "🎵daydream girl",
+    "chs": "🎵daydream girl"
+  },
+  "52-2": {
+    "en": "🎵Ornamentじゃない(Muse Dash Mix)",
+    "kr": "🎵Ornamentじゃない(Muse Dash Mix)",
+    "jp": "🎵Ornamentじゃない(Muse Dash Mix)",
+    "ch": "🎵Ornamentじゃない(Muse Dash Mix)",
+    "chs": "🎵Ornamentじゃない(Muse Dash Mix)"
+  },
+  "52-3": {
+    "en": "🎵Baby Pink (w/ YUC'e)",
+    "kr": "🎵Baby Pink (w/ YUC'e)",
+    "jp": "🎵Baby Pink (w/ YUC'e)",
+    "ch": "🎵Baby Pink (w/ YUC'e)",
+    "chs": "🎵Baby Pink (w/ YUC'e)"
+  },
+  "52-4": {
+    "en": "🎵I'm Here",
+    "kr": "🎵ここにいる (I'm Here)",
+    "jp": "🎵ここにいる",
+    "ch": "🎵ここにいる (I'm Here)",
+    "chs": "🎵ここにいる (I'm Here)"
+  },
+  "53-0": {
+    "en": "🎵On And On!!",
+    "kr": "🎵On And On!!",
+    "jp": "🎵On And On!!",
+    "ch": "🎵On And On!!",
+    "chs": "🎵On And On!!"
+  },
+  "53-1": {
+    "en": "🎵Trip!",
+    "kr": "🎵Trip!",
+    "jp": "🎵Trip!",
+    "ch": "🎵Trip!",
+    "chs": "🎵Trip!"
+  },
+  "53-2": {
+    "en": "🎵Hoshi no otoshimono",
+    "kr": "🎵Hoshi no otoshimono",
+    "jp": "🎵ほしのおとしもの",
+    "ch": "🎵ほしのおとしもの",
+    "chs": "🎵ほしのおとしもの"
+  },
+  "53-3": {
+    "en": "🎵Plucky Race",
+    "kr": "🎵Plucky Race",
+    "jp": "🎵Plucky Race",
+    "ch": "🎵Plucky Race",
+    "chs": "🎵Plucky Race"
+  },
+  "53-4": {
+    "en": "🎵Fantasia Sonata Destiny",
+    "kr": "🎵Fantasia Sonata Destiny",
+    "jp": "🎵Fantasia Sonata Destiny",
+    "ch": "🎵Fantasia Sonata Destiny",
+    "chs": "🎵Fantasia Sonata Destiny"
+  },
+  "53-5": {
+    "en": "🎵Run through",
+    "kr": "🎵Run through",
+    "jp": "🎵Run through",
+    "ch": "🎵Run through",
+    "chs": "🎵Run through"
+  },
+  "54-0": {
+    "en": "🎵White Canvas (feat. 藍月なくる)",
+    "kr": "🎵White Canvas (feat. 藍月なくる)",
+    "jp": "🎵White Canvas (feat. 藍月なくる)",
+    "ch": "🎵White Canvas (feat. 藍月なくる)",
+    "chs": "🎵White Canvas (feat. 藍月なくる)"
+  },
+  "54-1": {
+    "en": "🎵Gloomy Flash (feat. Mami)",
+    "kr": "🎵Gloomy Flash (feat. Mami)",
+    "jp": "🎵Gloomy Flash (feat. Mami)",
+    "ch": "🎵Gloomy Flash (feat. Mami)",
+    "chs": "🎵Gloomy Flash (feat. Mami)"
+  },
+  "54-2": {
+    "en": "🎵今月のおすすめプレイリストを検索します",
+    "kr": "🎵今月のおすすめプレイリストを検索します",
+    "jp": "🎵今月のおすすめプレイリストを検索します",
+    "ch": "🎵今月のおすすめプレイリストを検索します",
+    "chs": "🎵今月のおすすめプレイリストを検索します"
+  },
+  "54-3": {
+    "en": "🎵Sunday Night (feat. Kanata.N)",
+    "kr": "🎵Sunday Night (feat. Kanata.N)",
+    "jp": "🎵Sunday Night (feat. Kanata.N)",
+    "ch": "🎵Sunday Night (feat. Kanata.N)",
+    "chs": "🎵Sunday Night (feat. Kanata.N)"
+  },
+  "54-4": {
+    "en": "🎵Goodbye Goodnight (feat. Shully)",
+    "kr": "🎵Goodbye Goodnight (feat. Shully)",
+    "jp": "🎵Goodbye Goodnight (feat. Shully)",
+    "ch": "🎵Goodbye Goodnight (feat. Shully)",
+    "chs": "🎵Goodbye Goodnight (feat. Shully)"
+  },
+  "54-5": {
+    "en": "🎵ENDLESS CIDER (feat. Such)",
+    "kr": "🎵ENDLESS CIDER (feat. Such)",
+    "jp": "🎵ENDLESS CIDER (feat. Such)",
+    "ch": "🎵ENDLESS CIDER (feat. Such)",
+    "chs": "🎵ENDLESS CIDER (feat. Such)"
+  },
+  "55-0": {
+    "en": "🎵月に叢雲華に風",
+    "kr": "🎵月に叢雲華に風",
+    "jp": "🎵月に叢雲華に風",
+    "ch": "🎵月に叢雲華に風",
+    "chs": "🎵月に叢雲華に風"
+  },
+  "55-1": {
+    "en": "🎵Patchouli's - Best Hit GSK",
+    "kr": "🎵パチュリーズ・ベストヒットGSK",
+    "jp": "🎵パチュリーズ・ベストヒットGSK",
+    "ch": "🎵パチュリーズ・ベストヒットGSK",
+    "chs": "🎵パチュリーズ・ベストヒットGSK"
+  },
+  "55-2": {
+    "en": "🎵物凄いスペースシャトルでこいしが物凄いうた",
+    "kr": "🎵物凄いスペースシャトルでこいしが物凄いうた",
+    "jp": "🎵物凄いスペースシャトルでこいしが物凄いうた",
+    "ch": "🎵物凄いスペースシャトルでこいしが物凄いうた",
+    "chs": "🎵物凄いスペースシャトルでこいしが物凄いうた"
+  },
+  "55-3": {
+    "en": "🎵囲い無き世は一期の月影",
+    "kr": "🎵囲い無き世は一期の月影",
+    "jp": "🎵囲い無き世は一期の月影",
+    "ch": "🎵囲い無き世は一期の月影",
+    "chs": "🎵囲い無き世は一期の月影"
+  },
+  "55-4": {
+    "en": "🎵Psychedelic Kizakura Doumei",
+    "kr": "🎵サイケデリック鬼桜同盟",
+    "jp": "🎵サイケデリック鬼桜同盟",
+    "ch": "🎵サイケデリック鬼桜同盟",
+    "chs": "🎵サイケデリック鬼桜同盟"
+  },
+  "55-5": {
+    "en": "🎵Mischievous Sensation",
+    "kr": "🎵悪戯センセーション",
+    "jp": "🎵悪戯センセーション",
+    "ch": "🎵悪戯センセーション",
+    "chs": "🎵悪戯センセーション"
+  },
+  "56-0": {
+    "en": "🎵Psyched Fevereiro",
+    "kr": "🎵Psyched Fevereiro",
+    "jp": "🎵Psyched Fevereiro",
+    "ch": "🎵Psyched Fevereiro",
+    "chs": "🎵Psyched Fevereiro"
+  },
+  "56-1": {
+    "en": "🎵Inferno City",
+    "kr": "🎵Inferno City",
+    "jp": "🎵インフェルノシティ",
+    "ch": "🎵インフェルノシティ",
+    "chs": "🎵インフェルノシティ"
+  },
+  "56-2": {
+    "en": "🎵Paradigm Shift",
+    "kr": "🎵Paradigm Shift",
+    "jp": "🎵Paradigm Shift",
+    "ch": "🎵Paradigm Shift",
+    "chs": "🎵Paradigm Shift"
+  },
+  "56-3": {
+    "en": "🎵Snapdragon",
+    "kr": "🎵Snapdragon",
+    "jp": "🎵Snapdragon",
+    "ch": "🎵Snapdragon",
+    "chs": "🎵Snapdragon"
+  },
+  "56-4": {
+    "en": "🎵Prestige and Vestige",
+    "kr": "🎵Prestige and Vestige",
+    "jp": "🎵Prestige and Vestige",
+    "ch": "🎵Prestige and Vestige",
+    "chs": "🎵Prestige and Vestige"
+  },
+  "56-5": {
+    "en": "🎵Tiny Fate",
+    "kr": "🎵Tiny Fate",
+    "jp": "🎵Tiny Fate",
+    "ch": "🎵Tiny Fate",
+    "chs": "🎵Tiny Fate"
+  },
+  "57-0": {
+    "en": "🎵Tokimeki★Meteostrike",
+    "kr": "🎵ときめき★メテオストライク",
+    "jp": "🎵ときめき★メテオストライク",
+    "ch": "🎵ときめき★メテオストライク",
+    "chs": "🎵ときめき★メテオストライク"
+  },
+  "57-1": {
+    "en": "🎵Down Low",
+    "kr": "🎵Down Low",
+    "jp": "🎵Down Low",
+    "ch": "🎵Down Low",
+    "chs": "🎵Down Low"
+  },
+  "57-2": {
+    "en": "🎵LOUDER MACHINE",
+    "kr": "🎵LOUDER MACHINE",
+    "jp": "🎵LOUDER MACHINE",
+    "ch": "🎵LOUDER MACHINE",
+    "chs": "🎵LOUDER MACHINE"
+  },
+  "57-3": {
+    "en": "🎵それはもうらぶちゅ",
+    "kr": "🎵それはもうらぶちゅ",
+    "jp": "🎵それはもうらぶちゅ",
+    "ch": "🎵それはもうらぶちゅ",
+    "chs": "🎵それはもうらぶちゅ"
+  },
+  "57-4": {
+    "en": "🎵Rave_Tech",
+    "kr": "🎵Rave_Tech",
+    "jp": "🎵Rave_Tech",
+    "ch": "🎵Rave_Tech",
+    "chs": "🎵Rave_Tech"
+  },
+  "57-5": {
+    "en": "🎵Brilliant & Shining! (Game Edit.)",
+    "kr": "🎵Brilliant & Shining! (Game Edit.)",
+    "jp": "🎵Brilliant & Shining! (Game Edit.)",
+    "ch": "🎵Brilliant & Shining! (Game Edit.)",
+    "chs": "🎵Brilliant & Shining! (Game Edit.)"
+  },
+  "58-0": {
+    "en": "🎵People People",
+    "kr": "🎵People People",
+    "jp": "🎵ピポピポ -People People",
+    "ch": "🎵People People",
+    "chs": "🎵People People"
+  },
+  "58-1": {
+    "en": "🎵Endless Error Loop",
+    "kr": "🎵Endless Error Loop",
+    "jp": "🎵Endless Error Loop",
+    "ch": "🎵Endless Error Loop",
+    "chs": "🎵Endless Error Loop"
+  },
+  "58-2": {
+    "en": "🎵Forbidden Pizza!",
+    "kr": "🎵Forbidden Pizza!",
+    "jp": "🎵フォビどぅん・ピザ！",
+    "ch": "🎵Forbidden Pizza!",
+    "chs": "🎵Forbidden Pizza!"
+  },
+  "58-3": {
+    "en": "🎵ボーカルに無茶させんな",
+    "kr": "🎵ボーカルに無茶させんな",
+    "jp": "🎵ボーカルに無茶させんな",
+    "ch": "🎵ボーカルに無茶させんな",
+    "chs": "🎵ボーカルに無茶させんな"
+  },
+  "59-0": {
+    "en": "🎵Boiling Blood",
+    "kr": "🎵Boiling Blood",
+    "jp": "🎵Boiling Blood",
+    "ch": "🎵Boiling Blood",
+    "chs": "🎵Boiling Blood"
+  },
+  "59-1": {
+    "en": "🎵ManiFesto：",
+    "kr": "🎵ManiFesto：",
+    "jp": "🎵ManiFesto：",
+    "ch": "🎵ManiFesto：",
+    "chs": "🎵ManiFesto："
+  },
+  "59-2": {
+    "en": "🎵Operation Blade",
+    "kr": "🎵Operation Blade",
+    "jp": "🎵Operation Blade",
+    "ch": "🎵Operation Blade",
+    "chs": "🎵Operation Blade"
+  },
+  "59-3": {
+    "en": "🎵Radiant",
+    "kr": "🎵Radiant",
+    "jp": "🎵Radiant",
+    "ch": "🎵Radiant",
+    "chs": "🎵Radiant"
+  },
+  "59-4": {
+    "en": "🎵Renegade",
+    "kr": "🎵Renegade",
+    "jp": "🎵Renegade",
+    "ch": "🎵Renegade",
+    "chs": "🎵Renegade"
+  },
+  "59-5": {
+    "en": "🎵Speed of Light",
+    "kr": "🎵Speed of Light",
+    "jp": "🎵Speed of Light",
+    "ch": "🎵Speed of Light",
+    "chs": "🎵Speed of Light"
+  },
+  "59-6": {
+    "en": "🎵Dossoles Holiday",
+    "kr": "🎵Dossoles Holiday",
+    "jp": "🎵Dossoles Holiday",
+    "ch": "🎵多索雷斯假日",
+    "chs": "🎵多索雷斯假日"
+  },
+  "59-7": {
+    "en": "🎵Autumn Moods",
+    "kr": "🎵Autumn Moods",
+    "jp": "🎵Autumn Moods",
+    "ch": "🎵秋绪",
+    "chs": "🎵秋绪"
+  },
+  "60-0": {
+    "en": "🎵N3V3R G3T OV3R",
+    "kr": "🎵N3V3R G3T OV3R",
+    "jp": "🎵N3V3R G3T OV3R",
+    "ch": "🎵N3V3R G3T OV3R",
+    "chs": "🎵N3V3R G3T OV3R"
+  },
+  "60-1": {
+    "en": "🎵Oshama Scramble!",
+    "kr": "🎵Oshama Scramble!",
+    "jp": "🎵Oshama Scramble!",
+    "ch": "🎵Oshama Scramble!",
+    "chs": "🎵Oshama Scramble!"
+  },
+  "60-2": {
+    "en": "🎵Valsqotch",
+    "kr": "🎵Valsqotch",
+    "jp": "🎵Valsqotch",
+    "ch": "🎵Valsqotch",
+    "chs": "🎵Valsqotch"
+  },
+  "60-3": {
+    "en": "🎵Paranormal My Mind",
+    "kr": "🎵Paranormal My Mind",
+    "jp": "🎵超常マイマイン",
+    "ch": "🎵超常マイマイン",
+    "chs": "🎵超常マイマイン"
+  },
+  "60-4": {
+    "en": "🎵Flower, snow and Drum'n'bass.",
+    "kr": "🎵Flower, snow and Drum'n'bass.",
+    "jp": "🎵花と、雪と、ドラムンベース。",
+    "ch": "🎵花と、雪と、ドラムンベース。",
+    "chs": "🎵花と、雪と、ドラムンベース。"
+  },
+  "60-5": {
+    "en": "🎵Amenohoakari",
+    "kr": "🎵Amenohoakari",
+    "jp": "🎵天火明命",
+    "ch": "🎵天火明命",
+    "chs": "🎵天火明命"
+  },
+  "61-0": {
+    "en": "🎵MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ",
+    "kr": "🎵MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ",
+    "jp": "🎵MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ",
+    "ch": "🎵MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ",
+    "chs": "🎵MuseDashヵヽﾞ何ヵヽ干∋ッ`⊂ぉヵヽＵ＜ﾅょッﾅﾆ気ヵヽﾞ￡ゑょ"
+  },
+  "61-1": {
+    "en": "🎵Aleph-0",
+    "kr": "🎵Aleph-0",
+    "jp": "🎵Aleph-0",
+    "ch": "🎵Aleph-0",
+    "chs": "🎵Aleph-0"
+  },
+  "61-2": {
+    "en": "🎵ぶっとばスーパーノヴァ",
+    "kr": "🎵ぶっとばスーパーノヴァ",
+    "jp": "🎵ぶっとばスーパーノヴァ",
+    "ch": "🎵ぶっとばスーパーノヴァ",
+    "chs": "🎵ぶっとばスーパーノヴァ"
+  },
+  "61-3": {
+    "en": "🎵Rush-Hour",
+    "kr": "🎵Rush-Hour",
+    "jp": "🎵Rush-Hour",
+    "ch": "🎵Rush-Hour",
+    "chs": "🎵Rush-Hour"
+  },
+  "61-4": {
+    "en": "🎵3rd Avenue",
+    "kr": "🎵3rd Avenue",
+    "jp": "🎵3rd Avenue",
+    "ch": "🎵3rd Avenue",
+    "chs": "🎵3rd Avenue"
+  },
+  "61-5": {
+    "en": "🎵WORLDINVADER",
+    "kr": "🎵WORLDINVADER",
+    "jp": "🎵WORLDINVADER",
+    "ch": "🎵WORLDINVADER",
+    "chs": "🎵WORLDINVADER"
+  },
+  "62-0": {
+    "en": "🎵【东爱璃Lovely】Lovely",
+    "kr": "🎵【东爱璃Lovely】Lovely",
+    "jp": "🎵【东爱璃Lovely】Lovely",
+    "ch": "🎵【东爱璃Lovely】Lovely",
+    "chs": "🎵【东爱璃Lovely】Lovely"
+  },
+  "62-1": {
+    "en": "🎵森海の船",
+    "kr": "🎵森海の船",
+    "jp": "🎵森海の船",
+    "ch": "🎵森海の船",
+    "chs": "🎵森海の船"
+  },
+  "62-2": {
+    "en": "🎵Ooi",
+    "kr": "🎵Ooi",
+    "jp": "🎵おーい",
+    "ch": "🎵応為",
+    "chs": "🎵応為"
+  },
+  "62-3": {
+    "en": "🎵沼った！！",
+    "kr": "🎵沼った！！",
+    "jp": "🎵沼った！！",
+    "ch": "🎵沼った！！",
+    "chs": "🎵沼った！！"
+  },
+  "62-4": {
+    "en": "🎵SATELLITE",
+    "kr": "🎵SATELLITE",
+    "jp": "🎵SATELLITE",
+    "ch": "🎵SATELLITE",
+    "chs": "🎵SATELLITE"
+  },
+  "62-5": {
+    "en": "🎵Fantasia Sonata Colorful feat. V!C",
+    "kr": "🎵Fantasia Sonata Colorful feat. V!C",
+    "jp": "🎵Fantasia Sonata Colorful feat. V!C",
+    "ch": "🎵Fantasia Sonata Colorful feat. V!C",
+    "chs": "🎵Fantasia Sonata Colorful feat. V!C"
+  },
+  "63-0": {
+    "en": "🎵Doki Doki Jump! (feat. ぷにぷに電機)",
+    "kr": "🎵Doki Doki Jump! (feat. ぷにぷに電機)",
+    "jp": "🎵Doki Doki Jump! (feat. ぷにぷに電機)",
+    "ch": "🎵Doki Doki Jump! (feat. ぷにぷに電機)",
+    "chs": "🎵Doki Doki Jump! (feat. ぷにぷに電機)"
+  },
+  "63-1": {
+    "en": "🎵100年モノのストリーマーズ・ハイ",
+    "kr": "🎵100年モノのストリーマーズ・ハイ",
+    "jp": "🎵100年モノのストリーマーズ・ハイ",
+    "ch": "🎵100年モノのストリーマーズ・ハイ",
+    "chs": "🎵100年モノのストリーマーズ・ハイ"
+  },
+  "63-2": {
+    "en": "🎵Love Patrol",
+    "kr": "🎵Love Patrol",
+    "jp": "🎵Love Patrol",
+    "ch": "🎵戀愛巡航",
+    "chs": "🎵恋爱巡航"
+  },
+  "63-3": {
+    "en": "🎵Mahorova feat.omoto",
+    "kr": "🎵Mahorova feat.omoto",
+    "jp": "🎵Mahorova feat.omoto",
+    "ch": "🎵Mahorova feat.omoto",
+    "chs": "🎵Mahorova feat.omoto"
+  },
+  "63-4": {
+    "en": "🎵夜の街",
+    "kr": "🎵夜の街",
+    "jp": "🎵夜の街",
+    "ch": "🎵夜の街",
+    "chs": "🎵夜の街"
+  },
+  "63-5": {
+    "en": "🎵INTERNET YAMERO（Aiobahn feat.KOTOKO）",
+    "kr": "🎵INTERNET YAMERO（Aiobahn feat.KOTOKO）",
+    "jp": "🎵INTERNET YAMERO（Aiobahn feat.KOTOKO）",
+    "ch": "🎵INTERNET YAMERO（Aiobahn feat.KOTOKO）",
+    "chs": "🎵INTERNET YAMERO（Aiobahn feat.KOTOKO）"
+  },
+  "64-0": {
+    "en": "🎵すとり～ま～FIRE!?!?",
+    "kr": "🎵すとり～ま～FIRE!?!?",
+    "jp": "🎵すとり～ま～FIRE!?!?",
+    "ch": "🎵すとり～ま～FIRE!?!?",
+    "chs": "🎵すとり～ま～FIRE!?!?"
+  },
+  "64-1": {
+    "en": "🎵Tanuki Step",
+    "kr": "🎵Tanuki Step",
+    "jp": "🎵Tanuki Step",
+    "ch": "🎵Tanuki Step",
+    "chs": "🎵Tanuki Step"
+  },
+  "64-2": {
+    "en": "🎵Space Stationery",
+    "kr": "🎵Space Stationery",
+    "jp": "🎵Space Stationery",
+    "ch": "🎵Space Stationery",
+    "chs": "🎵Space Stationery"
+  },
+  "64-3": {
+    "en": "🎵Songs Are Judged 90% by Chorus feat. Mameko",
+    "kr": "🎵Songs Are Judged 90% by Chorus feat. Mameko",
+    "jp": "🎵曲はサビが9割 feat. まめこ",
+    "ch": "🎵曲はサビが9割 feat. まめこ",
+    "chs": "🎵曲はサビが9割 feat. まめこ"
+  },
+  "64-4": {
+    "en": "🎵Kawaiク華麗に宇宙怪盗",
+    "kr": "🎵Kawaiク華麗に宇宙怪盗",
+    "jp": "🎵Kawaiク華麗に宇宙怪盗",
+    "ch": "🎵Kawaiク華麗に宇宙怪盗",
+    "chs": "🎵Kawaiク華麗に宇宙怪盗"
+  },
+  "64-5": {
+    "en": "🎵Night City Runway",
+    "kr": "🎵Night City Runway",
+    "jp": "🎵ナイトシティ・ランウェイ",
+    "ch": "🎵ナイトシティ・ランウェイ",
+    "chs": "🎵ナイトシティ・ランウェイ"
+  },
+  "64-6": {
+    "en": "🎵Chaos Shotgun feat. ChumuNote",
+    "kr": "🎵Chaos Shotgun feat. ChumuNote",
+    "jp": "🎵Chaos Shotgun feat. ChumuNote",
+    "ch": "🎵Chaos Shotgun feat. ChumuNote",
+    "chs": "🎵Chaos Shotgun feat. ChumuNote"
+  },
+  "64-7": {
+    "en": "🎵mew mew magical summer",
+    "kr": "🎵mew mew magical summer",
+    "jp": "🎵ネコと魔法の夏休み",
+    "ch": "🎵mew mew magical summer",
+    "chs": "🎵mew mew magical summer"
+  },
+  "65-0": {
+    "en": "🎵BrainDance",
+    "kr": "🎵BrainDance",
+    "jp": "🎵BrainDance",
+    "ch": "🎵顱內幻痛",
+    "chs": "🎵颅内幻痛"
+  },
+  "65-1": {
+    "en": "🎵My Focus!",
+    "kr": "🎵My Focus!",
+    "jp": "🎵My Focus!",
+    "ch": "🎵My Focus!",
+    "chs": "🎵My Focus!"
+  },
+  "65-2": {
+    "en": "🎵ABABABA BURST",
+    "kr": "🎵ABABABA BURST",
+    "jp": "🎵ABABABA BURST",
+    "ch": "🎵ABABABA BURST",
+    "chs": "🎵ABABABA BURST"
+  },
+  "65-3": {
+    "en": "🎵ULTRA HIGHER",
+    "kr": "🎵ULTRA HIGHER",
+    "jp": "🎵ULTRA HIGHER",
+    "ch": "🎵ULTRA HIGHER",
+    "chs": "🎵ULTRA HIGHER"
   }
 }
